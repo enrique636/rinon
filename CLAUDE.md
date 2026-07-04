@@ -1,5 +1,19 @@
 @AGENTS.md
 
+# INSTRUCCIONES — RINON.CL (Camarotes con Escritorio Chile)
+
+## PROYECTO
+Este es el repositorio exclusivo de **RINON** (`rinon.cl`).
+Solo se trabaja código de RINON aquí. Nunca modificar archivos de KySApp, RAPIRENT, BuenosPalCatre u otro proyecto.
+
+## ARQUITECTURA
+- Next.js App Router + TypeScript + Tailwind CSS
+- GitHub → Vercel (deploy automático desde `main`) — **pendiente conectar**
+- Sin backend por ahora — datos en `/lib/products.ts`
+- Región Vercel: gru1
+
+---
+
 # INSTRUCCIONES MAESTRAS — Camarotes con Escritorio Chile
 
 ## Proyecto
