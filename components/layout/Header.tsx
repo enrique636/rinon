@@ -2,40 +2,34 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { WhatsAppButton } from "./WhatsAppButton";
 
 const navLinks = [
   { href: "/camarotes", label: "Camarotes" },
-  { href: "/camarote-con-escritorio", label: "Con Escritorio" },
-  { href: "/camarote-nido", label: "Nido" },
-  { href: "/blog", label: "Blog" },
   { href: "/empresas", label: "Empresas" },
-  { href: "/calculadora", label: "Calculadora" },
-  { href: "/preguntas-frecuentes", label: "FAQ" },
+  { href: "/cierres-perimetrales", label: "Cercos" },
   { href: "/contacto", label: "Contacto" },
 ];
+
+const WA = `https://wa.me/56912345678?text=${encodeURIComponent("Hola, me interesa cotizar. ¿Pueden ayudarme?")}`;
 
 export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-40 bg-white border-b border-gray-100 shadow-sm">
-      <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
+    <header className="sticky top-0 z-40 bg-white border-b border-gray-100">
+      <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between gap-4">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 shrink-0">
-          <span className="text-xl font-bold text-gray-900">Camarotes</span>
-          <span className="hidden sm:block text-xs font-medium text-white bg-green-600 rounded-full px-2 py-0.5">
-            Chile
-          </span>
+        <Link href="/" className="text-sm font-bold text-gray-900 tracking-tight">
+          Buenos Pal Catre
         </Link>
 
         {/* Nav desktop */}
-        <nav className="hidden md:flex items-center gap-0.5">
+        <nav className="hidden md:flex items-center gap-1">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="px-3 py-2 text-sm text-gray-500 hover:text-gray-900 hover:bg-gray-50 rounded-lg transition-colors"
+              className="px-3 py-1.5 text-sm text-gray-500 hover:text-gray-900 rounded-lg transition-colors"
             >
               {link.label}
             </Link>
@@ -43,15 +37,20 @@ export function Header() {
         </nav>
 
         {/* CTA desktop */}
-        <WhatsAppButton size="sm" className="hidden md:inline-flex">
+        <a
+          href={WA}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hidden md:inline-flex items-center gap-1.5 bg-[#25D366] hover:bg-[#1ebe5d] text-white text-xs font-semibold px-4 py-2 rounded-full transition-colors"
+        >
           WhatsApp
-        </WhatsAppButton>
+        </a>
 
         {/* Hamburger mobile */}
         <button
-          className="md:hidden p-2 rounded-lg text-gray-500 hover:bg-gray-100"
+          className="md:hidden p-2 text-gray-500"
           onClick={() => setOpen(!open)}
-          aria-label="Abrir menú"
+          aria-label="Menú"
         >
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             {open ? (
@@ -65,20 +64,26 @@ export function Header() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden border-t border-gray-100 bg-white px-4 py-3 flex flex-col gap-1">
+        <div className="md:hidden border-t border-gray-100 bg-white px-4 py-3 flex flex-col gap-0.5">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
               onClick={() => setOpen(false)}
-              className="py-2.5 px-3 text-gray-700 hover:bg-gray-50 rounded-xl transition-colors text-sm"
+              className="py-2.5 px-3 text-sm text-gray-700 hover:bg-gray-50 rounded-xl transition-colors"
             >
               {link.label}
             </Link>
           ))}
-          <div className="pt-2">
-            <WhatsAppButton className="w-full justify-center">Consultar por WhatsApp</WhatsAppButton>
-          </div>
+          <a
+            href={WA}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setOpen(false)}
+            className="mt-2 text-center bg-[#25D366] text-white text-sm font-semibold py-2.5 rounded-xl"
+          >
+            Cotizar por WhatsApp
+          </a>
         </div>
       )}
     </header>

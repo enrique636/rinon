@@ -134,6 +134,234 @@ function CTAWhatsApp({ mensaje }: { mensaje?: string }) {
 
 const blogContent: Record<string, () => React.ReactElement> = {
 
+  "cerco-para-parcela-de-agrado": () => (
+    <>
+      <p>
+        Una parcela de agrado tiene dos necesidades distintas de cerco: el <strong>frontis</strong>
+        (la cara que da a la calle o al camino) y el <strong>perímetro</strong> (los tres lados
+        restantes que delimitan el terreno). No es lo mismo — y confundirlos es el error más
+        frecuente al cotizar.
+      </p>
+
+      <h2>Frontis vs perímetro — distintos objetivos, distinto material</h2>
+      <div className="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        {[
+          {
+            t: "Frontis (cara a la calle)",
+            items: [
+              "Reja tubular de tubo cuadrado 1\" – 1,5\"",
+              "Altura: 1,20 m a 1,80 m",
+              "Con portón vehicular (batiente o corredizo)",
+              "Con puerta peatonal",
+              "Pintura electrostática o galvanizado",
+              "El más caro por metro — pero hay pocos metros",
+            ],
+          },
+          {
+            t: "Perímetro (3 lados restantes)",
+            items: [
+              "Malla de alambre galvanizada o malla ovejera",
+              "Postes de madera o tubo redondo",
+              "Altura: 1,00 m a 1,20 m",
+              "Sin puerta en general",
+              "Mucho más económico por metro",
+              "Hay muchos metros — el costo viene del volumen",
+            ],
+          },
+        ].map((col) => (
+          <div key={col.t} className="bg-gray-50 border border-gray-100 rounded-xl p-4">
+            <h3 className="font-semibold text-gray-900 text-sm mb-2">{col.t}</h3>
+            <ul className="space-y-1">
+              {col.items.map((i) => (
+                <li key={i} className="text-gray-600 text-xs">• {i}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+
+      <h2>Qué tipo de portón elegir para una parcela</h2>
+      <p>
+        Para parcelas de agrado el portón <strong>batiente doble</strong> (dos hojas, abre hacia
+        adentro) es la opción más común — es económico y funciona bien en caminos de tierra donde
+        no hay pavimento exacto para instalar el riel de un corredizo.
+      </p>
+      <p>
+        Si el acceso tiene pavimento parejo, el <strong>corredizo automático</strong> es más cómodo
+        y más seguro. También se puede instalar en caminos con pasto si se usa un riel enterrado
+        o un sistema de guía superior.
+      </p>
+
+      <h2>¿Galvanizado o pintado en una parcela?</h2>
+      <p>
+        En parcelas de agrado hay más exposición a la humedad del suelo, el riego, el ambiente
+        rural y las variaciones de temperatura que en un frontis urbano. La recomendación:
+      </p>
+      <ul>
+        <li><strong>Frontis:</strong> pintado electrostático es suficiente si la parcela no está en zona húmeda.</li>
+        <li><strong>Postes del perímetro:</strong> galvanizado o tratados con anticorrosivo — van en contacto con el suelo.</li>
+        <li><strong>Malla perimetral:</strong> siempre galvanizada — es lo que está disponible en el mercado.</li>
+        <li><strong>Zona sur húmeda (sur de Concepción):</strong> todo galvanizado, sin excepción.</li>
+      </ul>
+
+      <h2>Los tres errores más comunes al cercar una parcela</h2>
+      <ol>
+        <li><strong>Cotizar solo la reja de frontis y olvidar el perímetro.</strong> El perímetro tiene muchos más metros lineales que el frontis — es la parte cara del proyecto.</li>
+        <li><strong>No considerar el portón desde el primer día.</strong> Si el portón queda "para después", la instalación es más cara y puede requerir cambios en lo ya instalado.</li>
+        <li><strong>Poner pintura normal en los postes.</strong> Los postes van en el suelo. La pintura convencional en el suelo se deteriora rápido. Tubo galvanizado o con tratamiento anticorrosión.</li>
+      </ol>
+
+      <CTAWhatsApp mensaje="Hola, tengo una parcela de agrado y quiero cotizar el cerco. Frente de calle: [METROS] m. Perímetro total aproximado: [METROS] m. Quiero portón: [SÍ / NO]. Dónde está la parcela: [SECTOR / REGIÓN]." />
+    </>
+  ),
+
+  "cuanto-cuesta-porton-automatico-chile": () => (
+    <>
+      <p>
+        El portón automático es una de las mejoras más valoradas por los propietarios en Santiago —
+        y una de las que más dudas genera sobre precio. Esta guía responde con transparencia qué
+        determina el costo y qué debes exigir en cualquier cotización.
+      </p>
+
+      <h2>Los tres factores que determinan el precio</h2>
+      <ul>
+        <li><strong>Tipo de portón:</strong> corredizo o batiente. El corredizo es más caro porque necesita riel en el suelo además del motor. El batiente es más simple mecánicamente.</li>
+        <li><strong>Ancho del vano:</strong> a mayor ancho, más peso de la hoja y mayor exigencia al motor. Un portón de 4 m pesa más que uno de 2,5 m — y el motor debe manejar esa diferencia.</li>
+        <li><strong>Sistema de control:</strong> el mínimo es control remoto (incluido en toda cotización). Los extras — tarjeta de proximidad, teclado, intercomunicador, integración con app — suman al precio.</li>
+      </ul>
+
+      <h2>Rangos de precio orientativos en Santiago (2026)</h2>
+      <div className="not-prose overflow-x-auto my-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b-2 border-gray-200">
+              <th className="text-left py-3 pr-4 text-gray-600 font-medium text-xs">Tipo</th>
+              <th className="text-left py-3 px-3 text-gray-600 font-medium text-xs">Ancho</th>
+              <th className="text-left py-3 px-3 text-gray-600 font-medium text-xs">Rango de precio</th>
+              <th className="text-left py-3 px-3 text-gray-600 font-medium text-xs">Incluye</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-gray-100">
+            {[
+              ["Batiente", "2,5–3,5 m", "Consultar", "Portón + motor + 2 controles + inst."],
+              ["Corredizo residencial", "3–4 m", "Consultar", "Portón + motor + riel + 2 controles + inst."],
+              ["Corredizo mediano", "4–5 m", "Consultar", "Portón reforzado + motor industrial + riel + inst."],
+              ["Corredizo industrial", "5–8 m", "Consultar", "Estructura reforzada + motor trifásico + inst."],
+            ].map(([tipo, ancho, rango, inc]) => (
+              <tr key={tipo + ancho}>
+                <td className="py-3 pr-4 text-gray-900 text-xs font-medium">{tipo}</td>
+                <td className="py-3 px-3 text-gray-600 text-xs">{ancho}</td>
+                <td className="py-3 px-3 text-gray-800 text-xs font-medium">{rango}</td>
+                <td className="py-3 px-3 text-gray-500 text-xs">{inc}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p className="text-xs text-gray-400">Los precios varían según materiales, diseño y distancia de instalación. Solicita cotización exacta.</p>
+
+      <h2>¿Qué debe incluir cualquier presupuesto de portón automático?</h2>
+      <ul>
+        <li>Fabricación del portón metálico (no solo el motor)</li>
+        <li>Motor de marca reconocida (CAME, FAAC, BFT, BENINCA, Nice)</li>
+        <li>Riel en el suelo y rieles de guía superior (si es corredizo)</li>
+        <li>Cuadro eléctrico de mando</li>
+        <li>Mínimo 2 controles remotos</li>
+        <li>Instalación completa con prueba de funcionamiento</li>
+        <li>Garantía del motor (mínimo 1 año)</li>
+      </ul>
+      <p>
+        Si alguno de estos ítems no está incluido en la cotización, pídelo explícitamente — o
+        estás comparando precios incompletos con precios completos.
+      </p>
+
+      <h2>¿Corredizo o batiente?</h2>
+      <p>
+        Para la mayoría de las casas en Santiago, el <strong>corredizo</strong> es la mejor opción
+        porque no necesita espacio de barrido frente al portón. Solo necesita espacio lateral
+        (igual al ancho del portón) para que la hoja pueda desplazarse. El batiente puede ser
+        más económico si tienes patio amplio, pero en la mayoría de los frontis estándar de Santiago
+        no hay espacio para el arco de apertura.
+      </p>
+
+      <CTAWhatsApp mensaje="Hola, quiero cotizar un portón automático. Tipo: [CORREDIZO / BATIENTE]. Ancho del vano: [METROS] m. Estoy en [COMUNA]." />
+    </>
+  ),
+
+  "galvanizado-vs-pintado-cuando-elegir": () => (
+    <>
+      <p>
+        Cuando cotizas un cerco o reja metálica en Chile, una de las primeras preguntas es si conviene <strong>galvanizado</strong> o <strong>pintado</strong>.
+        La respuesta depende de dónde estás ubicado y cuánto mantenimiento estás dispuesto a hacer.
+        Esta guía te ayuda a decidir.
+      </p>
+
+      <h2>¿Qué es el galvanizado?</h2>
+      <p>
+        El galvanizado es un proceso de recubrimiento del acero con una capa de zinc.
+        Hay dos métodos principales: <strong>galvanizado en caliente</strong> (el más resistente — se sumerge el acero en zinc fundido a 450°C)
+        y <strong>galvanizado electrolítico</strong> (capa más delgada, más económico pero menos durable).
+        Para cercos perimetrales exteriores siempre se recomienda galvanizado en caliente.
+      </p>
+
+      <h2>¿Qué es la pintura electrostática?</h2>
+      <p>
+        La pintura electrostática al horno (también llamada pintura en polvo o powder coating) es el acabado estándar
+        de la mayoría de rejas metálicas en Santiago.
+        Se aplica como polvo y se cura al horno a ~200°C — el resultado es una capa dura, uniforme y resistente al impacto.
+        Es más económica que el galvanizado y permite elegir color.
+      </p>
+
+      <h2>Tabla comparativa</h2>
+      <div className="not-prose overflow-x-auto my-6">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b-2 border-gray-200">
+              <th className="text-left py-3 pr-4 text-gray-600 font-medium text-xs">Factor</th>
+              <th className="text-center py-3 px-4 text-gray-900 font-semibold text-xs">Galvanizado</th>
+              <th className="text-center py-3 px-4 text-gray-700 font-semibold text-xs">Pintado</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-gray-100">
+            {[
+              ["Duración sin mantenimiento", "15–25 años", "5–10 años"],
+              ["Zona costera o húmeda", "Recomendado", "No recomendado"],
+              ["Zona interior seca", "Muy bien", "Bien (con repintado eventual)"],
+              ["Costo inicial", "Mayor", "Menor"],
+              ["Mantenimiento", "Mínimo", "Repintado cada 5–8 años"],
+              ["Colores disponibles", "Solo gris zinc", "Cualquier color"],
+              ["Peso", "Igual al pintado", "Igual al galvanizado"],
+            ].map(([f, g, p]) => (
+              <tr key={f}>
+                <td className="py-3 pr-4 text-gray-600 text-xs font-medium">{f}</td>
+                <td className="py-3 px-4 text-center text-gray-800 text-xs">{g}</td>
+                <td className="py-3 px-4 text-center text-gray-600 text-xs">{p}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>¿Cuándo elegir galvanizado?</h2>
+      <ul>
+        <li><strong>Zona costera:</strong> Valparaíso, Viña del Mar, el litoral del Maule o el sur — el ambiente marino destruye la pintura en pocos años.</li>
+        <li><strong>Zona sur húmeda:</strong> Temuco, Valdivia, Puerto Montt, Osorno — la humedad constante acelera la oxidación del acero con solo pintura.</li>
+        <li><strong>Zona industrial con químicos:</strong> Cercos de empresas que trabajan con solventes, ácidos o ambientes corrosivos.</li>
+        <li><strong>Cercos de difícil acceso para mantenimiento:</strong> Si no podrás repintar fácilmente, invierte en galvanizado desde el inicio.</li>
+      </ul>
+
+      <h2>¿Cuándo es suficiente la pintura electrostática?</h2>
+      <ul>
+        <li><strong>Zona interior seca de la RM:</strong> Santiago (cordillera + cuyo), la mayor parte de la Región Metropolitana. Con la aridez de Santiago, la pintura dura bien.</li>
+        <li><strong>Rejas interiores:</strong> Separaciones dentro de galpones, mallas de oficinas o divisiones que no están expuestas al clima.</li>
+        <li><strong>Cuando el diseño importa:</strong> Si quieres negro mate, negro brillante, gris antracita o cualquier color, la opción es pintado.</li>
+        <li><strong>Proyectos con presupuesto ajustado:</strong> El pintado es más económico en el corto plazo. Con mantenimiento básico dura perfectamente.</li>
+      </ul>
+
+      <CTAWhatsApp mensaje="Hola, quiero cotizar un cerco metálico. ¿Me pueden orientar si conviene galvanizado o pintado para mi zona?" />
+    </>
+  ),
+
   "camarote-con-escritorio-guia-completa": () => (
     <>
       <p>
@@ -3732,6 +3960,1157 @@ const blogContent: Record<string, () => React.ReactElement> = {
       </p>
 
       <CTAWhatsApp mensaje="Hola, estoy comparando camarotes de metal y madera. ¿Pueden orientarme para mi caso?" />
+    </>
+  ),
+
+  "cuanto-cuesta-cierre-perimetral-chile": () => (
+    <>
+      <p>
+        Es la primera pregunta que hace quien necesita un cierre perimetral. Y la respuesta honesta
+        es: depende de cuatro factores. Si alguien te da un precio sin preguntar nada, no te está
+        cotizando — te está diciendo un número para que no te vayas.
+      </p>
+
+      <h2>Los 4 factores que determinan el precio</h2>
+
+      <h3>1. El tipo de cierre</h3>
+      <p>
+        No todos los cierres perimetrales cuestan lo mismo por metro lineal. En orden de menor a
+        mayor costo aproximado:
+      </p>
+      <ul>
+        <li><strong>Cerco de alambre galvanizado</strong> — el más económico. Postes cada 2-3 metros, alambre tensado entre ellos. Sin rigidez estructural pero cumple la función de delimitar.</li>
+        <li><strong>Malla electrosoldada</strong> — costo intermedio. Panel rígido de acero soldado. El equilibrio entre precio y resistencia que más se usa en obras, bodegas y usos comerciales.</li>
+        <li><strong>Plancha metálica ondulada</strong> — precio similar a la malla. Opaca, resiste el viento. Para quienes necesitan privacidad total.</li>
+        <li><strong>Reja tubular</strong> — la más cara. La más durable. La estándar en condominios, empresas y proyectos definitivos donde el cierre forma parte de la imagen del proyecto.</li>
+        <li><strong>Panel modular removible</strong> — precio variable según el uso temporal o permanente.</li>
+      </ul>
+
+      <h3>2. Los metros lineales</h3>
+      <p>
+        El costo de un cierre perimetral se calcula por metro lineal. Un terreno de 20x30 metros
+        tiene un perímetro de 100 metros. Uno de 50x80 tiene 260 metros. La diferencia en costo
+        puede ser enorme aunque ambos sean el mismo tipo de cierre.
+      </p>
+      <p>
+        Antes de cotizar, mide el perímetro real o usa Google Maps para estimarlo. No es necesario
+        que sea exacto — una aproximación con ±10% es suficiente para una cotización inicial.
+      </p>
+
+      <h3>3. Si incluye instalación</h3>
+      <p>
+        La instalación puede representar entre un 20% y un 40% del costo total según el tipo de
+        cierre y el terreno. Un cierre en un terreno plano con acceso fácil es más económico de
+        instalar que uno en un terreno irregular, con pendiente o sin acceso vehicular para el
+        camión de materiales.
+      </p>
+      <p>
+        Si cuentas con personal propio en terreno, puedes reducir costos pidiendo solo la fabricación
+        y el despacho.
+      </p>
+
+      <h3>4. La región y el flete</h3>
+      <p>
+        En Santiago RM el costo de instalación es el más bajo porque no hay flete de materiales.
+        Para regiones, el flete se suma al costo final y puede ser significativo en proyectos donde
+        los metros lineales son muchos y el peso del material es alto.
+      </p>
+
+      <h2>Por qué no publicamos precios en la web</h2>
+      <p>
+        Porque sería irresponsable. Un cierre perimetral para 100 metros de malla electrosoldada
+        en Santiago puede costar muy distinto a uno de reja tubular para el mismo perímetro en
+        una zona con acceso difícil. El precio que publicaría cualquier fabricante sería tan
+        general que no te serviría de referencia.
+      </p>
+      <p>
+        Lo que hacemos en su lugar: cotizamos el mismo día que nos contactas si nos das los metros
+        aproximados, el tipo de cierre que buscas y la ubicación.
+      </p>
+
+      <h2>Cómo cotizar bien desde el primer mensaje</h2>
+      <p>
+        Para darte un precio real necesitamos saber:
+      </p>
+      <ul>
+        <li>El perímetro aproximado en metros lineales</li>
+        <li>El uso (obra, bodega, industria, condominio, terreno)</li>
+        <li>La ubicación (comuna o ciudad)</li>
+        <li>Si necesitas instalación o solo fabricación y despacho</li>
+        <li>Si necesitas portón de acceso peatonal o vehicular</li>
+      </ul>
+      <p>
+        Con eso podemos darte un rango real de precio en el primer mensaje.
+      </p>
+
+      <CTAWhatsApp mensaje="Hola, necesito cotizar un cierre perimetral. El perímetro es de [METROS] metros aproximadamente. Es para [USO]." />
+    </>
+  ),
+
+  "tipos-de-cierres-perimetrales": () => (
+    <>
+      <p>
+        Cuando alguien busca un cierre perimetral, la primera pregunta que debería hacerse no es
+        "¿cuánto cuesta?" sino "¿qué tipo necesito?". La respuesta determina el costo, la duración
+        y si el cierre va a aguantar el uso que le vas a dar.
+      </p>
+      <p>
+        Acá te explicamos los tipos reales que existen — no los nombres de catálogo que confunden,
+        sino lo que es cada uno, para qué sirve y cuándo NO usarlo.
+      </p>
+
+      <h2>Malla metálica electrosoldada</h2>
+      <p>
+        Panel rígido de acero formado por varillas horizontales y verticales soldadas en cada
+        cruce. Se monta sobre postes de acero hincados en el suelo o sobre base de hormigón.
+      </p>
+      <p>
+        <strong>Ventajas:</strong> Rígida, durable, no se dobla fácilmente, económica, rápida de
+        instalar.<br />
+        <strong>Desventajas:</strong> No es la más estética. No da privacidad (se ve a través).<br />
+        <strong>Cuándo usarla:</strong> Obras en construcción, bodegas, galpones, faenas, cualquier
+        proyecto donde el costo y la resistencia importan más que la estética.
+      </p>
+
+      <h2>Reja tubular</h2>
+      <p>
+        Estructura soldada de tubos de acero redondos o cuadrados. Más elaborada que la malla,
+        con mayor variedad de diseños (con puntas, lisa, combinada). La más durable de todas.
+      </p>
+      <p>
+        <strong>Ventajas:</strong> Alta durabilidad (30+ años con buena pintura), estética,
+        resistente al impacto.<br />
+        <strong>Desventajas:</strong> La más cara por metro lineal. Mayor tiempo de fabricación.<br />
+        <strong>Cuándo usarla:</strong> Condominios, empresas, proyectos definitivos donde el
+        cierre forma parte de la imagen del proyecto por décadas.
+      </p>
+
+      <h2>Cerco de alambre galvanizado</h2>
+      <p>
+        Alambre de acero galvanizado tensado entre postes. La solución más antigua y más económica.
+        No es rígida — cede bajo presión física — pero delimita el terreno y es la única opción
+        razonable para cerrar superficies muy grandes con presupuesto acotado.
+      </p>
+      <p>
+        <strong>Ventajas:</strong> El más económico. Rápido de instalar. Cubre grandes superficies.<br />
+        <strong>Desventajas:</strong> No es rígida. No resiste impactos. Menor duración.<br />
+        <strong>Cuándo usarla:</strong> Terrenos grandes en zonas rurales, parcelas, cierres
+        temporales previos a construcción.
+      </p>
+
+      <h2>Plancha metálica ondulada</h2>
+      <p>
+        Cierre opaco construido con planchas de acero galvanizado onduladas, fijadas a una
+        estructura de postes y perfiles. Bloquea la visión desde afuera completamente.
+      </p>
+      <p>
+        <strong>Ventajas:</strong> Privacidad total. Resistente al viento. Sin mantenimiento frecuente.<br />
+        <strong>Desventajas:</strong> Aspecto más industrial. Puede acumular calor en zonas expuestas al sol.<br />
+        <strong>Cuándo usarla:</strong> Bodegas, talleres, industrias, patios de maquinaria donde
+        se prefiere que el interior no sea visible.
+      </p>
+
+      <h2>Panel modular tipo claro (removible)</h2>
+      <p>
+        Paneles de acero con bases de peso propio que se instalan sin obra civil permanente.
+        Se montan en horas y se retiran de la misma forma.
+      </p>
+      <p>
+        <strong>Ventajas:</strong> Instalación rápida. Sin obra permanente. Reutilizable.<br />
+        <strong>Desventajas:</strong> No es tan resistente como los cierres anclados. Puede
+        ser movido por terceros si no se asegura correctamente.<br />
+        <strong>Cuándo usarla:</strong> Faenas temporales, obras que necesitan cerrar hoy y
+        retirar el cierre al terminar el proyecto.
+      </p>
+
+      <h2>¿Cómo elegir el correcto?</h2>
+      <p>
+        Tres preguntas resuelven el 90% de los casos:
+      </p>
+      <ol>
+        <li>¿Es temporal o definitivo?</li>
+        <li>¿La estética importa?</li>
+        <li>¿Cuántos metros tiene el perímetro?</li>
+      </ol>
+      <p>
+        Si es temporal → panel modular o malla. Si es definitivo y la estética importa → reja tubular.
+        Si es definitivo y la estética no es prioridad → malla o plancha. Si el terreno es muy grande
+        → cerco de alambre para el perímetro exterior.
+      </p>
+
+      <CTAWhatsApp mensaje="Hola, necesito asesoría para elegir el tipo de cierre perimetral correcto para mi proyecto. ¿Pueden orientarme?" />
+    </>
+  ),
+
+  "mallas-separadoras-para-bodegas": () => (
+    <>
+      <p>
+        Una bodega desorganizada no es solo un problema estético — es un problema económico.
+        Los errores de picking aumentan, el tiempo de despacho sube, los accidentes de montacargas
+        son más frecuentes y es más difícil hacer inventario. Las mallas separadoras metálicas
+        resuelven eso dividiendo el espacio en zonas claras sin levantar paredes permanentes.
+      </p>
+
+      <h2>¿Qué es una malla separadora para bodegas?</h2>
+      <p>
+        Es un panel metálico — generalmente malla electrosoldada montada sobre estructura de acero —
+        que divide el espacio interior de una bodega en zonas diferenciadas. Puede anclarse al suelo,
+        al techo o instalarse solo en el suelo dependiendo del tipo de carga y la dinámica de la bodega.
+      </p>
+      <p>
+        La malla permite ver a través de ella (a diferencia de una pared), lo que mantiene la
+        visibilidad y la luminosidad del espacio dividido. Esto es clave en bodegas donde el
+        encargado necesita ver qué pasa en cada zona sin desplazarse.
+      </p>
+
+      <h2>Las 6 zonas más separadas en bodegas</h2>
+
+      <h3>1. Zona de picking vs almacenamiento masivo</h3>
+      <p>
+        El picking es el proceso de retirar unidades individuales del stock. Si el área de picking
+        no está separada del almacenamiento masivo, los operarios de montacargas y el personal
+        de picking interfieren constantemente. La malla los divide sin impedir la comunicación visual.
+      </p>
+
+      <h3>2. Andén de carga y descarga vs área de stock</h3>
+      <p>
+        El andén es una zona de alta actividad — camiones entrando, mercadería siendo revisada,
+        transpaletas moviéndose. Separarlo del área de stock protege el inventario y reduce el
+        riesgo de daño a la mercadería.
+      </p>
+
+      <h3>3. Pasillo de montacargas vs pasillo de personal</h3>
+      <p>
+        El más crítico desde el punto de vista de seguridad. El cruce de personas con montacargas
+        es la causa más común de accidentes graves en bodegas. Una malla que separa ambos flujos
+        elimina ese riesgo estructuralmente.
+      </p>
+
+      <h3>4. Bodega de alto valor o productos restringidos</h3>
+      <p>
+        Productos de alto valor, medicamentos, electrónica o cualquier artículo que requiera
+        acceso restringido. La malla con puerta y cerradura es la solución más común y más
+        económica para crear un espacio de acceso controlado dentro de una bodega mayor.
+      </p>
+
+      <h3>5. Zona de devoluciones</h3>
+      <p>
+        Las devoluciones necesitan un espacio propio para revisión, re-etiquetado y decisión
+        de destino. Sin zona separada, se mezclan con el stock bueno y generan errores costosos.
+      </p>
+
+      <h3>6. Área de residuos y embalaje</h3>
+      <p>
+        Palets rotos, cartón, plástico de embalaje. Separar esta zona evita que el residuo
+        se acumule en el pasillo de tránsito y facilita la gestión de reciclaje.
+      </p>
+
+      <h2>Qué especificar al cotizar</h2>
+      <ul>
+        <li><strong>Metros lineales</strong> — el largo total de malla que necesitas</li>
+        <li><strong>Altura</strong> — 2,00 m es el estándar para bodegas; 1,00 m para separaciones peatonales</li>
+        <li><strong>Puertas integradas</strong> — cuántas y de qué tipo (batiente o corrediza)</li>
+        <li><strong>Si se ancla al suelo o es modulable</strong> — para divisiones que podrías reubicar</li>
+      </ul>
+
+      <CTAWhatsApp mensaje="Hola, necesito cotizar mallas separadoras para organizar mi bodega. Quiero separar [ZONAS]. ¿Pueden ayudarme?" />
+    </>
+  ),
+
+  "cierre-perimetral-obra-chile": () => (
+    <>
+      <p>
+        El cierre perimetral de obra es uno de los primeros elementos que se instala cuando
+        empieza una construcción — y uno de los últimos en retirarse. Tiene una función legal,
+        una función de seguridad y una función de imagen. Las tres importan.
+      </p>
+
+      <h2>¿Es obligatorio el cierre perimetral de obra en Chile?</h2>
+      <p>
+        En la mayoría de los casos, sí. La Ordenanza General de Urbanismo y Construcción (OGUC)
+        establece que las obras en construcción deben estar delimitadas para proteger al público
+        y a los trabajadores. La exigencia específica depende de cada municipio y del tipo de
+        obra — pero la regla general es que si hay permiso de edificación, hay cierre obligatorio.
+      </p>
+      <p>
+        Las obras en vía pública o que afectan la vereda tienen reglamentación adicional de
+        vialidad. En esos casos, las vallas deben tener señalética específica y dejar paso
+        peatonal habilitado.
+      </p>
+
+      <h2>Tipos de cierre para obras</h2>
+
+      <h3>Cierre de malla electrosoldada sobre postes</h3>
+      <p>
+        El más usado en obras de construcción de casas y edificios. Paneles de malla sobre postes
+        de acero hincados o con base de hormigón. Se instala en días, es estable, resiste el viento
+        y tiene un costo razonable para el período que dura una obra.
+      </p>
+      <p>
+        Al terminar la obra se retiran los postes y la malla sin dejar obra civil permanente.
+      </p>
+
+      <h3>Valla modular en vía pública</h3>
+      <p>
+        Para obras que ocupan parte de la vereda o calzada. Módulos de acero con bases que se
+        encadenan entre sí. Son los cierres naranjas o plateados que ves en cualquier obra urbana.
+        Cumplen las normativas de vialidad de los municipios y protegen al peatón de la zona de trabajo.
+      </p>
+
+      <h3>Panel modular tipo claro</h3>
+      <p>
+        Paneles de mayor tamaño, más robustos que las vallas, que se instalan sin obra civil
+        permanente. Para obras grandes que necesitan cerrar el perímetro completo del terreno
+        antes de comenzar los trabajos de fundación.
+      </p>
+
+      <h2>¿Cuándo contratar el cierre de obra?</h2>
+      <p>
+        Antes de que llegue el camión con los primeros materiales. El cierre de obra protege
+        los materiales desde el primer día y define visualmente que el terreno tiene dueño y
+        que ahí hay un proyecto en curso.
+      </p>
+      <p>
+        Para una obra que empieza el lunes, el cierre debería estar instalado el viernes anterior.
+        La mayoría de los fabricantes puede tener un cierre estándar listo e instalado en 5-7 días
+        hábiles desde la cotización aprobada.
+      </p>
+
+      <h2>Cómo contratar el cierre correcto</h2>
+      <p>
+        Para cotizar necesitas:
+      </p>
+      <ul>
+        <li>El perímetro del terreno en metros lineales</li>
+        <li>La fecha estimada de inicio de obra</li>
+        <li>Si necesitas portón peatonal o vehicular integrado</li>
+        <li>Si la obra está en vía pública (requiere valla específica)</li>
+        <li>Si el cierre es temporal (lo retiran al terminar) o si quieres que quede definitivo</li>
+      </ul>
+
+      <CTAWhatsApp mensaje="Hola, necesito un cierre perimetral para una obra de construcción. La fecha de inicio es [FECHA] y el perímetro es de [METROS] metros." />
+    </>
+  ),
+
+  "como-separar-peatones-vehiculos-empresa": () => (
+    <>
+      <p>
+        Cuando un montacargas y un operario se cruzan en el mismo pasillo sin separación física,
+        no es mala suerte si ocurre un accidente — es una consecuencia predecible de un diseño
+        deficiente. La señalética y las marcas en el piso no son suficientes. Las personas ignoran
+        la señalética cuando están concentradas en su trabajo. Las estructuras físicas no se ignoran.
+      </p>
+
+      <h2>Por qué la señalética sola no funciona</h2>
+      <p>
+        Los estudios de seguridad industrial son consistentes en un punto: las barreras físicas
+        reducen los accidentes de forma mucho más efectiva que la señalética. Una línea amarilla
+        en el suelo es fácil de cruzar sin darse cuenta. Una malla metálica no.
+      </p>
+      <p>
+        Esto no significa que la señalética sea inútil — complementa las barreras físicas y
+        comunica el comportamiento esperado. Pero no puede ser la única medida.
+      </p>
+
+      <h2>Las 5 opciones para separar peatones de vehículos</h2>
+
+      <h3>1. Malla separadora fija anclada al suelo</h3>
+      <p>
+        La solución más robusta y más permanente. La malla se ancla al piso con pernos y define
+        físicamente el pasillo de montacargas y el pasillo de personal. Imposible de cruzar
+        accidentalmente. La opción estándar para bodegas grandes y plantas de manufactura.
+      </p>
+      <p>
+        Requiere decidir bien el layout antes de instalar, porque una vez anclada no se mueve
+        fácilmente. Si el layout de la bodega cambia frecuentemente, considera la opción modular.
+      </p>
+
+      <h3>2. Barrera peatonal modular</h3>
+      <p>
+        Módulos de acero que se sostienen por peso propio o con bases desmontables. Se pueden
+        reubicar sin herramienta. Ideales para bodegas donde el layout cambia según la temporada
+        o el tipo de producto almacenado.
+      </p>
+      <p>
+        Menos robustas que las mallas ancladas — un montacargas puede desplazarlas si las golpea —
+        pero son suficientes para separar tránsito peatonal normal.
+      </p>
+
+      <h3>3. Pasillos con guías de acero en el suelo</h3>
+      <p>
+        Perfiles de acero soldados al piso que definen el pasillo sin levantar altura. Usados
+        cuando la altura libre es un factor (estanterías muy altas, techos bajos) pero igual
+        se necesita una barrera física.
+      </p>
+
+      <h3>4. Separación por zonas completas (layout)</h3>
+      <p>
+        La mejor solución es un layout que no mezcle los flujos desde el diseño. Zona de
+        montacargas por un lado, zona de personal por otro, con puntos de cruce definidos y
+        señalizados. Las mallas definen esas zonas de forma permanente.
+      </p>
+
+      <h3>5. Pasarela peatonal elevada</h3>
+      <p>
+        Para casos extremos donde el cruce es inevitable y el volumen de tránsito vehicular es
+        muy alto. Una pasarela peatonal eleva el flujo de personas sobre el nivel de los vehículos
+        eliminando el cruce completamente. Es la solución más costosa pero la más efectiva en
+        industrias con alta intensidad de tránsito de montacargas.
+      </p>
+
+      <h2>Qué pedir al cotizar</h2>
+      <p>
+        Para recibir una cotización útil necesitas definir:
+      </p>
+      <ul>
+        <li>El largo total del pasillo a separar (metros lineales)</li>
+        <li>La altura necesaria (2,00 m para malla estándar; 1,00-1,20 m para barrera peatonal)</li>
+        <li>Si la separación es fija o necesitas poder reubicarla</li>
+        <li>Cuántas puertas de acceso necesitas en la separación</li>
+        <li>Si el uso es para bodegas, planta de manufactura o estacionamiento</li>
+      </ul>
+
+      <CTAWhatsApp mensaje="Hola, necesito separar peatones de vehículos en [DESCRIBIR ESPACIO]. ¿Pueden ayudarme con la solución correcta?" />
+    </>
+  ),
+
+  "como-medir-metros-lineales-reja": () => (
+    <>
+      <p>
+        Antes de llamar a cualquier fabricante o cotizar en línea, necesitas saber <strong>cuántos metros lineales de reja</strong> necesitas.
+        Es más fácil de lo que parece — y hacerlo bien antes de cotizar evita errores costosos.
+      </p>
+
+      <h2>¿Qué es un metro lineal de reja?</h2>
+      <p>
+        Un metro lineal es simplemente la longitud de la reja medida en línea recta, sin importar su altura.
+        Si tienes un frontis de 10 metros de largo, necesitas 10 metros lineales de reja para cubrirlo,
+        independientemente de si la quieres de 1,20 m o de 1,80 m de alto.
+        La altura afecta el precio, no el "largo" del cerco.
+      </p>
+
+      <h2>Cómo medir el frontis de tu casa</h2>
+      <p>
+        El frontis es la parte de la propiedad que da a la calle. Para medirlo:
+      </p>
+      <ul>
+        <li>Usa una huincha de medir o un metro de cinta. Si no tienes, un paso largo adulto equivale aproximadamente a 80 cm — puedes contar pasos y multiplicar.</li>
+        <li>Mide desde el límite de tu propiedad hasta el otro extremo, a lo largo de la línea de la calle.</li>
+        <li>Si hay un vano vehicular (donde va el portón), mídelo por separado — ese es el ancho del portón, y va cotizado aparte de la reja lineal.</li>
+        <li>Si hay una puerta peatonal, también va aparte.</li>
+      </ul>
+      <p>
+        Ejemplo: propiedad de 12 m de frente total. Portón vehicular de 3 m + puerta peatonal de 1 m = 4 m de accesos.
+        Metros lineales de reja = 12 - 4 = <strong>8 metros lineales</strong>.
+      </p>
+
+      <h2>Cómo medir el perímetro completo de un terreno</h2>
+      <p>
+        Si quieres cercar todo el terreno, mide los 4 lados (o los que correspondan).
+        Suma todas las medidas — ese es el perímetro total.
+        Descuenta los accesos (portones) si los habrá.
+      </p>
+      <p>
+        Ejemplo: terreno de 20 x 30 m. Perímetro = 20 + 30 + 20 + 30 = <strong>100 metros lineales</strong>.
+        Si hay un portón de 4 m: metros de reja = 100 - 4 = 96 metros lineales.
+      </p>
+
+      <h2>Consejo: añade un 5% de margen</h2>
+      <p>
+        Si no tienes las medidas exactas, añade un 5% a tu estimado.
+        Es mejor cotizar con un ligero exceso que quedarte corto — y el fabricante siempre puede ajustar al medirlo en terreno.
+      </p>
+
+      <CTAWhatsApp mensaje="Hola, medí mi propiedad y tengo [METROS] ml de reja más [ANCHO] m de portón. ¿Pueden cotizarme?" />
+    </>
+  ),
+
+  "mezzanine-metalico-bodega-guia": () => (
+    <>
+      <p>
+        Un <strong>mezzanine metálico</strong> es una plataforma intermedia elevada que se instala dentro de una bodega o galpón existente.
+        En lugar de ampliar el edificio hacia afuera, se ocupa el volumen vertical disponible — el espacio que en la mayoría de las bodegas está vacío desde los 2,5 m hacia arriba.
+      </p>
+
+      <h2>¿Cuándo conviene un mezzanine?</h2>
+      <p>
+        La instalación de un mezzanine tiene sentido cuando:
+      </p>
+      <ul>
+        <li>La bodega tiene altura libre mayor a 4,5 m — ideal a partir de 5 m</li>
+        <li>El arriendo o la construcción de espacio nuevo es más caro que la estructura</li>
+        <li>La operación puede separarse en dos niveles — almacenaje arriba, operación abajo, o viceversa</li>
+        <li>El presupuesto no alcanza para ampliar el edificio pero necesitas el doble de superficie</li>
+      </ul>
+
+      <h2>Qué medidas necesitas antes de cotizar</h2>
+      <p>
+        Para recibir una cotización útil de un mezzanine, ten listas estas medidas:
+      </p>
+      <ul>
+        <li><strong>Altura libre interior</strong> del galpón desde el suelo hasta la viga o cubierta</li>
+        <li><strong>Superficie deseada</strong> para la plataforma del mezzanine (largo x ancho)</li>
+        <li><strong>Carga estimada</strong> — personas y materiales que estarán sobre la plataforma (en kg/m²)</li>
+        <li>Si necesitas <strong>escalera de acceso</strong> y de cuántos peldaños</li>
+        <li>Si necesitas <strong>barandas</strong> en el perímetro de la plataforma</li>
+      </ul>
+
+      <h2>Materiales de un mezzanine metálico</h2>
+      <p>
+        La estructura principal se hace con perfiles de acero laminado — vigas H o I para las vigas principales, tubo cuadrado o perfiles C para la estructura secundaria.
+        La plataforma (el piso del mezzanine) puede ser de <strong>plancha de acero estriada</strong> (la más común en industrial), <strong>tablero de madera sobre estructura metálica</strong> (más económico, adecuado para cargas medias) o <strong>rejilla metálica</strong> (permite ventilación y visión entre niveles).
+      </p>
+
+      <h2>¿Necesita permiso de construcción?</h2>
+      <p>
+        Depende de la superficie y la estructura existente. Un mezzanine autoportante dentro de un galpón existente generalmente no requiere permiso municipal si no toca la estructura del edificio.
+        Para proyectos de mayor envergadura o cuando el mezzanine soporta cargas muy altas, es recomendable que un calculista estructural revise el diseño.
+        Consultamos esto contigo al cotizar.
+      </p>
+
+      <CTAWhatsApp mensaje="Hola, necesito cotizar un mezzanine metálico. El galpón tiene [ALTURA] m de alto y quiero una plataforma de [LARGO x ANCHO] m. La carga estimada es [KG/M²]." />
+    </>
+  ),
+
+  "como-elegir-reja-metalica-frontis": () => (
+    <>
+      <p>
+        Antes de cotizar una <strong>reja metálica para el frontis</strong> de tu casa, hay cuatro decisiones que tomar:
+        el tipo de perfil, la altura, la separación entre barrotes y el acabado.
+        Si las defines bien antes de contactar al fabricante, la cotización es más rápida y el resultado final es exactamente lo que necesitabas.
+      </p>
+
+      <h2>1. Tipo de perfil: tubular o barra sólida</h2>
+      <p>
+        La reja tubular usa tubo de acero cuadrado o redondo. Es más liviana, se oxida menos y es la opción más común en casas residenciales de Santiago.
+        La reja de barra sólida es más pesada, más robusta y visualmente más clásica — se ve más "maciza".
+        Para un frontis residencial, la tubular es la recomendada en el 80% de los casos.
+      </p>
+
+      <h2>2. Altura recomendada para frontis</h2>
+      <p>
+        La altura mínima para seguridad efectiva en un frontis es de <strong>1,50 m</strong>.
+        En comunas con mayor densidad o donde la percepción de seguridad importa más, la mayoría opta por <strong>1,80 m a 2,00 m</strong>.
+        Más de 2,00 m empieza a requerir permiso municipal en algunas comunas — consulta antes si es tu caso.
+      </p>
+
+      <h2>3. Separación entre barrotes</h2>
+      <p>
+        La separación estándar en frontis residenciales es de <strong>8 a 12 cm</strong>.
+        Si hay niños en la casa, se recomienda no superar los 8 cm para que no puedan meter la cabeza.
+        Separaciones más cerradas (5–6 cm) dan más sensación de privacidad pero son más costosas porque usan más material.
+      </p>
+
+      <h2>4. Pintura electrostática o galvanizado</h2>
+      <p>
+        La <strong>pintura electrostática al horno</strong> es el acabado estándar — dura años con mantención básica y viene en varios colores.
+        El <strong>galvanizado en caliente</strong> es la opción premium: el zinc se funde al acero y la protección dura décadas sin pintar.
+        Para frontis en zonas con mucha lluvia (sur de Santiago, comunas como Lo Barnechea con neblina frecuente) el galvanizado es la mejor inversión a largo plazo.
+      </p>
+
+      <h2>5. ¿Con o sin portón?</h2>
+      <p>
+        Si el frontis incluye un acceso peatonal, se agrega una puerta integrada a la reja.
+        El portón se cotiza aparte del cerco lineal y depende del ancho del vano y el tipo de cierre (con llave, cerrojo con llave o solo pasador interior).
+      </p>
+
+      <h2>Cómo cotizar correctamente</h2>
+      <p>
+        Para recibir una cotización precisa necesitas tener listo:
+      </p>
+      <ul>
+        <li>El largo total del frontis en metros lineales (mide la calle)</li>
+        <li>La altura que quieres (en cm o m)</li>
+        <li>Si hay portón peatonal y cuánto mide el vano</li>
+        <li>La comuna — hay comunas que requieren colores neutros o restricciones de altura</li>
+        <li>El acabado: pintura color [especificar] o galvanizado</li>
+      </ul>
+
+      <CTAWhatsApp mensaje="Hola, quiero cotizar una reja de frontis para mi casa. Las medidas son: [METROS] ml x [ALTURA] m de alto. Estoy en [COMUNA]. ¿Cuánto sale?" />
+    </>
+  ),
+
+  "porton-corredizo-vs-batiente": () => (
+    <>
+      <p>
+        La duda más frecuente al cotizar un <strong>portón metálico</strong> es esta: ¿corredizo o batiente?
+        No hay una respuesta universal — la decisión correcta depende del ancho del acceso, el espacio disponible y la frecuencia de uso.
+        Esta comparativa te ayuda a decidir antes de cotizar.
+      </p>
+
+      <h2>Portón corredizo — para qué sirve</h2>
+      <p>
+        El portón corredizo se abre deslizándose lateralmente sobre una guía en el suelo.
+        No necesita espacio de barrido frontal — la hoja va al costado, no hacia adentro ni afuera.
+        Es la opción más usada en galpones, bodegas industriales y accesos vehiculares de empresas
+        porque permite el paso de camiones sin restricciones de espacio.
+      </p>
+      <p>
+        <strong>Requiere</strong> espacio lateral equivalente al ancho del portón más 30–40 cm extra.
+        Un portón de 4 m de ancho necesita 4,5 m de muro o cerco al costado para desplazarse.
+      </p>
+
+      <h2>Portón batiente — para qué sirve</h2>
+      <p>
+        El portón batiente abre girando sobre bisagras — como una puerta, pero más grande.
+        Puede ser de una hoja (batiente simple) o dos hojas (batiente doble).
+        Es más simple mecánicamente, tiene menos piezas que puedan fallar y es generalmente más económico que un corredizo del mismo ancho.
+      </p>
+      <p>
+        <strong>Requiere</strong> espacio de barrido: si el portón abre hacia adentro, ese espacio queda inutilizado.
+        Para accesos de 2 m de ancho o menos, es la opción más práctica y económica.
+      </p>
+
+      <h2>Comparativa directa</h2>
+      <p>
+        <strong>Corredizo:</strong> mejor para anchos mayores a 3 m, alta frecuencia de uso, accesos vehiculares industriales, cuando no puedes tener barrido.
+      </p>
+      <p>
+        <strong>Batiente:</strong> mejor para anchos de hasta 2–3 m, uso residencial o comercial con menor frecuencia, cuando hay muro disponible para los goznes y el espacio interior o exterior lo permite.
+      </p>
+
+      <h2>¿Cuál es más barato?</h2>
+      <p>
+        En general el batiente es más económico que el corredizo del mismo ancho,
+        porque el corredizo lleva guía inferior, rodillos y una estructura más robusta para soportar el peso sin bisagras.
+        Dicho esto, la diferencia depende del diseño y el tamaño — cotiza ambas opciones si el presupuesto es la variable clave.
+      </p>
+
+      <h2>¿Y la automatización?</h2>
+      <p>
+        Se puede automatizar cualquier tipo de portón corredizo — hay motores específicos para este tipo.
+        Los portones batientes también se pueden motorizar, aunque los sistemas son algo distintos.
+        Si piensas automatizar a futuro, dilo al fabricante al cotizar para que la estructura quede preparada.
+      </p>
+
+      <CTAWhatsApp mensaje="Hola, necesito cotizar un portón metálico. El acceso mide [ANCHO] m de ancho. ¿Me recomiendan corredizo o batiente?" />
+    </>
+  ),
+
+  "altura-reja-casa-seguridad": () => (
+    <>
+      <p>
+        La pregunta más frecuente antes de cotizar una reja es: <strong>"¿cuánto la hago de alta?"</strong>
+        La respuesta depende de tres factores: el nivel de seguridad que necesitas, el aspecto
+        que quieres para el frontis y el presupuesto disponible.
+      </p>
+
+      <h2>Las 3 alturas estándar y para qué sirve cada una</h2>
+
+      <div className="not-prose grid grid-cols-1 gap-4 my-6">
+        {[
+          {
+            altura: "1,00 – 1,20 m",
+            uso: "Delimitación sin seguridad real",
+            desc: "Sirve para delimitar el terreno o dar una referencia visual del límite de propiedad. No detiene a nadie que quiera entrar — se puede pasar por arriba sin esfuerzo. Ideal para jardines o propiedades de bajo riesgo donde el objetivo es la estética, no la seguridad.",
+            color: "bg-gray-50",
+          },
+          {
+            altura: "1,50 – 1,60 m",
+            uso: "Disuasión moderada",
+            desc: "La reja más común en zonas residenciales tranquilas. Dificulta el acceso pero no lo impide para alguien determinado. Da privacidad visual parcial. Buen equilibrio entre costo y protección para la mayoría de las casas.",
+            color: "bg-blue-50",
+          },
+          {
+            altura: "1,80 – 2,00 m",
+            uso: "Seguridad real",
+            desc: "A esta altura, saltar la reja requiere un esfuerzo considerable y visible. Es la altura recomendada para zonas con mayor riesgo o donde la seguridad es prioridad. También da privacidad visual completa desde la calle.",
+            color: "bg-green-50",
+          },
+        ].map((item) => (
+          <div key={item.altura} className={`${item.color} border border-gray-100 rounded-xl p-4`}>
+            <div className="flex items-start gap-3">
+              <span className="text-lg font-bold text-gray-900 w-24 flex-shrink-0">{item.altura}</span>
+              <div>
+                <p className="font-semibold text-gray-900 text-sm mb-1">{item.uso}</p>
+                <p className="text-gray-500 text-xs leading-relaxed">{item.desc}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <h2>¿Cuánta altura disuade realmente a un ladrón?</h2>
+      <p>
+        Estudios de seguridad residencial y la experiencia de instaladores coinciden en que
+        <strong> 1,80 m es el punto de inflexión</strong>. Por debajo de esa altura, alguien
+        determinado puede saltar sin herramientas. Por encima de 1,80 m, el riesgo de ser
+        visto y el esfuerzo físico disuaden a la mayoría de los oportunistas.
+      </p>
+      <p>
+        La seguridad real no viene solo de la altura — también del diseño. Una reja con barrotes
+        verticales delgados y sin travesaños horizontales intermedios es más difícil de escalar
+        que una reja baja con mucho punto de apoyo.
+      </p>
+
+      <h2>¿Qué dice la normativa chilena?</h2>
+      <p>
+        La Ordenanza General de Urbanismo y Construcción (OGUC) no fija una altura mínima
+        obligatoria para rejas de frontis residencial en la mayoría de los municipios.
+        Sin embargo, algunos municipios tienen normas propias en sus planes reguladores.
+        Antes de construir, consulta con la Dirección de Obras de tu municipio — especialmente
+        si tu casa está en un conjunto habitacional con normas específicas.
+      </p>
+
+      <h2>El error más común: hacer la reja muy baja por ahorrar</h2>
+      <p>
+        Una reja de 1,20 m cuesta menos que una de 1,80 m — pero la diferencia en precio
+        es relativamente pequeña comparada con el costo de fabricación, transporte e
+        instalación que se comparte. Si vas a instalar una reja, vale la pena llegar a
+        1,50 m mínimo. Subir de 1,20 m a 1,80 m generalmente agrega menos del 30% al
+        precio total del proyecto.
+      </p>
+
+      <h2>¿Y los barrotes? ¿Qué separación conviene?</h2>
+      <p>
+        La separación entre barrotes también importa para la seguridad. La OGUC recomienda
+        no superar <strong>12 cm de separación libre</strong> para evitar que un niño pueda
+        pasar la cabeza entre los barrotes. Para rejas de seguridad, la separación ideal
+        es de 8–10 cm — suficientemente estrecha para que no quepa una persona adulta.
+      </p>
+
+      <CTAWhatsApp mensaje="Hola, necesito cotizar una reja para casa. Metros del frontis: [METROS] ml. Altura que me interesa: [1.20 / 1.50 / 1.80] m. Estoy en [COMUNA]." />
+    </>
+  ),
+
+  "como-cotizar-rejas-metalicas": () => (
+    <>
+      <p>
+        La mayoría de las personas que llaman a pedir precio de una reja no saben qué información
+        dar — y el fabricante tampoco puede cotizar sin ella. El resultado: visitas técnicas
+        innecesarias, esperas de varios días y presupuestos que no se pueden comparar entre sí.
+      </p>
+      <p>
+        Esta guía te muestra <strong>exactamente qué medir y qué decir</strong> para obtener
+        un presupuesto exacto el mismo día, por WhatsApp o teléfono, sin visita técnica.
+      </p>
+
+      <h2>Lo que necesitas medir antes de cotizar</h2>
+
+      <h3>1. Metros lineales totales</h3>
+      <p>
+        Es la longitud total de reja que vas a instalar. Para un frontis de casa, mide
+        el largo de la parte delantera del terreno que da a la calle. Si hay un portón vehicular,
+        ese espacio <strong>no cuenta</strong> como reja — el portón se cotiza aparte.
+      </p>
+      <p>
+        Para un perímetro completo, mide los cuatro lados y suma. Si los lados son irregulares,
+        suma todos los segmentos. Una cinta métrica basta — no necesitas precisión de topógrafo.
+      </p>
+
+      <h3>2. Altura de la reja</h3>
+      <p>
+        La altura más común en casas residenciales es entre <strong>1,20 m y 1,80 m</strong>.
+        Si necesitas privacidad, elige 1,80 m. Si el objetivo es delimitar sin bloquear visibilidad,
+        con 1,00 m–1,20 m es suficiente. Para uso industrial o de seguridad, 2,00 m–2,40 m.
+      </p>
+
+      <h3>3. Si lleva portón vehicular</h3>
+      <p>
+        Mide el <strong>ancho de la entrada</strong> exacta del vehículo — de muro a muro.
+        El estándar para un auto es 3,00 m; para dos autos o camiones, 4,00 m–5,00 m.
+        Indica si el portón es batiente (se abre como puerta) o corredizo (se corre hacia un lado).
+      </p>
+
+      <h3>4. Si lleva puerta peatonal</h3>
+      <p>
+        El ancho estándar es 0,90 m–1,00 m. Si va integrada en el frontis, el fabricante la
+        calcula dentro del total de metros. Si es aparte (en otro sector del terreno), cotízala
+        por separado.
+      </p>
+
+      <h2>Qué debes definir antes de cotizar</h2>
+
+      <div className="not-prose overflow-x-auto my-6">
+        <table className="w-full text-xs border-collapse">
+          <thead>
+            <tr className="bg-gray-100">
+              <th className="text-left p-3 font-semibold text-gray-700">Decisión</th>
+              <th className="text-left p-3 font-semibold text-gray-700">Opciones</th>
+              <th className="text-left p-3 font-semibold text-gray-700">Impacto en precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ["Tipo de tubo", "Cuadrado 3/4\", 1\" o 1,5\"", "Mayor tubo = mayor precio"],
+              ["Acabado", "Pintura electrostática o galvanizado", "Galvanizado ~20-30% más"],
+              ["Color", "Negro mate (estándar) u otro", "Colores custom pueden tener costo adicional"],
+              ["Con o sin portón", "Batiente o corredizo", "Portón es el item más caro del presupuesto"],
+              ["Instalación", "Con o sin instalación incluida", "La instalación agrega costo pero evita problemas"],
+            ].map(([d, o, i]) => (
+              <tr key={d} className="border-t border-gray-100">
+                <td className="p-3 font-medium text-gray-700">{d}</td>
+                <td className="p-3 text-gray-500">{o}</td>
+                <td className="p-3 text-gray-500">{i}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>El mensaje ideal para cotizar por WhatsApp</h2>
+      <p>
+        Si mandas este mensaje, el fabricante puede enviarte el precio el mismo día sin necesidad
+        de visita técnica:
+      </p>
+      <div className="not-prose bg-green-50 border border-green-200 rounded-xl p-4 my-4 text-sm">
+        <p className="font-mono text-xs text-gray-700 leading-relaxed">
+          Hola, necesito cotizar una reja metálica para el frontis de mi casa.<br />
+          Metros de reja: [X] ml<br />
+          Altura: [X] m<br />
+          Con portón vehicular de [X] m de ancho: [SÍ / NO]<br />
+          Tipo de portón: [BATIENTE / CORREDIZO]<br />
+          Con puerta peatonal: [SÍ / NO]<br />
+          Comuna: [COMUNA]<br />
+          Acabado: [PINTURA NEGRA / GALVANIZADO]<br />
+          ¿Incluye instalación? [SÍ NECESITO / NO NECESITO]
+        </p>
+      </div>
+
+      <h2>¿Y si no tengo los metros exactos?</h2>
+      <p>
+        Da una estimación — los fabricantes están acostumbrados a trabajar con números aproximados.
+        Si dices "creo que son entre 8 y 10 metros de frontis con portón de 3 metros",
+        te pueden dar un rango de precio perfectamente válido para presupuestar.
+        El ajuste fino ocurre cuando confirmas el pedido.
+      </p>
+
+      <h2>Lo que no necesitas para cotizar</h2>
+      <ul>
+        <li>No necesitas planos ni diseños técnicos</li>
+        <li>No necesitas que el fabricante vaya al terreno (para rejas simples)</li>
+        <li>No necesitas saber el tipo de suelo ni el tipo de muro</li>
+        <li>No necesitas definir el diseño exacto de los barrotes</li>
+      </ul>
+      <p>
+        Esos detalles se afinan al confirmar el pedido. Para cotizar, solo necesitas metros,
+        altura y si lleva portón.
+      </p>
+
+      <CTAWhatsApp mensaje="Hola, quiero cotizar una reja metálica. Metros: [METROS] ml. Altura: [ALTURA] m. Con portón vehicular: [SÍ / NO]. Estoy en [COMUNA]." />
+    </>
+  ),
+  "cuanto-dura-una-reja-metalica": () => (
+    <>
+      <p>
+        La vida útil de una reja metálica en Chile no depende solo del acero —
+        depende casi totalmente del acabado y del clima donde va instalada.
+        La misma reja en Santiago y en Valparaíso puede durar el doble o la mitad.
+      </p>
+
+      <h2>Pintura electrostática: cuánto dura en exterior</h2>
+      <p>
+        La pintura electrostática al horno (polvo epoxi o poliéster curado a 180°C)
+        es el acabado estándar para rejas en Santiago. En condiciones normales:
+      </p>
+      <ul>
+        <li><strong>Santiago y zonas centrales secas:</strong> 10–15 años sin oxidarse si la instalación es correcta y no hay golpes que quiebren la capa.</li>
+        <li><strong>Zonas con lluvia frecuente (Concepción, Temuco, Valdivia):</strong> 5–8 años antes de que aparezcan los primeros puntos de óxido en soldaduras y extremos.</li>
+        <li><strong>Costa con salitre marino (Valparaíso, La Serena):</strong> 3–6 años. El salitre penetra la capa de pintura y ataca el acero por debajo.</li>
+      </ul>
+
+      <h2>Galvanizado en caliente: la opción de larga duración</h2>
+      <p>
+        El galvanizado en caliente baña el acero en zinc fundido, creando una capa
+        que se funde con el metal base. No es una pintura — es una aleación superficial.
+        Por eso dura mucho más:
+      </p>
+      <ul>
+        <li><strong>Santiago y zonas secas:</strong> 25–40 años sin mantenimiento.</li>
+        <li><strong>Sur lluvioso:</strong> 20–30 años.</li>
+        <li><strong>Costa con salitre:</strong> 15–25 años — muy superior a la pintura.</li>
+      </ul>
+      <p>
+        El galvanizado en caliente tiene un costo 20–35% mayor que la pintura electrostática,
+        pero si tu reja va en un ambiente agresivo, se paga solo en los primeros 10 años.
+      </p>
+
+      <h2>¿Cada cuánto hay que repintar una reja?</h2>
+      <p>
+        Cuando aparecen los primeros puntos de óxido superficial, hay una ventana de
+        oportunidad: lijar, convertir el óxido con fosfato y repintar. Si se deja avanzar,
+        el óxido penetra el espesor del tubo y la reja se debilita estructuralmente.
+      </p>
+      <ul>
+        <li>Rejas con pintura estándar (no electrostática): revisar a los 3–5 años.</li>
+        <li>Rejas con pintura electrostática: revisar a los 8–10 años.</li>
+        <li>Rejas galvanizadas: no necesitan repintado en los primeros 15–20 años.</li>
+      </ul>
+
+      <h2>Señales de que tu reja necesita mantenimiento ahora</h2>
+      <ul>
+        <li>Puntos marrones en soldaduras o en los extremos inferiores (los primeros en oxidarse).</li>
+        <li>La pintura se ampolla o levanta sin golpe visible (el óxido la empuja desde adentro).</li>
+        <li>Cambio de color a gris apagado o pérdida de brillo generalizado.</li>
+        <li>Golpes o rayones que exponen el metal sin recubrimiento.</li>
+      </ul>
+
+      <h2>Lo que más acorta la vida de una reja</h2>
+      <p>
+        El factor número uno no es el clima — es la instalación incorrecta.
+        Una reja bien diseñada pero con postes mal anclados acumula humedad en
+        la base. El óxido comienza desde abajo, invisible, y cuando se ve ya
+        es grave.
+      </p>
+      <ul>
+        <li>Postes empotrados sin drenaje → acumulan agua.</li>
+        <li>Soldaduras sin limpiar escoria antes de pintar → la pintura no adhiere bien.</li>
+        <li>Extremos de tubo cortados sin cubrir → entran agua y tierra.</li>
+      </ul>
+
+      <CTAWhatsApp mensaje="Hola, quiero cotizar una reja metálica con buena durabilidad. Estoy en [ZONA / COMUNA]. ¿Qué acabado me recomiendan?" />
+    </>
+  ),
+  "mantenimiento-rejas-metalicas": () => (
+    <>
+      <p>
+        Una reja metálica bien mantenida puede durar 20–30 años. Una mal mantenida se
+        oxida desde adentro, se debilita y hay que reemplazarla en 5–8 años. La diferencia
+        está casi siempre en actuar a tiempo — antes de que el óxido penetre el tubo.
+      </p>
+
+      <h2>Paso 1: Inspección anual</h2>
+      <p>
+        Una vez al año, revisa toda la reja prestando atención a:
+      </p>
+      <ul>
+        <li><strong>Base de los postes</strong> — la zona más vulnerable. Busca manchas marrones o pintura que se levanta.</li>
+        <li><strong>Soldaduras</strong> — las uniones son los primeros puntos donde falla la pintura.</li>
+        <li><strong>Extremos de tubo</strong> — si están abiertos y sin tapa, entran agua y tierra.</li>
+        <li><strong>Partes bajas del frontis</strong> — la pintura se deteriora por salpicadura de agua desde la vereda.</li>
+      </ul>
+
+      <h2>Paso 2: Limpiar el óxido superficial</h2>
+      <p>
+        Si encuentras puntos de óxido localizados (menores de 2 cm, sin profundidad visible), se pueden tratar sin repintar toda la reja:
+      </p>
+      <ul>
+        <li>Lija con lija de grano 80–120 hasta retirar todo el óxido visible.</li>
+        <li>Aplica convertidor de óxido (fosfato de zinc) sobre la zona lijada.</li>
+        <li>Deja secar 24 horas.</li>
+        <li>Aplica pintura de retoque (aerosol o brocha) en el color de la reja.</li>
+      </ul>
+      <p>
+        Este proceso no es permanente — es un parche que extiende la vida útil 2–3 años más mientras planificas el repintado completo.
+      </p>
+
+      <h2>Paso 3: Repintado completo</h2>
+      <p>
+        Cuando el óxido cubre más del 15–20% de la superficie, o cuando la pintura se ve
+        opaca y descascarada en toda la reja, es momento del repintado completo.
+        El proceso correcto es:
+      </p>
+      <ul>
+        <li>Granallado o lija mecánica para retirar toda la pintura vieja.</li>
+        <li>Aplicación de fondo anticorrosivo.</li>
+        <li>Pintura de terminación (electrostática al horno si se puede desmontar, esmalte sintético si no).</li>
+      </ul>
+      <p>
+        La pintura electrostática al horno no se puede aplicar in situ — requiere que la reja
+        se desmonte y vaya al taller. Si la reja no se puede desmontar, la alternativa es
+        el esmalte sintético aplicado con pistola o brocha en obra.
+      </p>
+
+      <h2>¿Repintar o reemplazar?</h2>
+      <p>
+        Si la estructura sigue firme (postes sólidos, tubo sin perforación), repintar
+        siempre es más económico que reemplazar. Si el tubo tiene perforaciones por el óxido
+        o si los postes se mueven, el reemplazo es la única opción segura.
+      </p>
+
+      <h2>Mantenimiento preventivo simple</h2>
+      <ul>
+        <li>Una vez al año, lava la reja con agua y jabón — retira la sal, el polvo y la suciedad que aceleran el deterioro.</li>
+        <li>Aplica cera de auto sobre la pintura (solo en zonas de alta humedad) para una capa extra de protección.</li>
+        <li>Cierra los extremos de tubo abiertos con tapas de goma o soldándolos.</li>
+      </ul>
+
+      <CTAWhatsApp mensaje="Hola, tengo una reja que necesita mantenimiento o repintado. ¿Pueden orientarme sobre el proceso y el precio?" />
+    </>
+  ),
+
+  "rejas-para-departamentos": () => (
+    <>
+      <p>
+        En un departamento la protección metálica tiene una lógica distinta a la de
+        una casa — no hay frontis que cerrar ni portón vehicular, pero sí hay puntos de
+        vulnerabilidad específicos: el balcón, las ventanas de primer piso y la terraza
+        privativa. Esta guía explica qué se puede instalar, qué suele pedir el reglamento
+        de copropiedad y qué acabado es más adecuado para un edificio.
+      </p>
+
+      <h2>Los tres puntos que se protegen en un departamento</h2>
+      <p>
+        <strong>Balcón:</strong> El acceso más expuesto. Una reja de balcón con puerta
+        integrada es la solución más completa — permite ventilación y salida, pero cierra
+        el vano contra intrusión. En pisos bajos (1° y 2°) es la protección más valorada
+        por las aseguradoras.
+      </p>
+      <p>
+        <strong>Ventanas:</strong> Las ventanas de dormitorio y living que dan a balcón,
+        patio interior o fachada accesible son el segundo punto de riesgo. Una reja fija
+        o con apertura de emergencia protege sin comprometer la evacuación.
+      </p>
+      <p>
+        <strong>Terraza privativa:</strong> Algunos departamentos incluyen una terraza
+        en el piso superior o en planta baja. Una baranda de seguridad o un cierre lateral
+        de terraza complementa la seguridad del espacio y delimita el área privada.
+      </p>
+
+      <h2>¿Qué dice el reglamento de copropiedad?</h2>
+      <p>
+        En Chile, la Ley 21.442 de Copropiedad Inmobiliaria regula lo que los copropietarios
+        pueden modificar en sus unidades y en los bienes comunes. En general:
+      </p>
+      <ul>
+        <li>Las rejas en el interior del balcón o ventana (dentro del espacio privativo) no requieren autorización de la asamblea.</li>
+        <li>Las rejas o elementos que modifiquen la fachada exterior del edificio sí requieren autorización de la asamblea de copropietarios.</li>
+        <li>Muchos reglamentos permiten las rejas si mantienen el mismo diseño y color que el estándar del edificio.</li>
+      </ul>
+      <p>
+        Antes de instalar, revisa el reglamento de tu edificio y, si hay dudas, consulta
+        al comité de administración. La instalación sin autorización puede generar multas
+        o la obligación de retirar la reja.
+      </p>
+
+      <h2>Acabados recomendados para departamentos</h2>
+      <p>
+        En un edificio, el acabado visible desde el exterior importa — tanto para el
+        reglamento como para el aspecto del conjunto. Las opciones más comunes:
+      </p>
+      <ul>
+        <li><strong>Pintura electrostática al horno</strong> — acabado liso y uniforme, disponible en negro, blanco roto, gris antracita o el color que defina el edificio. Dura más que la pintura convencional y no gotea durante la instalación.</li>
+        <li><strong>Galvanizado en frío + pintura</strong> — para edificios en zonas costeras o húmedas donde la protección anti-óxido es prioritaria.</li>
+        <li><strong>Acero inoxidable</strong> — para balcones de categoría o edificios de alta gama. Precio más alto pero mantenimiento mínimo a largo plazo.</li>
+      </ul>
+
+      <h2>Tipos de reja para balcón de departamento</h2>
+      <ul>
+        <li><strong>Reja fija con puerta abatible:</strong> La hoja de la puerta permite salir al balcón; la parte fija cierra el resto del vano. La solución más equilibrada entre seguridad y acceso diario.</li>
+        <li><strong>Reja fija sin apertura:</strong> Máxima seguridad, sin puerta. Se usa cuando no se necesita acceso al balcón o cuando el balcón es solo decorativo. Debe incluir un mecanismo de apertura de emergencia en caso de incendio.</li>
+        <li><strong>Reja con ventilación:</strong> Diseño con separación amplia entre barrotes — permite circulación de aire, ideal para balcones orientados al sol donde se acumula calor.</li>
+      </ul>
+
+      <CTAWhatsApp mensaje="Hola, necesito cotizar una reja para departamento. Tengo [BALCÓN / VENTANA / TERRAZA], en piso [NÚMERO], en [COMUNA]. ¿Pueden orientarme?" />
+    </>
+  ),
+
+  "como-elegir-color-reja-metalica": () => (
+    <>
+      <p>
+        La pregunta parece simple, pero el color de la reja impacta directamente en el
+        aspecto de la fachada de la casa — para bien o para mal. En Chile hay tres colores
+        que dominan el mercado: negro mate, gris antracita y blanco roto. Esta guía explica
+        cuándo elegir cada uno y qué combinaciones funcionan mejor.
+      </p>
+
+      <h2>Negro mate (RAL 9005) — el estándar actual</h2>
+      <p>
+        El negro mate es hoy el color más solicitado en rejas y portones de casas en Chile.
+        Funciona prácticamente con cualquier tipo de fachada: ladrillo, estuco blanco, madera,
+        piedra y hormigón. Oculta la suciedad y las marcas de agua mejor que los colores
+        claros. El acabado mate (sin brillo) disimula además las imperfecciones superficiales
+        del metal.
+      </p>
+      <p>
+        <strong>Cuándo elegirlo:</strong> Casa con fachada blanca o clara, fachada con ladrillo a la vista,
+        casas modernas y minimalistas, condominios con diseño contemporáneo. Es el color más
+        versátil y el que tiene menor riesgo de equivocarse.
+      </p>
+
+      <h2>Gris antracita (RAL 7016) — la alternativa premium</h2>
+      <p>
+        El gris antracita es un gris oscuro, casi negro, pero con una temperatura más neutra
+        que el negro puro. Da una sensación más sofisticada que el negro mate — ideal para
+        casas de diseño con fachada gris, zinc o madera oscura. Combina muy bien con marcos
+        de ventana en aluminio gris.
+      </p>
+      <p>
+        <strong>Cuándo elegirlo:</strong> Fachadas grises o de zinc, casas nórdicas o escandinavas,
+        proyectos donde el negro se ve demasiado fuerte. Nota: el gris antracita muestra más
+        el polvo que el negro mate — en zonas con viento fuerte o tierra se ensucia más visiblemente.
+      </p>
+
+      <h2>Blanco roto (RAL 9010) — para fachadas claras y zonas costeras</h2>
+      <p>
+        El blanco roto (levemente cálido, no blanco puro) es la opción clásica para casas
+        de estilo mediterráneo, colonial o cualquier fachada con tonos beige y crema.
+        También es una buena opción para zonas costeras donde el negro absorbe más el calor
+        del sol y puede generar más expansión térmica en el metal.
+      </p>
+      <p>
+        <strong>Cuándo elegirlo:</strong> Fachadas de color beige, crema o amarillo pálido,
+        casas de estilo mediterráneo, zonas costeras con mucho sol. Desventaja: muestra la
+        suciedad más que los colores oscuros y necesita mantenimiento más frecuente.
+      </p>
+
+      <h2>Otros colores disponibles</h2>
+      <p>
+        Con pintura electrostática al horno es posible aplicar cualquier color del catálogo
+        RAL — verde botella, azul marino, marrón óxido, terracota, grafito. Estos colores
+        son menos comunes en rejas residenciales, pero funcionan bien en proyectos de diseño
+        específicos o en rejas decorativas que forman parte del concepto visual de la casa.
+      </p>
+
+      <h2>Resumen: cómo elegir según tu fachada</h2>
+      <ul>
+        <li><strong>Fachada blanca o clara</strong> → Negro mate o gris antracita</li>
+        <li><strong>Fachada beige o crema</strong> → Blanco roto o negro mate</li>
+        <li><strong>Fachada ladrillo</strong> → Negro mate o marrón óxido</li>
+        <li><strong>Fachada gris o zinc</strong> → Gris antracita o negro mate</li>
+        <li><strong>Fachada de madera oscura</strong> → Negro mate o gris antracita</li>
+        <li><strong>Zona costera con mucho sol</strong> → Blanco roto o gris claro</li>
+      </ul>
+
+      <CTAWhatsApp mensaje="Hola, quiero cotizar una reja metálica. Mi fachada es [DESCRIPCIÓN]. Estoy considerando el color [DATO]. ¿Me pueden asesorar?" />
+    </>
+  ),
+
+  "cuanto-cuesta-cerco-perimetral-metro-lineal": () => (
+    <>
+      <p>
+        El precio de un cerco perimetral varía según cuatro factores: el tipo de cerco,
+        la altura, el material y si incluye instalación. En Chile los precios se cotizan
+        por metro lineal (ml) — es decir, el costo total del perímetro dividido por los
+        metros que mide. Esta guía da rangos reales para cada tipo.
+      </p>
+
+      <h2>Precios orientativos por tipo de cerco (con instalación)</h2>
+      <p>
+        Los rangos a continuación son orientativos para Santiago y la Región Metropolitana.
+        En regiones extremas (Patagonia, norte árido) pueden aplicar costos adicionales
+        de traslado. Los precios incluyen materiales e instalación con postes en hormigón.
+      </p>
+      <ul>
+        <li><strong>Malla eslabonada 1,50 m:</strong> $18.000–$28.000 / ml</li>
+        <li><strong>Malla eslabonada 1,80 m:</strong> $22.000–$34.000 / ml</li>
+        <li><strong>Tubo estructural 1,50 m:</strong> $35.000–$55.000 / ml</li>
+        <li><strong>Tubo estructural 1,80 m:</strong> $45.000–$68.000 / ml</li>
+        <li><strong>Ángulo industrial 2,00 m:</strong> $38.000–$58.000 / ml</li>
+        <li><strong>Galvanizado en caliente (tubo) 1,50 m:</strong> $55.000–$80.000 / ml</li>
+      </ul>
+      <p>
+        Estos precios no incluyen portones vehiculares ni puertas peatonales — esos
+        elementos se cotizan por separado según el ancho y el tipo de apertura.
+      </p>
+
+      <h2>Qué factores suben el precio</h2>
+      <ul>
+        <li><strong>Mayor altura:</strong> Cada 30 cm de altura extra suma entre un 15 y un 25% al costo total.</li>
+        <li><strong>Terreno irregular:</strong> Suelos rocosos, pendientes o terrenos con raíces requieren más trabajo de fundación y elevan el precio.</li>
+        <li><strong>Galvanizado:</strong> El galvanizado en caliente cuesta entre un 40 y un 60% más que el acero pintado, pero dura 2–3 veces más en zonas húmedas o costeras.</li>
+        <li><strong>Anti-trepa:</strong> Punta de lanza, concertina o ángulo invertido en la parte superior suman entre $5.000 y $15.000 / ml según el tipo.</li>
+        <li><strong>Portón vehicular:</strong> Un portón corredizo de 4 metros parte desde $350.000 instalado. Un portón batiente de doble hoja parte desde $280.000.</li>
+      </ul>
+
+      <h2>Cómo pedir una cotización precisa</h2>
+      <p>
+        Para obtener un precio exacto necesitas entregar tres datos: metros lineales del
+        perímetro (o las dimensiones del terreno), la altura que necesitas y el tipo de
+        suelo (hormigón, tierra o adoquín). Con esos tres datos cotizamos el mismo día.
+      </p>
+
+      <CTAWhatsApp mensaje="Hola, necesito cotizar un cerco perimetral. Metros lineales: [DATO] ml. Altura: [DATO] m. Tipo de suelo: [HORMIGÓN / TIERRA / ADOQUÍN]. Ubicación: [DATO]." />
     </>
   ),
 };

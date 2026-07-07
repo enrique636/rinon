@@ -7,9 +7,14 @@ export type ProductId =
   | "1-5-plazas"
   | "cama-alta"
   | "doble"
+  | "doble-abajo-simple-arriba"
   | "nido"
   | "triple"
-  | "escritorio";
+  | "escritorio"
+  | "escritorio-economico"
+  | "escritorio-full"
+  | "desmontable"
+  | "cama-dos-plazas-cajon";
 
 export interface AddOn {
   id: string;
@@ -234,7 +239,7 @@ export const products: Product[] = [
     ],
     plazasArriba: "1 plaza",
     plazasAbajo: "Escritorio integrado",
-    medidas: "A confirmar con fabricante", // ← ACTUALIZAR
+    medidas: "A confirmar con fabricante",
     addOns: [parrillaEstandar, baranda, cambioMedida],
     emoji: "📚",
     badge: "Estudiante / Gamer",
@@ -245,6 +250,157 @@ export const products: Product[] = [
       "cama loft con escritorio",
       "camarote estudiante",
       "camarote gamer",
+    ],
+  },
+
+  {
+    id: "escritorio-economico",
+    slug: "camarote-con-escritorio-economico",
+    nombre: "Camarote con Escritorio Económico",
+    subtitulo: "La opción más accesible — cama arriba, escritorio abajo",
+    descripcion:
+      "Camarote con escritorio en su versión más económica. Misma estructura de acero fabricada en nuestro taller, diseño simplificado sin accesorios adicionales. Ideal para quienes necesitan la funcionalidad sin el precio del modelo premium.",
+    caracteristicas: [
+      "Estructura de acero fabricada en Chile",
+      "Escritorio funcional integrado bajo la cama",
+      "Diseño limpio y sin accesorios innecesarios",
+      "Escalera lateral incluida",
+      "Sin estantes adicionales — solo lo esencial",
+      "Personalizable con accesorios opcionales",
+    ],
+    plazasArriba: "1 plaza",
+    plazasAbajo: "Escritorio integrado",
+    medidas: "A confirmar con fabricante",
+    addOns: [parrillaEstandar, baranda, cambioMedida],
+    emoji: "💰",
+    badge: "Más económico",
+    seoKeywords: [
+      "camarote con escritorio economico",
+      "cama alta con escritorio barato",
+      "camarote escritorio precio",
+      "camarote con escritorio chile economico",
+      "cama loft economica chile",
+    ],
+  },
+
+  {
+    id: "escritorio-full",
+    slug: "camarote-con-escritorio-full",
+    nombre: "Camarote con Escritorio Full",
+    subtitulo: "Escritorio amplio, estantes integrados y máximo espacio de trabajo",
+    descripcion:
+      "La versión completa del camarote con escritorio. Escritorio de mayor profundidad, estantes integrados para libros y monitor, baranda reforzada y acabados premium. Para quienes el espacio de trabajo bajo la cama es tan importante como la cama misma.",
+    caracteristicas: [
+      "Escritorio de mayor profundidad que el modelo estándar",
+      "Estantes integrados para libros, monitor y accesorios",
+      "Baranda de seguridad reforzada",
+      "Escalera con peldaños más anchos",
+      "Espacio optimizado para home office o setup gamer",
+      "Acabado con pintura electrostática premium",
+    ],
+    plazasArriba: "1 plaza",
+    plazasAbajo: "Escritorio full + estantes",
+    medidas: "A confirmar con fabricante",
+    addOns: [parrillaEstandar, baranda, cambioMedida],
+    emoji: "⭐",
+    badge: "Premium",
+    popular: true,
+    seoKeywords: [
+      "camarote con escritorio full",
+      "camarote con escritorio premium",
+      "cama alta con escritorio grande",
+      "camarote escritorio con estantes",
+      "cama loft escritorio completo",
+    ],
+  },
+
+  {
+    id: "doble-abajo-simple-arriba",
+    slug: "camarote-dos-plazas-abajo",
+    nombre: "Camarote 2 Plazas Abajo + 1 Arriba",
+    subtitulo: "Cama doble abajo, cama individual arriba",
+    descripcion:
+      "Camarote con cama de 2 plazas en el nivel inferior y cama de 1 plaza en el superior. Ideal para familias donde uno de los hijos necesita más espacio, o para parejas que comparten pieza con un hijo.",
+    caracteristicas: [
+      "Cama de 2 plazas en el nivel inferior",
+      "Cama de 1 plaza en el nivel superior",
+      "Estructura de acero reforzada para mayor carga",
+      "Escalera lateral con peldaños seguros",
+      "Barandas de seguridad en cama superior",
+      "Solución completa para 3 personas en poco espacio",
+    ],
+    plazasArriba: "1 plaza",
+    plazasAbajo: "2 plazas",
+    medidas: "A confirmar con fabricante",
+    addOns: [parrillaEstandar, baranda, cambioMedida],
+    emoji: "🛏️",
+    badge: "3 personas",
+    seoKeywords: [
+      "camarote dos plazas abajo",
+      "camarote cama doble abajo individual arriba",
+      "camarote 2 plazas y 1 plaza",
+      "camarote matrimonial arriba",
+      "litera doble simple",
+    ],
+  },
+
+  {
+    id: "desmontable",
+    slug: "camarote-desmontable",
+    nombre: "Camarote Desmontable",
+    subtitulo: "Se arma y desarma sin herramienta — ideal para mudanzas o espacios temporales",
+    descripcion:
+      "Camarote metálico diseñado para armarse y desarmarse fácilmente. Sin soldar, sin herramienta especializada. Perfecto para arrendatarios, residencias universitarias o cualquier situación donde el camarote se mueve.",
+    caracteristicas: [
+      "Se arma y desarma sin herramienta especial",
+      "Piezas identificadas para montaje intuitivo",
+      "Ideal para mudanzas y cambios frecuentes",
+      "Estructura de acero — no pierde rigidez al desarmarse",
+      "Barandas de seguridad incluidas",
+      "Escalera lateral desmontable incluida",
+    ],
+    plazasArriba: "1 plaza",
+    plazasAbajo: "1 plaza",
+    medidas: "A confirmar con fabricante",
+    addOns: [parrillaEstandar, baranda, cambioMedida],
+    emoji: "🔧",
+    badge: "Fácil montaje",
+    seoKeywords: [
+      "camarote desmontable",
+      "camarote metalico desmontable",
+      "camarote que se arma y desarma",
+      "litera desmontable chile",
+      "camarote para arrendar desmontable",
+    ],
+  },
+
+  {
+    id: "cama-dos-plazas-cajon",
+    slug: "cama-dos-plazas-con-cajon",
+    nombre: "Cama de 2 Plazas con Cajón",
+    subtitulo: "Cama doble con cajón de almacenamiento integrado bajo el colchón",
+    descripcion:
+      "Cama de 2 plazas con cajón deslizante incorporado en la base. Aprovecha el espacio muerto bajo la cama para guardar ropa de cama, frazadas, maletas o lo que necesites. Fabricada en acero en nuestro taller.",
+    caracteristicas: [
+      "Cama de 2 plazas con base elevada",
+      "Cajón deslizante de gran capacidad",
+      "Ideal para guardar ropa de cama, frazadas y maletas",
+      "Estructura de acero fabricada en Chile",
+      "Pintura electrostática incluida",
+      "Sin sommier adicional necesario",
+    ],
+    plazasArriba: "—",
+    plazasAbajo: "2 plazas",
+    medidas: "A confirmar con fabricante",
+    addOns: [parrillaEstandar, cambioMedida],
+    emoji: "📦",
+    badge: "Con almacenamiento",
+    seoKeywords: [
+      "cama dos plazas con cajon",
+      "cama doble con cajon",
+      "cama 2 plazas con almacenamiento",
+      "cama con cajon metalica chile",
+      "cama con cajones bajo colchon",
     ],
   },
 ];
