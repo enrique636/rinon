@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Galvanizados — Larga Duración en Chile",
   description: "Cercos perimetrales galvanizados en Chile. Fabricante directo. Cercos con galvanizado en caliente para zonas húmedas, costeras y con lluvia intensa. 25–40 años de duración sin mantenimiento.",
   keywords: ["cercos perimetrales galvanizados","cerco galvanizado chile","cerco perimetral galvanizado en caliente","cerco metalico galvanizado","cerco galvanizado precio chile","cerco perimetral resistente humedad","fabricante cercos galvanizados","cerco galvanizado vs pintado","cerco para zona costera galvanizado","cerco galvanizado larga duracion"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-galvanizados" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-galvanizados" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

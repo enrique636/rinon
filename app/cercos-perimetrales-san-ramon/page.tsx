@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales San Ramón — Fabricante con Instalación | Sur RM",
   description: "Cercos perimetrales en San Ramón. Fabricante directo. Malla y tubo estructural para casas y condominios del sur de Santiago. Instalación incluida.",
   keywords: ["cercos perimetrales san ramon","cerco perimetral san ramon santiago","cierre perimetral san ramon rm","cerco metalico san ramon sur rm","fabricante cercos san ramon","instalacion cerco san ramon"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-san-ramon" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-san-ramon" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "camarote departamento 1 dormitorio",
     "maximizar espacio departamento Santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-departamento" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-departamento" },
 };
 
 export default function CamaroteEscritorioDepartamentoPage() {

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "comprar camarote con escritorio Santiago",
     "camarote con escritorio precio Santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-santiago" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-santiago" },
 };
 
 const comunas = [

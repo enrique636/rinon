@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarote con Escritorio en La Florida — Despacho con Instalación | Camarotes Chile",
   description: `Camarote con escritorio con despacho a La Florida. Pago contra entrega. Despacho + instalación ${formatPrice(SITE_CONFIG.despacho.precio)}. Fabricante directo.`,
   keywords: ["camarote con escritorio La Florida", "litera escritorio La Florida", "cama alta escritorio La Florida"],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-la-florida" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-la-florida" },
 };
 
 export default function CamaroteEscritorioLaFloridaPage() {

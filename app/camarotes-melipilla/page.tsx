@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Melipilla — Agrícola y Residencial | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Melipilla, Curacaví y Talagante. Para alojamiento agrícola y uso residencial. Pago contra entrega en zona Santiago.",
   keywords: ["camarotes Melipilla", "camarotes Curacaví", "camarotes Talagante", "literas Melipilla", "camarotes agrícolas Melipilla"],
-  alternates: { canonical: "https://dumar.cl/camarotes-melipilla" },
+  alternates: { canonical: "https://rinon.cl/camarotes-melipilla" },
 };
 
 export default function CamarotesMelipillaPage() {

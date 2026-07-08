@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Lo Barnechea — Pago Contra Entrega | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Lo Barnechea, Santiago. Nido, triple, cama alta con escritorio. Pago cuando te llega. Instalación incluida.",
   keywords: ["camarotes Lo Barnechea", "camarote Lo Barnechea Santiago", "literas Lo Barnechea", "comprar camarote Lo Barnechea"],
-  alternates: { canonical: "https://dumar.cl/camarotes-lo-barnechea" },
+  alternates: { canonical: "https://rinon.cl/camarotes-lo-barnechea" },
 };
 
 export default function CamarotesLoBarnecheaPage() {

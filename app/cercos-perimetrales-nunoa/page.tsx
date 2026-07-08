@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Ñuñoa — Fabricante con Instalación | RM",
   description: "Cercos perimetrales en Ñuñoa. Fabricante directo. Cercos tubulares para casas y condominios del sector oriente de Santiago. Instalación con garantía.",
   keywords: ["cercos perimetrales nunoa","cerco perimetral nunoa santiago","cierre perimetral nunoa rm","cerco metalico nunoa santiago","fabricante cercos nunoa","instalacion cerco nunoa"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-nunoa" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-nunoa" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

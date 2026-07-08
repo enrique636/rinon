@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Lo Prado — Fabricante con Instalación | Poniente RM",
   description: "Cercos perimetrales en Lo Prado. Fabricante directo. Malla y tubo estructural para casas y condominios del poniente de Santiago. Instalación incluida.",
   keywords: ["cercos perimetrales lo prado","cerco perimetral lo prado santiago","cierre perimetral lo prado rm","cerco metalico lo prado poniente rm","fabricante cercos lo prado","instalacion cerco lo prado"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-lo-prado" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-lo-prado" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

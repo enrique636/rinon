@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Renca — Fabricante con Instalación | Norte Poniente RM",
   description: "Cercos perimetrales en Renca. Fabricante directo. Malla, tubo y ángulo para casas, industrias y bodegas del norte poniente de Santiago. Instalación incluida.",
   keywords: ["cercos perimetrales renca","cerco perimetral renca santiago","cierre perimetral renca rm","cerco metalico renca norte rm","fabricante cercos renca","instalacion cerco renca"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-renca" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-renca" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

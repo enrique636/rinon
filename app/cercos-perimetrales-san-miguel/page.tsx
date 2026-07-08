@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "fabricante cercos san miguel",
     "instalacion cerco perimetral san miguel",
   ],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-san-miguel" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-san-miguel" },
 };
 
 const wa = (msg: string) =>

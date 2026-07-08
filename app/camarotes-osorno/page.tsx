@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Osorno — Forestales y Residencial | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Osorno. Para campamentos forestales de Los Lagos y Los Ríos, industria láctea y uso residencial. Fabricante directo.",
   keywords: ["camarotes Osorno", "camarotes forestales Osorno", "literas Osorno", "camas campamento Osorno"],
-  alternates: { canonical: "https://dumar.cl/camarotes-osorno" },
+  alternates: { canonical: "https://rinon.cl/camarotes-osorno" },
 };
 
 const getWA = (tipo?: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(`Hola, necesito cotizar camarotes${tipo ? ` para ${tipo}` : ""} con despacho a Osorno. ¿Pueden ayudarme?`)}`;

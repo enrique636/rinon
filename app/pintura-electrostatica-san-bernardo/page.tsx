@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "pintura electrostatica rejas san bernardo",
     "servicio pintura metal san bernardo",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-san-bernardo" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-san-bernardo" },
 };
 
 const wa = (msg: string) =>

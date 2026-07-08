@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "pintura portones san miguel santiago",
     "pintura electrostatica sur rm san miguel",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-san-miguel" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-san-miguel" },
 };
 
 const wa = (msg: string) =>

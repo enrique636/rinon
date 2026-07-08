@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "porton batiente instalacion",
     "porton abatible metalico chile",
   ],
-  alternates: { canonical: "https://dumar.cl/portones-batientes" },
+  alternates: { canonical: "https://rinon.cl/portones-batientes" },
 };
 
 const wa = (msg: string) =>

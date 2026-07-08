@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "rejas de fierro tubular",
     "reja fierro negro santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-de-fierro" },
+  alternates: { canonical: "https://rinon.cl/rejas-de-fierro" },
 };
 
 const wa = (msg: string) =>

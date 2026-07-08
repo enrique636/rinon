@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Chañaral — Puerto Minero Atacama | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Chañaral. Para campamentos mineros del norte de Atacama. Fabricante directo.",
   keywords: ["camarotes Chañaral", "camarotes minería Chañaral", "literas Chañaral", "camas campamento Chañaral"],
-  alternates: { canonical: "https://dumar.cl/camarotes-chanaral" },
+  alternates: { canonical: "https://rinon.cl/camarotes-chanaral" },
 };
 
 const getWA = (tipo?: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(`Hola, necesito cotizar camarotes${tipo ? ` para ${tipo}` : ""} con despacho a Chañaral. ¿Pueden ayudarme?`)}`;

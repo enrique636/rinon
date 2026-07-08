@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarote con Escritorio en Providencia — Despacho con Instalación | Camarotes Chile",
   description: `Camarote con escritorio con despacho a Providencia. Pago contra entrega. Despacho + instalación ${formatPrice(SITE_CONFIG.despacho.precio)}. Fabricante directo.`,
   keywords: ["camarote con escritorio Providencia", "litera escritorio Providencia", "cama alta escritorio Providencia", "camarote Providencia con escritorio"],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-providencia" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-providencia" },
 };
 
 export default function CamaroteEscritorioProvidenciaPage() {

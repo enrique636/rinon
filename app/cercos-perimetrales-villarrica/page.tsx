@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Villarrica — Fabricante | La Araucanía",
   description: "Cercos perimetrales en Villarrica. Fabricante directo. Cercos para casas, cabañas y empresas en la zona turística del Lago Villarrica. Galvanizado recomendado para la lluvia del sur.",
   keywords: ["cercos perimetrales villarrica","cerco perimetral villarrica","reja metalica villarrica","cerco para cabana villarrica","fabricante cercos villarrica araucania","cerco galvanizado villarrica","cerco perimetral lago villarrica"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-villarrica" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-villarrica" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

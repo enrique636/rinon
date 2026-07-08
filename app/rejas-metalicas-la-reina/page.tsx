@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "reja tubular la reina",
     "rejas sector oriente santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-la-reina" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-la-reina" },
 };
 
 const wa = (msg: string) =>

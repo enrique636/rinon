@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "pintura rejas recoleta",
     "pintura portones independencia",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-recoleta" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-recoleta" },
 };
 
 const wa = (msg: string) =>

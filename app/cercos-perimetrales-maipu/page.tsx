@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Maipú — Fabricante | Poniente RM",
   description: "Cercos perimetrales en Maipú. Fabricante directo con instalación incluida. Cercos para casas, condominios y empresas en la segunda comuna más grande de Santiago.",
   keywords: ["cercos perimetrales maipu","cerco perimetral maipu","reja metalica maipu","cerco para casa maipu santiago","fabricante cercos maipu","cerco condominio maipu","cercos poniente rm maipu"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-maipu" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-maipu" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

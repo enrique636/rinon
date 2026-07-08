@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "pintura metalica el bosque",
     "servicio pintura electrostatica sur santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-el-bosque" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-el-bosque" },
 };
 
 const wa = (msg: string) =>

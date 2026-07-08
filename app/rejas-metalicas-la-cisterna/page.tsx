@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "reja de fierro la cisterna",
     "rejas sur rm la cisterna",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-la-cisterna" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-la-cisterna" },
 };
 
 const wa = (msg: string) =>

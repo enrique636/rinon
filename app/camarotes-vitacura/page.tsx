@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Vitacura — Pago Contra Entrega | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Vitacura, Santiago. Nido, triple, con escritorio y cama alta. Pago cuando te llega. Instalación incluida.",
   keywords: ["camarotes Vitacura", "camarote Vitacura Santiago", "literas Vitacura", "comprar camarote Vitacura"],
-  alternates: { canonical: "https://dumar.cl/camarotes-vitacura" },
+  alternates: { canonical: "https://rinon.cl/camarotes-vitacura" },
 };
 
 export default function CamarotesVitacuraPage() {

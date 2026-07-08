@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "reja metalica santiago centro",
     "rejas para frontis santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-santiago" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-santiago" },
 };
 
 const wa = (msg: string) =>

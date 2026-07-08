@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales San Antonio — Fabricante para Zona Costera",
   description: "Cercos perimetrales en San Antonio. Fabricante directo. Cercos galvanizados resistentes al salitre marino para empresas, bodegas y casas en el puerto de San Antonio, V Región.",
   keywords: ["cercos perimetrales san antonio","cerco perimetral san antonio","reja metalica san antonio","cerco galvanizado san antonio","cerco resistente salitre san antonio","cerco perimetral puerto san antonio","fabricante cercos san antonio valparaiso"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-san-antonio" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-san-antonio" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

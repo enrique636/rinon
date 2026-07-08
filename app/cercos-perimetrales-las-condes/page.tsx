@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Las Condes — Fabricante con Instalación | Oriente RM",
   description: "Cercos perimetrales en Las Condes. Fabricante directo. Cercos tubulares de diseño y alta gama para casas y condominios del sector oriente de Santiago.",
   keywords: ["cercos perimetrales las condes","cerco perimetral las condes santiago","cierre perimetral las condes rm","cerco metalico las condes","fabricante cercos las condes","instalacion cerco las condes"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-las-condes" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-las-condes" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

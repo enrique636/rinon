@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "cama alta con escritorio",
     "cama alta universitaria",
   ],
-  alternates: { canonical: "https://dumar.cl/cama-alta" },
+  alternates: { canonical: "https://rinon.cl/cama-alta" },
   openGraph: {
     title: "Cama Alta Metálica — Cama Loft en Chile | Santiago",
     description: "Cama alta (cama loft) metálica con espacio libre debajo para escritorio, muebles o lo que necesites. Pago contra entrega en Santiago.",
@@ -65,9 +65,9 @@ export default function CamaAltaPage() {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Inicio", item: "https://dumar.cl" },
-            { "@type": "ListItem", position: 2, name: "Camarotes", item: "https://dumar.cl/camarotes" },
-            { "@type": "ListItem", position: 3, name: "Cama Alta", item: "https://dumar.cl/cama-alta" },
+            { "@type": "ListItem", position: 1, name: "Inicio", item: "https://rinon.cl" },
+            { "@type": "ListItem", position: 2, name: "Camarotes", item: "https://rinon.cl/camarotes" },
+            { "@type": "ListItem", position: 3, name: "Cama Alta", item: "https://rinon.cl/cama-alta" },
           ],
         })}} />
 

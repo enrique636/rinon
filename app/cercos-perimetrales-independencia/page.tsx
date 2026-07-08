@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Independencia — Fabricante con Instalación | Norte RM",
   description: "Cercos perimetrales en Independencia. Fabricante directo. Cercos tubulares y malla para casas y edificios del norte de Santiago. Cotización el mismo día.",
   keywords: ["cercos perimetrales independencia","cerco perimetral independencia santiago","cierre perimetral independencia rm","cerco metalico independencia","fabricante cercos independencia","instalacion cerco independencia"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-independencia" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-independencia" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

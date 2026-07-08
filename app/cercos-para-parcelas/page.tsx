@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos para Parcelas de Agrado — Fabricante Santiago | Buenos Pal Catre",
   description: "Cercos metálicos para parcelas de agrado en Chile. Reja tubular, malla y portones vehiculares. Fabricante en Santiago con despacho a toda la zona central. Cotiza por metro lineal.",
   keywords: ["cerco para parcela de agrado", "cercos para parcelas", "reja para parcela", "cierre perimetral parcela", "cerco parcela agrado precio", "cerco metalico parcela chile", "portón parcela de agrado", "cerco para campo", "cierre parcela santiago", "rejas para sitios rurales"],
-  alternates: { canonical: "https://dumar.cl/cercos-para-parcelas" },
+  alternates: { canonical: "https://rinon.cl/cercos-para-parcelas" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

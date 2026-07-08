@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales El Bosque — Fabricante con Instalación | Sur RM",
   description: "Cercos perimetrales en El Bosque. Fabricante directo. Malla y tubo estructural para casas y condominios del sur de Santiago. Cotización sin costo el mismo día.",
   keywords: ["cercos perimetrales el bosque","cerco perimetral el bosque santiago","cierre perimetral el bosque rm","cerco metalico el bosque sur rm","fabricante cercos el bosque","instalacion cerco el bosque"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-el-bosque" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-el-bosque" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

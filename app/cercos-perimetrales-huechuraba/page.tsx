@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Huechuraba — Fabricante con Instalación | Norte RM",
   description: "Cercos perimetrales en Huechuraba. Fabricante directo. Cercos para empresas y casas del norte de Santiago, incluyendo el parque empresarial de Huechuraba.",
   keywords: ["cercos perimetrales huechuraba","cerco perimetral huechuraba santiago","cierre perimetral huechuraba rm","cerco metalico huechuraba","fabricante cercos huechuraba","instalacion cerco huechuraba"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-huechuraba" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-huechuraba" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

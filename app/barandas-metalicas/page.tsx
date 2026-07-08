@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "barandas para deck metalicas",
     "baranda metalica instalacion santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/barandas-metalicas" },
+  alternates: { canonical: "https://rinon.cl/barandas-metalicas" },
 };
 
 const wa = (msg: string) =>

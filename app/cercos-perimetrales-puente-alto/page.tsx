@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Puente Alto — Fabricante | RM Sur Oriente",
   description: "Cercos perimetrales en Puente Alto. Fabricante directo con instalación incluida. La comuna más grande de Chile — cercos para casas, condominios, empresas y parcelas precordillera.",
   keywords: ["cercos perimetrales puente alto","cerco perimetral puente alto","reja metalica puente alto","cerco para casa puente alto","fabricante cercos puente alto santiago","cerco condominio puente alto","cercos sur oriente rm"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-puente-alto" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-puente-alto" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

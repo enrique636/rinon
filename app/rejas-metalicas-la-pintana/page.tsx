@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "instalacion rejas la pintana santiago",
     "porton metalico la pintana",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-la-pintana" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-la-pintana" },
 };
 
 const wa = (msg: string) =>

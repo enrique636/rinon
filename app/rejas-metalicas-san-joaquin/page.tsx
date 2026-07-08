@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "instalacion rejas san joaquin",
     "porton metalico san joaquin",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-san-joaquin" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-san-joaquin" },
 };
 
 const wa = (msg: string) =>

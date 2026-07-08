@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "cerco para casa arica",
     "reja metalica arica chile",
   ],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-arica" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-arica" },
 };
 
 const wa = (msg: string) =>

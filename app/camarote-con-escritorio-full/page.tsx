@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "camarote gamer setup",
     "camarote home office",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-full" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-full" },
 };
 
 const wa = (msg: string) =>

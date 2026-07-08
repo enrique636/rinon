@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "reja tubular para puerta",
     "precio reja puerta santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-para-puertas" },
+  alternates: { canonical: "https://rinon.cl/rejas-para-puertas" },
 };
 
 const wa = (msg: string) =>

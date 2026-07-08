@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Rejas Metálicas para Casas en Santiago — Fabricante Directo",
   description: "Rejas metálicas para casas en Santiago. Fabricante directo con instalación incluida. Frontis, jardín y portón en un solo proyecto. Todos los diseños y alturas. Cotiza hoy.",
   keywords: ["rejas metalicas para casas", "reja metalica para casa santiago", "reja para frontis de casa", "reja para jardin metalica", "reja de fierro para casa", "reja tubular para casa precio", "reja metalica casa precio chile", "rejas para casas santiago precio"],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-para-casas" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-para-casas" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

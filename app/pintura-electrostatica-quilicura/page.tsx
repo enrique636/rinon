@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "pintura metalica quilicura",
     "servicio pintura electrostatica zona norte santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-quilicura" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-quilicura" },
 };
 
 const wa = (msg: string) =>

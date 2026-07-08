@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "camas para obreros Chile",
     "alojamiento trabajadores obra",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-construccion" },
+  alternates: { canonical: "https://rinon.cl/camarotes-construccion" },
   openGraph: {
     title: "Camarotes para Construcción y Contratistas — Fabricante Chile",
     description: "Camarotes metálicos para campamentos de obra y cuadrillas de constructoras. Despacho nacional.",

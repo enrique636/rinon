@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Santiago Centro — Fabricante con Instalación | RM",
   description: "Cercos perimetrales en Santiago Centro. Fabricante directo. Tubulares para casas, condominios y edificios del centro de la Región Metropolitana. Cotización el mismo día.",
   keywords: ["cercos perimetrales santiago centro","cerco perimetral santiago centro","cierre perimetral santiago centro rm","cerco metalico santiago centro","fabricante cercos santiago","instalacion cerco santiago centro"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-santiago-centro" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-santiago-centro" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

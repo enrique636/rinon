@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "cerco perimetral chillan viejo",
     "portones chillan",
   ],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-chillan" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-chillan" },
 };
 
 const wa = (msg: string) =>

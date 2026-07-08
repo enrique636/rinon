@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "instalacion rejas recoleta santiago",
     "porton metalico recoleta",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-recoleta" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-recoleta" },
 };
 
 const wa = (msg: string) =>

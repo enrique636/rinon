@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "reja de fierro penalolen",
     "rejas sector oriente penalolen",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-penalolen" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-penalolen" },
 };
 
 const wa = (msg: string) =>

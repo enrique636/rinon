@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Valdivia — Forestales y Residencial | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Valdivia. Para campamentos forestales de Los Ríos, cuadrillas de trabajo y uso residencial. Fabricante directo.",
   keywords: ["camarotes Valdivia", "camarotes forestales Valdivia", "literas Valdivia", "camas campamento Los Ríos"],
-  alternates: { canonical: "https://dumar.cl/camarotes-valdivia" },
+  alternates: { canonical: "https://rinon.cl/camarotes-valdivia" },
 };
 
 const getWA = (tipo?: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(`Hola, necesito cotizar camarotes${tipo ? ` para ${tipo}` : ""} con despacho a Valdivia. ¿Pueden ayudarme?`)}`;

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Reja Metálica Estación Central — Fabricante con Instalación",
   description: "Rejas metálicas en Estación Central. Fabricante directo con instalación. Reja de frontis, portón vehicular y cierre comercial para casas y negocios de la comuna. Cotiza hoy.",
   keywords: ["reja metalica estacion central", "rejas metalicas estacion central", "cerco estacion central", "portones estacion central", "reja para casa estacion central", "reja para negocio estacion central", "fabricante rejas estacion central"],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-estacion-central" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-estacion-central" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

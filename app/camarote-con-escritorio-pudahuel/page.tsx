@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "camarotes pudahuel",
     "camarote pudahuel las barrancas",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-pudahuel" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-pudahuel" },
 };
 
 export default function CamaroteEscritorioPudahuelPage() {

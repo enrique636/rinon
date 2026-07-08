@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "camarote metalico Santiago",
     "camarote resistente Santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-titanic" },
+  alternates: { canonical: "https://rinon.cl/camarote-titanic" },
   openGraph: {
     title: "Camarote Titanic — Metálico Reforzado | Chile",
     description: "El camarote Titanic: estructura reforzada, máxima resistencia. Pago contra entrega en Santiago.",
@@ -63,9 +63,9 @@ export default function CamaroteTitanicPage() {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Inicio", item: "https://dumar.cl" },
-            { "@type": "ListItem", position: 2, name: "Camarotes", item: "https://dumar.cl/camarotes" },
-            { "@type": "ListItem", position: 3, name: "Camarote Titanic", item: "https://dumar.cl/camarote-titanic" },
+            { "@type": "ListItem", position: 1, name: "Inicio", item: "https://rinon.cl" },
+            { "@type": "ListItem", position: 2, name: "Camarotes", item: "https://rinon.cl/camarotes" },
+            { "@type": "ListItem", position: 3, name: "Camarote Titanic", item: "https://rinon.cl/camarote-titanic" },
           ],
         })}} />
 

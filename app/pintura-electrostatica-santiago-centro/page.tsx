@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "pintura rejas santiago centro",
     "pintura portones centro santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-santiago-centro" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-santiago-centro" },
 };
 
 const wa = (msg: string) =>

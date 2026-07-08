@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "camarote metálico Pudahuel",
     "despacho camarote Pudahuel",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-pudahuel" },
+  alternates: { canonical: "https://rinon.cl/camarotes-pudahuel" },
   openGraph: {
     title: "Camarotes Metálicos con Despacho a Pudahuel — Camarotes Chile",
     description: "Camarotes metálicos con entrega e instalación en Pudahuel. Pago contra entrega. Sin riesgos.",

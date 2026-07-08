@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Curicó — Agrícolas y Residencial | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Curicó y Molina. Para alojamiento de temporeros, packing y uso residencial en el Valle del Teno. Fabricante directo.",
   keywords: ["camarotes Curicó", "camarotes temporeros Curicó", "camarotes agrícolas Curicó", "literas Curicó", "camarotes Molina"],
-  alternates: { canonical: "https://dumar.cl/camarotes-curico" },
+  alternates: { canonical: "https://rinon.cl/camarotes-curico" },
 };
 
 const getWA = (tipo?: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(`Hola, necesito cotizar camarotes${tipo ? ` para ${tipo}` : ""} con despacho a Curicó. ¿Pueden ayudarme?`)}`;

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "porton metalico padre hurtado",
     "rejas fierro padre hurtado sur rm",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-padre-hurtado" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-padre-hurtado" },
 };
 
 const wa = (msg: string) =>

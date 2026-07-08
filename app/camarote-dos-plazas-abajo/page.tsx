@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "camarote cama doble con individual arriba",
     "camarote santiago fabricante",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-dos-plazas-abajo" },
+  alternates: { canonical: "https://rinon.cl/camarote-dos-plazas-abajo" },
 };
 
 const wa = (msg: string) =>
@@ -64,9 +64,9 @@ export default function CamaroteDosPlazasAbajoPage() {
               },
             },
             image: [
-              "https://dumar.cl/productos/camarote-dos-plazas/foto-1.jpg",
-              "https://dumar.cl/productos/camarote-dos-plazas/foto-2.jpg",
-              "https://dumar.cl/productos/camarote-dos-plazas/foto-3.jpg",
+              "https://rinon.cl/productos/camarote-dos-plazas/foto-1.jpg",
+              "https://rinon.cl/productos/camarote-dos-plazas/foto-2.jpg",
+              "https://rinon.cl/productos/camarote-dos-plazas/foto-3.jpg",
             ],
             offers: {
               "@type": "Offer",

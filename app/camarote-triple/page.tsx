@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "cama triple Chile",
     "litera 3 niveles",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-triple" },
+  alternates: { canonical: "https://rinon.cl/camarote-triple" },
   openGraph: {
     title: "Camarote Triple (3 Pisos) en Chile — Santiago",
     description: "Camarote metálico de 3 niveles. 3 camas verticales en el mínimo espacio posible. Pago contra entrega Santiago.",
@@ -63,9 +63,9 @@ export default function CamaroteTriplePage() {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Inicio", item: "https://dumar.cl" },
-            { "@type": "ListItem", position: 2, name: "Camarotes", item: "https://dumar.cl/camarotes" },
-            { "@type": "ListItem", position: 3, name: "Camarote Triple", item: "https://dumar.cl/camarote-triple" },
+            { "@type": "ListItem", position: 1, name: "Inicio", item: "https://rinon.cl" },
+            { "@type": "ListItem", position: 2, name: "Camarotes", item: "https://rinon.cl/camarotes" },
+            { "@type": "ListItem", position: 3, name: "Camarote Triple", item: "https://rinon.cl/camarote-triple" },
           ],
         })}} />
 

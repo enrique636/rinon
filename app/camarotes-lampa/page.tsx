@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Lampa — Pago Contra Entrega | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Lampa, Santiago. Nido, triple, cama alta. Pago cuando te llega. Instalación incluida. También Til Til y Batuco.",
   keywords: ["camarotes Lampa", "camarote Lampa Santiago", "literas Lampa", "camarotes Til Til", "camarotes Batuco"],
-  alternates: { canonical: "https://dumar.cl/camarotes-lampa" },
+  alternates: { canonical: "https://rinon.cl/camarotes-lampa" },
 };
 
 export default function CamarotesLampaPage() {

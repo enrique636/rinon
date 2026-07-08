@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "cercos zona costera biobio",
     "cerco resistente salitre talcahuano",
   ],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-talcahuano" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-talcahuano" },
 };
 
 const wa = (msg: string) =>

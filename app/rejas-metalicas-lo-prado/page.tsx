@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "reja para casa cerro navia",
     "fabricante rejas zona poniente",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-lo-prado" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-lo-prado" },
 };
 
 const wa = (msg: string) =>

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Reja Metálica Puente Alto — Fabricante con Instalación | Buenos Pal Catre",
   description: "Rejas metálicas a medida en Puente Alto. Fabricante directo con instalación en toda la comuna. Reja tubular para frontis, cierres comerciales y portones. Cotiza hoy.",
   keywords: ["reja metalica puente alto", "rejas metalicas puente alto", "reja de fierro puente alto", "reja tubular puente alto", "reja frontis puente alto", "fabrica rejas puente alto", "portones puente alto", "cierre metalico puente alto", "rejas metalicas san jose de maipo"],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-puente-alto" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-puente-alto" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

@@ -22,7 +22,7 @@ export async function generateMetadata({
     title: post.titulo,
     description: post.descripcionSeo,
     keywords: post.keywords,
-    alternates: { canonical: `https://dumar.cl/blog/${post.slug}` },
+    alternates: { canonical: `https://rinon.cl/blog/${post.slug}` },
     openGraph: {
       title: post.titulo,
       description: post.descripcionSeo,

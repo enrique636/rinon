@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "camarotes fabricación propia Chile",
     "fabricante camas metálicas Chile",
   ],
-  alternates: { canonical: "https://dumar.cl/fabricante-camarotes-chile" },
+  alternates: { canonical: "https://rinon.cl/fabricante-camarotes-chile" },
   openGraph: {
     title: "Fabricante de Camarotes Metálicos en Chile — Sin Intermediarios",
     description: "Fabricamos camarotes metálicos en Chile. Precio de fábrica para particulares y empresas.",

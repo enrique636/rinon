@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Angol — Forestales Araucanía | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Angol y Malleco. Para campamentos forestales de la Araucanía. Fabricante directo.",
   keywords: ["camarotes Angol", "camarotes forestales Angol", "literas Angol", "camarotes Malleco Araucanía"],
-  alternates: { canonical: "https://dumar.cl/camarotes-angol" },
+  alternates: { canonical: "https://rinon.cl/camarotes-angol" },
 };
 
 const getWA = (tipo?: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(`Hola, necesito cotizar camarotes${tipo ? ` para ${tipo}` : ""} con despacho a Angol. ¿Pueden ayudarme?`)}`;

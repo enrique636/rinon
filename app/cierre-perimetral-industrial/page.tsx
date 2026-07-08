@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cierre Perimetral Industrial Santiago — Fabricante Directo",
   description: "Cierres perimetrales para industrias en Santiago. Reja de alto calibre, mallas separadoras y portones industriales. Fabricante directo con instalación en parques industriales y galpones.",
   keywords: ["cierre perimetral industrial", "cierre perimetral galpón", "cerco industrial santiago", "reja industrial santiago", "cierre perimetral fabrica", "cerco para galpón", "cierre perimetral bodega", "rejas industriales santiago", "cerco perimetral empresa"],
-  alternates: { canonical: "https://dumar.cl/cierre-perimetral-industrial" },
+  alternates: { canonical: "https://rinon.cl/cierre-perimetral-industrial" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Iquique y Tarapacá — Fabricante Chile",
   description: "Cercos perimetrales metálicos para Iquique, Alto Hospicio y la Región de Tarapacá. Fabricante en Santiago con despacho al norte. Reja galvanizada para zona minera y costera.",
   keywords: ["cercos perimetrales iquique", "reja metalica iquique", "cerco perimetral alto hospicio", "rejas metalicas norte chile iquique", "cerco metalico tarapaca", "fabrica cercos iquique", "portones metalicos iquique", "rejas metalicas arica"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-iquique" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-iquique" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

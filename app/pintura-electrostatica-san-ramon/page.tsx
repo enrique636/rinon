@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "pintura metalica san ramon santiago",
     "pintura portones san ramon",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-san-ramon" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-san-ramon" },
 };
 
 const wa = (msg: string) =>

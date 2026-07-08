@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarotes Metálicos Valparaíso y Viña del Mar — Fabricante en Santiago",
   description: "Camarotes metálicos para Valparaíso, Viña del Mar, Quilpué, Villa Alemana y toda la Región de Valparaíso. Fabricante en Santiago con despacho a la costa. Uso residencial, universitario y hotelero.",
   keywords: ["camarotes valparaiso", "camarotes metalicos valparaiso", "camarotes vina del mar", "camarotes region valparaiso", "comprar camarote valparaiso", "camarotes quilpue", "camarotes universitarios valparaiso", "camarote metalico vina del mar", "camarotes para hostal valparaiso"],
-  alternates: { canonical: "https://dumar.cl/camarotes-valparaiso" },
+  alternates: { canonical: "https://rinon.cl/camarotes-valparaiso" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarote con Escritorio en Puente Alto — Despacho con Instalación | Camarotes Chile",
   description: `Camarote con escritorio con despacho a Puente Alto. Pago contra entrega. Despacho + instalación ${formatPrice(SITE_CONFIG.despacho.precio)}. Fabricante directo.`,
   keywords: ["camarote con escritorio Puente Alto", "litera escritorio Puente Alto", "cama alta escritorio Puente Alto"],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-puente-alto" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-puente-alto" },
 };
 
 export default function CamaroteEscritorioPuenteAltoPage() {

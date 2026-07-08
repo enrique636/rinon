@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "vallas peatonales", "separacion peatones vehiculos", "proteccion peatonal metalica", "barreras peatonales empresa",
     "mallas para controlar peatones", "cierres para peatones obras",
   ],
-  alternates: { canonical: "https://dumar.cl/barreras-peatonales" },
+  alternates: { canonical: "https://rinon.cl/barreras-peatonales" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

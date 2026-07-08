@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "reja jardin acero",
     "cerco ornamental jardin chile",
   ],
-  alternates: { canonical: "https://dumar.cl/reja-para-jardin" },
+  alternates: { canonical: "https://rinon.cl/reja-para-jardin" },
 };
 
 const wa = (msg: string) =>

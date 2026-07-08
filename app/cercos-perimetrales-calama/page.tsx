@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "cerco industrial calama",
     "portones calama antofagasta",
   ],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-calama" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-calama" },
 };
 
 const wa = (msg: string) =>

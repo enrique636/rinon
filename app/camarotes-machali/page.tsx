@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Machalí — El Teniente Codelco | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Machalí. Para campamentos de El Teniente (Codelco), contratistas y uso residencial. Fabricante directo.",
   keywords: ["camarotes Machalí", "camarotes El Teniente Machalí", "camarotes Codelco Machalí", "camas campamento Machalí"],
-  alternates: { canonical: "https://dumar.cl/camarotes-machali" },
+  alternates: { canonical: "https://rinon.cl/camarotes-machali" },
 };
 
 const getWA = (tipo?: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(`Hola, necesito cotizar camarotes${tipo ? ` para ${tipo}` : ""} con despacho a Machalí. ¿Pueden ayudarme?`)}`;

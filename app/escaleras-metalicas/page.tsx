@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "escalera para entrepiso metalica",
     "escalera metalica interior",
   ],
-  alternates: { canonical: "https://dumar.cl/escaleras-metalicas" },
+  alternates: { canonical: "https://rinon.cl/escaleras-metalicas" },
 };
 
 const wa = (msg: string) =>

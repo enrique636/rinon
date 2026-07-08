@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "camarote facil montaje",
     "camarote sin herramienta",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-desmontable" },
+  alternates: { canonical: "https://rinon.cl/camarote-desmontable" },
 };
 
 const wa = (msg: string) =>

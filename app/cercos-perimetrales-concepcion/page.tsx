@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Concepción y Biobío — Fabricante Chile",
   description: "Cercos perimetrales metálicos para Concepción, Talcahuano, Los Ángeles y toda la Región del Biobío. Fabricante en Santiago con despacho al sur de Chile. Rejas tubulares y portones.",
   keywords: ["cercos perimetrales concepcion", "reja metalica concepcion", "cerco perimetral talcahuano", "rejas metalicas los angeles biobio", "cerco metalico biobio", "fabrica cercos concepcion", "rejas metalicas chile sur", "cerco perimetral chillan", "portones metalicos concepcion"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-concepcion" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-concepcion" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

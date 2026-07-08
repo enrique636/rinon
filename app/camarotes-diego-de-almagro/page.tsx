@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Diego de Almagro — Minería Atacama | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Diego de Almagro. Para campamentos mineros de la Región de Atacama. Salvador (Codelco), Potrerillos. Fabricante directo.",
   keywords: ["camarotes Diego de Almagro", "camarotes minería Diego de Almagro", "camarotes Salvador Codelco", "camas Potrerillos", "literas Diego de Almagro"],
-  alternates: { canonical: "https://dumar.cl/camarotes-diego-de-almagro" },
+  alternates: { canonical: "https://rinon.cl/camarotes-diego-de-almagro" },
 };
 
 const getWA = (tipo?: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(`Hola, necesito cotizar camarotes${tipo ? ` para ${tipo}` : ""} con despacho a Diego de Almagro o Potrerillos. ¿Pueden ayudarme?`)}`;

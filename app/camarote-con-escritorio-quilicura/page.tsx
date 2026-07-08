@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "camarotes quilicura",
     "camarote quilicura despacho",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-quilicura" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-quilicura" },
 };
 
 export default function CamaroteEscritorioQuilicuraPage() {

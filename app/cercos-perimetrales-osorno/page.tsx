@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "cerco galvanizado osorno","rejas metalicas osorno","fabricante cercos osorno",
     "cercos region los lagos osorno","cerco para casa osorno","reja galvanizada osorno",
   ],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-osorno" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-osorno" },
 };
 
 const wa = (msg: string) =>

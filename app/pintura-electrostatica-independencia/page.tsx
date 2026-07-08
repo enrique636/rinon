@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "pintura metalica independencia santiago",
     "pintura portones independencia",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-independencia" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-independencia" },
 };
 
 const wa = (msg: string) =>

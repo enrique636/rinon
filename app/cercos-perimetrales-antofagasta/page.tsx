@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Antofagasta — Fabricante Chile | Buenos Pal Catre",
   description: "Cercos perimetrales metálicos para Antofagasta, Calama y el norte minero. Fabricante en Santiago, despacho a todo el norte de Chile. Rejas tubulares, mallas y portones para faenas y campamentos.",
   keywords: ["cercos perimetrales antofagasta", "reja metalica antofagasta", "cerco perimetral calama", "rejas metalicas norte chile", "cerco perimetral mineria antofagasta", "fabrica cercos antofagasta", "cerco para faena antofagasta", "cerco perimetral atacama"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-antofagasta" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-antofagasta" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

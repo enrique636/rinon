@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "equipamiento alojamiento Antofagasta",
     "camarotes para faenas Antofagasta",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-antofagasta" },
+  alternates: { canonical: "https://rinon.cl/camarotes-antofagasta" },
   openGraph: {
     title: "Camarotes con Despacho a Antofagasta — Minería y Residencial",
     description: "Fabricante de camarotes metálicos con despacho a Antofagasta para minería, faenas y residencial.",

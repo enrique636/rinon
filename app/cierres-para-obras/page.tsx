@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cierres para Obras — Cierre Perimetral de Obra Temporal | Buenos Pal Catre",
   description: "Cierres perimetrales para obras de construcción. Temporales y definitivos. Malla electrosoldada, vallas y panels modulares. Instalación en Santiago y despacho nacional.",
   keywords: ["cierre para obras", "cierre perimetral obra", "cierre temporal obra construccion", "malla cierre obra", "cierre de obra santiago", "valla obra construccion"],
-  alternates: { canonical: "https://dumar.cl/cierres-para-obras" },
+  alternates: { canonical: "https://rinon.cl/cierres-para-obras" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "pintura metalica pudahuel",
     "servicio pintura electrostatica pudahuel",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-pudahuel" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-pudahuel" },
 };
 
 const wa = (msg: string) =>

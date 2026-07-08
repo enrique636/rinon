@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "cama escritorio pieza arrendada",
     "camarote estudiante Santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-universitario" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-universitario" },
   openGraph: {
     title: "Camarote con Escritorio para Universitarios — Ideal para Piezas Arrendadas",
     description: "Cama arriba + escritorio abajo. El setup perfecto para estudiar y dormir en el mismo espacio. Pago contra entrega Santiago.",

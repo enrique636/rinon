@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Buin y Paine — Agrícola y Residencial | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Buin y Paine. Para temporeros, packing y uso residencial en el sector sur de la RM. Pago contra entrega.",
   keywords: ["camarotes Buin", "camarotes Paine", "camarotes temporeros Buin", "literas Buin Santiago", "camarotes agrícolas Buin"],
-  alternates: { canonical: "https://dumar.cl/camarotes-buin" },
+  alternates: { canonical: "https://rinon.cl/camarotes-buin" },
 };
 
 export default function CamarotesBuinPage() {

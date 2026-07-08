@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Mallas Separadoras Industriales — Divisiones para Planta y Manufactura | Buenos Pal Catre",
   description: "Mallas separadoras industriales para plantas de manufactura, fábricas y talleres. Divisiones metálicas para zonas de maquinaria, pasillos y áreas de trabajo. Fabricante en Chile.",
   keywords: ["mallas separadoras industriales", "divisiones metalicas industriales", "mallas para plantas manufactura", "separadores zona maquinaria", "mallas seguridad industrial chile", "divisiones para fabrica", "mallas de proteccion maquinaria"],
-  alternates: { canonical: "https://dumar.cl/mallas-separadoras-industriales" },
+  alternates: { canonical: "https://rinon.cl/mallas-separadoras-industriales" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

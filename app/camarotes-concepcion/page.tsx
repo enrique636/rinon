@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarotes Metálicos Concepción — Fabricante con Despacho al Sur",
   description: "Camarotes metálicos para Concepción, Talcahuano y el Gran Concepción. Fabricante en Santiago con despacho a toda la Región del Biobío. Uso residencial, universitario e industrial.",
   keywords: ["camarotes concepcion", "camarotes metalicos concepcion", "camarote concepcion chile", "camarotes biobio", "camarote para campamento concepcion", "camarotes talcahuano", "camarotes gran concepcion", "comprar camarote concepcion", "camarotes universitarios concepcion"],
-  alternates: { canonical: "https://dumar.cl/camarotes-concepcion" },
+  alternates: { canonical: "https://rinon.cl/camarotes-concepcion" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

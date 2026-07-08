@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Oferta Santiago — Precio Directo de Fábrica | Buenos Pal Catre",
   description: "¿Buscas camarotes metálicos baratos en Santiago? Al comprar directo al fabricante obtienes el precio más bajo del mercado — sin pasar por distribuidoras ni tiendas. Cotiza hoy.",
   keywords: ["camarotes oferta santiago", "camarotes baratos santiago", "remate camarotes", "camarotes economicos chile", "camarotes precio fabrica", "camarotes baratos metalicos", "oferta camarote metalico santiago", "camarote economico santiago", "camarote barato de calidad"],
-  alternates: { canonical: "https://dumar.cl/camarotes-oferta" },
+  alternates: { canonical: "https://rinon.cl/camarotes-oferta" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

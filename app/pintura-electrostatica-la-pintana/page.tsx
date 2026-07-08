@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "pintura metalica la pintana santiago",
     "pintura portones la pintana",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-la-pintana" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-la-pintana" },
 };
 
 const wa = (msg: string) =>

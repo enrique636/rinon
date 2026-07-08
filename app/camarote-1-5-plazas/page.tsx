@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "camarote plaza y media Santiago",
     "camarote plaza y media metálico",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-1-5-plazas" },
+  alternates: { canonical: "https://rinon.cl/camarote-1-5-plazas" },
   openGraph: {
     title: "Camarote Plaza y Media | 1.5 + 1 Plaza en Chile — Santiago",
     description: "Camarote metálico con cama de 1.5 plazas. Más ancho que el estándar, más cómodo para adolescentes y adultos. Pago contra entrega en Santiago.",
@@ -63,9 +63,9 @@ export default function Camarote15PlazasPage() {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Inicio", item: "https://dumar.cl" },
-            { "@type": "ListItem", position: 2, name: "Camarotes", item: "https://dumar.cl/camarotes" },
-            { "@type": "ListItem", position: 3, name: "Camarote Plaza y Media", item: "https://dumar.cl/camarote-1-5-plazas" },
+            { "@type": "ListItem", position: 1, name: "Inicio", item: "https://rinon.cl" },
+            { "@type": "ListItem", position: 2, name: "Camarotes", item: "https://rinon.cl/camarotes" },
+            { "@type": "ListItem", position: 3, name: "Camarote Plaza y Media", item: "https://rinon.cl/camarote-1-5-plazas" },
           ],
         })}} />
 

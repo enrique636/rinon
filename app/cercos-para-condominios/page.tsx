@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos para Condominios en Santiago — Fabricante Directo",
   description: "Cercos y rejas metálicas para condominios en Santiago. Cierre perimetral, portones de acceso y mallas interiores para condominios residenciales e industriales. Fabricante con instalación.",
   keywords: ["cercos para condominios", "reja para condominio santiago", "cerco perimetral condominio", "portón para condominio", "reja condominio precio", "cierre perimetral condominio santiago", "fabricante rejas condominios", "cerco para condominio residencial"],
-  alternates: { canonical: "https://dumar.cl/cercos-para-condominios" },
+  alternates: { canonical: "https://rinon.cl/cercos-para-condominios" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

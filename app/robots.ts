@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/_next/"],
       },
     ],
-    sitemap: "https://dumar.cl/sitemap.xml",
-    host: "https://dumar.cl",
+    sitemap: "https://rinon.cl/sitemap.xml",
+    host: "https://rinon.cl",
   };
 }

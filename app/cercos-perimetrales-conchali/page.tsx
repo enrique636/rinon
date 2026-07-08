@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Conchalí — Fabricante con Instalación | Norte RM",
   description: "Cercos perimetrales en Conchalí. Fabricante directo. Malla y tubo para casas e industrias del norte de Santiago. Instalación incluida con cotización el mismo día.",
   keywords: ["cercos perimetrales conchali","cerco perimetral conchali santiago","cierre perimetral conchali rm","cerco metalico conchali norte rm","fabricante cercos conchali","instalacion cerco conchali"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-conchali" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-conchali" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

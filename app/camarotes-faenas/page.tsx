@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "camarotes para contratistas Chile",
     "alojamiento trabajadores Chile",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-faenas" },
+  alternates: { canonical: "https://rinon.cl/camarotes-faenas" },
   openGraph: {
     title: "Camarotes para Faenas y Campamentos — Fabricante Directo Chile",
     description: "Camarotes metálicos para campamentos de faena, cuadrillas y contratistas. Minería, construcción, forestales.",

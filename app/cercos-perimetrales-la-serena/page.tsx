@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "cerco perimetral region coquimbo",
     "portones la serena",
   ],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-la-serena" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-la-serena" },
 };
 
 const wa = (msg: string) =>

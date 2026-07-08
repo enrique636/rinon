@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Castro — Galvanizados para Chiloé | Los Lagos",
   description: "Cercos perimetrales en Castro, Chiloé. Fabricante directo. Cercos galvanizados para la zona más lluviosa de Chile. Resistentes a la humedad permanente y el salitre marino del canal de Chacao.",
   keywords: ["cercos perimetrales castro","cerco perimetral castro chiloe","reja metalica castro","cerco galvanizado castro","cerco resistente humedad chiloe","cerco perimetral chiloe","fabricante cercos castro los lagos"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-castro" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-castro" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

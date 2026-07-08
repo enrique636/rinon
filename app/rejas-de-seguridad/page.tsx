@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "rejas de proteccion santiago",
     "fabricante rejas seguridad",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-de-seguridad" },
+  alternates: { canonical: "https://rinon.cl/rejas-de-seguridad" },
 };
 
 const wa = (msg: string) =>

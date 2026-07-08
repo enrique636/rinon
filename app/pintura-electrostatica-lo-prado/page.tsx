@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "pintura metalica lo prado santiago",
     "pintura portones lo prado",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-lo-prado" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-lo-prado" },
 };
 
 const wa = (msg: string) =>

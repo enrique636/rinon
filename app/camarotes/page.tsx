@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     "camarote triple",
     "camarote con escritorio",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes" },
+  alternates: { canonical: "https://rinon.cl/camarotes" },
   openGraph: {
     title: "Camarotes Metálicos en Santiago — Pago Contra Entrega | Camarotes Chile",
     description: "7 modelos de camarotes metálicos para todas las necesidades. Pago cuando llega. Despacho con instalación incluida en Santiago.",
@@ -41,7 +41,7 @@ export default function CamarotesPage() {
       position: i + 1,
       name: p.nombre,
       description: p.descripcion,
-      url: `https://dumar.cl/${p.slug}`,
+      url: `https://rinon.cl/${p.slug}`,
     })),
   };
 

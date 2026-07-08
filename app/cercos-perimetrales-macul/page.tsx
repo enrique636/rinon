@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Macul — Fabricante con Instalación | Sur Oriente RM",
   description: "Cercos perimetrales en Macul. Fabricante directo. Malla y tubo estructural para casas y empresas del sur oriente de Santiago. Instalación incluida.",
   keywords: ["cercos perimetrales macul","cerco perimetral macul santiago","cierre perimetral macul rm","cerco metalico macul","fabricante cercos macul santiago","instalacion cerco macul"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-macul" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-macul" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

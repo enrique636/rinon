@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "instalacion rejas lo espejo",
     "porton metalico lo espejo",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-lo-espejo" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-lo-espejo" },
 };
 
 const wa = (msg: string) =>

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "reja diseño vitacura",
     "rejas sector alto oriente",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-vitacura" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-vitacura" },
 };
 
 const wa = (msg: string) =>

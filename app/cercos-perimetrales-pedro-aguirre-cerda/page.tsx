@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Pedro Aguirre Cerda — Fabricante | Sur RM",
   description: "Cercos perimetrales en Pedro Aguirre Cerda (PAC). Fabricante directo. Malla y tubo para casas y condominios del sur de Santiago. Instalación incluida.",
   keywords: ["cercos perimetrales pedro aguirre cerda","cerco perimetral pac santiago","cierre perimetral pedro aguirre cerda rm","cerco metalico pac sur rm","fabricante cercos pedro aguirre cerda","instalacion cerco pac"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-pedro-aguirre-cerda" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-pedro-aguirre-cerda" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

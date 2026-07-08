@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cierre de Terrenos — Opciones y Precios en Chile | Buenos Pal Catre",
   description: "Opciones para cerrar un terreno en Chile: malla metálica, cerco de alambre, reja tubular. Fabricante directo con instalación. ¿Cuál conviene para tu terreno?",
   keywords: ["cierre de terreno", "cierre de terrenos", "cerrar terreno chile", "cómo cerrar un terreno", "cierre terreno metalico", "cierre terreno precio chile", "opciones cierre terreno", "instalacion cierre terreno"],
-  alternates: { canonical: "https://dumar.cl/cierre-de-terrenos" },
+  alternates: { canonical: "https://rinon.cl/cierre-de-terrenos" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "camas para cuadrillas agricolas",
     "camarotes Curicó Talca Rancagua",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-agricolas" },
+  alternates: { canonical: "https://rinon.cl/camarotes-agricolas" },
   openGraph: {
     title: "Camarotes para Temporeros y Faenas Agrícolas — Fabricante Chile",
     description: "Camarotes metálicos para temporeros, packing y alojamiento agrícola. Despacho a zona central.",

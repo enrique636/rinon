@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "portones residenciales santiago",
     "cuanto cuesta porton para casa",
   ],
-  alternates: { canonical: "https://dumar.cl/portones-para-casas" },
+  alternates: { canonical: "https://rinon.cl/portones-para-casas" },
 };
 
 const wa = (msg: string) =>

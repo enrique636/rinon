@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Instalación de Camarotes en Santiago — Entrega e Instalación Incluida",
   description: "Instalamos camarotes metálicos en tu casa en Santiago. Entrega e instalación incluida en el precio. Coordinamos día y hora por WhatsApp. Pago contra entrega disponible.",
   keywords: ["instalacion camarotes santiago", "instalar camarote metalico", "camarote con instalacion santiago", "entrega e instalacion camarote", "servicio instalacion camarotes", "armado camarote santiago", "camarote instalado en casa", "camarotes a domicilio santiago"],
-  alternates: { canonical: "https://dumar.cl/instalacion-camarotes" },
+  alternates: { canonical: "https://rinon.cl/instalacion-camarotes" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "fabricante rejas cerrillos",
     "reja para bodega cerrillos",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-cerrillos" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-cerrillos" },
 };
 
 const wa = (msg: string) =>

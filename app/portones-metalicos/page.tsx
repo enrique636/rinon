@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Portones Metálicos a Medida — Fabricante en Santiago | Buenos Pal Catre",
   description: "Portones metálicos fabricados a medida en Santiago. Corredizos y batientes para casas, empresas, bodegas y condominios. Pintura electrostática incluida. Cotiza sin compromiso.",
   keywords: ["portones metalicos", "portones metalicos santiago", "portón metálico a medida", "portones metalicos precio", "fabricante portones santiago", "portones corredizos metalicos", "portones para casas", "portones para empresas"],
-  alternates: { canonical: "https://dumar.cl/portones-metalicos" },
+  alternates: { canonical: "https://rinon.cl/portones-metalicos" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

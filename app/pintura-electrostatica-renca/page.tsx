@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "pintura portones renca",
     "servicio pintura electrostatica renca",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-renca" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-renca" },
 };
 
 const wa = (msg: string) =>

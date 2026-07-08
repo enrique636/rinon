@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "reja de fierro san ramon",
     "rejas sector sur santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-san-ramon" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-san-ramon" },
 };
 
 const wa = (msg: string) =>

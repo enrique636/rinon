@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Quilicura — Parques Industriales Norte RM",
   description: "Cercos perimetrales en Quilicura. Fabricante directo. Cercos industriales y residenciales para el sector norte de Santiago. Instalación incluida en parques industriales y sectores residenciales.",
   keywords: ["cercos perimetrales quilicura","cerco perimetral quilicura","reja metalica quilicura","cerco industrial quilicura","fabricante cercos quilicura santiago","cerco empresa quilicura","cercos norte rm quilicura"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-quilicura" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-quilicura" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "cama loft economica",
     "camarote escritorio sin intermediarios",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-economico" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-economico" },
 };
 
 const wa = (msg: string) =>

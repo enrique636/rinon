@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Camarotes en La Reina — Pago Contra Entrega | Camarotes Chile",
   description: "Camarotes metálicos con despacho a La Reina, Santiago. Nido, triple, cama alta con escritorio. Pago cuando te llega. Instalación incluida.",
   keywords: ["camarotes La Reina", "camarote La Reina Santiago", "literas La Reina", "comprar camarote La Reina"],
-  alternates: { canonical: "https://dumar.cl/camarotes-la-reina" },
+  alternates: { canonical: "https://rinon.cl/camarotes-la-reina" },
 };
 
 export default function CamarotesLaReinaPage() {

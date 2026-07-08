@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "cerco perimetral molina",
     "portones curico maule",
   ],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-curico" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-curico" },
 };
 
 const wa = (msg: string) =>

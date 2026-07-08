@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "rejas de fierro lampa santiago",
     "instalacion rejas lampa rm",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-lampa" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-lampa" },
 };
 
 const wa = (msg: string) =>

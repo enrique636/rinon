@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "pintura rejas maipu",
     "pintura portones maipu",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-maipu" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-maipu" },
 };
 
 const wa = (msg: string) =>

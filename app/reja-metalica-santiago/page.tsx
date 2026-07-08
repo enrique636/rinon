@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Reja Metálica Santiago — Fabricante con Instalación Incluida",
   description: "Rejas metálicas a medida en Santiago. Fabricante directo con instalación en toda la RM. Reja tubular, barra sólida y galvanizada. Residencial, comercial e industrial. Cotiza hoy.",
   keywords: ["reja metalica santiago", "rejas metalicas santiago", "reja de fierro santiago", "reja tubular santiago", "fabrica rejas metalicas santiago", "rejas metalicas con instalacion santiago", "reja metalica precio santiago", "reja metalica para casa santiago", "rejas para frontis santiago"],
-  alternates: { canonical: "https://dumar.cl/reja-metalica-santiago" },
+  alternates: { canonical: "https://rinon.cl/reja-metalica-santiago" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "reja de fierro independencia",
     "rejas sector norte independencia",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-independencia" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-independencia" },
 };
 
 const wa = (msg: string) =>

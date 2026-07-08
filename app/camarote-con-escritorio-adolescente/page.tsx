@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "camarote para jóvenes con escritorio",
     "litera escritorio adolescente Chile",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-adolescente" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-adolescente" },
 };
 
 export default function CamaroteAdolescentePage() {

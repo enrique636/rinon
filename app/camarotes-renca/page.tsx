@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Renca — Pago Contra Entrega | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Renca, Santiago. Nido, triple, con escritorio y más. Pago cuando te llega. Instalación incluida en tu domicilio.",
   keywords: ["camarotes Renca", "camarote Renca Santiago", "comprar camarote Renca", "literas Renca", "despacho camarote Renca"],
-  alternates: { canonical: "https://dumar.cl/camarotes-renca" },
+  alternates: { canonical: "https://rinon.cl/camarotes-renca" },
   openGraph: { title: "Camarotes con Despacho a Renca — Camarotes Chile", description: "Camarotes metálicos con entrega e instalación en Renca. Pago contra entrega.", type: "website", locale: "es_CL" },
 };
 

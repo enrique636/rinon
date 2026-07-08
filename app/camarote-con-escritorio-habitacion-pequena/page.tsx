@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "litera escritorio habitación pequeña Santiago",
     "aprovechar espacio pieza pequeña",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-habitacion-pequena" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-habitacion-pequena" },
 };
 
 export default function CamaroteEscritorioHabitacionPequenaPage() {

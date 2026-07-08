@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "instalacion rejas providencia",
     "porton metalico providencia",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-providencia" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-providencia" },
 };
 
 const wa = (msg: string) =>

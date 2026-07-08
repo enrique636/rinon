@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarote con Escritorio en Maipú — Despacho con Instalación | Camarotes Chile",
   description: `Camarote con escritorio con despacho a Maipú. Pago contra entrega. Despacho + instalación ${formatPrice(SITE_CONFIG.despacho.precio)}. Fabricante directo.`,
   keywords: ["camarote con escritorio Maipú", "litera escritorio Maipú", "cama alta escritorio Maipú", "camarote con escritorio para niños Maipú"],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-maipu" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-maipu" },
 };
 
 export default function CamaroteEscritorioMaipuPage() {

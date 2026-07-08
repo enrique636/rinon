@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "camarote metálico La Florida",
     "despacho camarote La Florida",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-la-florida" },
+  alternates: { canonical: "https://rinon.cl/camarotes-la-florida" },
   openGraph: {
     title: "Camarotes Metálicos con Despacho a La Florida — Camarotes Chile",
     description: "Camarotes metálicos con entrega e instalación en La Florida. Pago contra entrega. Sin riesgos.",

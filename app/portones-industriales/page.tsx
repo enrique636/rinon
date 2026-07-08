@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Portones Industriales Santiago — Fabricante Directo | Buenos Pal Catre",
   description: "Portones industriales corredizos y batientes en Santiago. Fabricante directo sin intermediarios. Acero estructural, medidas exactas, instalación incluida. Cotiza hoy.",
   keywords: ["portones industriales santiago", "portones metalicos industriales", "porton corredizo industrial", "porton industrial precio", "fabrica portones industriales", "porton metalico galpón", "portones para bodegas", "portones para fábricas", "porton corredizo santiago", "portones industriales chile"],
-  alternates: { canonical: "https://dumar.cl/portones-industriales" },
+  alternates: { canonical: "https://rinon.cl/portones-industriales" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

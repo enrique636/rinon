@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "cerco de fierro santiago",
     "cercos metalicos precio metro lineal",
   ],
-  alternates: { canonical: "https://dumar.cl/cercos-metalicos" },
+  alternates: { canonical: "https://rinon.cl/cercos-metalicos" },
 };
 
 const wa = (msg: string) =>

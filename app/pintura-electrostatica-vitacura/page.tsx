@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "pintura portones vitacura",
     "acabado metalico vitacura premium",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-vitacura" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-vitacura" },
 };
 
 const wa = (msg: string) =>

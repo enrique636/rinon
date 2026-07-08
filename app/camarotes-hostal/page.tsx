@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarotes para Hostal — Precio Mayorista Fabricante | Camarotes Chile",
   description: "Camarotes metálicos para hostales, albergues y residencias estudiantiles. Precio mayorista directo del fabricante. Desde 5 unidades. Despacho nacional.",
   keywords: ["camarotes para hostal", "camarotes albergue Chile", "literas hostal precio", "camarotes residencia estudiantil", "camarotes hostal precio mayorista", "literas para hostal Chile"],
-  alternates: { canonical: "https://dumar.cl/camarotes-hostal" },
+  alternates: { canonical: "https://rinon.cl/camarotes-hostal" },
   openGraph: { title: "Camarotes para Hostal — Precio Mayorista Directo del Fabricante", description: "Camarotes metálicos para hostales y albergues. Fabricante directo, precio mayorista.", type: "website", locale: "es_CL" },
 };
 

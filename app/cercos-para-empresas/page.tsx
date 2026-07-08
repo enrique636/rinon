@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "fabricante cercos empresas chile",
     "cerramiento perimetral empresa",
   ],
-  alternates: { canonical: "https://dumar.cl/cercos-para-empresas" },
+  alternates: { canonical: "https://rinon.cl/cercos-para-empresas" },
 };
 
 const wa = (msg: string) =>

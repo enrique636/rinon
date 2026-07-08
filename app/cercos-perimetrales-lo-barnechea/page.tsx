@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Lo Barnechea — Fabricante con Instalación | Oriente RM",
   description: "Cercos perimetrales en Lo Barnechea. Fabricante directo. Cercos tubulares y galvanizados para casas, parcelas y condominios del oriente norte de Santiago.",
   keywords: ["cercos perimetrales lo barnechea","cerco perimetral lo barnechea santiago","cierre perimetral lo barnechea rm","cerco metalico lo barnechea","fabricante cercos lo barnechea","instalacion cerco lo barnechea"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-lo-barnechea" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-lo-barnechea" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

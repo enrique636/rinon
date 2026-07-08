@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "puerta peatonal precio chile",
     "puerta peatonal instalacion santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/puertas-peatonales" },
+  alternates: { canonical: "https://rinon.cl/puertas-peatonales" },
 };
 
 const wa = (msg: string) =>

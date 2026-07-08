@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Huechuraba — Pago Contra Entrega | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Huechuraba, Santiago. Nido, triple, con escritorio. Pago cuando te llega. Instalación incluida.",
   keywords: ["camarotes Huechuraba", "camarote Huechuraba Santiago", "literas Huechuraba"],
-  alternates: { canonical: "https://dumar.cl/camarotes-huechuraba" },
+  alternates: { canonical: "https://rinon.cl/camarotes-huechuraba" },
 };
 
 export default function CamarotesHuechuarabaPage() {

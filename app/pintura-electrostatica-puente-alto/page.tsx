@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "pintura metalica puente alto santiago",
     "pintura portones puente alto",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-puente-alto" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-puente-alto" },
 };
 
 const wa = (msg: string) =>

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "pintura portones las condes",
     "pintura rejas vitacura",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-las-condes" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-las-condes" },
 };
 
 const wa = (msg: string) =>

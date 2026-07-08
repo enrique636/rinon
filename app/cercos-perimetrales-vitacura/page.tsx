@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Vitacura — Fabricante con Instalación | Oriente RM",
   description: "Cercos perimetrales en Vitacura. Fabricante directo. Cercos tubulares de diseño para casas y condominios del sector oriente premium. Pintura electrostática al horno.",
   keywords: ["cercos perimetrales vitacura","cerco perimetral vitacura santiago","cierre perimetral vitacura rm","cerco metalico vitacura","fabricante cercos vitacura","instalacion cerco vitacura"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-vitacura" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-vitacura" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "rejas sector sur el bosque",
     "reja metalica san bernardo sur",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-el-bosque" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-el-bosque" },
 };
 
 const wa = (msg: string) =>

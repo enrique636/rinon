@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Anti-Trepa — Seguridad Perimetral de Alta Dificultad",
   description: "Cercos anti-trepa en Chile. Fabricante directo. Cercos con remate de alta seguridad que dificultan el escalamiento: lanzas, inclinación anti-trepa y alambre de cuchillas. Para empresas, industrias y establecimientos.",
   keywords: ["cercos anti trepa","cerco anti escalamiento","cerco de seguridad anti trepa","malla anti trepa","remate anti trepa cerco","reja anti trepa chile","cerco alta seguridad chile","fabricante cercos anti trepa","cerco anti intrusión chile","cerco perimetral seguridad maxima"],
-  alternates: { canonical: "https://dumar.cl/cercos-anti-trepa" },
+  alternates: { canonical: "https://rinon.cl/cercos-anti-trepa" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

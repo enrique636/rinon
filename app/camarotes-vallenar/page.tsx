@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Vallenar — Minería Valle del Huasco | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Vallenar. Para campamentos mineros del Valle del Huasco: Pascua-Lama, Altair, Los Colorados. Fabricante directo.",
   keywords: ["camarotes Vallenar", "camarotes minería Vallenar", "camas campamento Vallenar", "camarotes Valle del Huasco", "literas Vallenar"],
-  alternates: { canonical: "https://dumar.cl/camarotes-vallenar" },
+  alternates: { canonical: "https://rinon.cl/camarotes-vallenar" },
 };
 
 const getWA = (tipo?: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(`Hola, necesito cotizar camarotes${tipo ? ` para ${tipo}` : ""} con despacho a Vallenar. ¿Pueden ayudarme?`)}`;

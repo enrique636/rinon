@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "repintar reja la cisterna",
     "pintura electrostatica san bernardo sur rm",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-la-cisterna" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-la-cisterna" },
 };
 
 const wa = (msg: string) =>

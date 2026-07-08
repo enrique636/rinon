@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Camarotes metálicos con despacho a La Serena y Coquimbo. Para campamentos mineros de la Región de Coquimbo y uso residencial. Fabricante directo.",
   keywords: ["camarotes La Serena", "camarotes Coquimbo", "camarotes minería Coquimbo", "literas La Serena", "camas campamento La Serena"],
-  alternates: { canonical: "https://dumar.cl/camarotes-la-serena" },
+  alternates: { canonical: "https://rinon.cl/camarotes-la-serena" },
   openGraph: { title: "Camarotes en La Serena y Coquimbo — Minería y Residencial", description: "Camarotes metálicos con despacho a La Serena para minería y residencial.", type: "website", locale: "es_CL" },
 };
 

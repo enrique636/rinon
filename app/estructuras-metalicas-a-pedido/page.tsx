@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Estructuras Metálicas a Pedido Santiago — Fabricante Directo",
   description: "Fabricamos estructuras metálicas a pedido en Santiago. Mezzanines, escaleras, plataformas, vigas y marquesinas. Diseño y fabricación según tus medidas exactas. Cotiza hoy.",
   keywords: ["estructuras metalicas a pedido", "estructuras metalicas santiago", "estructura metalica a medida", "fabricar estructura metalica", "mezzanine metalico santiago", "escalera metalica a pedido", "plataforma metalica santiago", "vigas metalicas a pedido", "fabricante estructuras metalicas chile"],
-  alternates: { canonical: "https://dumar.cl/estructuras-metalicas-a-pedido" },
+  alternates: { canonical: "https://rinon.cl/estructuras-metalicas-a-pedido" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

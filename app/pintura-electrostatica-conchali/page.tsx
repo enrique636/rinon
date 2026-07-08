@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "pintura metalica conchali santiago",
     "pintura portones conchali",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-conchali" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-conchali" },
 };
 
 const wa = (msg: string) =>

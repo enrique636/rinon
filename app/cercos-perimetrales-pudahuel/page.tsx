@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Pudahuel — Zona Industrial Poniente RM",
   description: "Cercos perimetrales en Pudahuel. Fabricante directo. Cercos industriales y residenciales para el sector poniente de Santiago. Instalación incluida en toda la zona de Pudahuel.",
   keywords: ["cercos perimetrales pudahuel","cerco perimetral pudahuel","reja metalica pudahuel","cerco industrial pudahuel","fabricante cercos pudahuel santiago","cerco empresa pudahuel","cercos zona industrial poniente rm"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-pudahuel" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-pudahuel" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

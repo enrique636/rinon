@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "camarotes para cuadrillas",
     "camas sector forestal Chile",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-forestales" },
+  alternates: { canonical: "https://rinon.cl/camarotes-forestales" },
   openGraph: {
     title: "Camarotes para Campamentos Forestales — Sur de Chile",
     description: "Fabricante de camarotes metálicos para cuadrillas forestales. Los Ángeles, Temuco, Valdivia.",

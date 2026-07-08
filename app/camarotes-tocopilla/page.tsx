@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Tocopilla — Minería Norte Grande | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Tocopilla. Para campamentos del sector minero y energético de Tocopilla. Fabricante directo. Cotización empresarial.",
   keywords: ["camarotes Tocopilla", "camarotes minería Tocopilla", "camas campamento Tocopilla", "literas Tocopilla"],
-  alternates: { canonical: "https://dumar.cl/camarotes-tocopilla" },
+  alternates: { canonical: "https://rinon.cl/camarotes-tocopilla" },
 };
 
 const getWA = (tipo?: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(`Hola, necesito cotizar camarotes${tipo ? ` para ${tipo}` : ""} con despacho a Tocopilla. ¿Pueden ayudarme?`)}`;

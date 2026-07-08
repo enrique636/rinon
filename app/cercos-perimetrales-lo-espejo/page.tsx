@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Lo Espejo — Fabricante con Instalación | Sur RM",
   description: "Cercos perimetrales en Lo Espejo. Fabricante directo. Malla y tubo para casas y condominios del sur de Santiago. Instalación incluida con garantía.",
   keywords: ["cercos perimetrales lo espejo","cerco perimetral lo espejo santiago","cierre perimetral lo espejo rm","cerco metalico lo espejo sur rm","fabricante cercos lo espejo","instalacion cerco lo espejo"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-lo-espejo" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-lo-espejo" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos para Colegios — Fabricante de Cierres para Establecimientos Educacionales",
   description: "Cercos perimetrales para colegios y establecimientos educacionales en Chile. Fabricante directo. Cercos seguros, anti-trepa y con diseño controlado para escuelas, liceos y universidades.",
   keywords: ["cercos para colegios","cerco perimetral colegio","cierre perimetral establecimiento educacional","cerco para escuela","cerco para liceo chile","cerco anti trepa colegio","fabricante cercos colegios chile","cerco perimetral establecimiento educativo","cierre colegio precio","cerco para universidad"],
-  alternates: { canonical: "https://dumar.cl/cercos-para-colegios" },
+  alternates: { canonical: "https://rinon.cl/cercos-para-colegios" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

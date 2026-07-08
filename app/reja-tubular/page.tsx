@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "reja tubular instalacion",
     "reja tubo cuadrado santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/reja-tubular" },
+  alternates: { canonical: "https://rinon.cl/reja-tubular" },
 };
 
 const wa = (msg: string) =>

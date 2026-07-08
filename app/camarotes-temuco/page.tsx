@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Camarotes metálicos con despacho a Temuco. Para campamentos forestales de la Araucanía, cuadrillas de trabajo y uso residencial. Fabricante directo. Cotización empresarial.",
   keywords: ["camarotes Temuco", "camarotes forestales Temuco", "camas cuadrilla Temuco", "literas Temuco", "camarotes Araucanía"],
-  alternates: { canonical: "https://dumar.cl/camarotes-temuco" },
+  alternates: { canonical: "https://rinon.cl/camarotes-temuco" },
   openGraph: { title: "Camarotes en Temuco — Forestales y Residencial", description: "Fabricante de camarotes con despacho a Temuco para forestales y residencial.", type: "website", locale: "es_CL" },
 };
 

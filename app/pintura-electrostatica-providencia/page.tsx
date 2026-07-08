@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "pintura rejas providencia",
     "pintura electrostatica sector oriente santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-providencia" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-providencia" },
 };
 
 const wa = (msg: string) =>

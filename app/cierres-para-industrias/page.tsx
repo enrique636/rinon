@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cierres Perimetrales para Industrias — Fabricante en Chile | Buenos Pal Catre",
   description: "Cierres perimetrales industriales para predios, plantas y galpones. Rejas, malla y plancha metálica. Fabricante directo con instalación y factura empresa. Santiago y Chile.",
   keywords: ["cierres perimetrales industrias", "cierre perimetral industrial", "cerco industrial metalico", "rejas industriales santiago", "cierre predio industrial", "fabricante cierres industriales chile"],
-  alternates: { canonical: "https://dumar.cl/cierres-para-industrias" },
+  alternates: { canonical: "https://rinon.cl/cierres-para-industrias" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "litera escritorio niño Santiago",
     "dormitorio niño camarote escritorio",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-nino" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-nino" },
 };
 
 export default function CamaroteNinoPage() {

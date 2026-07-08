@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Reja Metálica Pudahuel — Fabricante con Instalación | Buenos Pal Catre",
   description: "Rejas metálicas a medida en Pudahuel y Las Barrancas. Fabricante directo con instalación incluida. Reja tubular, cierres industriales y portones. Cotiza hoy.",
   keywords: ["reja metalica pudahuel", "rejas metalicas pudahuel", "reja de fierro pudahuel", "reja frontis pudahuel", "fabrica rejas pudahuel", "cerco metalico pudahuel", "portones pudahuel", "reja industrial pudahuel", "cierre perimetral pudahuel"],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-pudahuel" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-pudahuel" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

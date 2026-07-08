@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "rejas de fierro colina rm",
     "instalacion rejas colina santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-colina" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-colina" },
 };
 
 const wa = (msg: string) =>

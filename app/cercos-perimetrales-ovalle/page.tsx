@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Ovalle — Fabricante | Región de Coquimbo",
   description: "Cercos perimetrales en Ovalle. Fabricante directo. Cercos para casas, empresas y parcelas en el interior de la Región de Coquimbo. Instalación incluida. Cotiza hoy.",
   keywords: ["cercos perimetrales ovalle","cerco perimetral ovalle","reja metalica ovalle","cerco para parcela ovalle","fabricante cercos ovalle coquimbo","cerco para casa ovalle","cercos region coquimbo interior"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-ovalle" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-ovalle" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

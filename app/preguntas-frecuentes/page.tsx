@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "camarote precio pregunta",
     "camarote Santiago preguntas",
   ],
-  alternates: { canonical: "https://dumar.cl/preguntas-frecuentes" },
+  alternates: { canonical: "https://rinon.cl/preguntas-frecuentes" },
   openGraph: {
     title: "Preguntas Frecuentes — Camarotes Chile",
     description: "Todo lo que necesitas saber antes de comprar un camarote metálico en Santiago. 15+ respuestas a las dudas más comunes.",

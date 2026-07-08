@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "fabricante cercos penalolen santiago",
     "instalacion cerco perimetral penalolen",
   ],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-penalolen" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-penalolen" },
 };
 
 const wa = (msg: string) =>

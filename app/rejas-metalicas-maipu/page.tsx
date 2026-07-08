@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Reja Metálica Maipú — Fabricante con Instalación | Buenos Pal Catre",
   description: "Rejas metálicas a medida en Maipú. Fabricante directo con instalación en toda la comuna. Reja tubular para frontis, cierres y comercios. Cotiza hoy por WhatsApp.",
   keywords: ["reja metalica maipu", "rejas metalicas maipu", "reja de fierro maipu", "reja tubular maipu", "reja frontis maipu", "fabrica rejas maipu", "cierre metalico maipu", "portones maipu", "reja metalica precio maipu"],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-maipu" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-maipu" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

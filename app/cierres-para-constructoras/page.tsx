@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cierres Perimetrales para Constructoras — Fabricante en Chile | Buenos Pal Catre",
   description: "Cierres perimetrales para constructoras en Chile. Fabricamos e instalamos cierres de obra temporales y definitivos. Factura empresa, despacho nacional, plazos flexibles según avance de obra.",
   keywords: ["cierres perimetrales constructoras", "cierre de obra constructora", "fabricante cierre perimetral constructoras chile", "cierres para obras construccion", "malla cierre obra santiago"],
-  alternates: { canonical: "https://dumar.cl/cierres-para-constructoras" },
+  alternates: { canonical: "https://rinon.cl/cierres-para-constructoras" },
 };
 
 const WA = `https://wa.me/${SITE_CONFIG.whatsapp.numero}`;

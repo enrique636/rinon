@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "pintura metalica la granja santiago",
     "pintura portones la granja",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-la-granja" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-la-granja" },
 };
 
 const wa = (msg: string) =>

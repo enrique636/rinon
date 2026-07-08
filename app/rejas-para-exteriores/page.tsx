@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "rejas para patio exterior",
     "reja anticorrosion exterior",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-para-exteriores" },
+  alternates: { canonical: "https://rinon.cl/rejas-para-exteriores" },
 };
 
 const wa = (msg: string) =>

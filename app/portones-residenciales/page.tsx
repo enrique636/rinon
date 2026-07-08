@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Portones Residenciales Santiago — Fabricante Directo | Buenos Pal Catre",
   description: "Portones metálicos para casas en Santiago. Corredizos y batientes a medida. Fabricante directo con instalación incluida. Con opción de automatización. Cotiza hoy.",
   keywords: ["portones residenciales santiago", "porton metalico casa", "porton para casa santiago", "porton corredizo residencial", "porton batiente casa", "porton metalico precio santiago", "porton para garage", "porton casa santiago precio", "fabricante portones residenciales"],
-  alternates: { canonical: "https://dumar.cl/portones-residenciales" },
+  alternates: { canonical: "https://rinon.cl/portones-residenciales" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

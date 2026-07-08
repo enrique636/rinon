@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Estación Central — Fabricante con Instalación | Poniente RM",
   description: "Cercos perimetrales en Estación Central. Fabricante directo. Cercos tubulares y malla para casas, condominios y locales del poniente de Santiago. Cotización el mismo día.",
   keywords: ["cercos perimetrales estacion central","cerco perimetral estacion central santiago","cierre perimetral estacion central rm","cerco metalico estacion central","fabricante cercos estacion central","instalacion cerco estacion central"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-estacion-central" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-estacion-central" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

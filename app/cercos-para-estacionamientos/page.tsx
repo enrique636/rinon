@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos para Estacionamientos — Cierres Perimetrales para Patios de Vehículos",
   description: "Cercos perimetrales para estacionamientos en Chile. Fabricante directo. Cierres de seguridad para patios de autos, playas de estacionamiento y accesos vehiculares. Instalación incluida.",
   keywords: ["cercos para estacionamientos","cerco perimetral estacionamiento","cierre para patio de autos","cerco playa estacionamiento chile","reja metalica estacionamiento","cerco seguridad patio vehiculos","cierre estacionamiento precio","cerco para playa de autos santiago","fabricante cercos estacionamientos"],
-  alternates: { canonical: "https://dumar.cl/cercos-para-estacionamientos" },
+  alternates: { canonical: "https://rinon.cl/cercos-para-estacionamientos" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

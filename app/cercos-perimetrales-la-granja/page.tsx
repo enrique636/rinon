@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales La Granja — Fabricante con Instalación | Sur RM",
   description: "Cercos perimetrales en La Granja. Fabricante directo. Malla y tubo estructural para casas y condominios del sur de Santiago. Instalación con garantía.",
   keywords: ["cercos perimetrales la granja","cerco perimetral la granja santiago","cierre perimetral la granja rm","cerco metalico la granja sur rm","fabricante cercos la granja","instalacion cerco la granja"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-la-granja" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-la-granja" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

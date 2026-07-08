@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "pintura metalica san joaquin santiago",
     "servicio pintura electrostatica sur santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-san-joaquin" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-san-joaquin" },
 };
 
 const wa = (msg: string) =>

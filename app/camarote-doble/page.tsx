@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "camarote doble metálico",
     "camarote cama doble abajo",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-doble" },
+  alternates: { canonical: "https://rinon.cl/camarote-doble" },
   openGraph: {
     title: "Camarote Doble | 2 Plazas Abajo en Chile — Santiago",
     description: "Camarote metálico con cama de 2 plazas (matrimonial) abajo y 1 plaza arriba. Pago contra entrega en Santiago.",
@@ -63,9 +63,9 @@ export default function CamaroteDoble() {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Inicio", item: "https://dumar.cl" },
-            { "@type": "ListItem", position: 2, name: "Camarotes", item: "https://dumar.cl/camarotes" },
-            { "@type": "ListItem", position: 3, name: "Camarote Doble", item: "https://dumar.cl/camarote-doble" },
+            { "@type": "ListItem", position: 1, name: "Inicio", item: "https://rinon.cl" },
+            { "@type": "ListItem", position: 2, name: "Camarotes", item: "https://rinon.cl/camarotes" },
+            { "@type": "ListItem", position: 3, name: "Camarote Doble", item: "https://rinon.cl/camarote-doble" },
           ],
         })}} />
 

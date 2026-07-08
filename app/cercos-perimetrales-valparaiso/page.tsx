@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Valparaíso y Viña del Mar — Fabricante Chile",
   description: "Cercos perimetrales metálicos para Valparaíso, Viña del Mar y la V Región. Fabricante en Santiago, despacho a toda la costa. Reja galvanizada resistente a la corrosión marina.",
   keywords: ["cercos perimetrales valparaiso", "reja metalica valparaiso", "cerco perimetral viña del mar", "reja galvanizada valparaiso", "cerco metalico quinta region", "fabrica cercos valparaiso", "rejas metalicas vina del mar", "cerco perimetral san antonio", "rejas metalicas quilpue"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-valparaiso" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-valparaiso" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

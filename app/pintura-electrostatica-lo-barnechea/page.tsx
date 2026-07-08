@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "pintura portones lo barnechea",
     "pintura electrostatica el arrayan santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-lo-barnechea" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-lo-barnechea" },
 };
 
 const wa = (msg: string) =>

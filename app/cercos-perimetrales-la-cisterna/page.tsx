@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales La Cisterna — Fabricante con Instalación | Sur RM",
   description: "Cercos perimetrales en La Cisterna. Fabricante directo. Cercos tubulares para casas, condominios y locales del sur de Santiago. Instalación incluida.",
   keywords: ["cercos perimetrales la cisterna","cerco perimetral la cisterna santiago","cierre perimetral la cisterna rm","cerco metalico la cisterna","fabricante cercos la cisterna","instalacion cerco la cisterna"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-la-cisterna" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-la-cisterna" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

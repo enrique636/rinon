@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "pintura metalica huechuraba santiago",
     "pintura portones huechuraba",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-huechuraba" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-huechuraba" },
 };
 
 const wa = (msg: string) =>

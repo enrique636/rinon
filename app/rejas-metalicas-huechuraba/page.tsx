@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "fabricante rejas huechuraba",
     "reja industrial huechuraba",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-huechuraba" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-huechuraba" },
 };
 
 const wa = (msg: string) =>

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Linares — Fabricante | Región del Maule",
   description: "Cercos perimetrales en Linares. Fabricante directo. Cercos para casas, empresas y predios agrícolas en el interior del Maule. Instalación incluida. Cotiza hoy.",
   keywords: ["cercos perimetrales linares","cerco perimetral linares","reja metalica linares","cerco para parcela linares","fabricante cercos linares maule","cerco para empresa linares","cercos region maule interior"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-linares" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-linares" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

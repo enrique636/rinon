@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "camarote metálico Ñuñoa",
     "despacho camarote Ñuñoa",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-nunoa" },
+  alternates: { canonical: "https://rinon.cl/camarotes-nunoa" },
   openGraph: {
     title: "Camarotes Metálicos con Despacho a Ñuñoa — Camarotes Chile",
     description: "Camarotes metálicos con entrega e instalación en Ñuñoa. Pago contra entrega. Sin riesgos.",

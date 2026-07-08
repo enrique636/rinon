@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Camarotes metálicos con despacho a Rancagua. Para campamentos de El Teniente (Codelco), contratistas y uso residencial. Fabricante directo. Cotización empresarial.",
   keywords: ["camarotes Rancagua", "camarotes El Teniente", "camarotes minería Rancagua", "camas campamento Codelco Rancagua", "literas Rancagua", "camarotes O'Higgins"],
-  alternates: { canonical: "https://dumar.cl/camarotes-rancagua" },
+  alternates: { canonical: "https://rinon.cl/camarotes-rancagua" },
   openGraph: { title: "Camarotes en Rancagua — El Teniente y Residencial", description: "Fabricante de camarotes con despacho a Rancagua para minería y residencial.", type: "website", locale: "es_CL" },
 };
 

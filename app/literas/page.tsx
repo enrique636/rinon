@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "litera pago contra entrega",
     "donde comprar literas Santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/literas" },
+  alternates: { canonical: "https://rinon.cl/literas" },
   openGraph: {
     title: "Literas en Santiago — Instalación Incluida | Camarotes Chile",
     description: "Literas metálicas con entrega e instalación en Santiago. Pago contra entrega.",

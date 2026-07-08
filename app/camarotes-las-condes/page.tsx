@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "camarote metálico Las Condes",
     "despacho camarote Las Condes",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-las-condes" },
+  alternates: { canonical: "https://rinon.cl/camarotes-las-condes" },
   openGraph: {
     title: "Camarotes Metálicos con Despacho a Las Condes — Camarotes Chile",
     description: "Camarotes metálicos con entrega e instalación en Las Condes. Pago contra entrega. Sin riesgos.",

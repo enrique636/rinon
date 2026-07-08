@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Angol — Fabricante | La Araucanía",
   description: "Cercos perimetrales en Angol. Fabricante directo. Cercos para casas, empresas y predios en el interior de La Araucanía. Instalación incluida. Cotiza hoy.",
   keywords: ["cercos perimetrales angol","cerco perimetral angol","reja metalica angol","cerco para empresa angol","fabricante cercos angol araucania","cerco para casa angol","cercos araucania interior"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-angol" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-angol" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

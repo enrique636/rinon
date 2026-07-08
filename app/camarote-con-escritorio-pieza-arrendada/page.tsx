@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "camarote para arrendatario santiago",
     "comprar camarote pieza arrendada",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-pieza-arrendada" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-pieza-arrendada" },
 };
 
 export default function CamaroteEscritorioPiezaArrendadaPage() {

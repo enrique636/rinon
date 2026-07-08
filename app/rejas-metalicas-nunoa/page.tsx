@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Reja Metálica Ñuñoa — Fabricante con Instalación | Buenos Pal Catre",
   description: "Rejas metálicas a medida en Ñuñoa. Frontis, comercios y departamentos. Fabricante directo con instalación incluida. Cotiza hoy por WhatsApp.",
   keywords: ["reja metalica nunoa", "rejas metalicas nunoa", "reja de fierro nunoa", "reja tubular nunoa", "reja frontis nunoa", "fabrica rejas nunoa", "portones nunoa", "reja metalica precio nunoa"],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-nunoa" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-nunoa" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "camarote para hermanos con escritorio",
     "dos camas y escritorio pieza pequeña",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-dos-hermanos" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-dos-hermanos" },
 };
 
 export default function CamaroteEscritorioDosHermanosPage() {

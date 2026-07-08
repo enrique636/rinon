@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "cerco para casa punta arenas",
     "reja galvanizada magallanes",
   ],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-punta-arenas" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-punta-arenas" },
 };
 
 const wa = (msg: string) =>

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Reja Metálica Las Condes — Fabricante con Instalación | Buenos Pal Catre",
   description: "Rejas metálicas a medida en Las Condes. Frontis residencial, condominios y comercios. Fabricante directo con instalación incluida. Diseños premium disponibles. Cotiza hoy.",
   keywords: ["reja metalica las condes", "rejas metalicas las condes", "reja tubular las condes", "reja frontis las condes", "fabrica rejas las condes", "portones las condes", "reja metalica vitacura", "reja metalica lo barnechea", "rejas premium santiago oriente"],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-las-condes" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-las-condes" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

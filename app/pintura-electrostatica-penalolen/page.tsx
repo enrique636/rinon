@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "pintura electrostatica sector oriente",
     "restauracion muebles metalicos penalolen",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-penalolen" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-penalolen" },
 };
 
 const wa = (msg: string) =>

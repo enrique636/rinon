@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "servicio pintura electrostatica nunoa",
     "pintura rejas nunoa",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-nunoa" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-nunoa" },
 };
 
 const wa = (msg: string) =>

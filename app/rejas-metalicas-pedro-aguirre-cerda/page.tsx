@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "reja de fierro pac sur rm",
     "rejas sur rm pedro aguirre cerda",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-pedro-aguirre-cerda" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-pedro-aguirre-cerda" },
 };
 
 const wa = (msg: string) =>

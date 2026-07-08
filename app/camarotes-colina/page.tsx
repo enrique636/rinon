@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Colina — Pago Contra Entrega | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Colina y Chicureo, Santiago. Nido, triple, con escritorio. Pago cuando te llega. Instalación incluida.",
   keywords: ["camarotes Colina", "camarote Colina Santiago", "camarotes Chicureo", "literas Colina Santiago"],
-  alternates: { canonical: "https://dumar.cl/camarotes-colina" },
+  alternates: { canonical: "https://rinon.cl/camarotes-colina" },
 };
 
 export default function CamarotesColinaPage() {

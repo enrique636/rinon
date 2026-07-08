@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Sierra Gorda — Minería Antofagasta | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Sierra Gorda. Para campamentos de Sierra Gorda (KGHM), Spence, Lomas Bayas y sector minero de Antofagasta. Fabricante directo.",
   keywords: ["camarotes Sierra Gorda", "camarotes minería Sierra Gorda", "camarotes KGHM", "camas campamento Antofagasta", "literas Sierra Gorda"],
-  alternates: { canonical: "https://dumar.cl/camarotes-sierra-gorda" },
+  alternates: { canonical: "https://rinon.cl/camarotes-sierra-gorda" },
 };
 
 const getWA = (tipo?: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(`Hola, necesito cotizar camarotes${tipo ? ` para ${tipo}` : ""} con despacho a Sierra Gorda, Antofagasta. ¿Pueden ayudarme?`)}`;

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "camarote metálico Providencia",
     "despacho camarote Providencia",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-providencia" },
+  alternates: { canonical: "https://rinon.cl/camarotes-providencia" },
   openGraph: {
     title: "Camarotes Metálicos con Despacho a Providencia — Camarotes Chile",
     description: "Camarotes metálicos con entrega e instalación en Providencia. Pago contra entrega. Sin riesgos.",

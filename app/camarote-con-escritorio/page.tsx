@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "camarote gamer escritorio",
     "camarote home office",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio" },
   openGraph: {
     title: "Camarote con Escritorio — Cama Alta con Escritorio en Chile",
     description: "Camarote metálico con escritorio integrado debajo de la cama. Para estudiantes, gamers y home office. Pago contra entrega en Santiago.",
@@ -76,9 +76,9 @@ export default function CamaroteConEscritorioPage() {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Inicio", item: "https://dumar.cl" },
-            { "@type": "ListItem", position: 2, name: "Camarotes", item: "https://dumar.cl/camarotes" },
-            { "@type": "ListItem", position: 3, name: "Camarote con Escritorio", item: "https://dumar.cl/camarote-con-escritorio" },
+            { "@type": "ListItem", position: 1, name: "Inicio", item: "https://rinon.cl" },
+            { "@type": "ListItem", position: 2, name: "Camarotes", item: "https://rinon.cl/camarotes" },
+            { "@type": "ListItem", position: 3, name: "Camarote con Escritorio", item: "https://rinon.cl/camarote-con-escritorio" },
           ],
         })}} />
 

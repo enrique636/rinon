@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Precio Reja Metálica Santiago 2025 — Cotiza Directo al Fabricante",
   description: "¿Cuánto cuesta una reja metálica en Santiago? Guía de precios referenciales por tipo y metro lineal. Cotiza directo al fabricante — sin intermediarios. Buenos Pal Catre.",
   keywords: ["precio reja metalica", "cuanto cuesta reja metalica", "precio reja tubular", "reja metalica precio metro lineal", "reja metalica precio santiago", "precio cerco perimetral", "reja de fierro precio chile", "cotizar reja metalica santiago", "precio reja metalica galvanizada"],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-precio" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-precio" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

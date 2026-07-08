@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "seguridad ventanas reja metalica",
     "rejas para ventanas precio chile",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-para-ventanas" },
+  alternates: { canonical: "https://rinon.cl/rejas-para-ventanas" },
 };
 
 const wa = (msg: string) =>

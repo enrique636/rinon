@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "literas Santiago centro",
     "camarote metálico centro Santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-santiago-centro" },
+  alternates: { canonical: "https://rinon.cl/camarotes-santiago-centro" },
   openGraph: {
     title: "Camarotes Metálicos con Despacho a Santiago Centro — Camarotes Chile",
     description: "Camarotes metálicos con entrega e instalación en Santiago Centro. Pago contra entrega.",

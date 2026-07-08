@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "porton corredizo instalacion santiago",
     "porton corredizo electrico chile",
   ],
-  alternates: { canonical: "https://dumar.cl/portones-corredizos" },
+  alternates: { canonical: "https://rinon.cl/portones-corredizos" },
 };
 
 const wa = (msg: string) =>

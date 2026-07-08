@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Precio Cerco Perimetral Chile — Cuánto Cuesta por Metro Lineal",
   description: "¿Cuánto cuesta un cerco perimetral en Chile? Precios por metro lineal según tipo, altura y acabado. Tubular, malla, galvanizado. Cotiza con instalación incluida en Santiago y todo Chile.",
   keywords: ["precio cerco perimetral chile","cuanto cuesta cerco perimetral","cerco perimetral precio metro lineal","precio reja perimetral chile","cuanto vale un cerco perimetral","precio cierre perimetral santiago","cerco perimetral cuanto cuesta instalado","presupuesto cerco perimetral","precio cerco metalico metro lineal"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-precio" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-precio" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

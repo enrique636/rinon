@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales San Bernardo — Fabricante con Instalación | Sur RM",
   description: "Cercos perimetrales en San Bernardo. Fabricante directo. Malla, tubo y ángulo para casas, parcelas, bodegas e industrias del sur de Santiago. Instalación incluida.",
   keywords: ["cercos perimetrales san bernardo","cerco perimetral san bernardo santiago","cierre perimetral san bernardo","malla perimetral san bernardo","cerco metalico san bernardo sur rm","fabricante cercos san bernardo","instalacion cerco san bernardo"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-san-bernardo" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-san-bernardo" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Venta de Camarotes Metálicos en Santiago — Fabricante Directo",
   description: "Venta de camarotes metálicos en Santiago directo del fabricante. Sin distribuidores. Camarotes simples, dobles, con escritorio y para uso intensivo. Despacho e instalación incluida.",
   keywords: ["venta camarotes santiago", "venta camarotes metalicos chile", "donde comprar camarotes santiago", "camarotes venta directa santiago", "comprar camarote metalico santiago", "venta camarotes por mayor santiago", "fabrica camarotes venta directa", "camarotes venta santiago metalicos"],
-  alternates: { canonical: "https://dumar.cl/venta-camarotes-santiago" },
+  alternates: { canonical: "https://rinon.cl/venta-camarotes-santiago" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

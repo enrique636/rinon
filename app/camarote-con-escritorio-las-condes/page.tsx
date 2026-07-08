@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarote con Escritorio en Las Condes — Despacho con Instalación | Camarotes Chile",
   description: `Camarote con escritorio con despacho a Las Condes. Pago contra entrega. Despacho + instalación ${formatPrice(SITE_CONFIG.despacho.precio)}. Fabricante directo.`,
   keywords: ["camarote con escritorio Las Condes", "litera escritorio Las Condes", "cama alta escritorio Las Condes", "camarote Las Condes con escritorio"],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-las-condes" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-las-condes" },
 };
 
 export default function CamaroteEscritorioLasCondesPage() {

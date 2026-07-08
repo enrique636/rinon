@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "camarote acero Chile",
     "camarotes metalicos pago contra entrega",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-metalicos" },
+  alternates: { canonical: "https://rinon.cl/camarotes-metalicos" },
   openGraph: {
     title: "Camarotes Metálicos en Santiago — Instalación Incluida | Camarotes Chile",
     description: "Camarotes metálicos de acero con entrega e instalación en Santiago. Pago contra entrega.",
@@ -75,7 +75,7 @@ export default function CamarotesMetalicosPage() {
               position: i + 1,
               name: p.nombre,
               description: p.descripcion,
-              url: `https://dumar.cl/${p.slug}`,
+              url: `https://rinon.cl/${p.slug}`,
             })),
           }),
         }}

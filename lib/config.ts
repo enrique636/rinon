@@ -11,7 +11,7 @@ export const SITE_CONFIG = {
   },
 
   telefono: "+56 9 XXXX XXXX",
-  email: "contacto@dumar.cl",
+  email: "contacto@rinon.cl",
 
   despacho: {
     precio: 20000,
@@ -27,7 +27,7 @@ export const SITE_CONFIG = {
   pago: "Pago contra entrega",
 
   seo: {
-    baseUrl: "https://dumar.cl", // ← ACTUALIZAR con dominio real
+    baseUrl: "https://rinon.cl", // ← ACTUALIZAR con dominio real
   },
 } as const;
 

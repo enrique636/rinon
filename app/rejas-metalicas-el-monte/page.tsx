@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "porton metalico el monte sur poniente",
     "rejas fierro el monte rm",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-el-monte" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-el-monte" },
 };
 
 const wa = (msg: string) =>

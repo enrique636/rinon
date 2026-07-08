@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "camarote universitario estacion central",
     "camarotes estacion central santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-estacion-central" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-estacion-central" },
 };
 
 export default function CamaroteEscritorioEstacionCentralPage() {

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "pintura rejas la florida",
     "pintura portones la florida",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-la-florida" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-la-florida" },
 };
 
 const wa = (msg: string) =>

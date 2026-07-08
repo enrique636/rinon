@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "fabricante cercos cerrillos santiago",
     "instalacion cerco perimetral cerrillos",
   ],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-cerrillos" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-cerrillos" },
 };
 
 const wa = (msg: string) =>

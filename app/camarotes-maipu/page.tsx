@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "despacho camarote Maipú",
     "litera Maipú",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-maipu" },
+  alternates: { canonical: "https://rinon.cl/camarotes-maipu" },
   openGraph: {
     title: "Camarotes Metálicos con Despacho a Maipú — Camarotes Chile",
     description: "Camarotes metálicos con entrega e instalación en Maipú. Pago contra entrega. Sin riesgos.",

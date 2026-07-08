@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "reja decorativa lo barnechea",
     "rejas sector oriente lo barnechea",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-lo-barnechea" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-lo-barnechea" },
 };
 
 const wa = (msg: string) =>

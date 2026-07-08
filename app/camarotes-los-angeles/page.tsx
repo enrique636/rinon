@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Camarotes metálicos con despacho a Los Ángeles, Bío Bío. Para campamentos forestales, cuadrillas agrícolas y uso residencial. Fabricante directo.",
   keywords: ["camarotes Los Ángeles", "camarotes Los Angeles Biobío", "camarotes forestales Los Ángeles", "literas Los Ángeles Chile"],
-  alternates: { canonical: "https://dumar.cl/camarotes-los-angeles" },
+  alternates: { canonical: "https://rinon.cl/camarotes-los-angeles" },
 };
 
 function getWA(tipo?: string) {

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Talca — Agrícolas y Residencial | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Talca. Para alojamiento de temporeros, packing y uso residencial en el Maule. Fabricante directo.",
   keywords: ["camarotes Talca", "camarotes temporeros Talca", "camarotes agrícolas Maule", "literas Talca"],
-  alternates: { canonical: "https://dumar.cl/camarotes-talca" },
+  alternates: { canonical: "https://rinon.cl/camarotes-talca" },
 };
 
 const getWA = (tipo?: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(`Hola, necesito cotizar camarotes${tipo ? ` para ${tipo}` : ""} con despacho a Talca. ¿Pueden ayudarme?`)}`;

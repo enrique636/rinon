@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "reja de fierro la granja",
     "rejas sur rm la granja",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-la-granja" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-la-granja" },
 };
 
 const wa = (msg: string) =>

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "reja interior bodega galpón",
     "control acceso galpón metalico",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-para-galpones" },
+  alternates: { canonical: "https://rinon.cl/rejas-para-galpones" },
 };
 
 const wa = (msg: string) =>

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "porton vehicular precio chile",
     "portones vehiculares para casas",
   ],
-  alternates: { canonical: "https://dumar.cl/portones-vehiculares" },
+  alternates: { canonical: "https://rinon.cl/portones-vehiculares" },
 };
 
 const wa = (msg: string) =>

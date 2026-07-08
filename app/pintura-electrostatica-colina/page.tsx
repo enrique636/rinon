@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "pintura rejas colina",
     "pintura estructuras metalicas colina",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-colina" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-colina" },
 };
 
 const wa = (msg: string) =>

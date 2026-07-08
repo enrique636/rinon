@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Rejas Galvanizadas Santiago — Durabilidad Máxima | Buenos Pal Catre",
   description: "Rejas metálicas galvanizadas en Santiago. Protección máxima contra la corrosión — ideal para zonas costeras, húmedas o industrial pesada. Fabricante directo, instalación incluida.",
   keywords: ["rejas galvanizadas", "reja metalica galvanizada", "reja galvanizada santiago", "cerco galvanizado", "reja tubular galvanizada", "precio reja galvanizada", "reja galvanizada en caliente", "cerco perimetral galvanizado", "malla galvanizada cierre"],
-  alternates: { canonical: "https://dumar.cl/rejas-galvanizadas" },
+  alternates: { canonical: "https://rinon.cl/rejas-galvanizadas" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

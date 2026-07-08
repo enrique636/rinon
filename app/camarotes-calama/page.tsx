@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "camarotes faenas Calama",
     "camarotes para contratistas Calama",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-calama" },
+  alternates: { canonical: "https://rinon.cl/camarotes-calama" },
   openGraph: {
     title: "Camarotes con Despacho a Calama — Chuquicamata y Zona Minera",
     description: "Fabricante de camarotes metálicos con despacho a Calama para minería y campamentos.",

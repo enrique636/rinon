@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "porton con motor electrico chile",
     "automatizar porton santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/portones-electricos" },
+  alternates: { canonical: "https://rinon.cl/portones-electricos" },
 };
 
 const wa = (msg: string) =>

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "camarotes metalicos region antofagasta",
     "proveedor camarotes maria elena",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-maria-elena" },
+  alternates: { canonical: "https://rinon.cl/camarotes-maria-elena" },
 };
 
 export default function CamarotesMariElenaPage() {

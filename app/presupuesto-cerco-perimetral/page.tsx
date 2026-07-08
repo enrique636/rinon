@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Presupuesto Cerco Perimetral Chile — Cómo Obtener Precio en el Día",
   description: "Pide presupuesto de cerco perimetral en Chile. Fabricante directo. Con 4 datos básicos te entregamos precio completo con instalación el mismo día — sin visita técnica previa para la mayoría de los casos.",
   keywords: ["presupuesto cerco perimetral","presupuesto cerco metalico chile","como pedir presupuesto cerco","cotizar cerco perimetral chile","presupuesto cierre perimetral santiago","pedir precio cerco metalico","presupuesto reja perimetral","cerco perimetral cotizacion online","precio cerco instalado chile"],
-  alternates: { canonical: "https://dumar.cl/presupuesto-cerco-perimetral" },
+  alternates: { canonical: "https://rinon.cl/presupuesto-cerco-perimetral" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

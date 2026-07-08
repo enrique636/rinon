@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarote con Escritorio en Ñuñoa — Despacho con Instalación | Camarotes Chile",
   description: `Camarote con escritorio con despacho a Ñuñoa. Pago contra entrega. Despacho + instalación ${formatPrice(SITE_CONFIG.despacho.precio)}. Fabricante directo.`,
   keywords: ["camarote con escritorio Ñuñoa", "litera escritorio Ñuñoa", "cama alta escritorio Ñuñoa"],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-nunoa" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-nunoa" },
 };
 
 export default function CamaroteEscritorioNunoaPage() {

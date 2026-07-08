@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Fabricante de Cercos Metálicos en Santiago — Sin Intermediarios",
   description: "Somos fabricantes de cercos metálicos en Santiago. Rejas tubulares, mallas separadoras y portones a medida. Precio directo de fábrica — sin distribuidores. Instalación incluida en la RM.",
   keywords: ["fabricante cercos metalicos", "fabrica cercos metalicos santiago", "fabricante rejas metalicas chile", "fabricante cerco perimetral", "fabrica rejas santiago", "fabricante portones metalicos", "fabricante directo cercos", "fabrica metalica santiago", "fabrica estructuras metalicas santiago"],
-  alternates: { canonical: "https://dumar.cl/fabricante-cercos-metalicos" },
+  alternates: { canonical: "https://rinon.cl/fabricante-cercos-metalicos" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Portones Automáticos Santiago — Fabricante e Instalación",
   description: "Portones automáticos en Santiago. Fabricante e instalación incluida. Portón corredizo motorizado, portón batiente automático y acceso vehicular con control remoto o tarjeta. Cotiza hoy.",
   keywords: ["porton automatico santiago", "portones automaticos santiago", "porton motorizado santiago", "portón corredizo automatico", "portón batiente automatico", "portón automatico precio chile", "instalacion portón automatico", "portones con motor santiago", "portón garage automatico"],
-  alternates: { canonical: "https://dumar.cl/portones-automaticos" },
+  alternates: { canonical: "https://rinon.cl/portones-automaticos" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

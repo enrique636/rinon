@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "literas Peñalolén",
     "despacho camarote Peñalolén",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-penalolen" },
+  alternates: { canonical: "https://rinon.cl/camarotes-penalolen" },
   openGraph: {
     title: "Camarotes Metálicos con Despacho a Peñalolén — Camarotes Chile",
     description: "Camarotes metálicos con entrega e instalación en Peñalolén. Pago contra entrega. Sin riesgos.",

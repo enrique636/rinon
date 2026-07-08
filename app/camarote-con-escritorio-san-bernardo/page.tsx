@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "camarotes san bernardo",
     "camarote san bernardo despacho",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-san-bernardo" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-san-bernardo" },
 };
 
 export default function CamaroteEscritorioSanBernardoPage() {

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "camarote metalico contacto",
     "despacho camarotes Santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/contacto" },
+  alternates: { canonical: "https://rinon.cl/contacto" },
   openGraph: {
     title: "Contacto — Camarotes Chile",
     description: "Cotiza tu camarote metálico por WhatsApp. Despacho en Santiago con pago contra entrega.",

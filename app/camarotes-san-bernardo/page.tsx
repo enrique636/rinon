@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Camarotes en San Bernardo — Pago Contra Entrega | Camarotes Chile",
   description: "Camarotes metálicos con despacho a San Bernardo, Santiago. Nido, triple, con escritorio y más. Pago cuando te llega. Instalación incluida.",
   keywords: ["camarotes San Bernardo", "camarote San Bernardo Santiago", "comprar camarote San Bernardo", "literas San Bernardo", "despacho camarote San Bernardo"],
-  alternates: { canonical: "https://dumar.cl/camarotes-san-bernardo" },
+  alternates: { canonical: "https://rinon.cl/camarotes-san-bernardo" },
   openGraph: { title: "Camarotes con Despacho a San Bernardo — Camarotes Chile", description: "Camarotes metálicos con entrega e instalación en San Bernardo. Pago contra entrega.", type: "website", locale: "es_CL" },
 };
 

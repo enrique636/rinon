@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "pintura electrostatica sector oriente santiago",
     "servicio pintura electrostatica macul",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-macul" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-macul" },
 };
 
 const wa = (msg: string) =>

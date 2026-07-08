@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "pintura electrostatica portones",
     "pintura en polvo region metropolitana",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica" },
 };
 
 const wa = (msg: string) =>

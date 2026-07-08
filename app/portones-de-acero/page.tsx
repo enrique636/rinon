@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "portones de acero corredizos",
     "porton acero galvanizado",
   ],
-  alternates: { canonical: "https://dumar.cl/portones-de-acero" },
+  alternates: { canonical: "https://rinon.cl/portones-de-acero" },
 };
 
 const wa = (msg: string) =>

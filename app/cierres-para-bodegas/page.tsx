@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cierres Perimetrales para Bodegas — Fabricante | Buenos Pal Catre",
   description: "Cierres perimetrales para bodegas, galpones y centros de distribución. Fabricamos rejas, mallas y planchas para cerrar el perímetro exterior de tu bodega. Santiago y todo Chile.",
   keywords: ["cierres perimetrales bodegas", "cierre perimetral bodega", "cierre galpón metálico", "rejas para bodega santiago", "cierre perimetral centro logístico"],
-  alternates: { canonical: "https://dumar.cl/cierres-para-bodegas" },
+  alternates: { canonical: "https://rinon.cl/cierres-para-bodegas" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

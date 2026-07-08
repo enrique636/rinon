@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "instalacion portones santiago",
     "quien instala rejas en santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/instalacion-de-rejas" },
+  alternates: { canonical: "https://rinon.cl/instalacion-de-rejas" },
 };
 
 const wa = (msg: string) =>

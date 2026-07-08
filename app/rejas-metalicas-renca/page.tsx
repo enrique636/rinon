@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "reja de fierro renca",
     "rejas norte rm renca conchalí",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-renca" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-renca" },
 };
 
 const wa = (msg: string) =>

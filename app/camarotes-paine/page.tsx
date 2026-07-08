@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "camas alojamiento paine",
     "camarotes metalicos paine rm",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-paine" },
+  alternates: { canonical: "https://rinon.cl/camarotes-paine" },
 };
 
 export default function CamarotesPainePage() {

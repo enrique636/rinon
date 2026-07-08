@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Mallas Separadoras para Bodegas — División Interna Metálica | Buenos Pal Catre",
   description: "Mallas separadoras para organizar bodegas, galpones y centros de distribución. Divisiones metálicas, paneles separadores y mallas industriales a medida. Santiago y Chile.",
   keywords: ["mallas separadoras bodegas", "divisiones metalicas bodega", "malla divisoria bodega", "separadores para bodega", "paneles separadores bodega galpón", "mallas industriales bodega"],
-  alternates: { canonical: "https://dumar.cl/mallas-separadoras-bodegas" },
+  alternates: { canonical: "https://rinon.cl/mallas-separadoras-bodegas" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

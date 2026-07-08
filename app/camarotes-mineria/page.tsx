@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     "camas faena minera Chile",
     "fabricante camarotes minería",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-mineria" },
+  alternates: { canonical: "https://rinon.cl/camarotes-mineria" },
   openGraph: {
     title: "Camarotes para Campamentos Mineros — Fabricante Directo Chile",
     description: "Fabricamos camarotes metálicos para campamentos mineros en todo Chile. Antofagasta, Calama, Copiapó y más.",

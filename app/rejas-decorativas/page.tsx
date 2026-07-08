@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "reja colonial santiago",
     "rejas artisticas chile",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-decorativas" },
+  alternates: { canonical: "https://rinon.cl/rejas-decorativas" },
 };
 
 const wa = (msg: string) =>

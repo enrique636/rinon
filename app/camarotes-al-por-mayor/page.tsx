@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "distribuidores camarotes Chile",
     "camarotes empresa precio mayorista",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-al-por-mayor" },
+  alternates: { canonical: "https://rinon.cl/camarotes-al-por-mayor" },
   openGraph: {
     title: "Camarotes al Por Mayor — Precio Mayorista Directo del Fabricante",
     description: "Camarotes metálicos al por mayor para empresas, hostales y campamentos. Precio de fábrica.",

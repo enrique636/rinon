@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "rejas fierro buin santiago",
     "instalacion rejas buin rm",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-buin" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-buin" },
 };
 
 const wa = (msg: string) =>

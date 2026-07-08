@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "servicio pintura electrostatica cerrillos",
     "pintura electrostatica zona sur poniente",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-cerrillos" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-cerrillos" },
 };
 
 const wa = (msg: string) =>

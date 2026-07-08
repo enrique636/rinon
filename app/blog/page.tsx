@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Blog de Camarotes | Guías, Comparativas y Consejos — Camarotes Chile",
   description: "Artículos sobre camarotes metálicos, literas, camas altas y más. Guías de compra, comparativas y consejos para elegir el mejor camarote en Chile.",
   keywords: ["blog camarotes Chile", "guía camarotes", "litera metálica", "cama alta Chile"],
-  alternates: { canonical: "https://dumar.cl/blog" },
+  alternates: { canonical: "https://rinon.cl/blog" },
 };
 
 const categoriasColor: Record<string, string> = {

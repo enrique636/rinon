@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "cerco perimetral provincia biobio",
     "portones los angeles biobio",
   ],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-los-angeles" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-los-angeles" },
 };
 
 const wa = (msg: string) =>

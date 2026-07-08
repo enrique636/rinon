@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "equipamiento alojamiento trabajadores",
     "camarotes constructoras Chile",
   ],
-  alternates: { canonical: "https://dumar.cl/empresas" },
+  alternates: { canonical: "https://rinon.cl/empresas" },
   openGraph: {
     title: "Camarotes Metálicos para Empresas — Fabricante Directo Chile",
     description: "Fabricamos y despachamos camarotes metálicos para minería, construcción, forestales y agrícolas en todo Chile.",

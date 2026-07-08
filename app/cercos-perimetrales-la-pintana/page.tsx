@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales La Pintana — Fabricante con Instalación | Sur RM",
   description: "Cercos perimetrales en La Pintana. Fabricante directo. Malla y tubo estructural para casas y condominios del sur de Santiago. Instalación incluida.",
   keywords: ["cercos perimetrales la pintana","cerco perimetral la pintana santiago","cierre perimetral la pintana rm","cerco metalico la pintana sur rm","fabricante cercos la pintana","instalacion cerco la pintana"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-la-pintana" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-la-pintana" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

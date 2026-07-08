@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos para Canchas — Malla y Reja para Recintos Deportivos",
   description: "Cercos perimetrales para canchas de fútbol, tenis, básquetbol y recintos deportivos en Chile. Malla tipo olímpica, reja tubular y paneles. Fabricante directo con instalación incluida.",
   keywords: ["cercos para canchas","cerco para cancha de futbol","malla para cancha deportiva","cerco perimetral cancha","cierre cancha de tenis","reja para recinto deportivo","cerco cancha basquetbol","malla olimpica cancha chile","cerco deportivo precio","fabricante cercos canchas chile"],
-  alternates: { canonical: "https://dumar.cl/cercos-para-canchas" },
+  alternates: { canonical: "https://rinon.cl/cercos-para-canchas" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

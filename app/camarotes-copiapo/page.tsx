@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Camarotes metálicos con despacho a Copiapó. Para campamentos mineros en la Región de Atacama: Caserones, Anglo American, Candelaria. Fabricante directo. Cotización empresarial.",
   keywords: ["camarotes Copiapó", "camarotes minería Atacama", "camas campamento Copiapó", "camarotes Caserones", "literas Copiapó", "equipamiento alojamiento Copiapó"],
-  alternates: { canonical: "https://dumar.cl/camarotes-copiapo" },
+  alternates: { canonical: "https://rinon.cl/camarotes-copiapo" },
   openGraph: { title: "Camarotes en Copiapó — Atacama y Sector Minero", description: "Fabricante de camarotes con despacho a Copiapó para minería y residencial.", type: "website", locale: "es_CL" },
 };
 

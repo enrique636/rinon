@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "teletrabajo departamento pequeño cama escritorio",
     "camarote escritorio trabajo remoto",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-home-office" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-home-office" },
 };
 
 export default function CamaroteHomeOfficePage() {

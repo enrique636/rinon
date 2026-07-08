@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "fabricante rejas san miguel",
     "reja tubular san miguel",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-san-miguel" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-san-miguel" },
 };
 
 const wa = (msg: string) =>

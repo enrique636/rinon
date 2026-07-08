@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales San Joaquín — Fabricante con Instalación | Sur RM",
   description: "Cercos perimetrales en San Joaquín. Fabricante directo. Tubo estructural y malla para casas, condominios e industrias del sur de Santiago. Instalación incluida.",
   keywords: ["cercos perimetrales san joaquin","cerco perimetral san joaquin santiago","cierre perimetral san joaquin rm","cerco metalico san joaquin","fabricante cercos san joaquin","instalacion cerco san joaquin"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-san-joaquin" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-san-joaquin" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

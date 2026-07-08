@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Puerto Montt y Los Lagos — Fabricante Chile",
   description: "Cercos perimetrales metálicos para Puerto Montt, Osorno, Castro y la Región de Los Lagos. Fabricante en Santiago con despacho al sur. Reja galvanizada para alta humedad.",
   keywords: ["cercos perimetrales puerto montt", "reja metalica puerto montt", "cerco perimetral osorno", "rejas metalicas los lagos", "cerco metalico chile sur", "fabrica cercos puerto montt", "portones metalicos puerto montt", "cerco perimetral castro chiloe", "rejas metalicas osorno"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-puerto-montt" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-puerto-montt" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

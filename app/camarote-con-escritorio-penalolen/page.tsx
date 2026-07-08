@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "camarote peñalolen",
     "camarotes peñalolen despacho",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-penalolen" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-penalolen" },
 };
 
 export default function CamaroteEscritorioPenalolenPage() {

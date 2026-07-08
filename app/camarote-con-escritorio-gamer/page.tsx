@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "cama alta setup gamer Santiago",
     "camarote gaming con escritorio",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-con-escritorio-gamer" },
+  alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-gamer" },
 };
 
 export default function CamaroteGamerPage() {

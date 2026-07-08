@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Macul — Pago Contra Entrega | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Macul, Santiago. Nido, triple, cama alta con escritorio. Pago cuando te llega. Instalación incluida.",
   keywords: ["camarotes Macul", "camarote Macul Santiago", "literas Macul", "comprar camarote Macul"],
-  alternates: { canonical: "https://dumar.cl/camarotes-macul" },
+  alternates: { canonical: "https://rinon.cl/camarotes-macul" },
 };
 
 export default function CamarotesMaculPage() {

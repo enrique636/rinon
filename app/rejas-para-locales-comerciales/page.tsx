@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "cierre frente de local comercial",
     "fabricante rejas locales comerciales chile",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-para-locales-comerciales" },
+  alternates: { canonical: "https://rinon.cl/rejas-para-locales-comerciales" },
 };
 
 const wa = (msg: string) =>

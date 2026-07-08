@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Coyhaique — Galvanizados para Aysén",
   description: "Cercos perimetrales en Coyhaique, Aysén. Fabricante directo. Cercos galvanizados para el clima extremo de la Patagonia chilena. Lluvia, nieve, frío intenso y humedad permanente.",
   keywords: ["cercos perimetrales coyhaique","cerco perimetral coyhaique","reja metalica coyhaique","cerco galvanizado coyhaique","cerco perimetral aysen","fabricante cercos coyhaique","cerco resistente clima patagonico"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-coyhaique" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-coyhaique" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

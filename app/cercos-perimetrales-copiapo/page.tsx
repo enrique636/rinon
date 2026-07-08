@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "reja galvanizada copiapo",
     "portones copiapo atacama",
   ],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-copiapo" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-copiapo" },
 };
 
 const wa = (msg: string) =>

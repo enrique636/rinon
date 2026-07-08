@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "pintura metalica pedro aguirre cerda",
     "pintura portones pedro aguirre cerda",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-pedro-aguirre-cerda" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-pedro-aguirre-cerda" },
 };
 
 const wa = (msg: string) =>

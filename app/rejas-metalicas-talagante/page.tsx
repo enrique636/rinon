@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "rejas fierro talagante sur rm",
     "instalacion rejas talagante",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-talagante" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-talagante" },
 };
 
 const wa = (msg: string) =>

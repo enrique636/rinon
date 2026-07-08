@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales La Reina — Fabricante con Instalación | Oriente RM",
   description: "Cercos perimetrales en La Reina. Fabricante directo. Cercos tubulares de diseño para casas y condominios del sector oriente de Santiago. Instalación incluida.",
   keywords: ["cercos perimetrales la reina","cerco perimetral la reina santiago","cierre perimetral la reina rm","cerco metalico la reina","fabricante cercos la reina","instalacion cerco la reina"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-la-reina" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-la-reina" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

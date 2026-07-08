@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Rancagua — Fabricante O'Higgins | Buenos Pal Catre",
   description: "Cercos perimetrales metálicos para Rancagua, San Fernando y la Región de O'Higgins. Fabricante en Santiago con despacho a toda la VI Región. Reja tubular y portones.",
   keywords: ["cercos perimetrales rancagua", "reja metalica rancagua", "cerco perimetral ohiggins", "cerco metalico rancagua", "rejas metalicas rancagua", "fabrica cercos rancagua", "portones metalicos rancagua", "cerco perimetral san fernando", "rejas san bernardo rancagua"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-rancagua" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-rancagua" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

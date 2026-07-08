@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "reja terraza primer piso",
     "reja decorativa terraza casa",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-para-terraza" },
+  alternates: { canonical: "https://rinon.cl/rejas-para-terraza" },
 };
 
 const wa = (msg: string) =>

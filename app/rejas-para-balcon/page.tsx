@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "reja balcon primer piso",
     "proteccion metalica balcon departamento",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-para-balcon" },
+  alternates: { canonical: "https://rinon.cl/rejas-para-balcon" },
 };
 
 const wa = (msg: string) =>

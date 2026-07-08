@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "cama con almacenamiento integrado",
     "cama doble metalica con cajon santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/cama-dos-plazas-con-cajon" },
+  alternates: { canonical: "https://rinon.cl/cama-dos-plazas-con-cajon" },
 };
 
 const wa = (msg: string) =>

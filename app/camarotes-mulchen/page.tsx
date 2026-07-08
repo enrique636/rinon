@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "camarotes metalicos mulchen biobio",
     "proveedor camarotes mulchen",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-mulchen" },
+  alternates: { canonical: "https://rinon.cl/camarotes-mulchen" },
 };
 
 export default function CamarotesMulchenPage() {

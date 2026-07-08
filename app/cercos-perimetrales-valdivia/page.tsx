@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "cerco metalico para lluvia",
     "reja galvanizada valdivia",
   ],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-valdivia" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-valdivia" },
 };
 
 const wa = (msg: string) =>

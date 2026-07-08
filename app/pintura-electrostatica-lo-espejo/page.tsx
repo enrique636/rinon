@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "pintura rejas lo espejo",
     "servicio pintura electrostatica sur santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-lo-espejo" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-lo-espejo" },
 };
 
 const wa = (msg: string) =>

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "reja de fierro conchali",
     "rejas sector norte conchali",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-conchali" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-conchali" },
 };
 
 const wa = (msg: string) =>

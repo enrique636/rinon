@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "camarote nido metálico",
     "litera con nido Chile",
   ],
-  alternates: { canonical: "https://dumar.cl/camarote-nido" },
+  alternates: { canonical: "https://rinon.cl/camarote-nido" },
   openGraph: {
     title: "Camarote Nido | 3 Camas en el Espacio de 1 — Santiago Chile",
     description:
@@ -69,9 +69,9 @@ export default function CamaroteNidoPage() {
               "@context": "https://schema.org",
               "@type": "BreadcrumbList",
               itemListElement: [
-                { "@type": "ListItem", position: 1, name: "Inicio", item: "https://dumar.cl" },
-                { "@type": "ListItem", position: 2, name: "Camarotes", item: "https://dumar.cl/camarotes" },
-                { "@type": "ListItem", position: 3, name: "Camarote Nido", item: "https://dumar.cl/camarote-nido" },
+                { "@type": "ListItem", position: 1, name: "Inicio", item: "https://rinon.cl" },
+                { "@type": "ListItem", position: 2, name: "Camarotes", item: "https://rinon.cl/camarotes" },
+                { "@type": "ListItem", position: 3, name: "Camarote Nido", item: "https://rinon.cl/camarote-nido" },
               ],
             }),
           }}

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "fabricante cercos la florida santiago",
     "instalacion cerco perimetral la florida",
   ],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-la-florida" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-la-florida" },
 };
 
 const wa = (msg: string) =>

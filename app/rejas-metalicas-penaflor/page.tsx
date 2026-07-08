@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "rejas fierro penaflor rm",
     "instalacion rejas penaflor",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-penaflor" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-penaflor" },
 };
 
 const wa = (msg: string) =>

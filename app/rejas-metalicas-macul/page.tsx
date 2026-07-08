@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "reja de fierro macul",
     "rejas sector sur oriente macul",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas-macul" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas-macul" },
 };
 
 const wa = (msg: string) =>

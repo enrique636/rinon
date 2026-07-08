@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "camarote metálico Puente Alto",
     "despacho camarote Puente Alto",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-puente-alto" },
+  alternates: { canonical: "https://rinon.cl/camarotes-puente-alto" },
   openGraph: {
     title: "Camarotes Metálicos con Despacho a Puente Alto — Camarotes Chile",
     description: "Camarotes metálicos con entrega e instalación en Puente Alto. Pago contra entrega. Sin riesgos.",

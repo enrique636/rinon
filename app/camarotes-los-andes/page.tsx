@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "camarotes metalicos los andes chile",
     "alojamiento temporeros los andes",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-los-andes" },
+  alternates: { canonical: "https://rinon.cl/camarotes-los-andes" },
 };
 
 export default function CamarotesLosAndesPage() {

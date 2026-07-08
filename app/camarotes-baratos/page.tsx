@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "camarote barato pago contra entrega",
     "donde comprar camarote barato Santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-baratos" },
+  alternates: { canonical: "https://rinon.cl/camarotes-baratos" },
   openGraph: {
     title: "Camarotes Baratos en Santiago — Precios Reales y Pago Contra Entrega",
     description: "Camarotes metálicos con precios reales, sin costos ocultos. Pago cuando llega instalado.",

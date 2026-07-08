@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Talca y Maule — Fabricante Chile",
   description: "Cercos perimetrales metálicos para Talca, Curicó, Linares y la Región del Maule. Fabricante en Santiago con despacho. Reja tubular, malla y portones para proyectos agrícolas e industriales.",
   keywords: ["cercos perimetrales talca", "reja metalica talca", "cerco perimetral maule", "cerco perimetral curico", "rejas metalicas talca", "fabrica cercos talca", "portones metalicos talca", "cerco perimetral linares", "rejas metalicas curico maule"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-talca" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-talca" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

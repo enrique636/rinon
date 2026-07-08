@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "pintura metalica la reina santiago",
     "pintura portones la reina",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-la-reina" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-la-reina" },
 };
 
 const wa = (msg: string) =>

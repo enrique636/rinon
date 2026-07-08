@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "reja metalica bodega",
     "venta rejas metalicas santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/rejas-metalicas" },
+  alternates: { canonical: "https://rinon.cl/rejas-metalicas" },
 };
 
 const wa = (msg: string) =>

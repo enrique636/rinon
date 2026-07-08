@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "pintura metalica estacion central",
     "pintura portones estacion central santiago",
   ],
-  alternates: { canonical: "https://dumar.cl/pintura-electrostatica-estacion-central" },
+  alternates: { canonical: "https://rinon.cl/pintura-electrostatica-estacion-central" },
 };
 
 const wa = (msg: string) =>

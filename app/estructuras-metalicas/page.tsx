@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "soldadura estructural Santiago",
     "estructuras acero inoxidable Chile",
   ],
-  alternates: { canonical: "https://dumar.cl/estructuras-metalicas" },
+  alternates: { canonical: "https://rinon.cl/estructuras-metalicas" },
   openGraph: {
     title: "Estructuras Metálicas a Pedido en Santiago — Fabricante Directo",
     description: "Fabricamos estructuras metálicas: pérgolas, racks, mezzanines, escaleras y estructuras a medida. Diseño, fabricación e instalación.",

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Cercos Perimetrales Temuco y La Araucanía — Fabricante Chile",
   description: "Cercos perimetrales metálicos para Temuco, Osorno, Valdivia y La Araucanía. Fabricante en Santiago, despacho a todo el sur de Chile. Reja tubular y portones a medida.",
   keywords: ["cercos perimetrales temuco", "reja metalica temuco", "cerco perimetral araucania", "rejas metalicas osorno", "cerco perimetral valdivia", "fabrica cercos sur chile", "rejas metalicas temuco", "cerco metalico temuco", "portones metalicos temuco"],
-  alternates: { canonical: "https://dumar.cl/cercos-perimetrales-temuco" },
+  alternates: { canonical: "https://rinon.cl/cercos-perimetrales-temuco" },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;

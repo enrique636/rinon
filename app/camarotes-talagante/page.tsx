@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "camarotes isla de maipo",
     "alojamiento agricola talagante",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-talagante" },
+  alternates: { canonical: "https://rinon.cl/camarotes-talagante" },
 };
 
 export default function CamarotesTalagantePage() {

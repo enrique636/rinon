@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "despacho camarote Quilicura",
     "camarote metálico Quilicura",
   ],
-  alternates: { canonical: "https://dumar.cl/camarotes-quilicura" },
+  alternates: { canonical: "https://rinon.cl/camarotes-quilicura" },
   openGraph: {
     title: "Camarotes Metálicos con Despacho a Quilicura — Camarotes Chile",
     description: "Camarotes metálicos con entrega e instalación en Quilicura. Pago contra entrega. Sin riesgos.",

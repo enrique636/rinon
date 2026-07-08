@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarotes en San Felipe y Los Andes — Agrícolas y Residencial | Camarotes Chile",
   description: "Camarotes metálicos con despacho a San Felipe y Los Andes. Para temporeros de viñas y fruticultura del Valle del Aconcagua, y uso residencial. Fabricante directo.",
   keywords: ["camarotes San Felipe", "camarotes Los Andes", "camarotes temporeros Aconcagua", "literas San Felipe", "camarotes agrícolas Valle Aconcagua"],
-  alternates: { canonical: "https://dumar.cl/camarotes-san-felipe" },
+  alternates: { canonical: "https://rinon.cl/camarotes-san-felipe" },
 };
 
 const getWA = (tipo?: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(`Hola, necesito cotizar camarotes${tipo ? ` para ${tipo}` : ""} con despacho a San Felipe o Los Andes. ¿Pueden ayudarme?`)}`;

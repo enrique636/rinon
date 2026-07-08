@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Puerto Montt — Forestales y Residencial | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Puerto Montt. Para campamentos forestales de Los Lagos, cuadrillas salmoneras y uso residencial. Fabricante directo.",
   keywords: ["camarotes Puerto Montt", "camarotes forestales Puerto Montt", "literas Puerto Montt", "camas campamento Los Lagos"],
-  alternates: { canonical: "https://dumar.cl/camarotes-puerto-montt" },
+  alternates: { canonical: "https://rinon.cl/camarotes-puerto-montt" },
 };
 
 const getWA = (tipo?: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(`Hola, necesito cotizar camarotes${tipo ? ` para ${tipo}` : ""} con despacho a Puerto Montt. ¿Pueden ayudarme?`)}`;

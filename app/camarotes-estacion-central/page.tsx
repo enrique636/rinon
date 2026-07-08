@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Camarotes en Estación Central — Pago Contra Entrega | Camarotes Chile",
   description: "Camarotes metálicos con despacho a Estación Central, Santiago. Nido, triple, con escritorio y más. Pago cuando te llega. Instalación incluida.",
   keywords: ["camarotes Estación Central", "camarote Estacion Central Santiago", "comprar camarote Estación Central", "literas Estacion Central"],
-  alternates: { canonical: "https://dumar.cl/camarotes-estacion-central" },
+  alternates: { canonical: "https://rinon.cl/camarotes-estacion-central" },
   openGraph: { title: "Camarotes con Despacho a Estación Central — Camarotes Chile", description: "Camarotes metálicos con entrega e instalación en Estación Central. Pago contra entrega.", type: "website", locale: "es_CL" },
 };
 
