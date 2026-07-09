@@ -1,67 +1,47 @@
 @AGENTS.md
 
-# INSTRUCCIONES — RINON.CL (Camarotes con Escritorio Chile)
+# INSTRUCCIONES — RINON.CL
 
-## PROYECTO
+## ⚠️ AISLAMIENTO — LEER PRIMERO
 Este es el repositorio exclusivo de **RINON** (`rinon.cl`).
-Solo se trabaja código de RINON aquí. Nunca modificar archivos de KySApp, RAPIRENT, BuenosPalCatre u otro proyecto.
+Solo se trabaja código de RINON aquí. Nunca modificar archivos de KySApp, RAPIRENT, BuenosPalCatre, Dumar u otro proyecto.
 
 ## ARQUITECTURA
 - Next.js App Router + TypeScript + Tailwind CSS
-- GitHub → Vercel (deploy automático desde `main`) — **pendiente conectar**
-- Sin backend por ahora — datos en `/lib/products.ts`
+- GitHub → `enrique636/rinon` → Vercel (`prj_7nW12HuitL5rFuVc3MRV7yGbU2xM`)
+- Dominio: rinon.cl (configurado en Vercel, pendiente DNS)
+- Sin backend — datos en `/lib/products.ts`
 - Región Vercel: gru1
+- Carpeta local: `/Users/enriquekraiser/rinon.cl`
 
----
+## ✅ LO QUE YA ESTÁ CONSTRUIDO (no duplicar)
+- Sitio base con páginas de producto (camarotes con escritorio, metálico, cama alta, etc.)
+- +200 páginas SEO estáticas — cercos RM completo, rejas por comuna, portones, pintura RM
+- Expansión de verticales SEO
+- Componentes: Header, Footer, WhatsApp flotante, Hero, ProductGrid, Features, FAQ
+- Blog SEO, cotizar, contacto
 
-# INSTRUCCIONES MAESTRAS — Camarotes con Escritorio Chile
+## OBJETIVO
+Posicionarse #1 en Google Chile para "camarote con escritorio" y verticales de cercos/rejas.
+Generar consultas por WhatsApp — sin precios en pantalla.
 
-## Proyecto
-Sitio web especializado en camarotes con escritorio y camas altas con escritorio para el mercado chileno.
-
-## Objetivo único
-Posicionarse #1 en Google Chile para "camarote con escritorio" y generar consultas por WhatsApp.
-
-## Stack
-- Next.js App Router + TypeScript strict
-- Tailwind CSS
-- Sin backend por ahora — datos en `/lib/products.ts`
-
-## Principios de diseño
+## PRINCIPIOS DE DISEÑO
 - Simple, rápido, visual — mobile-first
 - WhatsApp es el CTA principal — SIEMPRE visible
-- Sin contenido corporativo, sin precios (el cliente pide cotización)
+- Sin contenido corporativo, sin precios
 - Cada página = una intención de búsqueda específica
 
-## Estructura
+## ESTRUCTURA
 - `app/` — páginas (App Router)
-- `components/layout/` — Header, Footer, WhatsApp flotante
-- `components/sections/` — Hero, ProductGrid, Features, FAQ
-- `components/ui/` — botones, cards, badges
+- `components/` — layout, sections, ui
 - `lib/config.ts` — WhatsApp, teléfono, nombre empresa
 - `lib/products.ts` — datos de productos con medidas reales
 - `lib/seo.ts` — metadata SEO por página
-- `public/images/productos/` — fotos del producto
-- `public/images/ambientes/` — fotos de ambientes
-- `assets/fotos-recibidas/` — fotos originales sin editar (del Drive)
-- `_planning/` — documentos de planificación (NO se publican)
+- `_planning/` — docs de planificación (NO se publican)
 
-## URLs del sitio
-- `/` — Home
-- `/camarotes-con-escritorio/` — Categoría principal
-- `/camarote-con-escritorio-metalico/` — Metálico estándar
-- `/cama-alta-con-escritorio/` — Cama alta
-- `/cama-alta-2-plazas-con-escritorio/` — 2 plazas
-- `/camarote-con-escritorio-a-medida/` — A medida
-- `/camarote-con-escritorio-premium/` — Premium
-- `/blog/` — Blog SEO
-- `/cotizar/` — Cotización
-- `/contacto/` — Contacto
-
-## Lo que Claude NUNCA debe hacer
+## LO QUE CLAUDE NUNCA DEBE HACER
 - Crear diseños corporativos fríos
 - Agregar formularios con más de 4 campos
-- Poner precios (el cliente pide cotización siempre)
-- Alterar medidas reales de los productos
-- Crear páginas lentas con animaciones pesadas
+- Poner precios en pantalla
 - Inventar medidas — solo usar las de `/lib/products.ts`
+- Mezclar código de otros proyectos
