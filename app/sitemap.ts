@@ -426,6 +426,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/portones-valparaiso`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.88 },
     { url: `${BASE_URL}/portones-temuco`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.87 },
     { url: `${BASE_URL}/portones-antofagasta`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.87 },
+    // === BATCH 46 — portones ciudades + pintura nacional ===
+    { url: `${BASE_URL}/portones-la-serena`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.87 },
+    { url: `${BASE_URL}/portones-iquique`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.87 },
+    { url: `${BASE_URL}/pintura-electrostatica-concepcion`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/pintura-electrostatica-valparaiso`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/pintura-electrostatica-antofagasta`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.84 },
+    { url: `${BASE_URL}/pintura-electrostatica-temuco`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.84 },
+    // === BATCH 47 — páginas de producto camarotes ===
+    { url: `${BASE_URL}/camarote-petalo`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.91 },
+    { url: `${BASE_URL}/camarote-petalo-nido`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.90 },
+    { url: `${BASE_URL}/camarote-faenero`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.92 },
+    { url: `${BASE_URL}/camarote-militar`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.92 },
+    { url: `${BASE_URL}/camarote-con-escritorio-full-2-plazas`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.93 },
+    { url: `${BASE_URL}/cama-institucional-metalica`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.94 },
     ...productUrls,
     ...blogUrls,
   ];
