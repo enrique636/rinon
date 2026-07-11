@@ -397,6 +397,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/camarotes-ninos`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.88 },
     // === BATCH 41 — Precio camarotes + schema homepage ===
     { url: `${BASE_URL}/camarotes-precio`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.92 },
+    // === BATCH 42 — ciudades faltantes importantes ===
+    { url: `${BASE_URL}/camarotes-chillan`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.83 },
+    { url: `${BASE_URL}/camarotes-coquimbo`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.83 },
+    { url: `${BASE_URL}/camarotes-quilpue`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.82 },
     ...productUrls,
     ...blogUrls,
   ];
