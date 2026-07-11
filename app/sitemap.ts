@@ -401,6 +401,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/camarotes-chillan`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.83 },
     { url: `${BASE_URL}/camarotes-coquimbo`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.83 },
     { url: `${BASE_URL}/camarotes-quilpue`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.82 },
+    // === BATCH 43 — Rejas colegios + sitemap ===
+    { url: `${BASE_URL}/rejas-para-colegios`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.87 },
     ...productUrls,
     ...blogUrls,
   ];

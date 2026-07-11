@@ -721,6 +721,26 @@ export const blogPosts: BlogPost[] = [
     categoria: "Guías",
     tiempoLectura: "5 min",
   },
+  {
+    slug: "camarotes-para-hostal-guia-completa",
+    titulo: "Camarotes para Hostal en Chile: Guía para Equipar tus Habitaciones Compartidas",
+    subtitulo: "Qué especificaciones pedir, cuántos camarotes caben en cada habitación y cómo maximizar tu inversión",
+    descripcionSeo: "Guía completa para hostaleros en Chile sobre cómo elegir camarotes metálicos para habitaciones compartidas. Dimensiones, configuraciones, cuántas camas entran en una habitación estándar y qué especificaciones exigir al proveedor.",
+    keywords: ["camarotes para hostal chile", "literas hostal equipar", "como equipar hostal camarotes", "camarotes habitacion compartida hostal", "literas hostal precio chile", "camarotes hostal guia", "equipar hostal metalico chile"],
+    fecha: "2026-07-10",
+    categoria: "Institucional",
+    tiempoLectura: "6 min",
+  },
+  {
+    slug: "camarotes-agricolas-temporada-cosecha",
+    titulo: "Camarotes para Temporada Agrícola: Cómo Equipar un Campamento de Cosecha",
+    subtitulo: "Las reglas básicas para alojar a temporeros de forma correcta — y por qué el metal es mejor que la madera en el campo",
+    descripcionSeo: "Guía para empresas agrícolas en Chile sobre camarotes para campamentos de temporeros. Cuántos camarotes se necesitan, qué especificaciones exigir, cómo cumplir con la normativa y por qué el metal dura más que la madera en el campo.",
+    keywords: ["camarotes agricolas temporada", "literas temporeros chile", "campamento cosecha camarotes", "camarotes temporada vendimia", "camarotes empresas agricolas", "literas campo cosecha chile", "camarotes temporeros maule coquimbo"],
+    fecha: "2026-07-10",
+    categoria: "Institucional",
+    tiempoLectura: "5 min",
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

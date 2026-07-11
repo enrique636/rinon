@@ -5330,6 +5330,120 @@ const blogContent: Record<string, () => React.ReactElement> = {
     </>
   ),
 
+  "camarotes-para-hostal-guia-completa": () => (
+    <>
+      <p>
+        Equipar las habitaciones de un hostal requiere pensar diferente a equipar un dormitorio
+        en casa. El factor de uso es completamente distinto — en un hostal, una cama puede tener
+        decenas de usuarios distintos al año, muchos con maletas pesadas, madrugadas y uso brusco.
+      </p>
+
+      <h2>¿Cuántos camarotes entran en una habitación compartida?</h2>
+      <p>
+        Para una habitación de 12 m² (el mínimo recomendable para habitación compartida según la
+        mayoría de los estándares de clasificación), pueden entrar:
+      </p>
+      <ul>
+        <li><strong>4 camas (2 camarotes de 1 plaza):</strong> con suficiente espacio de circulación entre ellos si se distribuyen bien.</li>
+        <li><strong>6 camas (3 camarotes de 1 plaza):</strong> posible en habitaciones de 15–18 m², el estándar habitual de hostales con dorm de 6.</li>
+        <li><strong>8 camas (4 camarotes de 1 plaza):</strong> requiere mínimo 20–22 m² para cumplir con espacio de circulación y salida de emergencia.</li>
+      </ul>
+      <p>
+        Recuerda dejar al menos 60 cm entre camarotes para que los huéspedes puedan acceder sin
+        molestar al vecino. Los camarotes también deben estar a una distancia mínima de la puerta
+        de salida.
+      </p>
+
+      <h2>Especificaciones que importan para hostal</h2>
+      <p>
+        Un hostal no necesita el estándar militar (1,5 mm), pero sí supera el residencial.
+        El mínimo recomendable para uso intensivo de hostal es:
+      </p>
+      <ul>
+        <li>Tubo de 1,2 mm mínimo (1,5 mm si el hostal tiene alta ocupación).</li>
+        <li>Pintura electrostática al horno — resiste el trato brusco de maletas y mochileros.</li>
+        <li>Escalera fija integrada, no escalera separada que se puede perder.</li>
+        <li>Ganchos para mochilas o colgar ropa en cada nivel.</li>
+        <li>Soporte para colchoneta estándar de hostal (generalmente 10–12 cm de altura).</li>
+        <li>Baranda de seguridad lateral en el nivel superior.</li>
+      </ul>
+
+      <h2>¿Colchoneta incluida o aparte?</h2>
+      <p>
+        Fabricamos el camarote sin colchoneta — la mayoría de los hostaleros compran las colchonetas
+        por separado según sus estándares de comodidad. Las medidas estándar que usamos (90 × 190 cm)
+        son compatibles con colchonetas de 1 plaza disponibles en cualquier tienda.
+      </p>
+
+      <h2>Precio por habitación completa</h2>
+      <p>
+        Un dorm de 6 (3 camarotes) con el equipamiento correcto para uso de hostal parte desde
+        $400.000–$500.000 más IVA. Un dorm de 8 (4 camarotes) parte desde $520.000–$650.000.
+        Estos precios son de fabricante directo, sin márgenes de distribuidor.
+      </p>
+      <p>
+        Para hostales que equipan varias habitaciones, el precio unitario baja con volumen. Pide
+        cotización indicando cuántos dormitorios y cuántas camas en total.
+      </p>
+
+      <CTAWhatsApp mensaje="Hola, necesito cotizar camarotes para hostal. Habitaciones: [NÚMERO]. Camas por habitación: [DATO]. Ciudad: [DATO]. Total de camas: [DATO]." />
+    </>
+  ),
+
+  "camarotes-agricolas-temporada-cosecha": () => (
+    <>
+      <p>
+        En las temporadas altas de cosecha — uva (enero-marzo), arándano (noviembre-enero), manzana
+        (marzo-mayo) — las empresas agrícolas necesitan alojar a decenas o cientos de temporeros.
+        La infraestructura de alojamiento no es un detalle: es un requisito legal y de seguridad.
+      </p>
+
+      <h2>¿Qué exige la normativa de alojamiento de temporeros?</h2>
+      <p>
+        La resolución 1.007 del Ministerio de Salud establece estándares mínimos para campamentos
+        de trabajadores agrícolas. Entre los principales requisitos de habitabilidad:
+      </p>
+      <ul>
+        <li>Superficie mínima de 3 m² por persona</li>
+        <li>Ventilación natural o artificial</li>
+        <li>Separación de sexos en dormitorios colectivos</li>
+        <li>Instalaciones sanitarias en proporción al número de trabajadores</li>
+      </ul>
+      <p>
+        El uso de camarotes (en lugar de camas individuales) es la forma más eficiente de cumplir
+        con los 3 m² por persona optimizando el uso del espacio vertical.
+      </p>
+
+      <h2>¿Por qué metal y no madera en el campo?</h2>
+      <p>
+        Los campamentos agrícolas tienen condiciones que son destructivas para la madera: humedad
+        variable (mañanas frías, tardes calurosas en valles de Maule, O'Higgins y Coquimbo), polvo,
+        roce constante de ropa y equipos, y el hecho de que el alojamiento puede no ser controlado
+        ambientalmente.
+      </p>
+      <p>
+        La madera MDF se desintegra en 1–2 temporadas en estas condiciones. El acero con pintura
+        electrostática al horno aguanta 10–15 años con mantenimiento mínimo.
+      </p>
+
+      <h2>Cálculo rápido para tu temporada</h2>
+      <p>
+        Para calcular los camarotes que necesitas: divide el número de temporeros por 2 (ya que
+        cada camarote tiene 2 plazas). Considera un 10% adicional para imprevistos y fluctuaciones.
+        Por ejemplo, para 80 temporeros necesitas aproximadamente 44 camarotes de 2 plazas.
+      </p>
+
+      <h2>Arriendo vs compra</h2>
+      <p>
+        Para temporadas de menos de 3 meses, el arriendo puede ser más conveniente si se incluye
+        el transporte. Para temporadas recurrentes año a año, la compra amortiza en 2–3 temporadas.
+        Consulta según tu caso — manejamos ambas alternativas.
+      </p>
+
+      <CTAWhatsApp mensaje="Hola, necesito cotizar camarotes para temporada agrícola. Empresa: [NOMBRE]. Número de temporeros: [DATO]. Temporada: [MESES]. Región: [DATO]." />
+    </>
+  ),
+
   "como-instalar-camarote-metalico": () => (
     <>
       <p>
