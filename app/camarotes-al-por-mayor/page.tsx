@@ -57,7 +57,10 @@ export default function CamarotesAlPorMayorPage() {
             constructoras y distribuidores. Sin intermediarios — el precio que recibes
             es precio de fábrica.
           </p>
-          <a href={getWAUrl("Hola, quiero cotizar camarotes al por mayor. ¿Cuántas unidades necesito para precio mayorista?")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-triple-dormitorio-multiple.jpg" alt="Camarotes metálicos por mayor — dormitorio múltiple institucional" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={getWAUrl("Hola, quiero cotizar camarotes al por mayor. ¿Cuántas unidades necesito para precio mayorista?")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">
             Cotizar al por mayor
           </a>
         </div>

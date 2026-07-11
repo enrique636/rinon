@@ -226,6 +226,9 @@ export default function CamarotesMetalicosPage() {
             Te respondemos con el precio exacto en minutos. Sin compromiso.
             Pago cuando el camarote llega instalado en tu casa.
           </p>
+          <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-metalico-nordico.jpg" alt="Camarote metálico negro estilo nórdico — fabricante directo Chile" className="w-full object-cover" loading="lazy" />
+          </div>
           <WhatsAppButton
             message="Hola, busco un camarote metálico para Santiago. ¿Qué modelos tienen y cuáles son los precios?"
             size="lg"

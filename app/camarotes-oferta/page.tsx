@@ -37,7 +37,10 @@ export default function CamarotesOfertaPage() {
           <p className="text-gray-500 text-base max-w-2xl mb-6">
             Misma calidad de acero, misma soldadura MIG, misma pintura electrostática — precio más bajo porque fabricamos nosotros mismos.
           </p>
-          <a href={wa("Hola, busco un camarote al mejor precio. ¿Pueden cotizarme?")} target="_blank" rel="noopener noreferrer"
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-desmontable-litera-metalica.jpg" alt="Camarote desmontable metálico negro en oferta — fabricante directo" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa("Hola, busco un camarote al mejor precio. ¿Pueden cotizarme?")} target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">
             Cotizar precio de fábrica
           </a>

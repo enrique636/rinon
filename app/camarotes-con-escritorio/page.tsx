@@ -65,7 +65,10 @@ export default function CamarotesPage() {
                 )}
 
                 <div className="flex flex-col gap-2">
-                  <a
+                            <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-escritorio-full-negro.jpg" alt="Camarote con escritorio full metálico negro — el más completo de Chile" className="w-full object-cover" loading="lazy" />
+          </div>
+<a
                     href={getProductWhatsAppUrl(product.nombre)}
                     target="_blank"
                     rel="noopener noreferrer"

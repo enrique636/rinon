@@ -177,6 +177,9 @@ export default function CamarotesBaratosPage() {
             Sin compromiso. Cuéntanos qué modelo buscas y te respondemos con el precio en minutos.
             Pago contra entrega — pagas cuando llega instalado.
           </p>
+          <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-metalico-pieza-arriendo.jpg" alt="Camarote metálico negro precio bajo para pieza arrendada Chile" className="w-full object-cover" loading="lazy" />
+          </div>
           <WhatsAppButton
             message="Hola, busco un camarote para Santiago. ¿Cuáles son los precios de los diferentes modelos?"
             size="lg"

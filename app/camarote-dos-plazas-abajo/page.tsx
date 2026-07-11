@@ -178,7 +178,10 @@ export default function CamaroteDosPlazasAbajoPage() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-3">
-            <a
+                      <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-escritorio-2-plazas-nordico.jpg" alt="Camarote con 2 plazas abajo y escritorio — estilo nórdico minimalista" className="w-full object-cover" loading="lazy" />
+          </div>
+<a
               href={wa(
                 "Hola, me interesa el camarote con 2 plazas abajo y 1 plaza arriba. ¿Pueden darme las medidas y el precio?"
               )}

@@ -25,7 +25,10 @@ export default function CamarotesAdultosPage() {
           <p className="text-xs uppercase tracking-widest text-gray-400 font-medium mb-3">Medidas amplias · Mayor capacidad de carga · Fabricante directo</p>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Camarotes Metálicos para Adultos</h1>
           <p className="text-gray-500 text-lg max-w-2xl mb-6 leading-relaxed">Los camarotes para adultos no son simplemente "más grandes". Tienen mayor capacidad de carga por nivel (150 kg mínimo), medidas más amplias (1,5 y 2 plazas), longitud de 200 cm y estructura dimensionada para el peso y movimiento de adultos. Fabricamos en Santiago y despachamos a todo Chile.</p>
-          <a href={wa("Hola, necesito cotizar camarote para adultos. Medida: [1 PLAZA / 1,5 PLAZAS / 2 PLAZAS]. Cantidad: [UNIDADES]. Color: [DATO]. Uso: [HABITACIONAL / CAMPAMENTO / OTRO].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar camarote adulto</a>
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-petalo-dormitorio-hermanas.jpg" alt="Camarote pétalo metálico negro en dormitorio compartido de hermanas" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa("Hola, necesito cotizar camarote para adultos. Medida: [1 PLAZA / 1,5 PLAZAS / 2 PLAZAS]. Cantidad: [UNIDADES]. Color: [DATO]. Uso: [HABITACIONAL / CAMPAMENTO / OTRO].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar camarote adulto</a>
         </div>
 
         <div className="mb-10">

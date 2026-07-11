@@ -59,7 +59,10 @@ export default function CamarotesFaenasPage() {
             faenas, campamentos y cuadrillas en todo Chile. Sin intermediarios — directo
             desde la fábrica hasta el campamento.
           </p>
-          <a href={getFaenaWAUrl()} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-faenero-turno-noche-mineria.jpg" alt="Camarote metálico en turno de noche — faenas y campamentos Chile" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={getFaenaWAUrl()} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">
             Cotizar camarotes para faena
           </a>
         </div>

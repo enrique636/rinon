@@ -60,7 +60,10 @@ export default function CamarotesForestalesPage() {
             Resistentes a la humedad, portables entre faenas, precio de fábrica. Despachamos
             a Los Ángeles, Temuco, Valdivia, Osorno y toda la zona forestal.
           </p>
-          <a href={getForestalesWAUrl()} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-faenero-campamento-forestal.jpg" alt="Camarote faenero metálico negro en campamento forestal" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={getForestalesWAUrl()} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">
             Cotizar para forestal
           </a>
         </div>

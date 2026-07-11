@@ -25,7 +25,10 @@ export default function CamaroteParaObrasPage() {
           <p className="text-xs uppercase tracking-widest text-gray-400 font-medium mb-3">Fabricante directo · Uso intensivo · Precio por volumen</p>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Camarotes para Obras de Construcción</h1>
           <p className="text-gray-500 text-lg max-w-2xl mb-6 leading-relaxed">Proveemos camarotes metálicos para campamentos de obras civiles, constructoras, contratistas y faenas industriales. Estructura robusta para uso intensivo rotativo por cuadrillas de trabajadores, con precio por volumen y facturación a nombre de la empresa.</p>
-          <a href={wa("Hola, necesito cotizar camarotes para obra/campamento de construcción. Empresa: [NOMBRE]. Cantidad: [UNIDADES]. Duración del proyecto: [MESES]. Ciudad o región: [DATO].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para mi obra</a>
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-faenero-campamento-construccion.jpg" alt="Camarote metálico para obras y construcción — campamento Chile" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa("Hola, necesito cotizar camarotes para obra/campamento de construcción. Empresa: [NOMBRE]. Cantidad: [UNIDADES]. Duración del proyecto: [MESES]. Ciudad o región: [DATO].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para mi obra</a>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">

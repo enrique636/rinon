@@ -54,7 +54,10 @@ export default function CamarotesConstruccionPage() {
             Fabricamos camarotes metálicos para equipar campamentos de obra, cuadrillas de
             contratistas y alojamiento temporal en faenas de construcción en todo Chile.
           </p>
-          <a href={getConstruccionWAUrl()} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-triple-campamento-construccion.jpg" alt="Camarote triple para campamento de construcción Chile" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={getConstruccionWAUrl()} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">
             Cotizar para constructora
           </a>
         </div>

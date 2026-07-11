@@ -33,7 +33,10 @@ export default function CamarotesMilitaresPage() {
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Camarotes Militares — Literas de Acero para Uso Institucional</h1>
           <p className="text-gray-500 text-lg max-w-2xl mb-6 leading-relaxed">Fabricamos camarotes militares en acero estructural para cuarteles, regimientos, bases, institutos de formación, cuerpos de bomberos y fuerzas de orden. Resistentes al uso intensivo, fáciles de limpiar y con precio institucional por volumen.</p>
           <div className="flex flex-col sm:flex-row gap-3">
-            <a href={wa("Hola, necesito cotizar camarotes militares/institucionales. Cantidad: [UNIDADES]. Configuración: [2 NIVELES / 3 NIVELES]. Institución: [NOMBRE]. ¿Tienen precio por volumen?")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar institucional</a>
+                      <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-faenero-cuartel-carabineros.jpg" alt="Camarote institucional metálico negro para cuartel y uso militar" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa("Hola, necesito cotizar camarotes militares/institucionales. Cantidad: [UNIDADES]. Configuración: [2 NIVELES / 3 NIVELES]. Institución: [NOMBRE]. ¿Tienen precio por volumen?")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar institucional</a>
             <a href={wa("Hola, necesito ficha técnica de camarotes militares/institucionales para presentar a mi institución.")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-gray-900 hover:bg-gray-700 text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Solicitar ficha técnica</a>
           </div>
         </div>

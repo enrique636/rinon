@@ -47,7 +47,10 @@ export default function CamaroteHomeOfficePage() {
             dormir activa el cerebro en modo "trabajo". El camarote separa ambos mundos en el
             mismo espacio.
           </p>
-          <a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Cotizar para home office</a>
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-escritorio-full-home-office.jpg" alt="Camarote con escritorio full home office — trabaja y duerme en el mismo espacio" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Cotizar para home office</a>
         </div>
         <div className="mb-12">
           <h2 className="text-xl font-bold text-gray-900 mb-5">Por qué el camarote mejora tu home office</h2>

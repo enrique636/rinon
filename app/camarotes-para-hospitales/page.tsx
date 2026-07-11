@@ -25,7 +25,10 @@ export default function CamaroteParaHospitalesPage() {
           <p className="text-xs uppercase tracking-widest text-gray-400 font-medium mb-3">Fabricante directo · Sanitario · Precio institucional</p>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Camarotes para Hospitales, Clínicas y Residencias de Salud</h1>
           <p className="text-gray-500 text-lg max-w-2xl mb-6 leading-relaxed">Fabricamos camas y camarotes metálicos para establecimientos de salud: hospitales, clínicas, postas rurales, CESFAM, residencias de adulto mayor y centros de rehabilitación. Diseñados para soportar limpieza diaria con desinfectantes de alto espectro.</p>
-          <a href={wa("Hola, necesito cotizar camarotes/camas para hospital o establecimiento de salud. Institución: [NOMBRE]. Cantidad: [UNIDADES]. Configuración: [CAMA INDIVIDUAL / CAMAROTE 2 NIVELES]. Ciudad: [CIUDAD].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para mi establecimiento</a>
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/cama-metalica-gris-individual-institucional.jpg" alt="Cama metálica gris individual para uso hospitalario e institucional" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa("Hola, necesito cotizar camarotes/camas para hospital o establecimiento de salud. Institución: [NOMBRE]. Cantidad: [UNIDADES]. Configuración: [CAMA INDIVIDUAL / CAMAROTE 2 NIVELES]. Ciudad: [CIUDAD].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para mi establecimiento</a>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">

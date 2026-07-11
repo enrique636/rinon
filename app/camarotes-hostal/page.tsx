@@ -34,7 +34,10 @@ export default function CamarotesHostalPage() {
           <div className="inline-flex items-center gap-2 bg-gray-900 text-white rounded-full px-4 py-1.5 text-sm font-medium mb-5">🛏️ Hostales · Albergues · Residencias · Precio mayorista</div>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Camarotes para Hostal — Precio Mayorista del Fabricante</h1>
           <p className="text-gray-500 text-lg max-w-2xl mb-6">Somos fabricantes. Vendemos camarotes metálicos directamente a hostales, albergues y residencias estudiantiles con precio mayorista. Sin intermediarios — el precio que recibes es precio de fábrica, con la calidad que exige el uso intensivo de la hospitalidad.</p>
-          <a href={getWA("Hola, tengo un hostal y quiero cotizar camarotes. ¿Cuántas unidades necesito para precio mayorista?")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para mi hostal</a>
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-triple-dormitorio-hostal.jpg" alt="Camarote triple metálico para hostal y albergue Chile" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={getWA("Hola, tengo un hostal y quiero cotizar camarotes. ¿Cuántas unidades necesito para precio mayorista?")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para mi hostal</a>
         </div>
         <div className="mb-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">¿Por qué camarote metálico en un hostal?</h2>

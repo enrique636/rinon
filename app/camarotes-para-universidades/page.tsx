@@ -25,7 +25,10 @@ export default function CamaroteParaUniversidadesPage() {
           <p className="text-xs uppercase tracking-widest text-gray-400 font-medium mb-3">Fabricante directo · Institucional · Todo Chile</p>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Camarotes para Universidades y Residencias Estudiantiles</h1>
           <p className="text-gray-500 text-lg max-w-2xl mb-6 leading-relaxed">Equipamos residencias universitarias, hogares estudiantiles e internados con camarotes metálicos de uso intensivo. Fabricante directo con precio institucional por volumen, entrega coordinada y facturación a nombre de la institución.</p>
-          <a href={wa("Hola, necesito cotizar camarotes para residencia universitaria/hogar estudiantil. Cantidad: [UNIDADES]. Institución: [NOMBRE]. Configuración: [2 / 3 NIVELES]. Ciudad de entrega: [CIUDAD].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para mi institución</a>
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-desmontable-dormitorio-compartido.jpg" alt="Camarote desmontable metálico en dormitorio compartido universitario" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa("Hola, necesito cotizar camarotes para residencia universitaria/hogar estudiantil. Cantidad: [UNIDADES]. Institución: [NOMBRE]. Configuración: [2 / 3 NIVELES]. Ciudad de entrega: [CIUDAD].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para mi institución</a>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">

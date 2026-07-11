@@ -25,7 +25,10 @@ export default function CamaroteParaInternadosPage() {
           <p className="text-xs uppercase tracking-widest text-gray-400 font-medium mb-3">Fabricante directo · Uso juvenil intensivo · Precio institucional</p>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Camarotes para Internados — Colegios, Institutos y Hogares Juveniles</h1>
           <p className="text-gray-500 text-lg max-w-2xl mb-6 leading-relaxed">Equipamos internados de colegios, liceos, institutos técnicos y hogares juveniles con camarotes metálicos diseñados para uso intensivo y seguro. Estructura robusta, esquinas sin filos y acceso fácil al nivel superior.</p>
-          <a href={wa("Hola, necesito cotizar camarotes para internado de colegio/instituto. Cantidad: [UNIDADES]. Institución: [NOMBRE]. Configuración: [2 / 3 NIVELES]. Ciudad: [CIUDAD].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para mi institución</a>
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camas-institucionales-dormitorio-multiple.jpg" alt="Camas institucionales grises en dormitorio múltiple para internados" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa("Hola, necesito cotizar camarotes para internado de colegio/instituto. Cantidad: [UNIDADES]. Institución: [NOMBRE]. Configuración: [2 / 3 NIVELES]. Ciudad: [CIUDAD].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para mi institución</a>
         </div>
 
         <div className="mb-10">

@@ -62,7 +62,10 @@ export default function Camarote2PlazasPage() {
           <p className="text-xs uppercase tracking-widest text-gray-400 font-medium mb-3">Camarotes Metálicos · Cama inferior 130 cm · Fabricante</p>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Camarote 2 Plazas Metálico</h1>
           <p className="text-gray-500 text-lg max-w-2xl mb-6 leading-relaxed">La opción más cómoda para dormitorios compartidos: cama abajo de 2 plazas (130 cm de ancho) para el adulto, cama arriba de 1 plaza (90 cm) para el niño o el segundo ocupante. Estructura de acero, sin madera que se deteriore.</p>
-          <a href={wa("Hola, quiero cotizar un camarote metálico 2 plazas (cama inferior 130×190). ¿Precio y disponibilidad?")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar por WhatsApp</a>
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-escritorio-2-plazas-juvenil.jpg" alt="Camarote 2 plazas con escritorio full en habitación juvenil moderna" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa("Hola, quiero cotizar un camarote metálico 2 plazas (cama inferior 130×190). ¿Precio y disponibilidad?")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar por WhatsApp</a>
         </div>
 
         <div className="bg-white border border-gray-200 rounded-2xl p-6 mb-10 overflow-x-auto">

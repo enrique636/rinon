@@ -95,7 +95,10 @@ export default function CamarotesMineriaPage() {
             en todo Chile. Despachamos a Antofagasta, Calama, Copiapó, Rancagua y cada
             punto de la zona minera nacional.
           </p>
-          <a
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-faenero-campamento-minero.jpg" alt="Camarote faenero metálico negro en campamento minero — fabricante directo Chile" className="w-full object-cover" loading="lazy" />
+          </div>
+<a
             href={getMineriaWAUrl()}
             target="_blank"
             rel="noopener noreferrer"

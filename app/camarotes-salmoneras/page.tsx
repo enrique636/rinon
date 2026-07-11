@@ -25,7 +25,10 @@ export default function CamarotesSalmonerasPage() {
           <p className="text-xs uppercase tracking-widest text-gray-400 font-medium mb-3">Fabricante directo · Resistente a humedad · Los Lagos / Aysén / Magallanes</p>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Camarotes para Salmoneras y Acuicultura</h1>
           <p className="text-gray-500 text-lg max-w-2xl mb-6 leading-relaxed">Las salmoneras operan en ambientes de alta humedad y temperatura variable. Fabricamos camarotes metálicos con recubrimientos específicos para resistir la corrosión acelerada del ambiente marino y los sistemas de calefacción de los campamentos en los Lagos, Aysén y Magallanes.</p>
-          <a href={wa("Hola, necesito cotizar camarotes para salmonera/acuicultura. Empresa: [NOMBRE]. Cantidad: [UNIDADES]. Ubicación del campamento: [CIUDAD/REGIÓN]. Configuración: [2 / 3 NIVELES].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para salmonera</a>
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-faenero-offshore-industrial.jpg" alt="Camarote industrial offshore para faenas salmoneras y marítimas" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa("Hola, necesito cotizar camarotes para salmonera/acuicultura. Empresa: [NOMBRE]. Cantidad: [UNIDADES]. Ubicación del campamento: [CIUDAD/REGIÓN]. Configuración: [2 / 3 NIVELES].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para salmonera</a>
         </div>
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8 text-sm text-amber-800">

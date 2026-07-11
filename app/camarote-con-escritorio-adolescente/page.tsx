@@ -46,7 +46,10 @@ export default function CamaroteAdolescentePage() {
             completo abajo. En el mismo espacio que una cama individual, tu hijo/a tiene su dormitorio
             y su zona de estudio / gaming separados.
           </p>
-          <a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Cotizar ahora</a>
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-escritorio-economico-estudio.jpg" alt="Camarote con escritorio para adolescente — ideal pieza de estudio" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Cotizar ahora</a>
         </div>
 
         <div className="mb-12">

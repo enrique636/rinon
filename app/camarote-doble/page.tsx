@@ -147,7 +147,10 @@ export default function CamaroteDoble() {
             </div>
 
             <div className="flex flex-col gap-3">
-              <WhatsAppButton
+              <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-metalico-hogar-moderno.jpg" alt="Camarote metálico negro en hogar moderno — fabricante directo Chile" className="w-full object-cover" loading="lazy" />
+          </div>
+          <WhatsAppButton
                 size="lg"
                 message="Hola, me interesa el Camarote Doble con cama de 2 plazas abajo. ¿Cuál es el precio?"
                 className="w-full justify-center"

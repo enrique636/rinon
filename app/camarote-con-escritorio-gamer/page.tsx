@@ -46,7 +46,10 @@ export default function CamaroteGamerPage() {
             no vibra con el subwoofer, no se pandea con el peso del monitor y no cede con los
             años. Cuando llegas a las 3 AM y aterrizas en la escalera, el camarote no cruje.
           </p>
-          <a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Cotizar camarote gamer</a>
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-escritorio-economico-gamer.jpg" alt="Camarote con escritorio económico setup gamer — ideal dormitorio joven" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Cotizar camarote gamer</a>
         </div>
         <div className="mb-12">
           <h2 className="text-xl font-bold text-gray-900 mb-5">Lo que cabe en el escritorio</h2>
