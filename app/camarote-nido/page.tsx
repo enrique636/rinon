@@ -280,6 +280,14 @@ export default function CamaroteNidoPage() {
           </div>
         </div>
 
+        <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-10">
+          <h3 className="font-semibold text-gray-900 text-sm mb-1">¿Lo necesitas en plaza y media (1.5 plazas)?</h3>
+          <p className="text-gray-600 text-xs leading-relaxed">
+            El camarote nido también está disponible con camas de 1.5 plazas (~105 cm). Consúltanos al cotizar.{" "}
+            <a href="/camarote-1-5-plazas" className="text-amber-700 underline">Ver camarotes plaza y media →</a>
+          </p>
+        </div>
+
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-12">
           {imgs.slice(4).map((img) => (
             <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">

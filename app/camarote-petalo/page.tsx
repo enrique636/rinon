@@ -175,7 +175,8 @@ export default function CamaroteMetaloPage() {
           </ul>
           <h2 className="text-2xl font-bold text-gray-900">Medidas disponibles</h2>
           <p className="text-gray-600 leading-relaxed">
-            El Camarote Pétalo está disponible en <strong>1 plaza</strong> (90 cm de ancho) y <strong>1,5 plazas</strong> (105 cm). El costo adicional por la versión de 1,5 plazas es de $15.000 CLP.
+            El Camarote Pétalo está disponible en <strong>1 plaza</strong> (90 cm de ancho) y <strong>1,5 plazas</strong> (105 cm). El costo adicional por la versión de 1,5 plazas es de $15.000 CLP.{" "}
+            <Link href="/camarote-1-5-plazas" className="text-green-700 underline">Ver más sobre camarotes plaza y media →</Link>
           </p>
         </div>
 
