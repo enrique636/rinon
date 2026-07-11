@@ -39,8 +39,14 @@ export const metadata: Metadata = {
 };
 
 const imgs = [
-  { src: "/images/camarotes/cama-institucional-gris-individual-y-camarote.jpg", alt: "Cama institucional metálica gris — individual o camarote apilado" },
-  { src: "/images/camarotes/camarote-institucional-gris-cuartel.jpg", alt: "Cama gris institucional Carabineros — foto real" },
+  { src: "/images/camarotes/cama-institucional-gris-individual-y-camarote.jpg", alt: "Cama institucional metálica gris — configuración individual y camarote apilado" },
+  { src: "/images/camarotes/camarote-institucional-gris-cuartel.jpg", alt: "Cama institucional en cuartel con botas alineadas" },
+  { src: "/images/camarotes/camas-institucionales-dormitorio-multiple.jpg", alt: "Dormitorio institucional con múltiples camas grises" },
+  { src: "/images/camarotes/cama-metalica-gris-individual-institucional.jpg", alt: "Cama metálica gris individual con radio y velador" },
+  { src: "/images/camarotes/camarote-desmontable-institucional-locker.jpg", alt: "Camarote desmontable institucional con locker" },
+  { src: "/images/camarotes/dormitorio-institucional-camas-grises.jpg", alt: "Dormitorio institucional con lockers y camas grises" },
+  { src: "/images/camarotes/cama-metalica-gris-pension-hospedaje.jpg", alt: "Cama metálica gris en pensión o hospedaje" },
+  { src: "/images/camarotes/camarote-institucional-moderno-led.jpg", alt: "Camarote institucional moderno con iluminación LED" },
 ];
 
 const instituciones = [
@@ -217,6 +223,14 @@ export default function CamaInstitucionalMetalicaPage() {
               </div>
             ))}
           </div>
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-12">
+          {imgs.slice(4).map((img) => (
+            <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-100 border border-gray-200">
+              <img src={img.src} alt={img.alt} className="w-full h-full object-cover" />
+            </div>
+          ))}
         </div>
 
         <div>
