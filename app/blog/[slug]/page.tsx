@@ -5330,6 +5330,131 @@ const blogContent: Record<string, () => React.ReactElement> = {
     </>
   ),
 
+  "camarotes-mineria-que-exige-cada-faena": () => (
+    <>
+      <p>
+        Chile tiene al menos tres tipos distintos de faena minera, y cada una tiene condiciones
+        tan diferentes que el camarote que es perfecto para una puede ser inadecuado para otra.
+        Esta guía es para gerentes de logística y encargados de adquisiciones en operadoras y
+        contratistas.
+      </p>
+
+      <h2>1. Campamentos en el norte grande (Atacama, Antofagasta, Tarapacá)</h2>
+      <p>
+        Los campamentos del norte — Calama, Sierra Gorda, Antofagasta, Iquique, Tocopilla, Diego
+        de Almagro — tienen características muy específicas: calor extremo de día, frío nocturno,
+        aire muy seco, polvo mineral constante y altitud variable.
+      </p>
+      <p>
+        El polvo mineral es el factor más destructivo para los acabados. En estas condiciones,
+        la pintura convencional en aerosol se deteriora rápidamente. La pintura electrostática
+        al horno (60–80 micrones, curada a 180°C) es el mínimo aceptable. No se descascarilla
+        con el polvo abrasivo ni se agrieta con los cambios térmicos noche/día.
+      </p>
+      <p>
+        El estrés adicional de los trabajadores nocturnos y diurnos usando los mismos camarotes
+        en rotación (sistema "cama caliente" en algunas faenas) exige estructura de 1,5 mm mínimo
+        y soldadura MIG continua.
+      </p>
+
+      <h2>2. Campamentos de altura (precordillera y cordillera)</h2>
+      <p>
+        Las operaciones sobre los 2.000 m.s.n.m. (Collahuasi en 4.500 m, El Teniente en 2.000 m,
+        Quebrada Blanca en 4.400 m) tienen un desafío adicional: la condensación nocturna intensa
+        y los ciclos de congelamiento/descongelamiento aceleran la oxidación.
+      </p>
+      <p>
+        Para estas altitudes recomendamos imprimante anticorrosivo epoxi base agua + capa de
+        terminación electrostática. Esta combinación duplica la resistencia a la oxidación respecto
+        al estándar de las faenas del llano. Las soldaduras deben ser continuas sin poros donde
+        pueda acumularse humedad.
+      </p>
+
+      <h2>3. Centros acuícolas y salmoneras (Los Lagos, Aysén, Magallanes)</h2>
+      <p>
+        El ambiente marino del sur es el más agresivo de todos para los acabados metálicos.
+        Alta humedad permanente, brisa salina, precipitaciones constantes y temperaturas bajas.
+      </p>
+      <p>
+        Para salmoneras y centros acuícolas en Los Lagos, Chiloé, Aysén y Magallanes, el
+        galvanizado en caliente es la mejor opción si el presupuesto lo permite. El zinc forma
+        una capa catódica que protege el acero base incluso si hay un rasguño o corte. Si el
+        galvanizado está fuera del presupuesto, el imprimante epoxi + electrostática es el
+        segundo estándar aceptable.
+      </p>
+
+      <h2>Qué pedir al cotizar para minería</h2>
+      <ul>
+        <li><strong>Espesor del tubo:</strong> pide 1,5 mm en especificación escrita, no "estándar".</li>
+        <li><strong>Proceso de soldadura:</strong> MIG/MAG, cordones continuos. No puntos.</li>
+        <li><strong>Tipo de pintura:</strong> electrostática al horno mínimo; epoxi + electrostática para faenas con humedad o altura.</li>
+        <li><strong>Sistema de fijación entre niveles:</strong> tornillo hexagonal con tuerca autoblocante. No sistemas a presión.</li>
+        <li><strong>Despacho a faena:</strong> pide precio con despacho incluido. El transporte a faenas remotas puede representar el 20–40% del costo total.</li>
+      </ul>
+
+      <CTAWhatsApp mensaje="Hola, necesito cotizar camarotes para campamento minero. Empresa: [NOMBRE]. Cantidad: [UNIDADES]. Faena / Región: [DATO]. Configuración: [2 / 3 NIVELES]." />
+    </>
+  ),
+
+  "cama-loft-vs-camarote-diferencia": () => (
+    <>
+      <p>
+        Es la pregunta que más llega por WhatsApp: "¿me conviene la cama loft o el camarote?".
+        La respuesta es simple cuando entiendes qué resuelve cada una.
+      </p>
+
+      <h2>¿Cuál es la diferencia real?</h2>
+      <p>
+        <strong>Cama loft:</strong> una sola cama en el nivel alto. El espacio de abajo está completamente
+        libre. Lo usas para lo que necesites — escritorio, sofá, armario, espacio de juego, estudio.
+        Solo duerme una persona.
+      </p>
+      <p>
+        <strong>Camarote:</strong> dos camas, una arriba y una abajo. Duermen dos personas. El objetivo
+        principal es acomodar dos personas en el espacio vertical de una sola cama. No hay espacio
+        libre abajo porque hay una cama.
+      </p>
+
+      <h2>¿Cuándo elegir la cama loft?</h2>
+      <p>
+        La cama loft resuelve el problema de tener una pieza pequeña con una sola persona. La cama
+        sube al nivel alto, el espacio del suelo queda libre para escritorio, armario o lo que
+        necesites. Es la solución ideal para:
+      </p>
+      <ul>
+        <li>Estudiantes universitarios en piezas arrendadas pequeñas</li>
+        <li>Departamentos estudio o de un dormitorio donde el espacio es mínimo</li>
+        <li>Niños o adolescentes que quieren su escritorio y zona de juegos bajo la cama</li>
+        <li>Adultos que trabajan desde casa y necesitan escritorio en el cuarto</li>
+      </ul>
+
+      <h2>¿Cuándo elegir el camarote?</h2>
+      <p>
+        El camarote resuelve el problema de acomodar dos personas en el espacio que ocuparía
+        una sola cama. Es la solución ideal para:
+      </p>
+      <ul>
+        <li>Hermanos que comparten cuarto</li>
+        <li>Piezas de hostal o residencial con dos personas</li>
+        <li>Campamentos donde maximizar la capacidad de alojamiento por metro cuadrado</li>
+        <li>Habitaciones de internado con dos personas</li>
+      </ul>
+
+      <h2>El criterio decisivo: ¿cuántas personas duermen?</h2>
+      <p>
+        Si duerme una persona → cama loft.<br />
+        Si duermen dos → camarote.
+      </p>
+      <p>
+        Todo lo demás (precio, tamaño, diseño) es secundario a esta distinción básica. El error
+        más común es comprar un camarote para una sola persona "para tener espacio de estudio abajo"
+        — eso se resuelve mucho mejor con una loft que tiene más altura libre bajo la cama.
+      </p>
+
+      <CTAWhatsApp mensaje="Hola, necesito cotizar: [CAMA LOFT / CAMAROTE]. Medida: [1 PLAZA / 1,5 PLAZAS / 2 PLAZAS]. Color: [DATO]. Cantidad: [UNIDADES]." />
+    </>
+  ),
+
   "como-elegir-camarotes-para-internado": () => (
     <>
       <p>

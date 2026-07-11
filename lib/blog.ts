@@ -681,6 +681,26 @@ export const blogPosts: BlogPost[] = [
     categoria: "Institucional",
     tiempoLectura: "5 min",
   },
+  {
+    slug: "camarotes-mineria-que-exige-cada-faena",
+    titulo: "Camarotes para Minería en Chile: Qué Exige Cada Tipo de Faena",
+    subtitulo: "La diferencia entre un campamento de Atacama, una faena de altura y un centro de salmoneras — y qué camarote corresponde a cada uno",
+    descripcionSeo: "Guía B2B sobre camarotes para campamentos mineros en Chile. Diferencias entre faenas del norte (cobre, litio), campamentos de altura y centros acuícolas del sur. Especificaciones técnicas y cómo cotizar para minería.",
+    keywords: ["camarotes mineria chile", "literas campamento minero", "camarotes faena minera especificaciones", "camarotes atacama mineria", "camarotes campamento minero chile", "literas mineria norte chile", "camarotes para operadoras mineras"],
+    fecha: "2026-07-09",
+    categoria: "Institucional",
+    tiempoLectura: "6 min",
+  },
+  {
+    slug: "cama-loft-vs-camarote-diferencia",
+    titulo: "Cama Loft vs Camarote: Cuál Elegir Según tu Espacio",
+    subtitulo: "La diferencia real entre una cama loft y un camarote — y cuándo cada opción resuelve mejor el problema",
+    descripcionSeo: "¿Cama loft o camarote? Guía para elegir en Chile. La cama loft tiene espacio libre abajo; el camarote tiene dos camas. Cuál conviene según tus metros cuadrados y cuántas personas duermen en el cuarto.",
+    keywords: ["cama loft vs camarote", "diferencia cama loft camarote", "cama elevada vs litera", "cuando elegir cama loft", "cama loft o camarote para adultos", "cama loft o litera cual es mejor", "cama alta vs camarote diferencia"],
+    fecha: "2026-07-09",
+    categoria: "Guías",
+    tiempoLectura: "5 min",
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

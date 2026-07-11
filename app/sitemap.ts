@@ -392,6 +392,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // === BATCH 38 — Viña del Mar + camping + keyword alias ===
     { url: `${BASE_URL}/camarotes-vina-del-mar`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/camarotes-para-camping`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.84 },
+    { url: `${BASE_URL}/camarotes-talcahuano`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.82 },
     ...productUrls,
     ...blogUrls,
   ];

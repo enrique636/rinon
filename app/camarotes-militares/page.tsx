@@ -100,10 +100,10 @@ export default function CamarotesMilitaresPage() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
           {[
-            { href: "/camarotes-mineria", label: "Camarotes para Minería", desc: "Campamentos mineros y faenas" },
-            { href: "/camarotes-faenas", label: "Camarotes para Faenas", desc: "Construcción e industria" },
-            { href: "/camarote-triple", label: "Camarote Triple", desc: "Máxima capacidad por m²" },
-            { href: "/camarotes-al-por-mayor", label: "Camarotes al Por Mayor", desc: "Precio por volumen" },
+            { href: "/camarotes-para-universidades", label: "Para Universidades", desc: "Residencias estudiantiles" },
+            { href: "/camarotes-para-internados", label: "Para Internados", desc: "Colegios e institutos" },
+            { href: "/camarotes-para-hospitales", label: "Para Hospitales", desc: "Instituciones de salud" },
+            { href: "/mobiliario-institucional", label: "Mobiliario Institucional", desc: "Hub de todos los sectores" },
           ].map((l) => (
             <Link key={l.href} href={l.href} className="bg-white border border-gray-200 rounded-xl p-4 hover:border-gray-400 transition-all">
               <h3 className="font-semibold text-gray-900 text-sm mb-1">{l.label} →</h3>
