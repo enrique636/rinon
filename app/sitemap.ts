@@ -389,6 +389,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/camarotes-iquique`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.84 },
     { url: `${BASE_URL}/camarotes-arica`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.83 },
     { url: `${BASE_URL}/camarotes-adultos`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.88 },
+    // === BATCH 38 — Viña del Mar + camping + keyword alias ===
+    { url: `${BASE_URL}/camarotes-vina-del-mar`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/camarotes-para-camping`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.84 },
     ...productUrls,
     ...blogUrls,
   ];
