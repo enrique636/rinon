@@ -36,6 +36,8 @@ export interface Product {
   medidas: string;        // texto libre hasta tener medidas reales
   addOns: AddOn[];
   emoji: string;
+  imgSrc?: string;
+  imgAlt?: string;
   badge?: string;
   popular?: boolean;
   seoKeywords: string[];
@@ -98,6 +100,8 @@ export const products: Product[] = [
     medidas: "A confirmar con fabricante", // ← ACTUALIZAR
     addOns: [parrillaEstandar, baranda, cambioMedida],
     emoji: "🔩",
+    imgSrc: "/images/camarotes/camarote-metalico-negro-fondo-blanco.jpg",
+    imgAlt: "Camarote Titanic metálico reforzado negro",
     badge: "Más robusto",
     popular: true,
     seoKeywords: ["camarote titanic", "camarote titanic chile", "camarote robusto", "camarote metálico reforzado"],
@@ -123,6 +127,8 @@ export const products: Product[] = [
     medidas: "A confirmar con fabricante", // ← ACTUALIZAR
     addOns: [parrillaEstandar, baranda, cambioMedida],
     emoji: "🛏️",
+    imgSrc: "/images/camarotes/camarote-petalo-dormitorio-moderno.jpg",
+    imgAlt: "Camarote plaza y media en dormitorio moderno",
     seoKeywords: ["camarote 1.5 plazas", "camarote plaza y media", "camarote 1.5 con 1 plaza"],
   },
 
@@ -146,6 +152,8 @@ export const products: Product[] = [
     medidas: "A confirmar con fabricante", // ← ACTUALIZAR
     addOns: [parrillaEstandar, baranda, cambioMedida],
     emoji: "🪜",
+    imgSrc: "/images/camarotes/camarote-escritorio-full-nordico.jpg",
+    imgAlt: "Cama alta metálica con espacio libre abajo",
     badge: "Ahorra espacio",
     seoKeywords: ["cama alta", "cama alta chile", "cama alta 1 plaza", "cama alta metalica"],
   },
@@ -170,6 +178,8 @@ export const products: Product[] = [
     medidas: "A confirmar con fabricante", // ← ACTUALIZAR
     addOns: [parrillaEstandar, baranda, cambioMedida],
     emoji: "👫",
+    imgSrc: "/images/camarotes/camarote-metalico-hogar-moderno.jpg",
+    imgAlt: "Camarote doble 2 plazas abajo en hogar moderno",
     badge: "Más cómodo",
     seoKeywords: ["camarote doble", "camarote 2 plazas", "camarote cama doble abajo", "camarote matrimonial"],
   },
@@ -194,6 +204,8 @@ export const products: Product[] = [
     medidas: "A confirmar con fabricante", // ← ACTUALIZAR
     addOns: [parrillaNido, baranda, cambioMedida],
     emoji: "🪺",
+    imgSrc: "/images/camarotes/camarote-petalo-nido-estructura-completa.jpg",
+    imgAlt: "Camarote nido metálico con cama deslizante — 3 camas",
     badge: "3 en 1",
     seoKeywords: ["camarote nido", "cama nido", "camarote con nido", "camarote 3 camas", "cama nido chile"],
   },
@@ -218,6 +230,8 @@ export const products: Product[] = [
     medidas: "A confirmar con fabricante", // ← ACTUALIZAR
     addOns: [parrillaEstandar, baranda, cambioMedida],
     emoji: "🏗️",
+    imgSrc: "/images/camarotes/camarote-triple-litera-negro.jpg",
+    imgAlt: "Camarote triple metálico negro 3 pisos",
     badge: "3 niveles",
     seoKeywords: ["camarote triple", "camarote 3 pisos", "camarote tres camas", "litera triple chile"],
   },
@@ -242,6 +256,8 @@ export const products: Product[] = [
     medidas: "A confirmar con fabricante",
     addOns: [parrillaEstandar, baranda, cambioMedida],
     emoji: "📚",
+    imgSrc: "/images/camarotes/camarote-escritorio-full-negro.jpg",
+    imgAlt: "Camarote con escritorio negro — cama arriba escritorio abajo",
     badge: "Estudiante / Gamer",
     popular: true,
     seoKeywords: [
@@ -273,6 +289,8 @@ export const products: Product[] = [
     medidas: "A confirmar con fabricante",
     addOns: [parrillaEstandar, baranda, cambioMedida],
     emoji: "💰",
+    imgSrc: "/images/camarotes/camarote-escritorio-economico-negro.jpg",
+    imgAlt: "Camarote con escritorio económico negro",
     badge: "Más económico",
     seoKeywords: [
       "camarote con escritorio economico",
@@ -303,6 +321,8 @@ export const products: Product[] = [
     medidas: "A confirmar con fabricante",
     addOns: [parrillaEstandar, baranda, cambioMedida],
     emoji: "⭐",
+    imgSrc: "/images/camarotes/camarote-escritorio-full-home-office.jpg",
+    imgAlt: "Camarote con escritorio full premium con estantes",
     badge: "Premium",
     popular: true,
     seoKeywords: [
@@ -334,6 +354,8 @@ export const products: Product[] = [
     medidas: "A confirmar con fabricante",
     addOns: [parrillaEstandar, baranda, cambioMedida],
     emoji: "🛏️",
+    imgSrc: "/images/camarotes/camarote-escritorio-2-plazas-estructura.jpg",
+    imgAlt: "Camarote 2 plazas abajo 1 plaza arriba estructura",
     badge: "3 personas",
     seoKeywords: [
       "camarote dos plazas abajo",
@@ -364,6 +386,8 @@ export const products: Product[] = [
     medidas: "A confirmar con fabricante",
     addOns: [parrillaEstandar, baranda, cambioMedida],
     emoji: "🔧",
+    imgSrc: "/images/camarotes/camarote-desmontable-negro-fondo-blanco.jpg",
+    imgAlt: "Camarote desmontable metálico negro — se arma y desarma",
     badge: "Fácil montaje",
     seoKeywords: [
       "camarote desmontable",
@@ -394,6 +418,8 @@ export const products: Product[] = [
     medidas: "A confirmar con fabricante",
     addOns: [parrillaEstandar, cambioMedida],
     emoji: "📦",
+    imgSrc: "/images/camarotes/camarote-metalico-dormitorio-compartido.jpg",
+    imgAlt: "Cama de 2 plazas con cajón de almacenamiento metálica",
     badge: "Con almacenamiento",
     seoKeywords: [
       "cama dos plazas con cajon",

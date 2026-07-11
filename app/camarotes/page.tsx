@@ -75,9 +75,20 @@ export default function CamarotesPage() {
               className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-md hover:border-gray-300 transition-all duration-200 flex flex-col"
             >
               {/* Imagen */}
-              <div className="bg-gray-50 aspect-[4/3] flex flex-col items-center justify-center gap-2 relative border-b border-gray-100">
-                <span className="text-4xl">{product.emoji}</span>
-                <span className="text-xs text-gray-400">Foto próximamente</span>
+              <div className="bg-gray-50 aspect-[4/3] relative border-b border-gray-100 overflow-hidden">
+                {product.imgSrc ? (
+                  <img
+                    src={product.imgSrc}
+                    alt={product.imgAlt ?? product.nombre}
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
+                ) : (
+                  <div className="flex flex-col items-center justify-center h-full gap-2">
+                    <span className="text-4xl">{product.emoji}</span>
+                    <span className="text-xs text-gray-400">Foto próximamente</span>
+                  </div>
+                )}
                 {product.badge && (
                   <span className="absolute top-3 left-3 px-2 py-1 rounded-full text-xs font-semibold bg-gray-900 text-white">
                     {product.badge}
