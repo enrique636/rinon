@@ -5113,4 +5113,277 @@ const blogContent: Record<string, () => React.ReactElement> = {
       <CTAWhatsApp mensaje="Hola, necesito cotizar un cerco perimetral. Metros lineales: [DATO] ml. Altura: [DATO] m. Tipo de suelo: [HORMIGÓN / TIERRA / ADOQUÍN]. Ubicación: [DATO]." />
     </>
   ),
+
+  "camarotes-militares-caracteristicas-tecnicas": () => (
+    <>
+      <p>
+        Cuando alguien dice "camarote militar" no está hablando de un camarote pintado de verde.
+        Está hablando de un estándar de fabricación completamente diferente al camarote de dormitorio.
+        La diferencia no es estética — es estructural y de acabado.
+      </p>
+
+      <h2>El material: espesor que sí importa</h2>
+      <p>
+        Un camarote residencial estándar usa tubo cuadrado de 1,0 a 1,2 mm de espesor. Suficiente
+        para uso doméstico normal con una o dos personas usando el mueble con cuidado.
+      </p>
+      <p>
+        Un camarote de uso institucional intensivo (militar, cuartel, internado, campamento minero)
+        requiere tubo de 1,5 mm mínimo, y en aplicaciones de máxima exigencia, 2,0 mm. La diferencia
+        se nota en cómo responde el mueble al movimiento brusco, al golpe lateral y al peso acumulado
+        durante años de uso continuo por múltiples usuarios.
+      </p>
+
+      <h2>La soldadura: lo que no se ve es lo que más importa</h2>
+      <p>
+        El proceso de soldadura es la diferencia más importante y la menos visible. Un camarote
+        de bajo costo usa soldadura por puntos (spot) — puntos discretos de unión que con el tiempo,
+        bajo vibración y uso intensivo, generan microfracturas.
+      </p>
+      <p>
+        La fabricación de calidad usa proceso MIG/MAG con cordones continuos en todos los puntos
+        de carga: uniones de travesaños, bases de escalera y anclajes de baranda. Un cordón continuo
+        distribuye el estrés a lo largo de toda la longitud de la unión, no en un solo punto.
+      </p>
+
+      <h2>El acabado: pintura al horno vs pintura en aerosol</h2>
+      <p>
+        La pintura electrostática al horno es un proceso completamente diferente a la pintura
+        convencional en aerosol. El polvo de pintura se aplica electroestáticamente (se adhiere
+        uniformemente a toda la pieza) y luego se cura al horno a 180–200°C, formando una capa
+        de 60–80 micrones que prácticamente no puede pelarse ni rayarse con el uso normal.
+      </p>
+      <p>
+        Una reja pintada a pistola tiene 30–40 micrones y se puede rayar con la uña. Una pieza
+        pintada al horno resiste llaves, cinturones, herramientas y la limpieza diaria con
+        desinfectantes sin deteriorarse durante años.
+      </p>
+
+      <h2>El sistema de fijación entre camas</h2>
+      <p>
+        Los camarotes apilables deben tener un sistema de fijación entre el nivel inferior y el
+        superior. Los camarotes residenciales baratos simplemente apoyan la cama superior sobre
+        los postes de la inferior sin fijación. En uso institucional, donde alguien podría empujar,
+        subir bruscamente o usar la escalera con fuerza, eso representa un riesgo real.
+      </p>
+      <p>
+        Un camarote de uso intensivo tiene tornillos hexagonales con tuerca autoblocante en cada
+        punto de unión entre niveles, más seguros de acero que impiden el desplazamiento lateral.
+      </p>
+
+      <h2>¿Quién necesita un camarote de este estándar?</h2>
+      <p>
+        La respuesta corta: cualquier institución donde el mueble vaya a ser usado de forma intensiva
+        por múltiples personas durante años. Eso incluye cuarteles, regimientos, bases, institutos de
+        formación, cuerpos de bomberos, campamentos mineros, salmoneras, internados y residencias
+        estudiantiles con alta ocupación.
+      </p>
+      <p>
+        Para uso familiar normal — dos hijos en el mismo cuarto — el estándar residencial es suficiente.
+        El sobredimensionamiento no es necesario y solo encarece el producto sin agregar valor real
+        en ese contexto.
+      </p>
+
+      <CTAWhatsApp mensaje="Hola, necesito cotizar camarotes para uso institucional/militar. Cantidad: [UNIDADES]. Institución: [NOMBRE]. Configuración: [2 / 3 NIVELES]. Ciudad: [CIUDAD]." />
+    </>
+  ),
+
+  "literas-metalicas-vs-madera": () => (
+    <>
+      <p>
+        Es la comparación que más nos preguntan. Y la respuesta honesta es: depende de cuánto tiempo
+        vas a usar el mueble y en qué condiciones. Aquí el análisis real, sin sesgo de proveedor.
+      </p>
+
+      <h2>Precio inicial</h2>
+      <p>
+        Una litera de madera MDF o pino con acabado laminado parte desde $80.000–$120.000 en tiendas
+        de retail. Una litera metálica de fabricante directo parte desde $120.000–$180.000 dependiendo
+        del tamaño y acabado.
+      </p>
+      <p>
+        En el precio inicial, la madera gana. Pero el precio inicial no es el precio total.
+      </p>
+
+      <h2>Durabilidad real</h2>
+      <p>
+        Una litera de MDF en condiciones normales de uso dura 5–8 años antes de que las uniones
+        comiencen a aflojar, la laminación se levante o las esquinas se astillen. En ambientes
+        húmedos (baño cercano, zona de lluvia, habitación poco ventilada), ese plazo puede ser
+        de 3–5 años.
+      </p>
+      <p>
+        Una litera metálica con pintura electrostática al horno, en condiciones normales, puede
+        durar 15–20 años sin mantenimiento. No se reseca, no se astilla, no se pudre. El único
+        mantenimiento que puede necesitar es retoque de pintura si hay un golpe severo — lo que
+        se hace con spray del mismo color.
+      </p>
+      <p>
+        Calculando por vida útil, la litera metálica es más barata a mediano plazo.
+      </p>
+
+      <h2>Ruido y estabilidad</h2>
+      <p>
+        El ruido es el talón de Aquiles de las literas de cualquier material. En madera, las
+        uniones con tornillo generan crujido a medida que la madera se mueve. En metal mal fabricado,
+        ocurre lo mismo con las soldaduras por puntos.
+      </p>
+      <p>
+        Una litera metálica con soldadura continua MIG y tornillos bien apretados prácticamente no
+        cruje. La clave está en la calidad de fabricación, no en el material per se.
+      </p>
+
+      <h2>Seguridad</h2>
+      <p>
+        El metal no se astilla ni rompe de forma irregular. Si una unión cede (lo que es muy raro
+        con buena soldadura), lo hace de forma visible y gradual, no de golpe. La madera MDF puede
+        fallar de forma súbita en las uniones bajo carga lateral.
+      </p>
+      <p>
+        Para uso infantil o institucional, el metal gana en seguridad. Para una habitación de adultos
+        con uso moderado, ambos son aceptables.
+      </p>
+
+      <h2>Estética</h2>
+      <p>
+        La madera tiene más variedad de acabados y suele integrarse mejor en dormitorios de estilo
+        nórdico, natural o tradicional. El metal tiene una estética industrial-minimalista que combina
+        con espacios contemporáneos y juveniles.
+      </p>
+      <p>
+        La pintura al horno ofrece literalmente cualquier color RAL, lo que le da al metal una
+        flexibilidad estética que la madera natural no puede igualar.
+      </p>
+
+      <h2>El veredicto</h2>
+      <p>
+        Si tu presupuesto es ajustado y el uso va a ser moderado, la madera de buena calidad es
+        una opción válida. Si planeas usar el mueble más de 5 años, si el uso va a ser intensivo,
+        si hay humedad en el ambiente, o si es para uso institucional — el metal es la opción correcta.
+      </p>
+
+      <CTAWhatsApp mensaje="Hola, necesito cotizar litera metálica. Medida: [1 PLAZA / 1,5 PLAZAS / 2 PLAZAS]. Color: [DATO]. Cantidad: [UNIDADES]." />
+    </>
+  ),
+
+  "mallas-3d-que-son-y-cuando-usarlas": () => (
+    <>
+      <p>
+        "Malla 3D" es el nombre comercial más común para lo que técnicamente se llama panel soldado
+        o malla electrosoldada. Es el sistema de cerco que más ha crecido en uso industrial y
+        residencial de gama media-alta en Chile durante los últimos años.
+      </p>
+
+      <h2>¿Qué es exactamente una malla 3D?</h2>
+      <p>
+        Es un panel fabricado con alambre de acero de calibre específico (generalmente 4 o 5 mm),
+        soldado electrónicamente en cada intersección de la grilla. El resultado es un panel rígido,
+        plano y uniforme que no se deforma bajo presión lateral.
+      </p>
+      <p>
+        El término "3D" viene de la protuberancia que forman los alambres horizontales al pasar
+        por delante y por detrás de los verticales, creando una ligera dimensión en profundidad
+        que le da mayor rigidez al panel.
+      </p>
+
+      <h2>La diferencia real con la malla eslabonada</h2>
+      <p>
+        La malla eslabonada (también llamada malla de cadena, tipo diamante o "ciclón") es flexible.
+        Se puede deformar empujándola, se puede pandear con el tiempo entre postes, y con herramientas
+        básicas se puede cortar con relativa facilidad.
+      </p>
+      <p>
+        El panel soldado 3D no se deforma. Si alguien empuja con fuerza, el panel resiste como una
+        pared rígida. Cortar un alambre de 4–5 mm de diámetro requiere herramientas de corte
+        específicas y hace ruido. Escalar un panel liso es mucho más difícil que escalar una
+        malla eslabonada con su grilla de tipo escalera.
+      </p>
+
+      <h2>¿Cuándo conviene la malla 3D sobre la eslabonada?</h2>
+      <p>
+        La malla 3D conviene cuando alguno de estos factores está presente:
+      </p>
+      <ul>
+        <li><strong>Seguridad activa:</strong> perímetros de industria, bodegas, plantas, depósitos de maquinaria donde el disuasivo visual y físico importa.</li>
+        <li><strong>Estética:</strong> el panel soldado tiene un acabado prolijo y uniforme, muy diferente del aspecto más "precario" de la malla de cadena.</li>
+        <li><strong>Resistencia al pandeo:</strong> si el cerco está expuesto a impactos de animales, maquinaria o personas, el panel no cede.</li>
+        <li><strong>Colegios y espacios con menores:</strong> el panel liso sin grilla tipo escalera dificulta la escalada.</li>
+      </ul>
+
+      <h2>¿Cuándo puede ser suficiente la malla eslabonada?</h2>
+      <p>
+        Para terrenos grandes (parcelas, campos, sitios) donde el objetivo es solo delimitar,
+        la malla eslabonada sigue siendo la opción más económica por metro lineal. Si el perímetro
+        tiene cientos de metros lineales y la función principal es marcar un límite sin mayor
+        exigencia de seguridad activa, el costo de la malla 3D no se justifica.
+      </p>
+
+      <h2>Precio orientativo</h2>
+      <p>
+        La malla 3D tiene un costo por metro lineal instalado que es entre un 30 y un 60% mayor
+        que la malla eslabonada de igual altura. Para un metro lineal de cerco de 1,80 m de altura,
+        la malla 3D parte desde $45.000 ML instalada, versus $28.000–$35.000 ML de la eslabonada.
+        Los precios varían según el calibre del alambre y la profundidad del posteo.
+      </p>
+
+      <CTAWhatsApp mensaje="Hola, necesito cotizar cerco con malla 3D / panel soldado. Metros lineales: [METROS]. Altura: [ALTURA]. Uso: [INDUSTRIAL / RESIDENCIAL]. Ciudad: [CIUDAD]." />
+    </>
+  ),
+
+  "como-elegir-camarotes-para-internado": () => (
+    <>
+      <p>
+        Si eres encargado de adquisiciones o directivo de un colegio con internado, sabes que comprar
+        camarotes para un internado no es lo mismo que comprar camarotes para un dormitorio. El nivel
+        de uso es completamente diferente — y el precio no es el único criterio que importa.
+      </p>
+
+      <h2>Lo que diferencia un internado de un dormitorio familiar</h2>
+      <p>
+        En un dormitorio familiar, una cama puede tener un solo usuario durante años. En un internado,
+        la misma cama puede tener 3 o 4 usuarios distintos en un mismo año lectivo, más el personal
+        de aseo que la limpia con cloro varias veces por semana, más las inspecciones, visitas y
+        eventualmente traslados de habitación.
+      </p>
+      <p>
+        Un mueble que dura 10 años en un dormitorio puede durar 3–4 años en un internado si no
+        está diseñado para ese nivel de uso.
+      </p>
+
+      <h2>Especificaciones mínimas para un camarote de internado</h2>
+      <ul>
+        <li><strong>Espesor de tubo:</strong> mínimo 1,5 mm. Los camarotes de retail estándar usan 1,0–1,2 mm.</li>
+        <li><strong>Proceso de soldadura:</strong> MIG con cordones continuos, no puntos.</li>
+        <li><strong>Acabado:</strong> pintura electrostática al horno (no spray convencional). Resiste cloro y desinfectantes sin descascararse.</li>
+        <li><strong>Escalera:</strong> integrada con peldaños anchos (20 cm mínimo), no travesaños angostos.</li>
+        <li><strong>Baranda:</strong> lateral en el nivel superior, mínimo 30 cm de altura.</li>
+        <li><strong>Sin tornillos expuestos:</strong> todos los tornillos embebidos o con tapa. Facilita el aseo y evita cortes.</li>
+        <li><strong>Fijación entre niveles:</strong> tornillo hexagonal con tuerca autoblocante + seguro de acero.</li>
+      </ul>
+
+      <h2>Cómo comparar cotizaciones</h2>
+      <p>
+        Cuando recibas cotizaciones, pide específicamente que te indiquen el espesor del tubo,
+        el proceso de soldadura y el tipo de pintura. Si un proveedor no puede responder esas
+        tres preguntas, el producto probablemente no cumple los estándares que necesitas.
+      </p>
+      <p>
+        La diferencia de precio entre un camarote residencial de 1,2 mm pintado a spray y uno
+        institucional de 1,5 mm pintado al horno puede ser un 30–40% por unidad. Pero si el
+        residencial dura 3 años en el internado y el institucional dura 10, el costo total por
+        año de vida útil es significativamente menor con el institucional.
+      </p>
+
+      <h2>Sobre el precio institucional</h2>
+      <p>
+        Los fabricantes directos ofrecen precio institucional para compras de 10 unidades o más.
+        Eso incluye descuento por volumen, facturación a nombre de la institución (RUT colegio),
+        coordinación de entrega por etapas si se requiere y soporte post-entrega. Asegúrate de
+        cotizar directamente con fabricantes, no con distribuidores que agregan margen sin agregar
+        valor.
+      </p>
+
+      <CTAWhatsApp mensaje="Hola, necesito cotizar camarotes para internado de colegio. Institución: [NOMBRE]. Cantidad: [UNIDADES]. Configuración: [2 / 3 NIVELES]. Ciudad: [CIUDAD]." />
+    </>
+  ),
 };
