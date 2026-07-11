@@ -393,6 +393,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/camarotes-vina-del-mar`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/camarotes-para-camping`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.84 },
     { url: `${BASE_URL}/camarotes-talcahuano`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.82 },
+    // === BATCH 40 — Niños + keyword aliases ===
+    { url: `${BASE_URL}/camarotes-ninos`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.88 },
     ...productUrls,
     ...blogUrls,
   ];
