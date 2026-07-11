@@ -25,14 +25,7 @@ export const metadata: Metadata = {
 };
 
 const imgs = [
-  { src: "/images/camarotes/camarote-petalo-fondo-blanco.jpg", alt: "Camarote Pétalo metálico negro fondo blanco estudio" },
-  { src: "/images/camarotes/camarote-petalo-habitacion-nina.jpg", alt: "Camarote Pétalo en habitación de niña rosada" },
-  { src: "/images/camarotes/camarote-petalo-dormitorio-hermanas.jpg", alt: "Camarote Pétalo en dormitorio de hermanas" },
-  { src: "/images/camarotes/camarote-petalo-infantil-celeste.jpg", alt: "Camarote Pétalo habitación infantil celeste" },
-  { src: "/images/camarotes/camarote-petalo-dormitorio-moderno.jpg", alt: "Camarote Pétalo dormitorio moderno" },
-  { src: "/images/camarotes/camarote-petalo-nordico.jpg", alt: "Camarote Pétalo estilo nórdico" },
-  { src: "/images/camarotes/camarote-petalo-juvenil-led.jpg", alt: "Camarote Pétalo habitación juvenil con LED" },
-  { src: "/images/camarotes/camarote-petalo-premium.jpg", alt: "Camarote Pétalo premium blanco aspiracional" },
+  { src: "/images/camarotes/camarote-petalo-fondo-blanco.jpg", alt: "Camarote Pétalo metálico negro con detalles de madera" },
 ];
 
 const faqs = [
@@ -109,12 +102,8 @@ export default function CamaroteMetaloPage() {
         </nav>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-12">
-          <div className="grid grid-cols-2 gap-2">
-            {imgs.slice(0, 4).map((img) => (
-              <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
-                <img src={img.src} alt={img.alt} className="w-full h-full object-cover" />
-              </div>
-            ))}
+          <div className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
+            <img src={imgs[0].src} alt={imgs[0].alt} className="w-full h-full object-cover" />
           </div>
 
           <div>
@@ -161,13 +150,6 @@ export default function CamaroteMetaloPage() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-12">
-          {imgs.slice(4).map((img) => (
-            <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
-              <img src={img.src} alt={img.alt} className="w-full h-full object-cover" />
-            </div>
-          ))}
-        </div>
 
         <div className="prose prose-gray max-w-none mb-12">
           <h2 className="text-2xl font-bold text-gray-900">¿Qué es el Camarote Pétalo?</h2>

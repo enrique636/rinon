@@ -23,14 +23,9 @@ export const metadata: Metadata = {
 };
 
 const imgs = [
-  { src: "/images/camarotes/camarote-faenero-metalico-negro.jpg", alt: "Camarote Faenero metálico negro fondo blanco" },
-  { src: "/images/camarotes/camarote-faenero-campamento-minero.jpg", alt: "Camarote Faenero en campamento minero" },
-  { src: "/images/camarotes/camarote-faenero-campamento-construccion.jpg", alt: "Camarote Faenero campamento de construcción" },
-  { src: "/images/camarotes/camarote-faenero-cuartel-carabineros.jpg", alt: "Camarote Faenero en cuartel institucional" },
-  { src: "/images/camarotes/camarote-faenero-campamento-forestal.jpg", alt: "Camarote Faenero campamento forestal" },
-  { src: "/images/camarotes/camarote-faenero-offshore-industrial.jpg", alt: "Camarote Faenero offshore industrial" },
-  { src: "/images/camarotes/camarote-faenero-turno-noche-mineria.jpg", alt: "Camarote Faenero turno de noche minería" },
-  { src: "/images/camarotes/camarote-faenero-campamento-premium.jpg", alt: "Camarote Faenero campamento premium corporativo" },
+  { src: "/images/camarotes/camarote-faenero-metalico-negro.jpg", alt: "Camarote Faenero metálico negro — campamentos y faenas" },
+  { src: "/images/camarotes/camarote-faenero-campamento-minero.jpg", alt: "Camarote Faenero en campamento minero — foto real" },
+  { src: "/images/camarotes/camarote-faenero-parrilla-metalica.jpg", alt: "Parrilla metálica integrada del Camarote Faenero" },
 ];
 
 const faqs = [
@@ -153,13 +148,6 @@ export default function CamaroteFaeneroPage() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-12">
-          {imgs.slice(4).map((img) => (
-            <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
-              <img src={img.src} alt={img.alt} className="w-full h-full object-cover" />
-            </div>
-          ))}
-        </div>
 
         <div className="prose prose-gray max-w-none mb-12">
           <h2 className="text-2xl font-bold text-gray-900">¿Para qué sirve el Camarote Faenero?</h2>

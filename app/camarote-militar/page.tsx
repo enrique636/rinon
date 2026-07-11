@@ -25,14 +25,9 @@ export const metadata: Metadata = {
 };
 
 const imgs = [
-  { src: "/images/camarotes/camarote-militar-metalico-gris.jpg", alt: "Camarote Militar metálico gris fondo blanco" },
-  { src: "/images/camarotes/camarote-militar-ejercito-de-chile.jpg", alt: "Camarote Militar en dormitorio Ejército de Chile" },
-  { src: "/images/camarotes/camarote-carabineros-de-chile.jpg", alt: "Camarote Militar en cuartel Carabineros de Chile" },
-  { src: "/images/camarotes/camarote-gendarmeria-chile.jpg", alt: "Camarote Militar en dormitorio Gendarmería Chile" },
-  { src: "/images/camarotes/camarote-bomberos-de-chile.jpg", alt: "Camarote Militar en cuartel Bomberos de Chile" },
-  { src: "/images/camarotes/camarote-militar-base-zona-extrema.jpg", alt: "Camarote Militar en base zona extrema" },
-  { src: "/images/camarotes/camarote-militar-cuartel-dormitorio.jpg", alt: "Dormitorio de cuartel con camarotes militares en fila" },
-  { src: "/images/camarotes/camarote-institucional-moderno-gris.jpg", alt: "Camarote Militar en cuartel moderno renovado" },
+  { src: "/images/camarotes/camarote-militar-metalico-gris.jpg", alt: "Camarote Militar metálico gris — uso institucional" },
+  { src: "/images/camarotes/camarote-militar-ejercito-de-chile.jpg", alt: "Camarote Militar Ejército de Chile — foto real" },
+  { src: "/images/camarotes/camarote-carabineros-de-chile.jpg", alt: "Cama gris institucional Carabineros de Chile — foto real" },
 ];
 
 const faqs = [
@@ -155,13 +150,6 @@ export default function CamaroteMilitarPage() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-12">
-          {imgs.slice(4).map((img) => (
-            <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-100 border border-gray-200">
-              <img src={img.src} alt={img.alt} className="w-full h-full object-cover" />
-            </div>
-          ))}
-        </div>
 
         <div className="prose prose-gray max-w-none mb-12">
           <h2 className="text-2xl font-bold text-gray-900">¿Qué instituciones usan el Camarote Militar?</h2>

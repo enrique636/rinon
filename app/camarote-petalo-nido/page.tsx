@@ -19,14 +19,8 @@ export const metadata: Metadata = {
 };
 
 const imgs = [
-  { src: "/images/camarotes/camarote-petalo-nido-estructura-completa.jpg", alt: "Camarote Pétalo Nido estructura completa fondo blanco" },
-  { src: "/images/camarotes/camarote-petalo-nido-habitacion-nina.jpg", alt: "Camarote Pétalo Nido en habitación de niña rosada" },
-  { src: "/images/camarotes/camarote-nido-pieza-compartida-hermanas.jpg", alt: "Camarote Pétalo Nido pieza compartida hermanas" },
-  { src: "/images/camarotes/camarote-nido-infantil-celeste.jpg", alt: "Camarote Pétalo Nido habitación infantil celeste" },
-  { src: "/images/camarotes/camarote-petalo-nido-dormitorio-moderno.jpg", alt: "Camarote Pétalo Nido dormitorio moderno" },
-  { src: "/images/camarotes/camarote-metalico-nido-estilo-nordico.jpg", alt: "Camarote Pétalo Nido estilo nórdico" },
-  { src: "/images/camarotes/camarote-petalo-nido-juvenil-led.jpg", alt: "Camarote Pétalo Nido juvenil con LED" },
-  { src: "/images/camarotes/camarote-petalo-nido-blanco-premium.jpg", alt: "Camarote Pétalo Nido premium blanco" },
+  { src: "/images/camarotes/camarote-petalo-nido-estructura-completa.jpg", alt: "Camarote Pétalo Nido estructura completa" },
+  { src: "/images/camarotes/camarote-petalo-nido-real-fabrica.jpg", alt: "Camarote Pétalo Nido fabricado en Chile — foto real" },
 ];
 
 const faqs = [
@@ -158,13 +152,6 @@ export default function CamarotePetaloNidoPage() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-12">
-          {imgs.slice(4).map((img) => (
-            <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
-              <img src={img.src} alt={img.alt} className="w-full h-full object-cover" />
-            </div>
-          ))}
-        </div>
 
         <div className="prose prose-gray max-w-none mb-12">
           <h2 className="text-2xl font-bold text-gray-900">¿Qué hace único al Camarote Pétalo Nido?</h2>

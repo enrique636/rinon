@@ -28,14 +28,9 @@ export const metadata: Metadata = {
 };
 
 const imgs = [
-  { src: "/images/camarotes/camarote-escritorio-2-plazas-estructura.jpg", alt: "Camarote escritorio full 2 plazas estructura completa" },
-  { src: "/images/camarotes/camarote-escritorio-2-plazas-gamer.jpg", alt: "Camarote escritorio 2 plazas setup gamer RGB" },
-  { src: "/images/camarotes/camarote-escritorio-2-plazas-home-office.jpg", alt: "Camarote escritorio 2 plazas home office" },
-  { src: "/images/camarotes/camarote-escritorio-2-plazas-universitario.jpg", alt: "Camarote escritorio 2 plazas universitario" },
-  { src: "/images/camarotes/camarote-escritorio-2-plazas-juvenil.jpg", alt: "Camarote escritorio 2 plazas habitación juvenil" },
-  { src: "/images/camarotes/camarote-escritorio-2-plazas-productividad.jpg", alt: "Camarote escritorio 2 plazas productividad" },
-  { src: "/images/camarotes/camarote-escritorio-2-plazas-nordico.jpg", alt: "Camarote escritorio 2 plazas estilo nórdico" },
-  { src: "/images/camarotes/camarote-escritorio-2-plazas-dormitorio-completo.jpg", alt: "Camarote escritorio 2 plazas dormitorio oficina completo" },
+  { src: "/images/camarotes/camarote-escritorio-2-plazas-estructura.jpg", alt: "Camarote con escritorio full 2 plazas — vista general" },
+  { src: "/images/camarotes/camarote-escritorio-2-plazas-full-real.jpg", alt: "Camarote escritorio full 2 plazas — foto real fabricado" },
+  { src: "/images/camarotes/camarote-escritorio-2-plazas-home-office.jpg", alt: "Cama 2 plazas abajo con escritorio — detalle real" },
 ];
 
 const faqs = [
@@ -166,13 +161,6 @@ export default function CamaroteEscritorioFull2PlazasPage() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-12">
-          {imgs.slice(4).map((img) => (
-            <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
-              <img src={img.src} alt={img.alt} className="w-full h-full object-cover" />
-            </div>
-          ))}
-        </div>
 
         <div className="prose prose-gray max-w-none mb-12">
           <h2 className="text-2xl font-bold text-gray-900">El camarote que nadie más fabrica</h2>
