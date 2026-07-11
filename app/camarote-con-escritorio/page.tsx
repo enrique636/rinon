@@ -35,6 +35,17 @@ const useCases = [
   { icon: "📐", title: "Piezas pequeñas", desc: "Libera el 100% del espacio del piso. La solución para departamentos compactos." },
 ];
 
+const imgs = [
+  { src: "/images/camarotes/camarote-escritorio-economico-negro.jpg", alt: "Camarote con escritorio negro — cama arriba escritorio abajo" },
+  { src: "/images/camarotes/camarote-escritorio-full-gamer.jpg", alt: "Camarote con escritorio setup gamer" },
+  { src: "/images/camarotes/camarote-escritorio-full-home-office.jpg", alt: "Camarote con escritorio home office" },
+  { src: "/images/camarotes/camarote-escritorio-economico-universitario.jpg", alt: "Camarote con escritorio universitario" },
+  { src: "/images/camarotes/camarote-escritorio-full-productividad.jpg", alt: "Camarote con escritorio para productividad y estudio" },
+  { src: "/images/camarotes/camarote-escritorio-economico-juvenil.jpg", alt: "Camarote con escritorio juvenil adolescente" },
+  { src: "/images/camarotes/camarote-escritorio-full-nordico.jpg", alt: "Camarote con escritorio estilo nórdico" },
+  { src: "/images/camarotes/camarote-con-escritorio-economico-real.jpg", alt: "Camarote con escritorio económico foto real de fábrica" },
+];
+
 const faqs = [
   {
     q: "¿Qué es exactamente un camarote con escritorio?",
@@ -119,9 +130,12 @@ export default function CamaroteConEscritorioPage() {
 
         {/* Hero */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-14">
-          <div className="bg-gray-50 rounded-2xl border border-gray-100 aspect-square flex flex-col items-center justify-center gap-3">
-            <span className="text-7xl">📚</span>
-            <p className="text-gray-400 text-sm">Fotos próximamente</p>
+          <div className="grid grid-cols-2 gap-2">
+            {imgs.slice(0, 4).map((img) => (
+              <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
+                <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
+              </div>
+            ))}
           </div>
 
           <div>
@@ -315,6 +329,14 @@ export default function CamaroteConEscritorioPage() {
             className="inline-flex items-center gap-2 text-blue-700 font-semibold text-sm hover:underline">
             → Guía completa: camarote con escritorio [2025]
           </Link>
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-12">
+          {imgs.slice(4).map((img) => (
+            <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
+              <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
+            </div>
+          ))}
         </div>
 
         {/* Otros modelos */}

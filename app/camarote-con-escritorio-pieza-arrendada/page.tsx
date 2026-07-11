@@ -42,7 +42,11 @@ export default function CamaroteEscritorioPiezaArrendadaPage() {
             en un camarote?" La respuesta corta es sí — con condiciones. Acá te explicamos cuándo
             tiene sentido y cómo elegir el modelo correcto.
           </p>
-          <a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Consultar por WhatsApp</a>
+          
+          <div className="my-5 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-con-escritorio-economico-real.jpg" alt="Camarote con escritorio para pieza arrendada — pago contra entrega" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Consultar por WhatsApp</a>
         </div>
 
         {/* La pregunta central */}

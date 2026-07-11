@@ -24,7 +24,12 @@ export default function CamaroteUnaPlazaPage() {
         <div className="mb-10">
           <p className="text-xs uppercase tracking-widest text-gray-400 font-medium mb-3">Fabricante directo · El más solicitado · 90 × 190 cm</p>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Camarote de 1 Plaza — 90 × 190 cm</h1>
-          <p className="text-gray-500 text-lg max-w-2xl mb-6 leading-relaxed">El camarote de 1 plaza es el modelo más solicitado del catálogo. Con 90 cm de ancho y 190 cm de largo, ocupa el mínimo espacio horizontal posible. Ideal para piezas arrendadas, habitaciones compartidas, dormitorios de niños y uso institucional.</p>
+          <p className="text-gray-500 text-lg max-w-2xl mb-5 leading-relaxed">El camarote de 1 plaza es el modelo más solicitado del catálogo. Con 90 cm de ancho y 190 cm de largo, ocupa el mínimo espacio horizontal posible. Ideal para piezas arrendadas, habitaciones compartidas, dormitorios de niños y uso institucional.</p>
+
+          <div className="my-5 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-metalico-negro-fondo-blanco.jpg" alt="Camarote de 1 plaza metálico negro — 90x190 cm fabricante directo Chile" className="w-full object-cover" loading="lazy" />
+          </div>
+
           <a href={wa("Hola, necesito cotizar camarote de 1 plaza (90×190 cm). Color: [DATO]. Cantidad: [UNIDADES]. ¿Con o sin escalera lateral? ¿Con cajón inferior?")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar camarote 1 plaza</a>
         </div>
 

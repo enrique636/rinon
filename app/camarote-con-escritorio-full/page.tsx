@@ -13,6 +13,8 @@ export const metadata: Metadata = {
     "cama loft escritorio grande",
     "camarote gamer setup",
     "camarote home office",
+    "camarote con escritorio plaza y media",
+    "camarote escritorio full 1.5 plazas",
   ],
   alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-full" },
 };
@@ -110,6 +112,10 @@ export default function CamaroteFullPage() {
             Fabricado en nuestro taller en Santiago. Diseñado para quien quiere el máximo aprovechamiento
             del espacio vertical sin renunciar a un área de trabajo real y cómoda.
           </p>
+          <div className="my-5 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-escritorio-full-negro.jpg" alt="Camarote con escritorio full negro — escritorio amplio con estantes integrados" className="w-full object-cover" loading="lazy" />
+          </div>
+
           <div className="flex flex-col sm:flex-row gap-3">
             <a
               href={wa(
@@ -169,6 +175,15 @@ export default function CamaroteFullPage() {
               </div>
             ))}
           </div>
+        </div>
+
+        {/* Plaza y media */}
+        <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-12">
+          <h3 className="font-semibold text-gray-900 text-sm mb-1">¿Lo necesitas en plaza y media (1.5 plazas)?</h3>
+          <p className="text-gray-600 text-xs leading-relaxed">
+            Disponible en medida estándar (1 plaza, 90 cm) o en versión plaza y media (~105 cm). Consúltanos al cotizar.{" "}
+            <Link href="/camarote-1-5-plazas" className="text-amber-700 underline">Ver camarotes plaza y media →</Link>
+          </p>
         </div>
 
         {/* Links internos */}

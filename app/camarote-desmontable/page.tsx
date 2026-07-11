@@ -103,10 +103,15 @@ export default function CamaroteDesmontablePage() {
             Sin soldar, sin cortar, sin herramienta especializada. Las piezas se unen con pernos
             y la estructura mantiene la rigidez del acero en cada montaje.
           </p>
-          <p className="text-gray-500 text-base max-w-2xl mb-6">
+          <p className="text-gray-500 text-base max-w-2xl mb-5">
             El modelo preferido por arrendatarios que se mudan seguido, residencias universitarias
             que rotan habitaciones, y familias que quieren llevar el camarote si cambian de casa.
           </p>
+
+          <div className="my-5 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-desmontable-negro-fondo-blanco.jpg" alt="Camarote desmontable metálico negro — se arma y desarma fácil" className="w-full object-cover" loading="lazy" />
+          </div>
+
           <div className="flex flex-col sm:flex-row gap-3">
             <a
               href={wa("Hola, me interesa el camarote desmontable. ¿Pueden darme el precio y las medidas?")}

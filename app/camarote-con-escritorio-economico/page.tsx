@@ -12,6 +12,8 @@ export const metadata: Metadata = {
     "camarote con escritorio chile precio",
     "cama loft economica",
     "camarote escritorio sin intermediarios",
+    "camarote con escritorio plaza y media",
+    "camarote escritorio 1.5 plazas",
   ],
   alternates: { canonical: "https://rinon.cl/camarote-con-escritorio-economico" },
 };
@@ -109,6 +111,10 @@ export default function CamaroteEconomicoPage() {
             Fabricamos en Santiago. Vendemos directo — sin tienda, sin intermediarios, sin margen
             adicional. El precio que pagas es el precio de fábrica.
           </p>
+          <div className="my-5 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-escritorio-economico-negro.jpg" alt="Camarote con escritorio económico negro — cama arriba, escritorio abajo" className="w-full object-cover" loading="lazy" />
+          </div>
+
           <div className="flex flex-col sm:flex-row gap-3">
             <a
               href={wa(
@@ -200,6 +206,15 @@ export default function CamaroteEconomicoPage() {
               </tbody>
             </table>
           </div>
+        </div>
+
+        {/* Plaza y media */}
+        <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-12">
+          <h3 className="font-semibold text-gray-900 text-sm mb-1">¿Lo necesitas en plaza y media (1.5 plazas)?</h3>
+          <p className="text-gray-600 text-xs leading-relaxed">
+            Disponible en medida estándar (1 plaza, 90 cm) o en versión plaza y media (~105 cm). Consúltanos al cotizar.{" "}
+            <Link href="/camarote-1-5-plazas" className="text-amber-700 underline">Ver camarotes plaza y media →</Link>
+          </p>
         </div>
 
         {/* Links internos */}

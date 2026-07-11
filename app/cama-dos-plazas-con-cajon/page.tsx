@@ -103,10 +103,15 @@ export default function CamaConCajonPage() {
             se pierde bajo el colchón se convierte en almacenamiento real — sin necesidad de
             clóset extra, sin cajas en el suelo, sin desorden visible.
           </p>
-          <p className="text-gray-500 text-base max-w-2xl mb-6">
+          <p className="text-gray-500 text-base max-w-2xl mb-5">
             Fabricada en acero en nuestro taller. Ideal para piezas pequeñas, departamentos
             sin clóset suficiente, o cualquier espacio donde cada centímetro importa.
           </p>
+
+          <div className="my-5 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-metalico-dormitorio-compartido.jpg" alt="Cama de 2 plazas con cajón de almacenamiento — fabricante Chile" className="w-full object-cover" loading="lazy" />
+          </div>
+
           <div className="flex flex-col sm:flex-row gap-3">
             <a
               href={wa("Hola, me interesa la cama de 2 plazas con cajón. ¿Pueden darme el precio y las medidas?")}

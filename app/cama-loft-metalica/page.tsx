@@ -24,7 +24,12 @@ export default function CamaLoftMetalicaPage() {
         <div className="mb-10">
           <p className="text-xs uppercase tracking-widest text-gray-400 font-medium mb-3">Fabricante directo · A medida · Santiago y despacho a Chile</p>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Cama Loft Metálica — Cama Arriba, Espacio Libre Abajo</h1>
-          <p className="text-gray-500 text-lg max-w-2xl mb-6 leading-relaxed">La cama loft metálica es una cama elevada de una sola plaza con el espacio inferior completamente libre. Abajo puedes instalar un escritorio, un sofá, un armario o lo que necesites. Ideal para departamentos pequeños, piezas arrendadas y estudios.</p>
+          <p className="text-gray-500 text-lg max-w-2xl mb-5 leading-relaxed">La cama loft metálica es una cama elevada de una sola plaza con el espacio inferior completamente libre. Abajo puedes instalar un escritorio, un sofá, un armario o lo que necesites. Ideal para departamentos pequeños, piezas arrendadas y estudios.</p>
+
+          <div className="my-5 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-escritorio-full-nordico.jpg" alt="Cama loft metálica nórdica — espacio libre abajo para escritorio" className="w-full object-cover" loading="lazy" />
+          </div>
+
           <a href={wa("Hola, necesito cotizar cama loft metálica. Medida: [1 PLAZA / 1,5 PLAZAS / 2 PLAZAS]. Altura libre abajo: [DATO]. Uso abajo: [ESCRITORIO / SOFÁ / ARMARIO / OTRO]. Color: [DATO].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar mi cama loft</a>
         </div>
 

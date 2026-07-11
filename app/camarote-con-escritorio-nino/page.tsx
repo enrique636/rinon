@@ -46,7 +46,11 @@ export default function CamaroteNinoPage() {
             Todo en el espacio de una sola cama. El escritorio debajo queda en altura perfecta
             para que un niño trabaje sentado. Pago contra entrega en Santiago.
           </p>
-          <a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Consultar por WhatsApp</a>
+          
+          <div className="my-5 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-escritorio-economico-gamer.jpg" alt="Camarote con escritorio para niño — cama arriba escritorio abajo" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Consultar por WhatsApp</a>
         </div>
 
         <div className="mb-12">

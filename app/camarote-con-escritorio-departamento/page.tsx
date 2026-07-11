@@ -47,7 +47,11 @@ export default function CamaroteEscritorioDepartamentoPage() {
             es la herramienta más eficiente para recuperar espacio: la cama sube al segundo
             nivel y libera el suelo para escribir, trabajar o simplemente respirar.
           </p>
-          <a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Cotizar para mi depto</a>
+          
+          <div className="my-5 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-escritorio-full-dormitorio-completo.jpg" alt="Camarote con escritorio en departamento pequeño de Santiago" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Cotizar para mi depto</a>
         </div>
 
         <div className="mb-12">

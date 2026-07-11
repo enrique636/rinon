@@ -27,6 +27,17 @@ export const metadata: Metadata = {
   },
 };
 
+const imgs = [
+  { src: "/images/camarotes/camarote-triple-litera-negro.jpg", alt: "Camarote triple metálico negro tres pisos fondo blanco" },
+  { src: "/images/camarotes/camarote-triple-campamento-agricola.jpg", alt: "Camarote triple en campamento agrícola" },
+  { src: "/images/camarotes/camarote-triple-faena-forestal.jpg", alt: "Camarote triple en faena forestal" },
+  { src: "/images/camarotes/camarote-triple-dormitorio-hostal.jpg", alt: "Camarote triple dormitorio hostal" },
+  { src: "/images/camarotes/camarote-triple-campamento-construccion.jpg", alt: "Camarote triple campamento de construcción" },
+  { src: "/images/camarotes/camarote-triple-campamento-mineria.jpg", alt: "Camarote triple campamento minería" },
+  { src: "/images/camarotes/camarote-triple-dormitorio-multiple.jpg", alt: "Camarote triple dormitorio con literas múltiples" },
+  { src: "/images/camarotes/camarote-triple-campamento-premium.jpg", alt: "Camarote triple campamento premium corporativo" },
+];
+
 const faqs = [
   {
     q: "¿Qué es un camarote triple?",
@@ -105,9 +116,12 @@ export default function CamaroteTriplePage() {
 
         {/* Hero */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-14">
-          <div className="bg-gray-50 rounded-2xl border border-gray-100 aspect-square flex flex-col items-center justify-center gap-3">
-            <span className="text-7xl">🏗️</span>
-            <p className="text-gray-400 text-sm">Fotos próximamente</p>
+          <div className="grid grid-cols-2 gap-2">
+            {imgs.slice(0, 4).map((img) => (
+              <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
+                <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
+              </div>
+            ))}
           </div>
 
           <div>
@@ -238,6 +252,14 @@ export default function CamaroteTriplePage() {
               </div>
             ))}
           </div>
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-12">
+          {imgs.slice(4).map((img) => (
+            <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
+              <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
+            </div>
+          ))}
         </div>
 
         <div>

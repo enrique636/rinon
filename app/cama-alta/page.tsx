@@ -28,6 +28,17 @@ export const metadata: Metadata = {
   },
 };
 
+const imgs = [
+  { src: "/images/camarotes/camarote-escritorio-full-nordico.jpg", alt: "Cama alta metálica nórdica con espacio libre abajo" },
+  { src: "/images/camarotes/camarote-escritorio-full-home-office.jpg", alt: "Cama alta con escritorio y home office abajo" },
+  { src: "/images/camarotes/camarote-escritorio-economico-pieza-pequena.jpg", alt: "Cama alta en pieza pequeña de departamento Santiago" },
+  { src: "/images/camarotes/camarote-escritorio-economico-dormitorio.jpg", alt: "Cama alta en dormitorio aprovechando el espacio vertical" },
+  { src: "/images/camarotes/camarote-escritorio-full-productividad.jpg", alt: "Cama alta loft para productividad — trabajo abajo descanso arriba" },
+  { src: "/images/camarotes/camarote-escritorio-economico-universitario.jpg", alt: "Cama alta universitaria en residencia estudiantil" },
+  { src: "/images/camarotes/camarote-escritorio-full-universitario.jpg", alt: "Cama loft universitaria espacio optimizado" },
+  { src: "/images/camarotes/camarote-escritorio-economico-juvenil.jpg", alt: "Cama alta juvenil metálica" },
+];
+
 const faqs = [
   {
     q: "¿Cuál es la diferencia entre cama alta, cama loft y cama elevada?",
@@ -108,9 +119,12 @@ export default function CamaAltaPage() {
 
         {/* Hero */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-14">
-          <div className="bg-gray-50 rounded-2xl border border-gray-100 aspect-square flex flex-col items-center justify-center gap-3">
-            <span className="text-7xl">🪜</span>
-            <p className="text-gray-400 text-sm">Fotos próximamente</p>
+          <div className="grid grid-cols-2 gap-2">
+            {imgs.slice(0, 4).map((img) => (
+              <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
+                <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
+              </div>
+            ))}
           </div>
 
           <div>
@@ -255,6 +269,14 @@ export default function CamaAltaPage() {
               </div>
             ))}
           </div>
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-12">
+          {imgs.slice(4).map((img) => (
+            <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
+              <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
+            </div>
+          ))}
         </div>
 
         {/* Otros modelos */}

@@ -26,6 +26,17 @@ export const metadata: Metadata = {
   },
 };
 
+const imgs = [
+  { src: "/images/camarotes/camarote-metalico-negro-fondo-blanco.jpg", alt: "Camarote Titanic metálico reforzado negro fondo blanco" },
+  { src: "/images/camarotes/camarote-faenero-metalico-negro.jpg", alt: "Camarote Titanic para faena y uso intensivo" },
+  { src: "/images/camarotes/camarote-metalico-pieza-arriendo.jpg", alt: "Camarote Titanic en pieza de arriendo" },
+  { src: "/images/camarotes/camarote-desmontable-litera-metalica.jpg", alt: "Camarote Titanic litera metálica reforzada" },
+  { src: "/images/camarotes/camarote-metalico-dormitorio-compartido.jpg", alt: "Camarote Titanic en dormitorio compartido" },
+  { src: "/images/camarotes/camarote-metalico-nordico.jpg", alt: "Camarote Titanic en dormitorio nórdico" },
+  { src: "/images/camarotes/camarote-metalico-hogar-moderno.jpg", alt: "Camarote Titanic en hogar moderno" },
+  { src: "/images/camarotes/camarote-metalico-premium.jpg", alt: "Camarote Titanic premium reforzado" },
+];
+
 const faqs = [
   {
     q: "¿Por qué se llama camarote Titanic?",
@@ -106,9 +117,12 @@ export default function CamaroteTitanicPage() {
 
         {/* Hero */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-14">
-          <div className="bg-gray-50 rounded-2xl border border-gray-100 aspect-square flex flex-col items-center justify-center gap-3">
-            <span className="text-7xl">⚓</span>
-            <p className="text-gray-400 text-sm">Fotos próximamente</p>
+          <div className="grid grid-cols-2 gap-2">
+            {imgs.slice(0, 4).map((img) => (
+              <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
+                <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
+              </div>
+            ))}
           </div>
 
           <div>
@@ -278,6 +292,14 @@ export default function CamaroteTitanicPage() {
               </div>
             ))}
           </div>
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-12">
+          {imgs.slice(4).map((img) => (
+            <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
+              <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
+            </div>
+          ))}
         </div>
 
         {/* Otros modelos */}

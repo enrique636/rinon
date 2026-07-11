@@ -56,7 +56,11 @@ export default function CamaroteEscritorioSantiagoPage() {
           </div>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Camarote con Escritorio en Santiago</h1>
           <p className="text-gray-500 text-lg max-w-2xl mb-4">Fabricamos y despachamos camarotes con escritorio a toda la Región Metropolitana. Despacho {formatPrice(SITE_CONFIG.despacho.precio)} incluye instalación. Pago cuando llega instalado.</p>
-          <a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Cotizar ahora</a>
+          
+          <div className="my-5 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-escritorio-full-home-office.jpg" alt="Camarote con escritorio en Santiago — pago contra entrega" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Cotizar ahora</a>
         </div>
 
         <div className="mb-10">

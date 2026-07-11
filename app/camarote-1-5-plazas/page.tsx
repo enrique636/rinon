@@ -26,6 +26,17 @@ export const metadata: Metadata = {
   },
 };
 
+const imgs = [
+  { src: "/images/camarotes/camarote-petalo-dormitorio-moderno.jpg", alt: "Camarote plaza y media en dormitorio moderno" },
+  { src: "/images/camarotes/camarote-metalico-juvenil.jpg", alt: "Camarote 1.5 plazas para adolescente" },
+  { src: "/images/camarotes/camarote-desmontable-pieza-adolescente.jpg", alt: "Camarote plaza y media en pieza de adolescente" },
+  { src: "/images/camarotes/camarote-petalo-nordico.jpg", alt: "Camarote plaza y media estilo nórdico" },
+  { src: "/images/camarotes/camarote-metalico-hogar-moderno.jpg", alt: "Camarote 1.5 plazas en hogar moderno Santiago" },
+  { src: "/images/camarotes/camarote-petalo-juvenil-led.jpg", alt: "Camarote plaza y media juvenil con LED" },
+  { src: "/images/camarotes/camarote-metalico-nordico.jpg", alt: "Camarote 1.5 plazas metálico nórdico" },
+  { src: "/images/camarotes/camarote-desmontable-dormitorio-compartido.jpg", alt: "Camarote plaza y media dormitorio compartido" },
+];
+
 const faqs = [
   {
     q: "¿Cuánto mide exactamente una plaza y media?",
@@ -106,9 +117,12 @@ export default function Camarote15PlazasPage() {
 
         {/* Hero */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-14">
-          <div className="bg-gray-50 rounded-2xl border border-gray-100 aspect-square flex flex-col items-center justify-center gap-3">
-            <span className="text-7xl">🛏️</span>
-            <p className="text-gray-400 text-sm">Fotos próximamente</p>
+          <div className="grid grid-cols-2 gap-2">
+            {imgs.slice(0, 4).map((img) => (
+              <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
+                <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
+              </div>
+            ))}
           </div>
 
           <div>
@@ -253,6 +267,15 @@ export default function Camarote15PlazasPage() {
               </div>
             ))}
           </div>
+        </div>
+
+        {/* Galería bottom */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-12">
+          {imgs.slice(4).map((img) => (
+            <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
+              <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
+            </div>
+          ))}
         </div>
 
         {/* Otros modelos */}

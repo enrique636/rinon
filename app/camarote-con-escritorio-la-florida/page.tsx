@@ -39,7 +39,11 @@ export default function CamaroteEscritorioLaFloridaPage() {
         <div className="bg-green-50 border border-green-200 rounded-2xl p-6 text-center">
           <h2 className="text-xl font-bold text-gray-900 mb-2">Cotizar en La Florida</h2>
           <p className="text-gray-600 text-sm mb-4">Pagas cuando llega instalado.</p>
-          <a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Cotizar ahora</a>
+          
+          <div className="my-5 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-escritorio-economico-juvenil.jpg" alt="Camarote con escritorio con despacho a La Florida Santiago" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Cotizar ahora</a>
         </div>
       </div>
     </div>

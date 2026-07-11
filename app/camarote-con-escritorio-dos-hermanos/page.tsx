@@ -40,7 +40,11 @@ export default function CamaroteEscritorioDosHermanosPage() {
             La solución no es única — depende del espacio, las edades y si ambos estudian al
             mismo tiempo. Acá te explicamos las opciones reales desde nuestra experiencia fabricando.
           </p>
-          <a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Consultar mi caso específico</a>
+          
+          <div className="my-5 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-escritorio-full-gamer.jpg" alt="Camarote con escritorio para dos hermanos compartiendo pieza" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Consultar mi caso específico</a>
         </div>
 
         <div className="mb-12">

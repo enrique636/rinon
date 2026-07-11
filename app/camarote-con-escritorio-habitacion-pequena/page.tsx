@@ -46,7 +46,11 @@ export default function CamaroteEscritorioHabitacionPequenaPage() {
             la comodidad — es pensar en vertical. El camarote con escritorio usa el eje
             altura que normalmente está desperdiciado: duerme arriba, trabaja abajo.
           </p>
-          <a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Consultar por WhatsApp</a>
+          
+          <div className="my-5 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-escritorio-economico-pieza-pequena.jpg" alt="Camarote con escritorio en habitación pequeña — solución de espacio" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Consultar por WhatsApp</a>
         </div>
 
         <div className="mb-12">

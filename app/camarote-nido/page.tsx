@@ -27,6 +27,17 @@ export const metadata: Metadata = {
   },
 };
 
+const imgs = [
+  { src: "/images/camarotes/camarote-petalo-nido-estructura-completa.jpg", alt: "Camarote nido estructura completa con cama deslizante" },
+  { src: "/images/camarotes/camarote-petalo-nido-habitacion-nina.jpg", alt: "Camarote nido en habitación infantil" },
+  { src: "/images/camarotes/camarote-nido-pieza-compartida-hermanas.jpg", alt: "Camarote nido para tres niñas en pieza compartida" },
+  { src: "/images/camarotes/camarote-nido-infantil-celeste.jpg", alt: "Camarote nido infantil celeste" },
+  { src: "/images/camarotes/camarote-petalo-nido-dormitorio-moderno.jpg", alt: "Camarote nido dormitorio moderno" },
+  { src: "/images/camarotes/camarote-metalico-nido-estilo-nordico.jpg", alt: "Camarote nido estilo nórdico" },
+  { src: "/images/camarotes/camarote-petalo-nido-juvenil-led.jpg", alt: "Camarote nido juvenil con LED" },
+  { src: "/images/camarotes/camarote-petalo-nido-blanco-premium.jpg", alt: "Camarote nido premium blanco" },
+];
+
 const faqs = [
   {
     q: "¿Qué es exactamente la cama nido?",
@@ -126,9 +137,12 @@ export default function CamaroteNidoPage() {
 
         {/* Hero del producto */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-14">
-          <div className="bg-gray-50 rounded-2xl border border-gray-100 aspect-square flex flex-col items-center justify-center gap-3">
-            <span className="text-7xl">🪺</span>
-            <p className="text-gray-400 text-sm">Fotos próximamente</p>
+          <div className="grid grid-cols-2 gap-2">
+            {imgs.slice(0, 4).map((img) => (
+              <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
+                <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
+              </div>
+            ))}
           </div>
 
           <div>
@@ -264,6 +278,14 @@ export default function CamaroteNidoPage() {
               </div>
             ))}
           </div>
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-12">
+          {imgs.slice(4).map((img) => (
+            <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
+              <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
+            </div>
+          ))}
         </div>
 
         {/* Otros modelos */}
