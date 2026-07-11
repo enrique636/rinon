@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Reja Metálica Las Condes — Fabricante con Instalación | Buenos Pal Catre",
+  title: "Reja Metálica Las Condes — Fabricante con Instalación | Rinon.cl",
   description: "Rejas metálicas a medida en Las Condes. Frontis residencial, condominios y comercios. Fabricante directo con instalación incluida. Diseños premium disponibles. Cotiza hoy.",
   keywords: ["reja metalica las condes", "rejas metalicas las condes", "reja tubular las condes", "reja frontis las condes", "fabrica rejas las condes", "portones las condes", "reja metalica vitacura", "reja metalica lo barnechea", "rejas premium santiago oriente"],
   alternates: { canonical: "https://rinon.cl/rejas-metalicas-las-condes" },

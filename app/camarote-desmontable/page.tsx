@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Camarote Desmontable — Se Arma y Desarma Fácil | Buenos Pal Catre",
+  title: "Camarote Desmontable — Se Arma y Desarma Fácil | Rinon.cl",
   description: "Camarote metálico desmontable fabricado en Chile. Se arma y desarma sin herramienta especializada. Ideal para arrendatarios, residencias universitarias y mudanzas frecuentes.",
   keywords: [
     "camarote desmontable",
@@ -31,18 +31,18 @@ export default function CamaroteDesmontablePage() {
             "@type": "Product",
             name: "Camarote Desmontable",
             description:
-              "Camarote metálico desmontable. Se arma y desarma sin herramienta especializada. Fabricado en Chile por Buenos Pal Catre.",
-            brand: { "@type": "Brand", name: "Buenos Pal Catre" },
+              "Camarote metálico desmontable. Se arma y desarma sin herramienta especializada. Fabricado en Chile por Rinon.cl.",
+            brand: { "@type": "Brand", name: "Rinon.cl" },
             manufacturer: {
               "@type": "Organization",
-              name: "Buenos Pal Catre",
+              name: "Rinon.cl",
               address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
             },
             offers: {
               "@type": "Offer",
               availability: "https://schema.org/InStock",
               priceCurrency: "CLP",
-              seller: { "@type": "Organization", name: "Buenos Pal Catre" },
+              seller: { "@type": "Organization", name: "Rinon.cl" },
             },
           }),
         }}

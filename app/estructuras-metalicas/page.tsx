@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Estructuras Metálicas a Pedido en Santiago — Fabricante | Buenos Pal Catre",
+  title: "Estructuras Metálicas a Pedido en Santiago — Fabricante | Rinon.cl",
   description:
     "Fabricamos estructuras metálicas a pedido en Santiago: pérgolas, racks, mezzanines, escaleras, soportes y estructuras a medida en acero. Diseño + fabricación + instalación.",
   keywords: [
@@ -37,7 +37,7 @@ export default function EstructurasMetalicasPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": ["LocalBusiness", "Manufacturer"],
-        name: "Buenos Pal Catre — Estructuras Metálicas",
+        name: "Rinon.cl — Estructuras Metálicas",
         description: "Fabricante de estructuras metálicas a pedido en Santiago. Pérgolas, racks, mezzanines, escaleras y estructuras a medida.",
         areaServed: { "@type": "Country", name: "Chile" },
         address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },

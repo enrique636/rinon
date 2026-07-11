@@ -21,7 +21,7 @@ export default function RejaMetalicaSantiagoPage() {
         "@type": "Product",
         name: "Reja Metálica Santiago — Fabricante Directo",
         description: "Rejas metálicas residenciales, comerciales e industriales fabricadas a medida en Santiago. Instalación incluida en toda la Región Metropolitana.",
-        brand: { "@type": "Brand", name: "Buenos Pal Catre" },
+        brand: { "@type": "Brand", name: "Rinon.cl" },
       })}} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "FAQPage",

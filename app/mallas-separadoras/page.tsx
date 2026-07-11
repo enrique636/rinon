@@ -48,7 +48,7 @@ export default function MallasSeparadorasPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": ["LocalBusiness", "Manufacturer"],
-        name: "Buenos Pal Catre — Mallas Separadoras",
+        name: "Rinon.cl — Mallas Separadoras",
         description: "Fabricante de mallas separadoras metálicas para bodegas, industrias, estacionamientos y control peatonal. Santiago y todo Chile.",
         areaServed: { "@type": "Country", name: "Chile" },
         address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },

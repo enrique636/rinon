@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Cama de 2 Plazas con Cajón — Almacenamiento Integrado | Buenos Pal Catre",
+  title: "Cama de 2 Plazas con Cajón — Almacenamiento Integrado | Rinon.cl",
   description: "Cama doble con cajón deslizante incorporado bajo el colchón. Fabricada en acero en Chile. Ideal para piezas sin clóset o con poco espacio de almacenamiento. Cotiza sin compromiso.",
   keywords: [
     "cama dos plazas con cajon",
@@ -31,18 +31,18 @@ export default function CamaConCajonPage() {
             "@type": "Product",
             name: "Cama de 2 Plazas con Cajón",
             description:
-              "Cama de 2 plazas con cajón deslizante incorporado bajo el colchón. Fabricada en acero en Santiago por Buenos Pal Catre.",
-            brand: { "@type": "Brand", name: "Buenos Pal Catre" },
+              "Cama de 2 plazas con cajón deslizante incorporado bajo el colchón. Fabricada en acero en Santiago por Rinon.cl.",
+            brand: { "@type": "Brand", name: "Rinon.cl" },
             manufacturer: {
               "@type": "Organization",
-              name: "Buenos Pal Catre",
+              name: "Rinon.cl",
               address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
             },
             offers: {
               "@type": "Offer",
               availability: "https://schema.org/InStock",
               priceCurrency: "CLP",
-              seller: { "@type": "Organization", name: "Buenos Pal Catre" },
+              seller: { "@type": "Organization", name: "Rinon.cl" },
             },
           }),
         }}

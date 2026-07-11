@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Mallas Separadoras para Bodegas — División Interna Metálica | Buenos Pal Catre",
+  title: "Mallas Separadoras para Bodegas — División Interna Metálica | Rinon.cl",
   description: "Mallas separadoras para organizar bodegas, galpones y centros de distribución. Divisiones metálicas, paneles separadores y mallas industriales a medida. Santiago y Chile.",
   keywords: ["mallas separadoras bodegas", "divisiones metalicas bodega", "malla divisoria bodega", "separadores para bodega", "paneles separadores bodega galpón", "mallas industriales bodega"],
   alternates: { canonical: "https://rinon.cl/mallas-separadoras-bodegas" },

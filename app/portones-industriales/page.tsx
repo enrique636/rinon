@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Portones Industriales Santiago — Fabricante Directo | Buenos Pal Catre",
+  title: "Portones Industriales Santiago — Fabricante Directo | Rinon.cl",
   description: "Portones industriales corredizos y batientes en Santiago. Fabricante directo sin intermediarios. Acero estructural, medidas exactas, instalación incluida. Cotiza hoy.",
   keywords: ["portones industriales santiago", "portones metalicos industriales", "porton corredizo industrial", "porton industrial precio", "fabrica portones industriales", "porton metalico galpón", "portones para bodegas", "portones para fábricas", "porton corredizo santiago", "portones industriales chile"],
   alternates: { canonical: "https://rinon.cl/portones-industriales" },
@@ -19,8 +19,8 @@ export default function PortonesIndustrialesPage() {
         "@type": "Product",
         name: "Portones Industriales Metálicos a Medida",
         description: "Portones industriales corredizos y batientes fabricados en acero estructural. Medidas exactas para el vano de acceso. Instalación incluida en Santiago.",
-        brand: { "@type": "Brand", name: "Buenos Pal Catre" },
-        manufacturer: { "@type": "Organization", name: "Buenos Pal Catre", areaServed: "Santiago, Chile" },
+        brand: { "@type": "Brand", name: "Rinon.cl" },
+        manufacturer: { "@type": "Organization", name: "Rinon.cl", areaServed: "Santiago, Chile" },
       })}} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "FAQPage",

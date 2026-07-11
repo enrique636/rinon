@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Cierres Perimetrales para Industrias — Fabricante en Chile | Buenos Pal Catre",
+  title: "Cierres Perimetrales para Industrias — Fabricante en Chile | Rinon.cl",
   description: "Cierres perimetrales industriales para predios, plantas y galpones. Rejas, malla y plancha metálica. Fabricante directo con instalación y factura empresa. Santiago y Chile.",
   keywords: ["cierres perimetrales industrias", "cierre perimetral industrial", "cerco industrial metalico", "rejas industriales santiago", "cierre predio industrial", "fabricante cierres industriales chile"],
   alternates: { canonical: "https://rinon.cl/cierres-para-industrias" },

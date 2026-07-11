@@ -17,7 +17,7 @@ export default function VentaCamarotesSantiagoPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "FAQPage",
         mainEntity: [
-          { "@type": "Question", name: "¿Dónde comprar camarotes metálicos en Santiago?", acceptedAnswer: { "@type": "Answer", text: "En Buenos Pal Catre compras directo al fabricante en Santiago — sin pasar por tiendas ni distribuidoras. El precio es más bajo y el camarote se fabrica a las medidas exactas que necesitas. Cotiza por WhatsApp y te respondemos el mismo día." } },
+          { "@type": "Question", name: "¿Dónde comprar camarotes metálicos en Santiago?", acceptedAnswer: { "@type": "Answer", text: "En Rinon.cl compras directo al fabricante en Santiago — sin pasar por tiendas ni distribuidoras. El precio es más bajo y el camarote se fabrica a las medidas exactas que necesitas. Cotiza por WhatsApp y te respondemos el mismo día." } },
           { "@type": "Question", name: "¿Venden camarotes metálicos por mayor en Santiago?", acceptedAnswer: { "@type": "Answer", text: "Sí. Para pedidos de 5 o más camarotes (hoteles, campamentos, residencias, constructoras) hay precio por mayor. Cotiza con el modelo, la cantidad y la dirección de entrega." } },
           { "@type": "Question", name: "¿Incluye instalación la venta del camarote?", acceptedAnswer: { "@type": "Answer", text: "Sí. La entrega incluye instalación en Santiago — el camarote queda armado y funcionando. No tienes que contratar a nadie más." } },
         ],

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Cierres Perimetrales para Condominios — Reja y Malla | Buenos Pal Catre",
+  title: "Cierres Perimetrales para Condominios — Reja y Malla | Rinon.cl",
   description: "Cierres perimetrales para condominios y conjuntos habitacionales en Chile. Rejas tubulares, mallas y soluciones a medida. Estética + seguridad. Fabricante directo.",
   keywords: ["cierres perimetrales condominios", "cierre perimetral condominio", "reja condominio santiago", "cierre conjunto habitacional", "cerco condominio metalico", "fabricante cierre condominio chile"],
   alternates: { canonical: "https://rinon.cl/cierres-para-condominios" },

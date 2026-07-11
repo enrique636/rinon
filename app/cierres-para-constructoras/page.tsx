@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Cierres Perimetrales para Constructoras — Fabricante en Chile | Buenos Pal Catre",
+  title: "Cierres Perimetrales para Constructoras — Fabricante en Chile | Rinon.cl",
   description: "Cierres perimetrales para constructoras en Chile. Fabricamos e instalamos cierres de obra temporales y definitivos. Factura empresa, despacho nacional, plazos flexibles según avance de obra.",
   keywords: ["cierres perimetrales constructoras", "cierre de obra constructora", "fabricante cierre perimetral constructoras chile", "cierres para obras construccion", "malla cierre obra santiago"],
   alternates: { canonical: "https://rinon.cl/cierres-para-constructoras" },

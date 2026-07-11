@@ -81,7 +81,7 @@ export default function CierresPerimetralesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": ["LocalBusiness", "Manufacturer"],
-        name: "Buenos Pal Catre — Cierres Perimetrales",
+        name: "Rinon.cl — Cierres Perimetrales",
         description: "Fabricante e instalador de cierres perimetrales en Santiago y todo Chile. Malla electrosoldada, reja tubular, cercos y soluciones a medida para constructoras, industrias y empresas.",
         areaServed: { "@type": "Country", name: "Chile" },
         address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },

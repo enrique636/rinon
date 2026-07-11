@@ -3,7 +3,7 @@ import Link from "next/link";
 import { getWhatsAppUrl } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Camarotes para María Elena — Campamento Minero y Salitreras | Buenos Pal Catre",
+  title: "Camarotes para María Elena — Campamento Minero y Salitreras | Rinon.cl",
   description:
     "Camarotes metálicos para María Elena y campamentos de la Región de Antofagasta. Fabricante directo con despacho nacional. Factura empresa, volúmenes desde 10 unidades.",
   keywords: [

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Reja Metálica Quilicura — Industrial y Residencial | Buenos Pal Catre",
+  title: "Reja Metálica Quilicura — Industrial y Residencial | Rinon.cl",
   description: "Rejas metálicas en Quilicura. Fabricante directo con instalación. Cercos industriales para el Parque Industrial de Quilicura y rejas residenciales para todas las villas. Cotiza hoy.",
   keywords: ["reja metalica quilicura", "rejas metalicas quilicura", "cerco industrial quilicura", "reja tubular quilicura", "fabrica rejas quilicura", "portones quilicura", "cierre perimetral quilicura", "reja parque industrial quilicura"],
   alternates: { canonical: "https://rinon.cl/rejas-metalicas-quilicura" },

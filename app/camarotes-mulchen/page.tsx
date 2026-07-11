@@ -3,7 +3,7 @@ import Link from "next/link";
 import { getWhatsAppUrl } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Camarotes Mulchén — Campamentos Forestales Biobío | Buenos Pal Catre",
+  title: "Camarotes Mulchén — Campamentos Forestales Biobío | Rinon.cl",
   description:
     "Camarotes metálicos para Mulchén y campamentos forestales de la Región del Biobío. Fabricante directo — resistentes a la humedad y uso intensivo en faenas forestales.",
   keywords: [

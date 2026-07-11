@@ -17,7 +17,7 @@ export default function FabricanteCercosMetalicosPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        name: "Buenos Pal Catre — Fabricante de Cercos Metálicos",
+        name: "Rinon.cl — Fabricante de Cercos Metálicos",
         description: "Fabricantes de cercos metálicos, rejas tubulares, mallas separadoras y portones en Santiago de Chile. Precio de fábrica, sin intermediarios.",
         areaServed: "Santiago, Chile",
         address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },

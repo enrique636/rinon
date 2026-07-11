@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Camarote con Escritorio Económico — Fabricante en Chile | Buenos Pal Catre",
+  title: "Camarote con Escritorio Económico — Fabricante en Chile | Rinon.cl",
   description: "Camarote con escritorio económico fabricado en Chile. Cama arriba, escritorio abajo. Sin intermediarios. Cotiza por WhatsApp — entrega en Santiago y despacho a todo Chile.",
   keywords: [
     "camarote con escritorio economico",
@@ -30,18 +30,18 @@ export default function CamaroteEconomicoPage() {
             "@type": "Product",
             name: "Camarote con Escritorio Económico",
             description:
-              "Camarote con escritorio en versión económica. Fabricado en Chile por Buenos Pal Catre. Cama arriba, escritorio abajo, estructura de acero.",
-            brand: { "@type": "Brand", name: "Buenos Pal Catre" },
+              "Camarote con escritorio en versión económica. Fabricado en Chile por Rinon.cl. Cama arriba, escritorio abajo, estructura de acero.",
+            brand: { "@type": "Brand", name: "Rinon.cl" },
             manufacturer: {
               "@type": "Organization",
-              name: "Buenos Pal Catre",
+              name: "Rinon.cl",
               address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
             },
             offers: {
               "@type": "Offer",
               availability: "https://schema.org/InStock",
               priceCurrency: "CLP",
-              seller: { "@type": "Organization", name: "Buenos Pal Catre" },
+              seller: { "@type": "Organization", name: "Rinon.cl" },
             },
           }),
         }}

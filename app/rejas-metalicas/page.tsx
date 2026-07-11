@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Rejas Metálicas Santiago — Fábrica y Venta Directa | Buenos Pal Catre",
+  title: "Rejas Metálicas Santiago — Fábrica y Venta Directa | Rinon.cl",
   description: "Rejas metálicas fabricadas en Santiago. Reja tubular, reja de fierro y reja perimetral para casas, obras, bodegas e industrias. Fabricante directo — sin intermediarios. Cotiza hoy.",
   keywords: [
     "rejas metalicas santiago",
@@ -38,10 +38,10 @@ export default function RejasMetalicasPage() {
             "@type": "Product",
             name: "Rejas Metálicas",
             description: "Rejas metálicas tubulares fabricadas en Santiago. Para casas, obras, bodegas e industrias.",
-            brand: { "@type": "Brand", name: "Buenos Pal Catre" },
+            brand: { "@type": "Brand", name: "Rinon.cl" },
             manufacturer: {
               "@type": "Organization",
-              name: "Buenos Pal Catre",
+              name: "Rinon.cl",
               address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
             },
             offers: { "@type": "Offer", availability: "https://schema.org/InStock", priceCurrency: "CLP" },

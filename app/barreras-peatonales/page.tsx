@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Barreras Peatonales Metálicas — Separación de Peatones y Vehículos | Buenos Pal Catre",
+  title: "Barreras Peatonales Metálicas — Separación de Peatones y Vehículos | Rinon.cl",
   description: "Fabricamos barreras peatonales metálicas para empresas, obras, industrias y espacios públicos. Separación segura de flujos peatonales y vehiculares. A medida, con instalación.",
   keywords: [
     "barreras peatonales", "barrera peatonal metalica", "separadores peatonales", "mallas de proteccion peatonal",

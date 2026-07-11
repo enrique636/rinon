@@ -3,7 +3,7 @@ import Link from "next/link";
 import { getWhatsAppUrl } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Camarotes Talagante — Alojamiento Agrícola y Temporeros | Buenos Pal Catre",
+  title: "Camarotes Talagante — Alojamiento Agrícola y Temporeros | Rinon.cl",
   description:
     "Camarotes metálicos para Talagante e Isla de Maipo. Alojamiento de temporeros y trabajadores agrícolas. Fabricante directo con despacho nacional.",
   keywords: [

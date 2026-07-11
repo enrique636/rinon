@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Reja Metálica San Bernardo — Fabricante con Instalación | Buenos Pal Catre",
+  title: "Reja Metálica San Bernardo — Fabricante con Instalación | Rinon.cl",
   description: "Rejas metálicas a medida en San Bernardo. Fabricante directo con instalación. Reja tubular residencial, industrial y cierres comerciales. Cotiza hoy por WhatsApp.",
   keywords: ["reja metalica san bernardo", "rejas metalicas san bernardo", "reja de fierro san bernardo", "reja tubular san bernardo", "rejas metalicas buin", "fabrica rejas san bernardo", "cerco metalico san bernardo", "portones san bernardo", "rejas metalicas paine"],
   alternates: { canonical: "https://rinon.cl/rejas-metalicas-san-bernardo" },

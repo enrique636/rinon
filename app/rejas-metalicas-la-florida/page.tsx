@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Reja Metálica La Florida — Fabricante con Instalación | Buenos Pal Catre",
+  title: "Reja Metálica La Florida — Fabricante con Instalación | Rinon.cl",
   description: "Rejas metálicas a medida en La Florida. Fabricante directo con instalación. Reja tubular para frontis, cierres de comercio y portones. Cotiza hoy por WhatsApp.",
   keywords: ["reja metalica la florida", "rejas metalicas la florida", "reja tubular la florida", "reja frontis la florida", "fabrica rejas la florida", "portones la florida", "reja de fierro la florida", "cierre metalico la florida"],
   alternates: { canonical: "https://rinon.cl/rejas-metalicas-la-florida" },

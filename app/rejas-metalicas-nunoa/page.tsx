@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Reja Metálica Ñuñoa — Fabricante con Instalación | Buenos Pal Catre",
+  title: "Reja Metálica Ñuñoa — Fabricante con Instalación | Rinon.cl",
   description: "Rejas metálicas a medida en Ñuñoa. Frontis, comercios y departamentos. Fabricante directo con instalación incluida. Cotiza hoy por WhatsApp.",
   keywords: ["reja metalica nunoa", "rejas metalicas nunoa", "reja de fierro nunoa", "reja tubular nunoa", "reja frontis nunoa", "fabrica rejas nunoa", "portones nunoa", "reja metalica precio nunoa"],
   alternates: { canonical: "https://rinon.cl/rejas-metalicas-nunoa" },

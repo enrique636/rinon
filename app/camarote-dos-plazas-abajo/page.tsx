@@ -4,7 +4,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Camarote 2 Plazas Abajo + 1 Plaza Arriba — Fabricante Chile | Buenos Pal Catre",
+  title: "Camarote 2 Plazas Abajo + 1 Plaza Arriba — Fabricante Chile | Rinon.cl",
   description:
     "Camarote con cama de 2 plazas abajo y 1 plaza arriba. Fabricado en Chile con tubo de acero 2\". Medidas reales: 150 cm largo × 160 cm ancho × 150 cm alto. Cotiza sin compromiso.",
   keywords: [
@@ -26,7 +26,7 @@ const wa = (msg: string) =>
 const FOTOS = [
   {
     src: "/productos/camarote-dos-plazas/foto-1.jpg",
-    alt: "Camarote con cama doble abajo y plaza arriba — vista frontal — Buenos Pal Catre Santiago",
+    alt: "Camarote con cama doble abajo y plaza arriba — vista frontal — Rinon.cl Santiago",
     titulo: "Vista frontal",
   },
   {
@@ -53,10 +53,10 @@ export default function CamaroteDosPlazasAbajoPage() {
             name: "Camarote 2 Plazas Abajo + 1 Plaza Arriba",
             description:
               "Camarote con cama de 2 plazas en el nivel inferior y cama de 1 plaza en el nivel superior. Fabricado en tubo de acero 2\" en Santiago.",
-            brand: { "@type": "Brand", name: "Buenos Pal Catre" },
+            brand: { "@type": "Brand", name: "Rinon.cl" },
             manufacturer: {
               "@type": "Organization",
-              name: "Buenos Pal Catre",
+              name: "Rinon.cl",
               address: {
                 "@type": "PostalAddress",
                 addressLocality: "Santiago",
@@ -72,7 +72,7 @@ export default function CamaroteDosPlazasAbajoPage() {
               "@type": "Offer",
               availability: "https://schema.org/InStock",
               priceCurrency: "CLP",
-              seller: { "@type": "Organization", name: "Buenos Pal Catre" },
+              seller: { "@type": "Organization", name: "Rinon.cl" },
             },
           }),
         }}

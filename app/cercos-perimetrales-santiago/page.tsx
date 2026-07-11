@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Cercos Perimetrales Santiago — Fabricante e Instalación | Buenos Pal Catre",
+  title: "Cercos Perimetrales Santiago — Fabricante e Instalación | Rinon.cl",
   description: "Cercos perimetrales metálicos en Santiago. Fabricante directo con instalación en toda la Región Metropolitana. Reja tubular, malla y portones. Cotiza hoy.",
   keywords: ["cercos perimetrales santiago", "cerco perimetral santiago", "fabricante cerco perimetral santiago", "instalacion cerco santiago", "reja perimetral santiago", "cierre perimetral santiago", "cerco metalico santiago", "cerco para obra santiago", "precio cerco perimetral santiago"],
   alternates: { canonical: "https://rinon.cl/cercos-perimetrales-santiago" },
@@ -19,7 +19,7 @@ export default function CercosPerimetralesSantiagoPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        name: "Buenos Pal Catre — Cercos Perimetrales Santiago",
+        name: "Rinon.cl — Cercos Perimetrales Santiago",
         description: "Fabricante e instalador de cercos perimetrales metálicos en Santiago de Chile.",
         areaServed: "Santiago, Región Metropolitana",
         address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },

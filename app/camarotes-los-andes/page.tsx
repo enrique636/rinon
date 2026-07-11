@@ -3,7 +3,7 @@ import Link from "next/link";
 import { getWhatsAppUrl } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Camarotes Los Andes — Temporeros y Trabajadores Valle del Aconcagua | Buenos Pal Catre",
+  title: "Camarotes Los Andes — Temporeros y Trabajadores Valle del Aconcagua | Rinon.cl",
   description:
     "Camarotes metálicos para Los Andes y el Valle del Aconcagua. Alojamiento de temporeros frutícolas y trabajadores. Fabricante directo — despacho nacional.",
   keywords: [

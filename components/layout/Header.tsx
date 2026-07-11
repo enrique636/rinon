@@ -20,7 +20,7 @@ export function Header() {
       <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between gap-4">
         {/* Logo */}
         <Link href="/" className="text-sm font-bold text-gray-900 tracking-tight">
-          Buenos Pal Catre
+          Rinon.cl
         </Link>
 
         {/* Nav desktop */}

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Cercos Perimetrales Rancagua — Fabricante O'Higgins | Buenos Pal Catre",
+  title: "Cercos Perimetrales Rancagua — Fabricante O'Higgins | Rinon.cl",
   description: "Cercos perimetrales metálicos para Rancagua, San Fernando y la Región de O'Higgins. Fabricante en Santiago con despacho a toda la VI Región. Reja tubular y portones.",
   keywords: ["cercos perimetrales rancagua", "reja metalica rancagua", "cerco perimetral ohiggins", "cerco metalico rancagua", "rejas metalicas rancagua", "fabrica cercos rancagua", "portones metalicos rancagua", "cerco perimetral san fernando", "rejas san bernardo rancagua"],
   alternates: { canonical: "https://rinon.cl/cercos-perimetrales-rancagua" },

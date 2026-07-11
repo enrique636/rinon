@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Rejas Metálicas al Por Mayor — Fabricante Santiago | Buenos Pal Catre",
+  title: "Rejas Metálicas al Por Mayor — Fabricante Santiago | Rinon.cl",
   description: "Rejas metálicas al por mayor en Santiago. Precio por volumen para constructoras, inmobiliarias e industrias. Fabricante directo sin intermediarios. Cotiza tu proyecto hoy.",
   keywords: ["rejas metalicas por mayor", "cercos metalicos por mayor", "reja tubular por mayor santiago", "rejas metalicas volumen", "fabricante rejas por mayor chile", "cerco perimetral por mayor", "mallas metalicas por mayor", "portones metalicos por mayor", "estructuras metalicas por mayor"],
   alternates: { canonical: "https://rinon.cl/rejas-metalicas-por-mayor" },

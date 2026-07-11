@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Rejas Galvanizadas Santiago — Durabilidad Máxima | Buenos Pal Catre",
+  title: "Rejas Galvanizadas Santiago — Durabilidad Máxima | Rinon.cl",
   description: "Rejas metálicas galvanizadas en Santiago. Protección máxima contra la corrosión — ideal para zonas costeras, húmedas o industrial pesada. Fabricante directo, instalación incluida.",
   keywords: ["rejas galvanizadas", "reja metalica galvanizada", "reja galvanizada santiago", "cerco galvanizado", "reja tubular galvanizada", "precio reja galvanizada", "reja galvanizada en caliente", "cerco perimetral galvanizado", "malla galvanizada cierre"],
   alternates: { canonical: "https://rinon.cl/rejas-galvanizadas" },
@@ -19,7 +19,7 @@ export default function RejasGalvanizadasPage() {
         "@type": "Product",
         name: "Reja Metálica Galvanizada en Caliente",
         description: "Rejas metálicas con galvanizado en caliente. Protección máxima contra la corrosión para instalaciones costeras, húmedas o industriales pesadas. Fabricante en Santiago.",
-        brand: { "@type": "Brand", name: "Buenos Pal Catre" },
+        brand: { "@type": "Brand", name: "Rinon.cl" },
       })}} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "FAQPage",

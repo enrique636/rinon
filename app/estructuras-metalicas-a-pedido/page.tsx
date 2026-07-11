@@ -17,7 +17,7 @@ export default function EstructurasMetalicasAPedidoPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        name: "Buenos Pal Catre — Estructuras Metálicas a Pedido",
+        name: "Rinon.cl — Estructuras Metálicas a Pedido",
         description: "Fabricamos estructuras metálicas a pedido en Santiago: mezzanines, escaleras, plataformas, vigas, marquesinas y estructuras industriales.",
         areaServed: "Santiago, Chile",
       })}} />

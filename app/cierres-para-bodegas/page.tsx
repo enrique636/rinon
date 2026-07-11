@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Cierres Perimetrales para Bodegas — Fabricante | Buenos Pal Catre",
+  title: "Cierres Perimetrales para Bodegas — Fabricante | Rinon.cl",
   description: "Cierres perimetrales para bodegas, galpones y centros de distribución. Fabricamos rejas, mallas y planchas para cerrar el perímetro exterior de tu bodega. Santiago y todo Chile.",
   keywords: ["cierres perimetrales bodegas", "cierre perimetral bodega", "cierre galpón metálico", "rejas para bodega santiago", "cierre perimetral centro logístico"],
   alternates: { canonical: "https://rinon.cl/cierres-para-bodegas" },

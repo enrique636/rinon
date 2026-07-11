@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Portones Residenciales Santiago — Fabricante Directo | Buenos Pal Catre",
+  title: "Portones Residenciales Santiago — Fabricante Directo | Rinon.cl",
   description: "Portones metálicos para casas en Santiago. Corredizos y batientes a medida. Fabricante directo con instalación incluida. Con opción de automatización. Cotiza hoy.",
   keywords: ["portones residenciales santiago", "porton metalico casa", "porton para casa santiago", "porton corredizo residencial", "porton batiente casa", "porton metalico precio santiago", "porton para garage", "porton casa santiago precio", "fabricante portones residenciales"],
   alternates: { canonical: "https://rinon.cl/portones-residenciales" },
@@ -19,7 +19,7 @@ export default function PortonesResidencialesPage() {
         "@type": "Product",
         name: "Portón Residencial Metálico a Medida",
         description: "Portones metálicos para casas en Santiago. Corredizos y batientes fabricados con las medidas exactas del vano de acceso. Instalación incluida.",
-        brand: { "@type": "Brand", name: "Buenos Pal Catre" },
+        brand: { "@type": "Brand", name: "Rinon.cl" },
       })}} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "FAQPage",

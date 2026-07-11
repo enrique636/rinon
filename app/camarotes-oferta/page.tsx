@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Camarotes en Oferta Santiago — Precio Directo de Fábrica | Buenos Pal Catre",
+  title: "Camarotes en Oferta Santiago — Precio Directo de Fábrica | Rinon.cl",
   description: "¿Buscas camarotes metálicos baratos en Santiago? Al comprar directo al fabricante obtienes el precio más bajo del mercado — sin pasar por distribuidoras ni tiendas. Cotiza hoy.",
   keywords: ["camarotes oferta santiago", "camarotes baratos santiago", "remate camarotes", "camarotes economicos chile", "camarotes precio fabrica", "camarotes baratos metalicos", "oferta camarote metalico santiago", "camarote economico santiago", "camarote barato de calidad"],
   alternates: { canonical: "https://rinon.cl/camarotes-oferta" },
@@ -59,7 +59,7 @@ export default function CamarotesOfertaPage() {
                   ["Tienda de muebles", "Fabricante → Distribuidor → Tienda → Tú", "No"],
                   ["Distribuidora", "Fabricante → Distribuidor → Tú", "No"],
                   ["Marketplace (MercadoLibre etc.)", "Fabricante → Vendedor → Tú + comisión plataforma", "Generalmente no"],
-                  ["Buenos Pal Catre (fabricante)", "Fabricante → Tú", "Sí, siempre"],
+                  ["Rinon.cl (fabricante)", "Fabricante → Tú", "Sí, siempre"],
                 ].map(([donde, margenes, medida]) => (
                   <tr key={donde} className={donde.includes("Buenos") ? "bg-green-50" : ""}>
                     <td className="py-3 pr-4 text-xs text-gray-700 font-medium">{donde}</td>

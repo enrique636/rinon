@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Camarote con Escritorio Full — Premium con Estantes | Buenos Pal Catre",
+  title: "Camarote con Escritorio Full — Premium con Estantes | Rinon.cl",
   description: "Camarote con escritorio full: escritorio amplio, estantes integrados, baranda reforzada y pintura electrostática premium. Fabricante directo en Chile. Cotiza sin compromiso.",
   keywords: [
     "camarote con escritorio full",
@@ -32,17 +32,17 @@ export default function CamaroteFullPage() {
             name: "Camarote con Escritorio Full",
             description:
               "Camarote con escritorio full: escritorio de mayor profundidad, estantes integrados, baranda reforzada y pintura electrostática premium. Fabricado en Chile.",
-            brand: { "@type": "Brand", name: "Buenos Pal Catre" },
+            brand: { "@type": "Brand", name: "Rinon.cl" },
             manufacturer: {
               "@type": "Organization",
-              name: "Buenos Pal Catre",
+              name: "Rinon.cl",
               address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
             },
             offers: {
               "@type": "Offer",
               availability: "https://schema.org/InStock",
               priceCurrency: "CLP",
-              seller: { "@type": "Organization", name: "Buenos Pal Catre" },
+              seller: { "@type": "Organization", name: "Rinon.cl" },
             },
           }),
         }}

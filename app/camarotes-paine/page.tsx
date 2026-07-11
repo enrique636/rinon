@@ -3,7 +3,7 @@ import Link from "next/link";
 import { getWhatsAppUrl } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Camarotes para Paine — Trabajadores Agrícolas y Temporeros | Buenos Pal Catre",
+  title: "Camarotes para Paine — Trabajadores Agrícolas y Temporeros | Rinon.cl",
   description:
     "Camarotes metálicos para Paine y sector sur de la RM. Alojamiento de temporeros y trabajadores agrícolas. Fabricante directo con despacho nacional y factura empresa.",
   keywords: [

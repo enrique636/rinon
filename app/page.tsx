@@ -378,7 +378,7 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            name: "Buenos Pal Catre",
+            name: "Rinon.cl",
             description: "Fabricante de camarotes metálicos y estructuras en acero. Santiago, Chile.",
             address: {
               "@type": "PostalAddress",
