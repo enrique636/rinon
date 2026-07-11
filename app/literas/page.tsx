@@ -75,9 +75,17 @@ export default function LiterasPage() {
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Todos nuestros modelos de litera</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {products.map(product => (
-              <div key={product.id} className="bg-white border border-gray-200 rounded-xl p-5 hover:border-gray-400 hover:shadow-sm transition-all flex gap-4">
-                <span className="text-3xl">{product.emoji}</span>
-                <div className="flex-1 min-w-0">
+              <div key={product.id} className="bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-gray-400 hover:shadow-sm transition-all flex gap-0">
+                {product.imgSrc ? (
+                  <div className="w-24 flex-shrink-0 bg-gray-50">
+                    <img src={product.imgSrc} alt={product.imgAlt ?? product.nombre} className="w-full h-full object-cover" loading="lazy" />
+                  </div>
+                ) : (
+                  <div className="w-16 flex-shrink-0 flex items-center justify-center bg-gray-50">
+                    <span className="text-3xl">{product.emoji}</span>
+                  </div>
+                )}
+                <div className="flex-1 min-w-0 p-4">
                   <h3 className="font-bold text-gray-900 mb-0.5">{product.nombre}</h3>
                   <p className="text-green-600 text-xs mb-2">{product.subtitulo}</p>
                   <p className="text-gray-500 text-sm mb-3 leading-relaxed">{product.descripcion}</p>
