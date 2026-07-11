@@ -701,6 +701,26 @@ export const blogPosts: BlogPost[] = [
     categoria: "Guías",
     tiempoLectura: "5 min",
   },
+  {
+    slug: "como-instalar-camarote-metalico",
+    titulo: "Cómo Instalar un Camarote Metálico: Guía Paso a Paso",
+    subtitulo: "Herramientas, pasos y errores comunes — el proceso completo para armar tu camarote sin ayuda",
+    descripcionSeo: "Guía práctica para armar e instalar un camarote metálico en Chile. Herramientas necesarias, pasos de armado, cómo asegurar los niveles y qué hacer si quedan piezas flojas. Sin experiencia previa.",
+    keywords: ["como instalar camarote metalico", "como armar litera metalica", "instalar camarote metalico paso a paso", "armar camarote de acero", "herramientas armar camarote", "como montar litera metalica", "armar camarote metalico chile"],
+    fecha: "2026-07-10",
+    categoria: "Guías",
+    tiempoLectura: "6 min",
+  },
+  {
+    slug: "pintura-electrostatica-que-es",
+    titulo: "Pintura Electrostática al Horno: Qué Es y Por Qué Importa en un Mueble de Acero",
+    subtitulo: "La diferencia entre pintura convencional y electrostática — y por qué una dura el doble que la otra",
+    descripcionSeo: "Explicación completa de la pintura electrostática al horno para estructuras de acero en Chile. Cómo funciona el proceso, cuánto dura, en qué se diferencia del spray convencional y qué significa para la durabilidad de un camarote o reja.",
+    keywords: ["pintura electrostatica al horno", "que es pintura electrostatica", "pintura electrostatica camarote", "pintura al horno metalico", "pintura electrostatica durabilidad", "pintura electrostatica vs convencional", "pintura polvo horno acero chile"],
+    fecha: "2026-07-10",
+    categoria: "Guías",
+    tiempoLectura: "5 min",
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

@@ -5330,6 +5330,152 @@ const blogContent: Record<string, () => React.ReactElement> = {
     </>
   ),
 
+  "como-instalar-camarote-metalico": () => (
+    <>
+      <p>
+        Armar un camarote metálico es más simple de lo que parece si recibes las piezas en el
+        orden correcto y sigues los pasos en secuencia. Esta guía aplica para la mayoría de los
+        camarotes de tubo cuadrado con tornillos de cabeza hexagonal.
+      </p>
+
+      <h2>Herramientas necesarias</h2>
+      <ul>
+        <li>Llave de tubo o llave combinada del número indicado en las instrucciones (generalmente 13 mm o 17 mm)</li>
+        <li>Mazo de goma o martillo con trapo (para ajustar piezas sin rayar)</li>
+        <li>Nivel de burbuja (para verificar que la estructura quede recta)</li>
+        <li>Ayudante para sostener las piezas mientras atornillas</li>
+      </ul>
+      <p>
+        No necesitas taladro ni soldadora para el armado. Si necesitas anclar el camarote a la pared
+        (recomendado en piezas pequeñas o para mayor seguridad), sí necesitarás taladro.
+      </p>
+
+      <h2>Paso 1: Revisar las piezas antes de empezar</h2>
+      <p>
+        Antes de armar, cuenta todas las piezas y tornillos. Compara con el listado del fabricante.
+        Es mucho más fácil detectar una pieza faltante antes de empezar que descubrirlo cuando
+        llevas el 80% armado. Coloca todas las piezas en el suelo agrupadas por tipo.
+      </p>
+
+      <h2>Paso 2: Armar la cama inferior</h2>
+      <p>
+        Empieza por la cama inferior. Une los dos postes laterales largos con los travesaños
+        horizontales cortos en los extremos (cabecera y piecera). Los tornillos deben quedar
+        apretados pero no al máximo todavía — la estructura debe poder ajustarse en los pasos
+        siguientes.
+      </p>
+      <p>
+        Coloca la base de la cama inferior (las barras de apoyo o la plataforma según el modelo)
+        y verifica con el nivel que el marco queda horizontal.
+      </p>
+
+      <h2>Paso 3: Agregar los postes de la cama superior</h2>
+      <p>
+        Los postes verticales que van de la cama inferior a la superior se insertan en los receptores
+        de los ángulos de la cama inferior. En la mayoría de los modelos, estos postes tienen un
+        pasador o tornillo que los fija. Apriétalos bien antes de continuar — son los elementos
+        críticos de la estructura.
+      </p>
+
+      <h2>Paso 4: Armar la cama superior</h2>
+      <p>
+        Con los postes superiores ya fijos, agrega el marco de la cama superior de la misma forma
+        que el inferior: cabecera + piecera + travesaños. Usa el nivel para verificar que el marco
+        superior queda horizontal en las dos dimensiones.
+      </p>
+
+      <h2>Paso 5: Instalar la escalera y la baranda</h2>
+      <p>
+        La escalera se fija con ganchos o tornillos en la cabecera o en el lateral, según el modelo.
+        Verifica que queda firme antes de poner peso sobre ella. La baranda lateral se instala en
+        el nivel superior y debe quedar a altura de 30 cm desde la cama.
+      </p>
+
+      <h2>Paso 6: Apretar todo y verificar</h2>
+      <p>
+        Con todo el camarote armado, recorre todos los tornillos y apriétalos al máximo. Sacude
+        suavemente la estructura completa para detectar movimiento. Si hay traqueteo, identifica
+        cuál unión está floja y apriétala. Una estructura bien apretada no debe tener juego.
+      </p>
+
+      <h2>¿Hay que anclar el camarote a la pared?</h2>
+      <p>
+        No es obligatorio, pero sí recomendado si el camarote está en una pieza pequeña, si
+        los usuarios son niños o si el suelo no es completamente plano. Un taco y tornillo en la
+        pared, pasando por el poste superior trasero, añade una capa de seguridad extra. Se hace
+        con taladro + broca para hormigón si la pared es de concreto o ladrillo.
+      </p>
+
+      <CTAWhatsApp mensaje="Hola, tengo dudas sobre el armado de mi camarote. Modelo: [DATO]. Problema específico: [DESCRIPCIÓN]." />
+    </>
+  ),
+
+  "pintura-electrostatica-que-es": () => (
+    <>
+      <p>
+        Cuando comparas camarotes metálicos de distintos fabricantes, una diferencia importante
+        que no siempre es obvia a simple vista es el tipo de pintura. La pintura electrostática
+        al horno y la pintura en spray convencional se ven casi iguales recién aplicadas —
+        pero en 3–5 años, la diferencia es abismal.
+      </p>
+
+      <h2>¿Cómo funciona la pintura electrostática?</h2>
+      <p>
+        El proceso tiene dos etapas. Primero, el polvo de pintura (una mezcla de resina poliéster
+        o epoxi en partículas finas) se carga eléctricamente y se "sopla" sobre la pieza de metal.
+        Gracias a la carga estática, el polvo se adhiere de forma uniforme a toda la superficie,
+        incluyendo esquinas, ángulos y zonas de difícil acceso.
+      </p>
+      <p>
+        Segundo, la pieza entra al horno a 180–200°C durante 15–20 minutos. El calor funde las
+        partículas de polvo y las fusiona entre sí formando una capa continua, sin poros, de
+        60–80 micrones de espesor.
+      </p>
+
+      <h2>¿Por qué dura más que el spray convencional?</h2>
+      <p>
+        La pintura en aerosol o spray convencional se aplica en estado líquido sobre la pieza.
+        Al secar, el solvente se evapora y la pintura queda adherida mecánicamente sobre el metal.
+        El resultado es una capa porosa que bajo uso intensivo, humedad o impactos, comienza a
+        agrietarse y a pelarse desde los bordes.
+      </p>
+      <p>
+        La pintura electrostática al horno, al fundirse sobre el metal, forma una capa termopolimerizada
+        sin poros. Es prácticamente imposible pelarla con la uña. Para rayarla se necesita un objeto
+        afilado con fuerza. Y aunque haya un rasguño, no se propaga como el óxido bajo la pintura
+        convencional.
+      </p>
+
+      <h2>Comparativa de durabilidad</h2>
+      <p>
+        En Santiago, con uso normal y el ambiente seco del centro del país:
+      </p>
+      <ul>
+        <li><strong>Pintura spray convencional:</strong> empieza a mostrar deterioro a los 2–4 años. Requiere retoque a los 5–7 años.</li>
+        <li><strong>Electrostática al horno:</strong> sin deterioro visible a los 5–8 años. En condiciones normales, dura 10–15 años sin intervención.</li>
+      </ul>
+      <p>
+        En zonas húmedas (Valdivia, Osorno, costa) o ambientes salinos (Viña del Mar, Antofagasta),
+        ambos tipos se deterioran más rápido. Pero la electrostática sigue siendo significativamente
+        más resistente.
+      </p>
+
+      <h2>Cómo reconocer la pintura electrostática</h2>
+      <p>
+        La textura de la pintura electrostática al horno es característica: levemente granulada o
+        "satinada", con un acabado muy uniforme. Si pasas el dedo con fuerza, no deja marca. Si
+        intentas doblar una esquina pintada con fuerza (en la pieza, no en la pintura), la pintura
+        electrostática no se agrieta ni se pela — flexiona con el metal.
+      </p>
+      <p>
+        La pintura en spray tiene una textura más "blanda" al tacto y con el tiempo puede verse
+        un ligero goteo o irregularidad en zonas de difícil acceso.
+      </p>
+
+      <CTAWhatsApp mensaje="Hola, necesito cotizar camarote o estructura metálica con pintura electrostática al horno. Producto: [DATO]. Cantidad: [DATO]." />
+    </>
+  ),
+
   "camarotes-mineria-que-exige-cada-faena": () => (
     <>
       <p>

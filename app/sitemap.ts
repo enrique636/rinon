@@ -395,6 +395,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/camarotes-talcahuano`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.82 },
     // === BATCH 40 — Niños + keyword aliases ===
     { url: `${BASE_URL}/camarotes-ninos`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.88 },
+    // === BATCH 41 — Precio camarotes + schema homepage ===
+    { url: `${BASE_URL}/camarotes-precio`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.92 },
     ...productUrls,
     ...blogUrls,
   ];

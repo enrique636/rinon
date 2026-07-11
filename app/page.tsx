@@ -377,16 +377,41 @@ export default function Home() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "LocalBusiness",
+            "@type": ["LocalBusiness", "Manufacturer"],
             name: "Rinon.cl",
-            description: "Fabricante de camarotes metálicos y estructuras en acero. Santiago, Chile.",
+            url: "https://rinon.cl",
+            description: "Fabricante de camarotes metálicos, rejas, cercos perimetrales y estructuras en acero. Santiago, Chile. Despacho a todo el país.",
             address: {
               "@type": "PostalAddress",
               addressLocality: "Santiago",
               addressRegion: "Región Metropolitana",
               addressCountry: "CL",
             },
-            areaServed: "Chile",
+            areaServed: [
+              { "@type": "Country", name: "Chile" },
+              { "@type": "City", name: "Santiago" },
+            ],
+            priceRange: "$$",
+            knowsAbout: [
+              "Camarotes metálicos",
+              "Literas de acero",
+              "Rejas metálicas",
+              "Cercos perimetrales",
+              "Pintura electrostática",
+              "Portones metálicos",
+              "Estructuras de acero",
+            ],
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Catálogo de productos metálicos",
+              itemListElement: [
+                { "@type": "Offer", itemOffered: { "@type": "Product", name: "Camarotes metálicos" } },
+                { "@type": "Offer", itemOffered: { "@type": "Product", name: "Rejas metálicas" } },
+                { "@type": "Offer", itemOffered: { "@type": "Product", name: "Cercos perimetrales" } },
+                { "@type": "Offer", itemOffered: { "@type": "Product", name: "Portones metálicos" } },
+                { "@type": "Offer", itemOffered: { "@type": "Product", name: "Pintura electrostática" } },
+              ],
+            },
           }),
         }}
       />
