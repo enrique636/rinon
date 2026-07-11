@@ -403,6 +403,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/camarotes-quilpue`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.82 },
     // === BATCH 43 — Rejas colegios + sitemap ===
     { url: `${BASE_URL}/rejas-para-colegios`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.87 },
+    // === BATCH 44 — rejas ciudades + camarote talla + ciudades ===
+    { url: `${BASE_URL}/rejas-metalicas-valparaiso`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.87 },
+    { url: `${BASE_URL}/rejas-metalicas-concepcion`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.87 },
+    { url: `${BASE_URL}/rejas-metalicas-temuco`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.86 },
+    { url: `${BASE_URL}/rejas-metalicas-antofagasta`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.86 },
+    { url: `${BASE_URL}/camarote-una-plaza`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.90 },
+    { url: `${BASE_URL}/camarotes-linares`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.82 },
     ...productUrls,
     ...blogUrls,
   ];
