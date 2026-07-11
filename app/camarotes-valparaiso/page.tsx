@@ -41,7 +41,10 @@ export default function CamarotesValparaisoPage() {
             <span className="text-xs text-blue-700">El ambiente marino de Valparaíso y Viña acelera la corrosión del acero sin protección. Para camarotes en esta zona recomendamos pintura epóxica o galvanizado en el tratamiento superficial.</span>
           </div>
 
-          <a href={wa("Hola, necesito cotizar camarotes metálicos para Valparaíso / Viña del Mar. Modelo: [MODELO]. Cantidad: [N] unidades. Dirección de entrega: [DIRECCIÓN, CIUDAD].")} target="_blank" rel="noopener noreferrer"
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-escritorio-economico-universitario.jpg" alt="Camarote escritorio universitario Valparaíso — ideal para estudiantes" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa("Hola, necesito cotizar camarotes metálicos para Valparaíso / Viña del Mar. Modelo: [MODELO]. Cantidad: [N] unidades. Dirección de entrega: [DIRECCIÓN, CIUDAD].")} target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">
             Cotizar por WhatsApp
           </a>

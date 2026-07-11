@@ -62,7 +62,10 @@ export default function CamarotesCalamaPage() {
             abastecimiento de Chuquicamata y las operaciones de Codelco en la zona.
             Precio de fábrica, sin intermediarios.
           </p>
-          <a href={getCalamaWAUrl()} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-faenero-turno-noche-mineria.jpg" alt="Camarote metálico turno noche minería Calama — despacho zona norte" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={getCalamaWAUrl()} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">
             Cotizar despacho a Calama
           </a>
         </div>

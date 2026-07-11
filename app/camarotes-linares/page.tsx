@@ -25,7 +25,10 @@ export default function CamarotesLinaresPage() {
           <p className="text-xs uppercase tracking-widest text-gray-400 font-medium mb-3">Fabricante · Despacho VII Región · Habitacional y agrícola</p>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Camarotes Metálicos para Linares y Sur del Maule</h1>
           <p className="text-gray-500 text-lg max-w-2xl mb-6 leading-relaxed">Proveemos camarotes metálicos para hogares, empresas agrícolas y establecimientos en Linares, Parral, San Javier y el sur de la Región del Maule. Fabricante directo con coordinación de despacho.</p>
-          <a href={wa("Hola, necesito camarotes metálicos para Linares / Maule. Cantidad: [UNIDADES]. Uso: [HABITACIONAL / AGRÍCOLA / EMPRESA]. Dirección: [DATO].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para Linares</a>
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-triple-campamento-agricola.jpg" alt="Camarote triple agrícola Linares — fundos y faenas Maule" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa("Hola, necesito camarotes metálicos para Linares / Maule. Cantidad: [UNIDADES]. Uso: [HABITACIONAL / AGRÍCOLA / EMPRESA]. Dirección: [DATO].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para Linares</a>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">

@@ -146,7 +146,10 @@ export default function CamarotesLasCondesPage() {
                   <h3 className="font-bold text-gray-900 mb-1">{product.nombre}</h3>
                   <p className="text-gray-500 text-sm mb-3 leading-relaxed">{product.descripcion}</p>
                   <div className="flex gap-2">
-                    <a
+                              <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-escritorio-2-plazas-gamer.jpg" alt="Camarote escritorio 2 plazas gamer Las Condes — setup premium" className="w-full object-cover" loading="lazy" />
+          </div>
+<a
                       href={getProductWhatsAppUrl(product.nombre)}
                       target="_blank"
                       rel="noopener noreferrer"

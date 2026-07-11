@@ -35,7 +35,10 @@ export default function CamarotesConcepcionPage() {
           <p className="text-gray-500 text-lg max-w-2xl mb-6 leading-relaxed">
             Fabricamos camarotes metálicos en Santiago y despachamos a Concepción, Talcahuano, Los Ángeles, Coronel y toda la Región del Biobío. Para residencias universitarias, campamentos industriales, pensiones y uso familiar.
           </p>
-          <a href={wa("Hola, necesito cotizar camarotes metálicos para Concepción / Biobío. Modelo: [MODELO]. Cantidad: [N] unidades. Dirección de entrega: [DIRECCIÓN].")} target="_blank" rel="noopener noreferrer"
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-faenero-campamento-construccion.jpg" alt="Camarote faenero construcción Concepción — despacho Biobío" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa("Hola, necesito cotizar camarotes metálicos para Concepción / Biobío. Modelo: [MODELO]. Cantidad: [N] unidades. Dirección de entrega: [DIRECCIÓN].")} target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">
             Cotizar por WhatsApp
           </a>

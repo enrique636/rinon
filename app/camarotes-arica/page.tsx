@@ -25,7 +25,10 @@ export default function CamaroteAricaPage() {
           <p className="text-xs uppercase tracking-widest text-gray-400 font-medium mb-3">Fabricante · Despacho norte extremo · Empresas y habitacional</p>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Camarotes Metálicos para Arica y XV Región</h1>
           <p className="text-gray-500 text-lg max-w-2xl mb-6 leading-relaxed">Proveemos camarotes metálicos para empresas, hospedajes y hogares en Arica y la Región de Arica y Parinacota. Fabricante directo con coordinación de despacho al norte extremo de Chile.</p>
-          <a href={wa("Hola, necesito camarotes metálicos para Arica. Cantidad: [UNIDADES]. Uso: [HABITACIONAL / EMPRESA / CAMPAMENTO / OTRO]. Dirección: [DATO].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para Arica</a>
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-faenero-offshore-industrial.jpg" alt="Camarote industrial offshore Arica — faenas zona extrema norte" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa("Hola, necesito camarotes metálicos para Arica. Cantidad: [UNIDADES]. Uso: [HABITACIONAL / EMPRESA / CAMPAMENTO / OTRO]. Dirección: [DATO].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para Arica</a>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">

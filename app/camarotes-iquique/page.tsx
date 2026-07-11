@@ -25,7 +25,10 @@ export default function CamaroteIquiquePage() {
           <p className="text-xs uppercase tracking-widest text-gray-400 font-medium mb-3">Fabricante · Despacho a Tarapacá · Campamentos y minería</p>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Camarotes Metálicos para Iquique y Región de Tarapacá</h1>
           <p className="text-gray-500 text-lg max-w-2xl mb-6 leading-relaxed">Proveemos camarotes metálicos a empresas, campamentos mineros y establecimientos en Iquique, Alto Hospicio, Pozo Almonte, Pica y toda la Región de Tarapacá. Fabricante directo con despacho coordinado al norte.</p>
-          <a href={wa("Hola, necesito camarotes metálicos para Iquique / Región de Tarapacá. Cantidad: [UNIDADES]. Uso: [MINERÍA / EMPRESA / HABITACIONAL / OTRO]. Dirección de entrega: [DATO].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para Iquique</a>
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-faenero-cuartel-carabineros.jpg" alt="Camarote institucional metálico Iquique — cuarteles y campamentos" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa("Hola, necesito camarotes metálicos para Iquique / Región de Tarapacá. Cantidad: [UNIDADES]. Uso: [MINERÍA / EMPRESA / HABITACIONAL / OTRO]. Dirección de entrega: [DATO].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para Iquique</a>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">

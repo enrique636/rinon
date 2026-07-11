@@ -39,7 +39,10 @@ export default function CamarotesTalagantePage() {
             coordinamos el despacho con instalación incluida.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
-            <a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Cotizar para Talagante</a>
+                      <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-desmontable-pieza-adolescente.jpg" alt="Camarote desmontable Talagante — pieza adolescente precio directo" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Cotizar para Talagante</a>
             <Link href="/camarotes-agricolas" className="inline-flex items-center justify-center gap-2 border-2 border-gray-200 text-gray-700 font-semibold px-7 py-3.5 rounded-full text-sm hover:border-gray-400 transition-colors">Ver catálogo agrícola</Link>
           </div>
         </div>

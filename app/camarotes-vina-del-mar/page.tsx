@@ -25,7 +25,10 @@ export default function CamarotesVinaDelMarPage() {
           <p className="text-xs uppercase tracking-widest text-gray-400 font-medium mb-3">Fabricante · Despacho V Región · Hostal y habitacional</p>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Camarotes Metálicos para Viña del Mar y Valparaíso</h1>
           <p className="text-gray-500 text-lg max-w-2xl mb-6 leading-relaxed">Proveemos camarotes metálicos para hostales, hogares y empresas en Viña del Mar, Valparaíso, Concón, Villa Alemana y toda la V Región. El ambiente marino exige acabados de calidad — usamos pintura electrostática al horno para garantizar durabilidad frente a la humedad costera.</p>
-          <a href={wa("Hola, necesito camarotes metálicos para Viña del Mar / Valparaíso. Cantidad: [UNIDADES]. Uso: [HOSTAL / HABITACIONAL / EMPRESA]. Dirección de entrega: [DATO].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para Viña del Mar</a>
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-petalo-premium.jpg" alt="Camarote pétalo premium Viña del Mar — elegante y resistente" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa("Hola, necesito camarotes metálicos para Viña del Mar / Valparaíso. Cantidad: [UNIDADES]. Uso: [HOSTAL / HABITACIONAL / EMPRESA]. Dirección de entrega: [DATO].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para Viña del Mar</a>
         </div>
 
         <div className="bg-blue-50 border border-blue-200 rounded-xl p-5 mb-8 text-sm text-blue-800">

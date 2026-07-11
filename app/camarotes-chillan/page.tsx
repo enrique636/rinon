@@ -25,7 +25,10 @@ export default function CamarotesChillanPage() {
           <p className="text-xs uppercase tracking-widest text-gray-400 font-medium mb-3">Fabricante · Despacho Ñuble · Habitacional y agrícola</p>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Camarotes Metálicos para Chillán y la Región de Ñuble</h1>
           <p className="text-gray-500 text-lg max-w-2xl mb-6 leading-relaxed">Proveemos camarotes metálicos para hogares, empresas agrícolas y establecimientos en Chillán, Chillán Viejo, San Carlos, Yungay y toda la Región de Ñuble. Fabricante directo con despacho coordinado a la zona centro-sur.</p>
-          <a href={wa("Hola, necesito camarotes metálicos para Chillán / Región de Ñuble. Cantidad: [UNIDADES]. Uso: [HABITACIONAL / AGRICOLA / EMPRESA / OTRO]. Dirección: [DATO].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para Chillán</a>
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-triple-campamento-premium.jpg" alt="Camarote triple premium Chillán — campamentos Biobío" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={wa("Hola, necesito camarotes metálicos para Chillán / Región de Ñuble. Cantidad: [UNIDADES]. Uso: [HABITACIONAL / AGRICOLA / EMPRESA / OTRO]. Dirección: [DATO].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para Chillán</a>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">

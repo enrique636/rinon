@@ -32,7 +32,10 @@ export default function CamarotesMelipillaPage() {
               <span className="text-3xl mb-2 block">{product.emoji}</span>
               <h3 className="font-bold text-gray-900 text-sm mb-1">{product.nombre}</h3>
               <p className="text-gray-500 text-xs mb-3">{product.descripcion}</p>
-              <a href={getProductWhatsAppUrl(product.nombre)} target="_blank" rel="noopener noreferrer" className="text-xs bg-[#25D366] text-white font-semibold rounded-lg px-3 py-1.5 hover:bg-[#1ebe5d] transition-colors">Consultar</a>
+                        <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-triple-campamento-agricola.jpg" alt="Camarote triple agrícola Melipilla — fundos y faenas Maipo" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={getProductWhatsAppUrl(product.nombre)} target="_blank" rel="noopener noreferrer" className="text-xs bg-[#25D366] text-white font-semibold rounded-lg px-3 py-1.5 hover:bg-[#1ebe5d] transition-colors">Consultar</a>
             </div>
           ))}
         </div>

@@ -141,7 +141,10 @@ export default function CamarotesNunoaPage() {
                   <h3 className="font-bold text-gray-900 mb-1">{product.nombre}</h3>
                   <p className="text-gray-500 text-sm mb-3 leading-relaxed">{product.descripcion}</p>
                   <div className="flex gap-2">
-                    <a href={getProductWhatsAppUrl(product.nombre)} target="_blank" rel="noopener noreferrer" className="text-xs bg-[#25D366] text-white font-semibold rounded-lg px-3 py-1.5 hover:bg-[#1ebe5d] transition-colors">
+                              <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-escritorio-full-home-office.jpg" alt="Camarote escritorio full home office Ñuñoa — trabaja y duerme" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={getProductWhatsAppUrl(product.nombre)} target="_blank" rel="noopener noreferrer" className="text-xs bg-[#25D366] text-white font-semibold rounded-lg px-3 py-1.5 hover:bg-[#1ebe5d] transition-colors">
                       Consultar
                     </a>
                     <Link href={`/${product.slug}`} className="text-xs border border-gray-200 text-gray-600 rounded-lg px-3 py-1.5 hover:bg-gray-50 transition-colors">

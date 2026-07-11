@@ -24,7 +24,10 @@ export default function CamarotesAngolPage() {
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Camarotes en Angol — Sector Forestal Malleco</h1>
         <p className="text-gray-500 text-lg max-w-2xl mb-6">Despachamos camarotes metálicos a Angol y la Provincia de Malleco. Zona de alta densidad forestal con operaciones de Arauco y múltiples empresas contratistas. Para campamentos, cuadrillas de poda y replantación.</p>
         <div className="flex gap-3 flex-wrap mb-10">
-          <a href={getWA("campamento forestal")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Cotizar para empresa</a>
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-triple-campamento-construccion.jpg" alt="Camarote triple construcción Angol — despacho Araucanía" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={getWA("campamento forestal")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Cotizar para empresa</a>
           <a href={getWA("uso residencial")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 border-2 border-gray-200 text-gray-700 font-semibold px-7 py-3.5 rounded-full text-sm hover:border-gray-400 transition-colors">Cotizar residencial</a>
         </div>
         <div className="mb-8">

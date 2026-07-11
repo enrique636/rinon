@@ -24,7 +24,10 @@ export default function CamarotesCuricoPage() {
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Camarotes en Curicó — Agrícolas y Residencial</h1>
         <p className="text-gray-500 text-lg max-w-2xl mb-6">Despachamos camarotes metálicos a Curicó y Molina. Corazón del Valle del Teno con fuerte actividad frutícola y vinícola. Para alojamiento de temporeros en packing, viñas y fundos, y para uso residencial en la ciudad.</p>
         <div className="flex gap-3 flex-wrap mb-10">
-          <a href={getWA("alojamiento temporeros")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Cotizar para empresa agrícola</a>
+                    <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
+            <img src="/images/camarotes/camarote-metalico-dormitorio-compartido.jpg" alt="Camarote metálico Curicó — despacho zona central Chile" className="w-full object-cover" loading="lazy" />
+          </div>
+<a href={getWA("alojamiento temporeros")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Cotizar para empresa agrícola</a>
           <a href={getWA("uso residencial")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 border-2 border-gray-200 text-gray-700 font-semibold px-7 py-3.5 rounded-full text-sm hover:border-gray-400 transition-colors">Cotizar residencial</a>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
