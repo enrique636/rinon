@@ -373,6 +373,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/cercos-perimetrales-la-cisterna`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.83 },
     { url: `${BASE_URL}/cercos-perimetrales-vitacura`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/cercos-perimetrales-lo-barnechea`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.84 },
+    // === BATCH 35 — Institucional B2B + producto loft + malla 3D ===
+    { url: `${BASE_URL}/camarotes-militares`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.90 },
+    { url: `${BASE_URL}/camarotes-para-universidades`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.88 },
+    { url: `${BASE_URL}/camarotes-para-internados`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.87 },
+    { url: `${BASE_URL}/cama-loft-metalica`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.89 },
+    { url: `${BASE_URL}/camarotes-salmoneras`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.86 },
+    { url: `${BASE_URL}/mallas-3d`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.87 },
+    { url: `${BASE_URL}/camarotes-para-hospitales`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.88 },
+    { url: `${BASE_URL}/cercos-para-mineria`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.89 },
+    { url: `${BASE_URL}/litera-metalica`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.90 },
     ...productUrls,
     ...blogUrls,
   ];
