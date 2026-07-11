@@ -383,6 +383,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/camarotes-para-hospitales`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.88 },
     { url: `${BASE_URL}/cercos-para-mineria`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.89 },
     { url: `${BASE_URL}/litera-metalica`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.90 },
+    // === BATCH 37 — Hub institucional + obras + geo norte + adultos ===
+    { url: `${BASE_URL}/mobiliario-institucional`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.91 },
+    { url: `${BASE_URL}/camarotes-para-obras`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.86 },
+    { url: `${BASE_URL}/camarotes-iquique`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.84 },
+    { url: `${BASE_URL}/camarotes-arica`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.83 },
+    { url: `${BASE_URL}/camarotes-adultos`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.88 },
     ...productUrls,
     ...blogUrls,
   ];
