@@ -14,7 +14,14 @@ const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=$
 export default function CierresObrasPage() {
   return (
     <div className="py-12 px-4">
-      <div className="max-w-5xl mx-auto">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "¿Fabrican cierres perimetrales para obras en construcción?", acceptedAnswer: { "@type": "Answer", text: "Sí. Fabricamos cierres perimetrales temporales y definitivos para obras de construcción. Los cierres temporales en landa o chapla corrugada son los más usados. Los cierres definitivos en tubo se instalan cuando la obra está terminando." } },
+          { "@type": "Question", name: "¿El cierre de obra es obligatorio?", acceptedAnswer: { "@type": "Answer", text: "En la mayoría de los permisos de construcción en Chile, el cierre perimetral de obra es exigido por la Dirección de Obras Municipal. Fabricamos e instalamos conforme a la normativa local." } },
+        ],
+      })} } />
+<div className="max-w-5xl mx-auto">
         <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2">
           <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
           <Link href="/cierres-perimetrales" className="hover:text-gray-600">Cierres Perimetrales</Link><span>/</span>

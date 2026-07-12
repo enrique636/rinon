@@ -14,7 +14,14 @@ const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=$
 export default function CercosParaCanchasPage() {
   return (
     <div className="py-12 px-4">
-      <div className="max-w-4xl mx-auto">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "¿Fabrican cercos para canchas deportivas?", acceptedAnswer: { "@type": "Answer", text: "Sí. Fabricamos cercos perimetrales para canchas de fútbol, básquetbol, tenis y deportes en general. Los modelos más usados son malla eslabonada de 3 mm con postes de 2 pulgadas y alturas de 3 a 6 metros." } },
+          { "@type": "Question", name: "¿Cuánto cuesta el cerco para una cancha?", acceptedAnswer: { "@type": "Answer", text: "El precio depende de los metros lineales, la altura y el tipo de malla. Una cancha estándar de fútbol 7 (60×40 m = 200 ml perimetro) a 3 m de altura va en rangos muy variables — cotiza con las medidas exactas para obtener un precio real." } },
+        ],
+      })} } />
+<div className="max-w-4xl mx-auto">
         <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2 flex-wrap">
           <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
           <Link href="/cierres-perimetrales" className="hover:text-gray-600">Cierres Perimetrales</Link><span>/</span>

@@ -14,7 +14,14 @@ const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=$
 export default function MallasIndustrialesPage() {
   return (
     <div className="py-12 px-4">
-      <div className="max-w-5xl mx-auto">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "¿Fabrican mallas separadoras para uso industrial?", acceptedAnswer: { "@type": "Answer", text: "Sí. Fabricamos mallas separadoras industriales para plantas, maestranzas y procesos productivos. Disponibles en varios calibres y alturas según el nivel de contención requerido." } },
+          { "@type": "Question", name: "¿Se pueden instalar puertas en las mallas separadoras?", acceptedAnswer: { "@type": "Answer", text: "Sí. Incluimos puertas peatonales y portones en el diseño de la malla. Especifica dónde necesitas acceso al cotizar." } },
+        ],
+      })} } />
+<div className="max-w-5xl mx-auto">
         <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2 flex-wrap">
           <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
           <Link href="/mallas-separadoras" className="hover:text-gray-600">Mallas Separadoras</Link><span>/</span>

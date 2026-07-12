@@ -26,7 +26,14 @@ const wa = (msg: string) =>
 export default function RejasDecorativasPage() {
   return (
     <div className="py-12 px-4">
-      <div className="max-w-4xl mx-auto">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "¿Fabrican rejas metálicas decorativas?", acceptedAnswer: { "@type": "Answer", text: "Sí. Fabricamos rejas decorativas en hierro forjado y tubo estructural. Disponibles en diseños geométricos, con ornamentos y combinaciones de materiales. Pintadas al horno." } },
+          { "@type": "Question", name: "¿Cuánto demora fabricar una reja decorativa?", acceptedAnswer: { "@type": "Answer", text: "La fabricación de rejas decorativas demora entre 5 y 10 días hábiles según la complejidad del diseño. Cotiza enviando las medidas y el diseño preferido." } },
+        ],
+      })} } />
+<div className="max-w-4xl mx-auto">
         <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2 flex-wrap">
           <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
           <Link href="/rejas-metalicas" className="hover:text-gray-600">Rejas Metálicas</Link><span>/</span>

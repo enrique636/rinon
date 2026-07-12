@@ -26,7 +26,14 @@ const wa = (msg: string) =>
 export default function RejasParaGalponesPage() {
   return (
     <div className="py-12 px-4">
-      <div className="max-w-4xl mx-auto">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "¿Fabrican rejas para galpones y bodegas?", acceptedAnswer: { "@type": "Answer", text: "Sí. Fabricamos rejas perimetrales y portones para galpones industriales, bodegas y maestranzas. Los modelos más usados son tubo estructural de 2 pulgadas con portón corredizo." } },
+          { "@type": "Question", name: "¿Soportan el clima industrial?", acceptedAnswer: { "@type": "Answer", text: "Sí. Aplicamos pintura electrostática al horno que protege el metal de la corrosión en ambientes industriales. Para exposición extrema ofrecemos versión galvanizada." } },
+        ],
+      })} } />
+<div className="max-w-4xl mx-auto">
         <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2 flex-wrap">
           <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
           <Link href="/rejas-metalicas" className="hover:text-gray-600">Rejas Metálicas</Link><span>/</span>

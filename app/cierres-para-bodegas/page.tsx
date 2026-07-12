@@ -14,7 +14,14 @@ const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=$
 export default function CierresBodegasPage() {
   return (
     <div className="py-12 px-4">
-      <div className="max-w-5xl mx-auto">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "¿Fabrican cierres perimetrales para bodegas y logística?", acceptedAnswer: { "@type": "Answer", text: "Sí. Fabricamos cierres perimetrales y mallas separadoras para bodegas, centros de distribución y almacenes logísticos. Incluimos portones vehiculares y peatonales." } },
+          { "@type": "Question", name: "¿Cuánto tiempo tarda la fabricación?", acceptedAnswer: { "@type": "Answer", text: "La fabricación de un cierre para bodega demora entre 5 y 15 días hábiles según el volumen. La instalación se realiza en etapas si el proyecto es grande." } },
+        ],
+      })} } />
+<div className="max-w-5xl mx-auto">
         <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2">
           <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
           <Link href="/cierres-perimetrales" className="hover:text-gray-600">Cierres Perimetrales</Link><span>/</span>

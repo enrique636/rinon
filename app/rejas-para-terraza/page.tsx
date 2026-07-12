@@ -26,7 +26,14 @@ const wa = (msg: string) =>
 export default function RejasParaTerrazaPage() {
   return (
     <div className="py-12 px-4">
-      <div className="max-w-4xl mx-auto">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "¿Fabrican rejas y barandas para terrazas?", acceptedAnswer: { "@type": "Answer", text: "Sí. Fabricamos rejas, barandas y pasamanos metálicos para terrazas, balcones y escaleras. Modelos lisos o con ornamentos, pintados al horno." } },
+          { "@type": "Question", name: "¿Cuánto cuesta la baranda por metro lineal?", acceptedAnswer: { "@type": "Answer", text: "El precio varía según el diseño, la altura y el material. Las barandas simples en tubo redondo son la opción más económica. Cotiza con los metros lineales y la altura." } },
+        ],
+      })} } />
+<div className="max-w-4xl mx-auto">
         <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2 flex-wrap">
           <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
           <Link href="/rejas-metalicas" className="hover:text-gray-600">Rejas Metálicas</Link><span>/</span>

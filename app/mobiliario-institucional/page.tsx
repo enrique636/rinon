@@ -23,7 +23,14 @@ const segmentos = [
 export default function MobiliarioInstitucionalPage() {
   return (
     <div className="py-12 px-4">
-      <div className="max-w-4xl mx-auto">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "¿Fabrican mobiliario metálico institucional?", acceptedAnswer: { "@type": "Answer", text: "Sí. Fabricamos mobiliario metálico institucional: camarotes, literas, camas de una plaza para internados, hospitales, regimientos y residencias. Todo en acero pintado electrostáticamente al horno." } },
+          { "@type": "Question", name: "¿Hacen proyectos de amoblamiento completo?", acceptedAnswer: { "@type": "Answer", text: "Sí. Para proyectos de volumen (internados, hospitales, campamentos) cotizamos llave en mano: fabricación, transporte e instalación en el lugar." } },
+        ],
+      })} } />
+<div className="max-w-4xl mx-auto">
         <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2 flex-wrap">
           <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
           <span className="text-gray-700 font-medium">Mobiliario Institucional</span>

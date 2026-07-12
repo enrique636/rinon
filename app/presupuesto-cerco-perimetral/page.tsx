@@ -14,7 +14,14 @@ const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=$
 export default function PresupuestoCercoPerimetralPage() {
   return (
     <div className="py-12 px-4">
-      <div className="max-w-4xl mx-auto">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "¿Cómo pido un presupuesto de cerco perimetral?", acceptedAnswer: { "@type": "Answer", text: "Solo necesitamos los metros lineales del proyecto, la altura deseada y el tipo de uso (casa, condominio, empresa, industria). Con esos datos te enviamos el presupuesto por WhatsApp el mismo día." } },
+          { "@type": "Question", name: "¿El presupuesto incluye instalación?", acceptedAnswer: { "@type": "Answer", text: "Sí. El presupuesto incluye fabricación e instalación para la Región Metropolitana. Para regiones, el transporte se cotiza por separado." } },
+        ],
+      })} } />
+<div className="max-w-4xl mx-auto">
         <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2 flex-wrap">
           <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
           <Link href="/cercos-perimetrales" className="hover:text-gray-600">Cercos Perimetrales</Link><span>/</span>

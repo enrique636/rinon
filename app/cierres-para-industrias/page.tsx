@@ -14,7 +14,14 @@ const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=$
 export default function CierresIndustriasPage() {
   return (
     <div className="py-12 px-4">
-      <div className="max-w-5xl mx-auto">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "¿Fabrican cierres perimetrales para industrias y parques industriales?", acceptedAnswer: { "@type": "Answer", text: "Sí. Fabricamos cierres de alta resistencia para industrias, plantas y parques industriales. Estructuras en tubo de 2 pulgadas o malla 3D según el nivel de seguridad requerido." } },
+          { "@type": "Question", name: "¿Incluyen portones vehiculares?", acceptedAnswer: { "@type": "Answer", text: "Sí. El presupuesto puede incluir portones corredizos vehiculares y peatonales. Especifica las medidas del vano al cotizar." } },
+        ],
+      })} } />
+<div className="max-w-5xl mx-auto">
         <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2">
           <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
           <Link href="/cierres-perimetrales" className="hover:text-gray-600">Cierres Perimetrales</Link><span>/</span>

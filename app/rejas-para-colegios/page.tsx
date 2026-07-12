@@ -14,7 +14,14 @@ const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=$
 export default function RejasParaColegiosPage() {
   return (
     <div className="py-12 px-4">
-      <div className="max-w-4xl mx-auto">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "¿Fabrican rejas metálicas para colegios y establecimientos educacionales?", acceptedAnswer: { "@type": "Answer", text: "Sí. Fabricamos e instalamos rejas perimetrales para colegios, escuelas y jardines infantiles. Los modelos para establecimientos educacionales cumplen con los requisitos de seguridad y visibilidad." } },
+          { "@type": "Question", name: "¿Incluyen portón de acceso vehicular y peatonal?", acceptedAnswer: { "@type": "Answer", text: "Sí. El presupuesto puede incluir portón corredizo vehicular y puerta peatonal con llave o combinación. Especifica las medidas de los vanos al cotizar." } },
+        ],
+      })} } />
+<div className="max-w-4xl mx-auto">
         <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2 flex-wrap">
           <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
           <Link href="/rejas-metalicas-santiago" className="hover:text-gray-600">Rejas Metálicas</Link><span>/</span>

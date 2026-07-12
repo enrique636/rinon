@@ -14,7 +14,14 @@ const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=$
 export default function CercosParaMineriaPage() {
   return (
     <div className="py-12 px-4">
-      <div className="max-w-4xl mx-auto">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "¿Fabrican cercos perimetrales para proyectos mineros?", acceptedAnswer: { "@type": "Answer", text: "Sí. Fabricamos cercos, mallas separadoras y portones para campamentos mineros, faenas, plantas y bodegas de operaciones. Trabajamos con contratistas y empresas del rubro. Cotiza con metros, altura y destino." } },
+          { "@type": "Question", name: "¿Hacen despacho a faenas en el norte?", acceptedAnswer: { "@type": "Answer", text: "Sí. Despachamos a Antofagasta, Calama, Atacama, Sierra Gorda y toda la zona norte. El transporte se coordina al confirmar el pedido." } },
+        ],
+      })} } />
+<div className="max-w-4xl mx-auto">
         <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2 flex-wrap">
           <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
           <Link href="/cercos-perimetrales-santiago" className="hover:text-gray-600">Cercos Perimetrales</Link><span>/</span>

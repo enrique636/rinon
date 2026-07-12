@@ -14,7 +14,14 @@ const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=$
 export default function MallasBodegasPage() {
   return (
     <div className="py-12 px-4">
-      <div className="max-w-5xl mx-auto">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "¿Fabrican mallas separadoras para bodegas?", acceptedAnswer: { "@type": "Answer", text: "Sí. Fabricamos e instalamos mallas separadoras para dividir zonas dentro de bodegas y centros de distribución. Las mallas delimitan áreas de picking, almacenaje, carga/descarga y zonas restringidas." } },
+          { "@type": "Question", name: "¿Cuánto cuesta la malla separadora por metro cuadrado?", acceptedAnswer: { "@type": "Answer", text: "El precio depende del tipo de malla (eslabonada, 3D, perforada), la altura y el sistema de fijación. Cotiza con los metros lineales y la altura para obtener un precio exacto." } },
+        ],
+      })} } />
+<div className="max-w-5xl mx-auto">
         <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2 flex-wrap">
           <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
           <Link href="/mallas-separadoras" className="hover:text-gray-600">Mallas Separadoras</Link><span>/</span>

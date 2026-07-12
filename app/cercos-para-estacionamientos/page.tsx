@@ -14,7 +14,14 @@ const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=$
 export default function CercosParaEstacionamientosPage() {
   return (
     <div className="py-12 px-4">
-      <div className="max-w-4xl mx-auto">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "¿Fabrican cercos para estacionamientos y playas de autos?", acceptedAnswer: { "@type": "Answer", text: "Sí. Fabricamos cercos perimetrales y portones de acceso para estacionamientos, playas de autos y cocheras. Los materiales más usados son tubo estructural y malla 3D." } },
+          { "@type": "Question", name: "¿Se puede instalar portón automático?", acceptedAnswer: { "@type": "Answer", text: "Sí. Fabricamos el portón y dejamos la estructura preparada para motor deslizante. El motor se instala por separado — hay varios proveedores que ofrecen este servicio." } },
+        ],
+      })} } />
+<div className="max-w-4xl mx-auto">
         <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2 flex-wrap">
           <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
           <Link href="/cierres-perimetrales" className="hover:text-gray-600">Cierres Perimetrales</Link><span>/</span>
