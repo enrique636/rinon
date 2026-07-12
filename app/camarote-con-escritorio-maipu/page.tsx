@@ -13,7 +13,14 @@ export default function CamaroteEscritorioMaipuPage() {
   const wa = getWhatsAppUrl("Hola, quiero cotizar un camarote con escritorio con despacho a Maipú. ¿Qué modelos tienen?");
   return (
     <div className="py-12 px-4">
-      <div className="max-w-4xl mx-auto">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "¿Hacen despacho de camarotes con escritorio a Maipú?", acceptedAnswer: { "@type": "Answer", text: "Sí. Despachamos e instalamos camarotes con escritorio en Maipú con un costo fijo que incluye instalación. Pagas cuando llega el producto a tu domicilio." } },
+          { "@type": "Question", name: "¿Cuánto tarda el despacho?", acceptedAnswer: { "@type": "Answer", text: "En Santiago RM la entrega e instalación se realiza en un día acordado, generalmente dentro de la semana de confirmado el pedido. Para regiones coordinamos transporte — el plazo depende de la distancia y disponibilidad de flete." } },
+        ],
+      })} } />
+<div className="max-w-4xl mx-auto">
         <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2 flex-wrap">
           <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
           <Link href="/camarotes-con-escritorio" className="hover:text-gray-600">Camarotes con Escritorio</Link><span>/</span>

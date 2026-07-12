@@ -15,7 +15,14 @@ export default function CamarotesLaReinaPage() {
   const topProducts = products.slice(0, 3);
   return (
     <div className="py-12 px-4">
-      <div className="max-w-4xl mx-auto">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "¿Hacen despacho de camarotes a en La Reina?", acceptedAnswer: { "@type": "Answer", text: "Sí. Despachamos camarotes metálicos a en La Reina. Para Santiago RM el despacho incluye instalación. Para regiones coordinamos transporte al cotizar — solo necesitamos la dirección." } },
+          { "@type": "Question", name: "¿Cuánto tarda el despacho?", acceptedAnswer: { "@type": "Answer", text: "En Santiago RM la entrega e instalación se realiza en un día acordado, generalmente dentro de la semana de confirmado el pedido. Para regiones coordinamos transporte — el plazo depende de la distancia y disponibilidad de flete." } },
+        ],
+      })} } />
+<div className="max-w-4xl mx-auto">
         <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2">
           <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
           <Link href="/camarotes" className="hover:text-gray-600">Camarotes</Link><span>/</span>

@@ -10,7 +10,14 @@ export const metadata: Metadata = seoPages.categoriaGeneral;
 export default function CamarotesPage() {
   return (
     <div className="py-12 px-4">
-      <div className="max-w-6xl mx-auto">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "¿Hacen despacho de camarotes a Con Escritorio?", acceptedAnswer: { "@type": "Answer", text: "Sí. Despachamos camarotes metálicos a Con Escritorio. Para Santiago RM el despacho incluye instalación. Para regiones coordinamos transporte al cotizar — solo necesitamos la dirección." } },
+          { "@type": "Question", name: "¿Cuánto tarda el despacho?", acceptedAnswer: { "@type": "Answer", text: "En Santiago RM la entrega e instalación se realiza en un día acordado, generalmente dentro de la semana de confirmado el pedido. Para regiones coordinamos transporte — el plazo depende de la distancia y disponibilidad de flete." } },
+        ],
+      })} } />
+<div className="max-w-6xl mx-auto">
         {/* Header SEO */}
         <div className="text-center mb-12">
           <nav className="text-sm text-gray-400 mb-4">
