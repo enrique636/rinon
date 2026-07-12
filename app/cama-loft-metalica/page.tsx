@@ -14,6 +14,27 @@ const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=$
 export default function CamaLoftMetalicaPage() {
   return (
     <div className="py-12 px-4">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Product",
+        name: "Cama Loft Metálica",
+        description: "Cama loft metálica elevada con espacio libre abajo para escritorio, sofá o almacenamiento. Fabricada en acero con pintura electrostática al horno.",
+        brand: { "@type": "Brand", name: "Rinon.cl" },
+        material: "Acero pintado electrostáticamente al horno",
+        offers: {
+          "@type": "Offer",
+          availability: "https://schema.org/InStock",
+          priceCurrency: "CLP",
+          seller: { "@type": "Organization", name: "Rinon.cl" },
+        },
+      })}} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "¿Cuánta altura libre queda bajo la cama loft?", acceptedAnswer: { "@type": "Answer", text: "La altura libre bajo la cama depende del modelo y la medida del colchón. Con colchón de 15 cm, la altura útil disponible es de aproximadamente 100–110 cm. Al cotizar, indícanos para qué necesitas usar ese espacio (escritorio, sofá, armario) y ajustamos la altura." } },
+          { "@type": "Question", name: "¿La cama loft es segura para adultos?", acceptedAnswer: { "@type": "Answer", text: "Sí. Nuestras camas loft están fabricadas en acero estructural con pintura al horno y soportan al menos 120 kg en la cama superior. Incluyen barandas de seguridad en los lados expuestos." } },
+        ],
+      })}} />
       <div className="max-w-4xl mx-auto">
         <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2 flex-wrap">
           <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>

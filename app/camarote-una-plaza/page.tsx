@@ -14,6 +14,27 @@ const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=$
 export default function CamaroteUnaPlazaPage() {
   return (
     <div className="py-12 px-4">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Product",
+        name: "Camarote de 1 Plaza Metálico",
+        description: "Camarote metálico de 1 plaza (90×190 cm). El modelo más solicitado para piezas, habitaciones de arriendo y uso institucional. Fabricante directo en Chile.",
+        brand: { "@type": "Brand", name: "Rinon.cl" },
+        material: "Acero pintado electrostáticamente al horno",
+        offers: {
+          "@type": "Offer",
+          availability: "https://schema.org/InStock",
+          priceCurrency: "CLP",
+          seller: { "@type": "Organization", name: "Rinon.cl" },
+        },
+      })}} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "¿Cuánto pesa el camarote de 1 plaza?", acceptedAnswer: { "@type": "Answer", text: "El camarote metálico de 1 plaza pesa entre 35 y 45 kg dependiendo del modelo y el grosor del tubo. Es perfectamente manejable entre dos personas para instalación y traslado." } },
+          { "@type": "Question", name: "¿Incluye colchón el camarote de 1 plaza?", acceptedAnswer: { "@type": "Answer", text: "No. El precio es solo por la estructura metálica. El colchón para 1 plaza (90×190 cm) se consigue en cualquier tienda de colchones. Recomendamos un grosor de entre 15 y 20 cm." } },
+        ],
+      })}} />
       <div className="max-w-4xl mx-auto">
         <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2 flex-wrap">
           <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
