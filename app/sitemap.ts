@@ -433,6 +433,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/pintura-electrostatica-valparaiso`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/pintura-electrostatica-antofagasta`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.84 },
     { url: `${BASE_URL}/pintura-electrostatica-temuco`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.84 },
+    { url: `${BASE_URL}/camarotes-con-escritorio`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     // === BATCH 47 — páginas de producto camarotes ===
     { url: `${BASE_URL}/camarote-petalo`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.91 },
     { url: `${BASE_URL}/camarote-petalo-nido`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.90 },
