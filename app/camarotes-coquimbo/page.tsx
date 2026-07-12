@@ -25,6 +25,7 @@ export default function CamarotesCoquimboPage() {
           <p className="text-xs uppercase tracking-widest text-gray-400 font-medium mb-3">Fabricante · Despacho IV Región · Habitacional y minería</p>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Camarotes Metálicos para Coquimbo y Región de Coquimbo</h1>
           <p className="text-gray-500 text-lg max-w-2xl mb-6 leading-relaxed">Proveemos camarotes metálicos para hogares, campamentos mineros y empresas en Coquimbo, La Serena, Ovalle, Illapel y toda la IV Región. Fabricante directo con coordinación de despacho.</p>
+          <div className="my-5 rounded-2xl overflow-hidden shadow-sm"><img src="/images/camarotes/camarote-metalico-negro-fondo-blanco.jpg" alt="Camarote metálico para Coquimbo — fabricante directo Chile" className="w-full object-cover" loading="lazy" /></div>
           <a href={wa("Hola, necesito camarotes para Coquimbo / Región de Coquimbo. Cantidad: [UNIDADES]. Uso: [HABITACIONAL / MINERÍA / EMPRESA]. Dirección: [DATO].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar para Coquimbo</a>
         </div>
 
