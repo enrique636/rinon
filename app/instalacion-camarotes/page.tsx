@@ -38,6 +38,7 @@ export default function InstalacionCamarotesPage() {
           <p className="text-gray-500 text-lg max-w-2xl mb-4 leading-relaxed">
             El camarote llega a tu casa ya armado o lo armamos en el lugar. Sin sorpresas, sin costos extras. Pago contra entrega disponible — pagas cuando lo ves instalado y funcionando.
           </p>
+          <div className="my-5 rounded-2xl overflow-hidden shadow-sm"><img src="/images/camarotes/camarote-desmontable-moderno.jpg" alt="Instalación de camarotes metálicos en Santiago — servicio incluido" className="w-full object-cover" loading="lazy" /></div>
           <a href={wa("Hola, me interesa un camarote con instalación en Santiago. ¿Pueden cotizarme?")} target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">
             Cotizar con instalación

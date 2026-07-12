@@ -73,7 +73,8 @@ export default function FabricanteCaramarotesPage() {
             o especificaciones que necesites — algo que ningún distribuidor puede ofrecerte.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
-            <a href={getWAUrl("Hola, quiero cotizar como particular. ¿Cuáles son los precios de sus camarotes?")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">
+            <div className="my-5 rounded-2xl overflow-hidden shadow-sm"><img src="/images/camarotes/camarote-metalico-hogar-moderno.jpg" alt="Fabricante de camarotes Chile — estructura metálica de acero" className="w-full object-cover" loading="lazy" /></div>
+          <a href={getWAUrl("Hola, quiero cotizar como particular. ¿Cuáles son los precios de sus camarotes?")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">
               Cotizar como particular
             </a>
             <a href={getWAUrl("Hola, soy de una empresa y quiero cotizar camarotes para proyecto. ¿Pueden enviarme información?")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-gray-900 hover:bg-gray-800 text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">

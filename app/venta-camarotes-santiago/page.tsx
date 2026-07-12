@@ -36,7 +36,8 @@ export default function VentaCamarotesSantiagoPage() {
             Comprás directo al fabricante — sin tiendas, sin distribuidores, sin márgenes encima. El camarote se fabrica a tu medida exacta, llega a tu casa en Santiago y lo instalamos nosotros.
           </p>
           <div className="flex flex-wrap gap-3 mb-6">
-            <a href={wa("Hola, quiero comprar un camarote metálico en Santiago. ¿Qué modelos tienen disponibles?")} target="_blank" rel="noopener noreferrer"
+            <div className="my-5 rounded-2xl overflow-hidden shadow-sm"><img src="/images/camarotes/camarote-metalico-dormitorio-compartido.jpg" alt="Venta de camarotes metálicos en Santiago — entrega e instalación" className="w-full object-cover" loading="lazy" /></div>
+          <a href={wa("Hola, quiero comprar un camarote metálico en Santiago. ¿Qué modelos tienen disponibles?")} target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">
               Comprar por WhatsApp
             </a>
