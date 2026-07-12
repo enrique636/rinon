@@ -34,8 +34,14 @@ export default function CamarotesPage() {
               key={product.id}
               className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-200"
             >
-              <div className="bg-gray-100 aspect-[4/3] flex items-center justify-center relative">
-                <span className="text-gray-400 text-sm">Foto del producto</span>
+              <div className="bg-gray-100 aspect-[4/3] relative overflow-hidden">
+                {product.imgSrc ? (
+                  <img src={product.imgSrc} alt={product.imgAlt ?? product.nombre} className="w-full h-full object-cover" loading="lazy" />
+                ) : (
+                  <div className="flex items-center justify-center h-full">
+                    <span className="text-gray-400 text-sm">Foto próximamente</span>
+                  </div>
+                )}
                 {product.badge && (
                   <span className="absolute top-3 left-3 px-2 py-1 rounded-full text-xs font-semibold bg-green-100 text-green-800">
                     {product.badge}
@@ -65,10 +71,7 @@ export default function CamarotesPage() {
                 )}
 
                 <div className="flex flex-col gap-2">
-                            <div className="my-6 rounded-2xl overflow-hidden shadow-sm">
-            <img src="/images/camarotes/camarote-escritorio-full-negro.jpg" alt="Camarote con escritorio full metálico negro — el más completo de Chile" className="w-full object-cover" loading="lazy" />
-          </div>
-<a
+                  <a
                     href={getProductWhatsAppUrl(product.nombre)}
                     target="_blank"
                     rel="noopener noreferrer"
