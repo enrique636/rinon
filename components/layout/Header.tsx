@@ -5,9 +5,10 @@ import { useState } from "react";
 
 const navLinks = [
   { href: "/camarotes", label: "Camarotes" },
-  { href: "/empresas", label: "Empresas" },
-  { href: "/cierres-perimetrales", label: "Cercos" },
-  { href: "/contacto", label: "Contacto" },
+  { href: "/cierres-perimetrales", label: "Cierres y Rejas" },
+  { href: "/estructuras-metalicas", label: "Estructuras" },
+  { href: "/pintura-electrostatica", label: "Pintura" },
+  { href: "/cotizar", label: "Cotizar" },
 ];
 
 const WA = `https://wa.me/56912345678?text=${encodeURIComponent("Hola, me interesa cotizar. ¿Pueden ayudarme?")}`;

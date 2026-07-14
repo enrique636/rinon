@@ -741,6 +741,36 @@ export const blogPosts: BlogPost[] = [
     categoria: "Institucional",
     tiempoLectura: "5 min",
   },
+  {
+    slug: "como-elegir-camarote-con-escritorio",
+    titulo: "Cómo Elegir un Camarote con Escritorio: Guía Completa",
+    subtitulo: "Los criterios que importan antes de comprar — tipo, medidas, material y uso real",
+    descripcionSeo: "Guía para elegir un camarote con escritorio en Chile. Qué tipos existen, qué medidas considerar, cómo comparar el modelo económico, estándar y full, y cómo no equivocarte. Fabricación directa en Santiago.",
+    keywords: ["cómo elegir camarote con escritorio", "camarote con escritorio guía", "camarote con escritorio cuál elegir", "camarote escritorio chile", "cama alta con escritorio elegir"],
+    fecha: "2026-07-12",
+    categoria: "Guías",
+    tiempoLectura: "7 min",
+  },
+  {
+    slug: "camarote-con-escritorio-pieza-pequena",
+    titulo: "Camarote con Escritorio para Pieza Pequeña: Cómo Ganar Espacio",
+    subtitulo: "La solución vertical que resuelve el problema del espacio en dormitorios chicos",
+    descripcionSeo: "Cómo resolver el problema de espacio en una pieza pequeña con un camarote con escritorio. Por qué el diseño vertical funciona, qué modelo elegir y cómo aprovechar cada metro. Santiago y RM.",
+    keywords: ["camarote con escritorio pieza pequeña", "camarote escritorio espacio reducido", "cama alta escritorio dormitorio pequeño", "camarote con escritorio departamento", "ahorrar espacio pieza camarote"],
+    fecha: "2026-07-12",
+    categoria: "Guías",
+    tiempoLectura: "6 min",
+  },
+  {
+    slug: "cama-alta-con-escritorio-para-estudiantes",
+    titulo: "Cama Alta con Escritorio para Estudiantes: La Mejor Opción de Estudio",
+    subtitulo: "Por qué es el mueble ideal para universitarios y escolares que estudian en su pieza",
+    descripcionSeo: "Cama alta con escritorio para estudiantes en Chile. Por qué es ideal para universitarios y escolares, qué modelo elegir y cómo crear una zona de estudio cómoda sin ocupar más espacio. Despacho en Santiago.",
+    keywords: ["cama alta con escritorio para estudiantes", "camarote con escritorio universitario", "cama alta estudiante escritorio", "camarote escritorio para estudiar", "cama loft con escritorio estudiante"],
+    fecha: "2026-07-12",
+    categoria: "Guías",
+    tiempoLectura: "6 min",
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

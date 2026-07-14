@@ -114,6 +114,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/camarote-con-escritorio-quilicura`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/camarote-con-escritorio-pudahuel`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/camarote-con-escritorio-estacion-central`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/camarote-con-escritorio-recoleta`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/camarote-con-escritorio-independencia`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/camarote-con-escritorio-san-miguel`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/camarote-con-escritorio-macul`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/camarote-con-escritorio-la-reina`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/camarote-con-escritorio-vitacura`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/camarote-con-escritorio-cerrillos`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/camarote-con-escritorio-huechuraba`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
     // Camarote con escritorio — por uso específico
     { url: `${BASE_URL}/camarote-con-escritorio-gamer`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/camarote-con-escritorio-home-office`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.88 },
@@ -433,7 +441,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/pintura-electrostatica-valparaiso`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/pintura-electrostatica-antofagasta`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.84 },
     { url: `${BASE_URL}/pintura-electrostatica-temuco`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.84 },
-    { url: `${BASE_URL}/camarotes-con-escritorio`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/camarotes-con-escritorio`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 },
     // === BATCH 47 — páginas de producto camarotes ===
     { url: `${BASE_URL}/camarote-petalo`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.91 },
     { url: `${BASE_URL}/camarote-petalo-nido`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.90 },

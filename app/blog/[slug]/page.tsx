@@ -134,6 +134,234 @@ function CTAWhatsApp({ mensaje }: { mensaje?: string }) {
 
 const blogContent: Record<string, () => React.ReactElement> = {
 
+  "como-elegir-camarote-con-escritorio": () => (
+    <>
+      <p>
+        Un camarote con escritorio es una cama elevada con un escritorio integrado en el espacio de
+        abajo. Suena simple, pero elegir el modelo correcto marca la diferencia entre un mueble que
+        aprovecha bien la pieza y uno que estorba. Esta guía repasa los criterios que realmente
+        importan antes de comprar.
+      </p>
+
+      <h2>1. Define para quién y para qué es</h2>
+      <p>
+        No es lo mismo un camarote con escritorio para un escolar que para un universitario o para
+        alguien en home office. El uso define el tamaño del escritorio, si necesitas estantes y qué
+        tan reforzada debe ser la estructura.
+      </p>
+      <ul>
+        <li><strong>Estudiante escolar o universitario:</strong> prioriza el espacio de escritorio y la iluminación.</li>
+        <li><strong>Gamer:</strong> escritorio más profundo para monitor y periféricos.</li>
+        <li><strong>Home office:</strong> el modelo full con estantes integrados ordena mejor el trabajo.</li>
+      </ul>
+
+      <h2>2. Conoce los tres modelos disponibles</h2>
+      <p>
+        En nuestra fábrica trabajamos tres versiones del camarote con escritorio, todas en acero
+        fabricado en Chile:
+      </p>
+      <ul>
+        <li>
+          <strong><Link href="/camarote-con-escritorio-economico">Económico</Link>:</strong> la opción
+          más accesible. Escritorio funcional, sin accesorios extra. Ideal cuando el presupuesto manda.
+        </li>
+        <li>
+          <strong><Link href="/camarote-con-escritorio">Estándar</Link>:</strong> el equilibrio entre
+          precio y funcionalidad. El favorito de estudiantes y gamers.
+        </li>
+        <li>
+          <strong><Link href="/camarote-con-escritorio-full">Full</Link>:</strong> escritorio de mayor
+          profundidad, estantes integrados y baranda reforzada. Para quienes el espacio de trabajo es
+          tan importante como la cama.
+        </li>
+      </ul>
+
+      <h2>3. Mide tu espacio antes de decidir</h2>
+      <p>
+        El error más común es no medir. Antes de cotizar, mide el ancho, el largo y sobre todo la
+        <strong> altura libre</strong> de la pieza: un camarote con escritorio aprovecha el espacio
+        vertical, así que necesita techo suficiente para que quien duerme arriba se siente cómodo.
+        Las medidas exactas de cada modelo se confirman con el fabricante, y como fabricamos a pedido,
+        podemos ajustarlas a tu pieza.
+      </p>
+
+      <h2>4. Revisa el material y la terminación</h2>
+      <p>
+        Una estructura de acero con pintura electrostática dura años y resiste el uso diario mejor
+        que la madera aglomerada. Pregunta siempre por el tipo de acero, la terminación y si la
+        baranda de seguridad viene incluida.
+      </p>
+
+      <h2>5. Confirma despacho e instalación</h2>
+      <p>
+        Un buen camarote mal instalado es un problema. Verifica que el despacho incluya el armado.
+        Nosotros despachamos e instalamos en Santiago y toda la Región Metropolitana con pago contra
+        entrega — pagas cuando el camarote llega instalado.
+      </p>
+
+      <h3>Preguntas frecuentes</h3>
+      <h4>¿Qué medidas tiene el camarote con escritorio?</h4>
+      <p>Dependen del modelo. Las medidas exactas se confirman con el fabricante y pueden ajustarse a tu pieza.</p>
+      <h4>¿Cuál modelo es mejor para un universitario?</h4>
+      <p>El estándar suele ser suficiente; si necesitas estantes para ordenar libros y monitor, el full es mejor.</p>
+      <h4>¿Es resistente para un adulto?</h4>
+      <p>Sí. La estructura de acero está pensada para el uso normal de adultos. Consulta el modelo según tu caso.</p>
+
+      <CTAWhatsApp mensaje="Hola, quiero ayuda para elegir un camarote con escritorio. Uso: [ESTUDIANTE / GAMER / HOME OFFICE]. Espacio disponible: [MEDIDAS APROX]. ¿Qué modelo me recomiendan?" />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              { "@type": "Question", name: "¿Qué medidas tiene el camarote con escritorio?", acceptedAnswer: { "@type": "Answer", text: "Dependen del modelo. Las medidas exactas se confirman con el fabricante y pueden ajustarse a tu pieza." } },
+              { "@type": "Question", name: "¿Cuál modelo es mejor para un universitario?", acceptedAnswer: { "@type": "Answer", text: "El estándar suele ser suficiente; si necesitas estantes para ordenar libros y monitor, el full es mejor." } },
+              { "@type": "Question", name: "¿Es resistente para un adulto?", acceptedAnswer: { "@type": "Answer", text: "Sí. La estructura de acero está pensada para el uso normal de adultos. Consulta el modelo según tu caso." } },
+            ],
+          }),
+        }}
+      />
+    </>
+  ),
+
+  "camarote-con-escritorio-pieza-pequena": () => (
+    <>
+      <p>
+        Cuando la pieza es pequeña, poner una cama y un escritorio por separado significa ocupar el
+        doble de superficie que muchas veces simplemente no existe. El camarote con escritorio ataca
+        justo ese problema: eleva la cama y coloca el escritorio debajo, aprovechando el espacio
+        vertical que en la mayoría de los dormitorios queda desperdiciado.
+      </p>
+
+      <h2>Por qué el diseño vertical funciona en piezas chicas</h2>
+      <p>
+        En un dormitorio pequeño el suelo es el recurso más escaso. Una cama tradicional ocupa
+        alrededor de dos metros cuadrados que no se pueden usar para nada más. Al subir la cama, ese
+        espacio se libera para el escritorio, dejando el piso despejado y la pieza más ordenada.
+      </p>
+      <ul>
+        <li>Un solo mueble reemplaza cama más escritorio.</li>
+        <li>El piso queda libre, lo que hace ver la pieza más amplia.</li>
+        <li>La zona de estudio queda definida y con mejor luz.</li>
+      </ul>
+
+      <h2>Qué modelo elegir para poco espacio</h2>
+      <p>
+        Para piezas pequeñas conviene empezar por lo esencial. El
+        <strong> <Link href="/camarote-con-escritorio-economico">modelo económico</Link></strong> tiene
+        un diseño limpio, sin accesorios que ocupen espacio, y es la opción más accesible. Si necesitas
+        ordenar libros y monitor sin sumar muebles, el
+        <strong> <Link href="/camarote-con-escritorio-full">modelo full</Link></strong> incluye estantes
+        integrados que aprovechan el mismo mueble. El
+        <strong> <Link href="/camarote-con-escritorio">modelo estándar</Link></strong> es el punto medio.
+      </p>
+
+      <h2>Trucos para aprovechar aún más el espacio</h2>
+      <ul>
+        <li>Ubica el escritorio hacia la ventana para ganar luz natural.</li>
+        <li>Usa el espacio bajo la escalera o al costado para repisas.</li>
+        <li>Elige colores claros en la pieza para ampliar la sensación de espacio.</li>
+        <li>Aprovecha la pared sobre el escritorio con estantes o pizarras.</li>
+      </ul>
+
+      <h2>Mide antes de comprar</h2>
+      <p>
+        Antes de decidir, mide el ancho, el largo y la altura libre de la pieza. Como fabricamos a
+        pedido, podemos ajustar las medidas del camarote a tu espacio. Si tienes dudas, envíanos las
+        medidas por WhatsApp y te decimos qué modelo entra mejor.
+      </p>
+
+      <p>
+        Si además quieres ver más ideas de distribución, revisa nuestra guía sobre
+        {" "}<Link href="/blog/camarote-para-pieza-pequena">camarotes para pieza pequeña</Link> y la de
+        {" "}<Link href="/blog/como-elegir-camarote-con-escritorio">cómo elegir un camarote con escritorio</Link>.
+      </p>
+
+      <CTAWhatsApp mensaje="Hola, tengo una pieza pequeña y quiero un camarote con escritorio. Medidas de la pieza (aprox): [ANCHO x LARGO x ALTO]. ¿Qué modelo me recomiendan?" />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              { "@type": "Question", name: "¿Un camarote con escritorio sirve para una pieza muy chica?", acceptedAnswer: { "@type": "Answer", text: "Sí. Es precisamente la solución pensada para piezas pequeñas, porque aprovecha el espacio vertical y libera el piso." } },
+              { "@type": "Question", name: "¿Se puede ajustar la medida a mi pieza?", acceptedAnswer: { "@type": "Answer", text: "Sí. Fabricamos a pedido y podemos ajustar las medidas del camarote al espacio disponible. Consúltanos por WhatsApp." } },
+            ],
+          }),
+        }}
+      />
+    </>
+  ),
+
+  "cama-alta-con-escritorio-para-estudiantes": () => (
+    <>
+      <p>
+        La cama alta con escritorio integrado es, probablemente, el mejor mueble que un estudiante
+        puede tener en su pieza. Combina en un solo espacio la zona de descanso y la zona de estudio,
+        algo especialmente valioso cuando el dormitorio es pequeño o se comparte.
+      </p>
+
+      <h2>Por qué es ideal para estudiar</h2>
+      <p>
+        Estudiar bien requiere un espacio propio, ordenado y con buena luz. La cama alta con escritorio
+        crea esa zona sin ocupar más metros: la cama va arriba y el escritorio queda debajo, definido
+        y listo para concentrarse. Para un universitario que vive en un departamento chico o un escolar
+        que comparte pieza, esta diferencia es enorme.
+      </p>
+      <ul>
+        <li>Zona de estudio definida, separada de la cama.</li>
+        <li>Más espacio libre en el piso para moverse.</li>
+        <li>Todo lo necesario a mano: laptop, libros y apuntes.</li>
+      </ul>
+
+      <h2>Qué modelo elegir según el nivel de estudio</h2>
+      <p>
+        Para un escolar, el
+        <strong> <Link href="/camarote-con-escritorio-economico">modelo económico</Link></strong> cumple
+        de sobra. Para un universitario que pasa muchas horas frente al computador, el
+        <strong> <Link href="/camarote-con-escritorio-full">modelo full</Link></strong> ofrece un
+        escritorio más profundo y estantes integrados para ordenar libros y monitor. El
+        <strong> <Link href="/camarote-con-escritorio">modelo estándar</Link></strong> es una excelente
+        opción intermedia.
+      </p>
+
+      <h2>Seguridad y comodidad</h2>
+      <p>
+        La cama superior incluye baranda de seguridad. Para escolares menores es importante verificar
+        que la baranda esté bien instalada. La escalera lateral facilita el acceso, y la estructura de
+        acero soporta el uso diario intensivo típico de una etapa de estudios.
+      </p>
+
+      <h2>Ideal también para piezas compartidas</h2>
+      <p>
+        Si dos hermanos comparten dormitorio, una cama alta con escritorio para cada uno crea dos
+        zonas de estudio independientes en el mismo cuarto. Revisa también nuestra guía sobre
+        {" "}<Link href="/blog/camarote-universitario">camarotes para universitarios</Link> y
+        {" "}<Link href="/blog/como-crear-zona-de-estudio-dormitorio">cómo crear una zona de estudio</Link>.
+      </p>
+
+      <CTAWhatsApp mensaje="Hola, busco una cama alta con escritorio para un estudiante. Nivel: [ESCOLAR / UNIVERSITARIO]. ¿Qué modelo me recomiendan y cómo cotizo?" />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              { "@type": "Question", name: "¿Desde qué edad puede un estudiante usar una cama alta?", acceptedAnswer: { "@type": "Answer", text: "Se recomienda a partir de los 6 años para la cama superior, siempre con la baranda de seguridad correctamente instalada." } },
+              { "@type": "Question", name: "¿Qué modelo conviene para un universitario?", acceptedAnswer: { "@type": "Answer", text: "El modelo full, por su escritorio más profundo y sus estantes integrados, es el más cómodo para largas horas de estudio." } },
+            ],
+          }),
+        }}
+      />
+    </>
+  ),
+
   "cerco-para-parcela-de-agrado": () => (
     <>
       <p>
