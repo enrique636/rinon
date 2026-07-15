@@ -4,7 +4,7 @@ import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { getProductWhatsAppUrl, formatPrice, SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Cama Alta en Chile | Cama Loft Metálica — Pago Contra Entrega Santiago",
+  title: "Cama Alta Metálica | Loft con Espacio Libre Abajo — Chile",
   description:
     "Cama alta metálica (cama loft o cama elevada) con espacio libre debajo. Ideal para estudiantes, gamers y home office. Pago contra entrega en Santiago. Consulta por WhatsApp.",
   keywords: [

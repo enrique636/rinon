@@ -4,7 +4,7 @@ import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { formatPrice, SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Camarote Triple en Chile | Litera de 3 Pisos — Pago Contra Entrega Santiago",
+  title: "Camarote Triple | Litera Metálica de 3 Pisos — Chile",
   description:
     "Camarote triple metálico de 3 niveles. La solución para familias que necesitan 3 camas en el mínimo espacio. Pago contra entrega en Santiago. Consulta por WhatsApp.",
   keywords: [

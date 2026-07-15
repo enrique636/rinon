@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Camarote con Escritorio Económico — Fabricante en Chile | Rinon.cl",
+  title: "Camarote con Escritorio Económico | Fabricante Chile",
   description: "Camarote con escritorio económico fabricado en Chile. Cama arriba, escritorio abajo. Sin intermediarios. Cotiza por WhatsApp — entrega en Santiago y despacho a todo Chile.",
   keywords: [
     "camarote con escritorio economico",

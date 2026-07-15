@@ -4,7 +4,7 @@ import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { formatPrice, SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Camarote Plaza y Media en Chile | 1.5 + 1 Plaza — Santiago Pago Contra Entrega",
+  title: "Camarote Plaza y Media | 1.5 + 1 Plazas Metálico Chile",
   description:
     "Camarote de plaza y media metálico: 1.5 plazas arriba + 1 plaza abajo (o viceversa). Más comodidad sin ocupar más espacio. Despacho $20.000 en Santiago. Pago contra entrega.",
   keywords: [

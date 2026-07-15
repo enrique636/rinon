@@ -4,7 +4,7 @@ import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { getProductWhatsAppUrl, formatPrice, SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Camarote Nido en Chile | 3 Camas en 1 — Pago Contra Entrega Santiago",
+  title: "Camarote Nido Metálico | 3 Camas en el Espacio de 1 — Chile",
   description:
     "Camarote nido metálico con cama deslizante. 3 camas en el espacio de 1. Ideal para niños y piezas pequeñas. Pago contra entrega en Santiago. Consulta por WhatsApp.",
   keywords: [

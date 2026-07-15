@@ -4,7 +4,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Camarote 2 Plazas Abajo + 1 Plaza Arriba — Fabricante Chile | Rinon.cl",
+  title: "Camarote 2 Plazas Abajo | Doble + Individual — Chile",
   description:
     "Camarote con cama de 2 plazas abajo y 1 plaza arriba. Fabricado en Chile con tubo de acero 2\". Medidas reales: 150 cm largo × 160 cm ancho × 150 cm alto. Cotiza sin compromiso.",
   keywords: [

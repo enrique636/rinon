@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Cama de 2 Plazas con Cajón — Almacenamiento Integrado | Rinon.cl",
+  title: "Cama 2 Plazas con Cajón | Almacenamiento Integrado Chile",
   description: "Cama doble con cajón deslizante incorporado bajo el colchón. Fabricada en acero en Chile. Ideal para piezas sin clóset o con poco espacio de almacenamiento. Cotiza sin compromiso.",
   keywords: [
     "cama dos plazas con cajon",

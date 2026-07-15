@@ -5,7 +5,7 @@ import { getProductWhatsAppUrl, formatPrice, SITE_CONFIG } from "@/lib/config";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 
 export const metadata: Metadata = {
-  title: "Camarotes Metálicos en Chile | Comprar Camarote Santiago — Pago Contra Entrega",
+  title: "Camarotes Metálicos en Santiago | Todos los Modelos",
   description:
     "Catálogo completo de camarotes metálicos en Santiago: Titanic, nido, triple, con escritorio, doble y más. Pago contra entrega. Despacho $20.000 con instalación incluida.",
   keywords: [

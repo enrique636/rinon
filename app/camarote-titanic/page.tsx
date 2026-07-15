@@ -4,7 +4,7 @@ import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { formatPrice, SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Camarote Titanic en Chile | Camarote Metálico Reforzado — Santiago",
+  title: "Camarote Titanic | Metálico Reforzado — Rinon.cl Chile",
   description:
     "Camarote Titanic metálico: el modelo más robusto y resistente. Estructura reforzada, ideal para uso intensivo. Pago contra entrega en Santiago. Consulta disponibilidad por WhatsApp.",
   keywords: [

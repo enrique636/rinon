@@ -62,7 +62,7 @@ export const seoPages = {
   }),
 
   categoriaGeneral: buildMetadata({
-    title: "Camarotes con Escritorio — Fábrica Directa Santiago | Rinon.cl",
+    title: "Camarotes con Escritorio | Modelos y Precios — Rinon.cl",
     description: "Camarotes con escritorio integrado fabricados en Chile: modelo económico, estándar y full. Cama arriba, escritorio abajo. Despacho en toda la Región Metropolitana.",
     keywords: [
       "camarotes con escritorio",

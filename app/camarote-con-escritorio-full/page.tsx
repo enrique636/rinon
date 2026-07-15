@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Camarote con Escritorio Full — Premium con Estantes | Rinon.cl",
+  title: "Camarote con Escritorio Full | Estantes Premium — Chile",
   description: "Camarote con escritorio full: escritorio amplio, estantes integrados, baranda reforzada y pintura electrostática premium. Fabricante directo en Chile. Cotiza sin compromiso.",
   keywords: [
     "camarote con escritorio full",

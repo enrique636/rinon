@@ -4,7 +4,7 @@ import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { formatPrice, SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Camarote Doble en Chile | 2 Plazas Abajo — Pago Contra Entrega Santiago",
+  title: "Camarote Doble | 2 Plazas Abajo + 1 Arriba — Chile",
   description:
     "Camarote metálico con cama de 2 plazas abajo y 1 plaza arriba. El más cómodo para adultos. Disponible en Santiago con pago contra entrega. Consulta por WhatsApp.",
   keywords: [

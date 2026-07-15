@@ -4,7 +4,7 @@ import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { formatPrice, SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Camarote con Escritorio en Chile | Cama Alta con Escritorio — Santiago",
+  title: "Camarote con Escritorio | Cama Arriba, Escritorio Abajo",
   description:
     "Camarote con escritorio metálico fabricado en Chile. Cama alta con escritorio integrado, ideal para estudiantes, gamers y home office. Pago contra entrega en Santiago. Consulta ahora.",
   keywords: [
