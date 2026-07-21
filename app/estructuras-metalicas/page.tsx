@@ -3,9 +3,9 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Estructuras Metálicas a Pedido en Santiago — Fabricante | Rinon.cl",
+  title: "Estructuras Metálicas a Medida | Fabricante Santiago",
   description:
-    "Fabricamos estructuras metálicas a pedido en Santiago: pérgolas, racks, mezzanines, escaleras, soportes y estructuras a medida en acero. Diseño + fabricación + instalación.",
+    "Fabricamos estructuras metálicas a medida en Santiago: pérgolas, racks, mezzanines, escaleras, soportes y estructuras en acero. Fabricación directa. Cotiza por WhatsApp.",
   keywords: [
     "estructuras metálicas a pedido Santiago",
     "fabricación estructuras metálicas Chile",

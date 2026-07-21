@@ -3,8 +3,8 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Pintura Electrostática Santiago — Servicio para Metales | Dumar",
-  description: "Servicio de pintura electrostática al horno en Santiago. Para rejas, portones, estructuras y muebles metálicos. Acabado duro, uniforme y duradero. Servicio a empresas de la Región Metropolitana.",
+  title: "Pintura Electrostática al Horno | Santiago Chile",
+  description: "Servicio de pintura electrostática al horno en Santiago. Para rejas, portones, estructuras y muebles metálicos. Acabado duro, uniforme y duradero. Cotiza por WhatsApp.",
   keywords: [
     "pintura electrostatica santiago",
     "pintura electrostática al horno santiago",

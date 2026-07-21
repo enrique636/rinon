@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Rejas Metálicas Santiago — Fábrica y Venta Directa | Rinon.cl",
+  title: "Rejas Metálicas Santiago | Fabricante Directo — Chile",
   description: "Rejas metálicas fabricadas en Santiago. Reja tubular, reja de fierro y reja perimetral para casas, obras, bodegas e industrias. Fabricante directo — sin intermediarios. Cotiza hoy.",
   keywords: [
     "rejas metalicas santiago",

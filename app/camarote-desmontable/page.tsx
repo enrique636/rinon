@@ -1,6 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ProductGallery } from "@/components/ProductGallery";
 import { SITE_CONFIG } from "@/lib/config";
+import { products } from "@/lib/products";
+
+const product = products.find((p) => p.id === "desmontable")!;
+const imgs = [
+  ...(product.imgSrc ? [{ src: product.imgSrc, alt: product.imgAlt ?? product.nombre }] : []),
+  ...(product.gallery ?? []).map((src, i) => ({ src, alt: `${product.nombre} — foto ${i + 2}` })),
+];
 
 export const metadata: Metadata = {
   title: "Camarote Desmontable — Se Arma y Desarma Fácil | Rinon.cl",
@@ -108,8 +116,8 @@ export default function CamaroteDesmontablePage() {
             que rotan habitaciones, y familias que quieren llevar el camarote si cambian de casa.
           </p>
 
-          <div className="my-5 rounded-2xl overflow-hidden shadow-sm">
-            <img src="/images/camarotes/camarote-desmontable-negro-fondo-blanco.jpg" alt="Camarote desmontable metálico negro — se arma y desarma fácil" className="w-full object-cover" loading="lazy" />
+          <div className="my-5">
+            <ProductGallery images={imgs} />
           </div>
 
           <div className="flex flex-col sm:flex-row gap-3">

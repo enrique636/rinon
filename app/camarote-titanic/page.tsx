@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
+import { ProductGallery } from "@/components/ProductGallery";
 import { formatPrice, SITE_CONFIG } from "@/lib/config";
+import { products } from "@/lib/products";
 
 export const metadata: Metadata = {
   title: "Camarote Titanic | Metálico Reforzado — Rinon.cl Chile",
@@ -26,15 +28,10 @@ export const metadata: Metadata = {
   },
 };
 
+const product = products.find((p) => p.id === "titanic")!;
 const imgs = [
-  { src: "/images/camarotes/camarote-metalico-negro-fondo-blanco.jpg", alt: "Camarote Titanic metálico reforzado negro fondo blanco" },
-  { src: "/images/camarotes/camarote-faenero-metalico-negro.jpg", alt: "Camarote Titanic para faena y uso intensivo" },
-  { src: "/images/camarotes/camarote-metalico-pieza-arriendo.jpg", alt: "Camarote Titanic en pieza de arriendo" },
-  { src: "/images/camarotes/camarote-desmontable-litera-metalica.jpg", alt: "Camarote Titanic litera metálica reforzada" },
-  { src: "/images/camarotes/camarote-metalico-dormitorio-compartido.jpg", alt: "Camarote Titanic en dormitorio compartido" },
-  { src: "/images/camarotes/camarote-metalico-nordico.jpg", alt: "Camarote Titanic en dormitorio nórdico" },
-  { src: "/images/camarotes/camarote-metalico-hogar-moderno.jpg", alt: "Camarote Titanic en hogar moderno" },
-  { src: "/images/camarotes/camarote-metalico-premium.jpg", alt: "Camarote Titanic premium reforzado" },
+  ...(product.imgSrc ? [{ src: product.imgSrc, alt: product.imgAlt ?? product.nombre }] : []),
+  ...(product.gallery ?? []).map((src, i) => ({ src, alt: `${product.nombre} — foto ${i + 2}` })),
 ];
 
 const faqs = [
@@ -117,13 +114,7 @@ export default function CamaroteTitanicPage() {
 
         {/* Hero */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-14">
-          <div className="grid grid-cols-2 gap-2">
-            {imgs.slice(0, 4).map((img) => (
-              <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
-                <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
-              </div>
-            ))}
-          </div>
+          <ProductGallery images={imgs} />
 
           <div>
             <span className="inline-block bg-gray-900 text-white text-xs font-semibold rounded-full px-3 py-1 mb-3">
