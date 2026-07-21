@@ -14,7 +14,12 @@ const inter = Inter({
   display: "swap",
 });
 
-export const metadata: Metadata = seoPages.home;
+export const metadata: Metadata = {
+  ...seoPages.home,
+  verification: {
+    google: "DG5fIXNQgMGRpHGC0RwK-R3QvIyx20qjrQQdMRqCymQ",
+  },
+};
 
 export default function RootLayout({
   children,
