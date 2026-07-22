@@ -16,17 +16,17 @@ export default function CamaLoftMetalicaPage() {
     <div className="py-12 px-4">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "Product",
+        "@type": "Service",
         name: "Cama Loft Metálica",
         description: "Cama loft metálica elevada con espacio libre abajo para escritorio, sofá o almacenamiento. Fabricada en acero con pintura electrostática al horno.",
-        brand: { "@type": "Brand", name: "Rinon.cl" },
-        material: "Acero pintado electrostáticamente al horno",
-        offers: {
-          "@type": "Offer",
-          availability: "https://schema.org/InStock",
-          priceCurrency: "CLP",
-          seller: { "@type": "Organization", name: "Rinon.cl" },
+        provider: {
+          "@type": "LocalBusiness",
+          name: "Camarotes Chile",
+          address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
         },
+        serviceType: "Fabricación de camarotes metálicos",
+        areaServed: { "@type": "Country", name: "Chile" },
+        brand: { "@type": "Brand", name: "Camarotes Chile" },
       })}} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "FAQPage",

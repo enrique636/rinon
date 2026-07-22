@@ -16,11 +16,17 @@ export default function PortonesIndustrialesPage() {
     <div className="py-12 px-4">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "Product",
+        "@type": "Service",
         name: "Portones Industriales Metálicos a Medida",
         description: "Portones industriales corredizos y batientes fabricados en acero estructural. Medidas exactas para el vano de acceso. Instalación incluida en Santiago.",
-        brand: { "@type": "Brand", name: "Rinon.cl" },
-        manufacturer: { "@type": "Organization", name: "Rinon.cl", areaServed: "Santiago, Chile" },
+        provider: {
+          "@type": "LocalBusiness",
+          name: "Camarotes Chile",
+          address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
+        },
+        serviceType: "Fabricación e instalación de portones metálicos",
+        areaServed: { "@type": "Country", name: "Chile" },
+        brand: { "@type": "Brand", name: "Camarotes Chile" },
       })}} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "FAQPage",

@@ -18,10 +18,17 @@ export default function RejaMetalicaSantiagoPage() {
     <div className="py-12 px-4">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "Product",
+        "@type": "Service",
         name: "Reja Metálica Santiago — Fabricante Directo",
         description: "Rejas metálicas residenciales, comerciales e industriales fabricadas a medida en Santiago. Instalación incluida en toda la Región Metropolitana.",
-        brand: { "@type": "Brand", name: "Rinon.cl" },
+        provider: {
+          "@type": "LocalBusiness",
+          name: "Camarotes Chile",
+          address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
+        },
+        serviceType: "Fabricación e instalación de rejas metálicas",
+        areaServed: { "@type": "Country", name: "Chile" },
+        brand: { "@type": "Brand", name: "Camarotes Chile" },
       })}} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "FAQPage",

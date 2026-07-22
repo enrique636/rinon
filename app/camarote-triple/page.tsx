@@ -82,18 +82,17 @@ export default function CamaroteTriplePage() {
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "Product",
+          "@type": "Service",
           name: "Camarote Triple Metálico (3 Pisos)",
           description: "Camarote metálico de 3 niveles con 3 camas de 1 plaza superpuestas. Fabricación chilena. Ideal para familias numerosas y espacios reducidos.",
-          brand: { "@type": "Brand", name: "Camarotes Chile" },
-          material: "Acero",
-          offers: {
-            "@type": "Offer",
-            availability: "https://schema.org/InStock",
-            priceCurrency: "CLP",
-            seller: { "@type": "Organization", name: "Camarotes Chile" },
-            areaServed: "Santiago, Chile",
+          provider: {
+            "@type": "LocalBusiness",
+            name: "Camarotes Chile",
+            address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
           },
+          serviceType: "Fabricación de camarotes metálicos",
+          areaServed: { "@type": "Country", name: "Chile" },
+          brand: { "@type": "Brand", name: "Camarotes Chile" },
         })}} />
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

@@ -82,18 +82,17 @@ export default function Camarote15PlazasPage() {
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "Product",
+          "@type": "Service",
           name: "Camarote Plaza y Media Metálico",
           description: "Camarote metálico con cama de 1.5 plazas (105-110 cm) y cama de 1 plaza. Más cómodo que el estándar, ideal para adolescentes y adultos jóvenes.",
-          brand: { "@type": "Brand", name: "Camarotes Chile" },
-          material: "Acero",
-          offers: {
-            "@type": "Offer",
-            availability: "https://schema.org/InStock",
-            priceCurrency: "CLP",
-            seller: { "@type": "Organization", name: "Camarotes Chile" },
-            areaServed: "Santiago, Chile",
+          provider: {
+            "@type": "LocalBusiness",
+            name: "Camarotes Chile",
+            address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
           },
+          serviceType: "Fabricación de camarotes metálicos",
+          areaServed: { "@type": "Country", name: "Chile" },
+          brand: { "@type": "Brand", name: "Camarotes Chile" },
         })}} />
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

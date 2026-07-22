@@ -95,18 +95,17 @@ export default function CamaroteConEscritorioPage() {
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "Product",
+          "@type": "Service",
           name: "Camarote con Escritorio Metálico",
           description: "Cama alta metálica con escritorio integrado debajo. Ideal para estudiantes, gamers y home office. Fabricación chilena.",
-          brand: { "@type": "Brand", name: "Camarotes Chile" },
-          material: "Acero",
-          offers: {
-            "@type": "Offer",
-            availability: "https://schema.org/InStock",
-            priceCurrency: "CLP",
-            seller: { "@type": "Organization", name: "Camarotes Chile" },
-            areaServed: "Santiago, Chile",
+          provider: {
+            "@type": "LocalBusiness",
+            name: "Camarotes Chile",
+            address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
           },
+          serviceType: "Fabricación de camarotes metálicos",
+          areaServed: { "@type": "Country", name: "Chile" },
+          brand: { "@type": "Brand", name: "Camarotes Chile" },
         })}} />
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

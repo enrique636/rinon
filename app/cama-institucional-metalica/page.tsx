@@ -103,19 +103,17 @@ export default function CamaInstitucionalMetalicaPage() {
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "Product",
+          "@type": "Service",
           name: "Cama Institucional Metálica Gris",
           description: "Cama metálica gris para instituciones de orden chilenas. Funciona como cama individual o apilada como camarote desmontable. Carabineros, Ejército, Gendarmería, Armada, Fuerza Aérea, PDI, Bomberos.",
-          brand: { "@type": "Brand", name: "Rinon.cl" },
-          material: "Acero",
-          color: "Gris",
-          offers: {
-            "@type": "Offer",
-            availability: "https://schema.org/InStock",
-            priceCurrency: "CLP",
-            seller: { "@type": "Organization", name: "Rinon.cl" },
-            areaServed: "Chile",
+          provider: {
+            "@type": "LocalBusiness",
+            name: "Camarotes Chile",
+            address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
           },
+          serviceType: "Fabricación de camarotes metálicos",
+          areaServed: { "@type": "Country", name: "Chile" },
+          brand: { "@type": "Brand", name: "Camarotes Chile" },
         })}} />
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

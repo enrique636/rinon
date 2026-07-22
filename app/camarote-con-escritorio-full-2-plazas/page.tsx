@@ -81,19 +81,17 @@ export default function CamaroteEscritorioFull2PlazasPage() {
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "Product",
+          "@type": "Service",
           name: "Camarote con Escritorio Full 2 Plazas",
           description: "El único camarote en Chile con cama matrimonial (2 plazas) abajo + cama simple arriba + escritorio full integrado. Fabricado exclusivamente por Rinon.cl.",
-          brand: { "@type": "Brand", name: "Rinon.cl" },
-          material: "Acero",
-          color: "Negro",
-          offers: {
-            "@type": "Offer",
-            availability: "https://schema.org/InStock",
-            priceCurrency: "CLP",
-            seller: { "@type": "Organization", name: "Rinon.cl" },
-            areaServed: "Santiago, Chile",
+          provider: {
+            "@type": "LocalBusiness",
+            name: "Camarotes Chile",
+            address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
           },
+          serviceType: "Fabricación de camarotes metálicos",
+          areaServed: { "@type": "Country", name: "Chile" },
+          brand: { "@type": "Brand", name: "Camarotes Chile" },
         })}} />
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

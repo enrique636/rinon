@@ -16,10 +16,17 @@ export default function PortonesResidencialesPage() {
     <div className="py-12 px-4">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "Product",
+        "@type": "Service",
         name: "Portón Residencial Metálico a Medida",
         description: "Portones metálicos para casas en Santiago. Corredizos y batientes fabricados con las medidas exactas del vano de acceso. Instalación incluida.",
-        brand: { "@type": "Brand", name: "Rinon.cl" },
+        provider: {
+          "@type": "LocalBusiness",
+          name: "Camarotes Chile",
+          address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
+        },
+        serviceType: "Fabricación e instalación de portones metálicos",
+        areaServed: { "@type": "Country", name: "Chile" },
+        brand: { "@type": "Brand", name: "Camarotes Chile" },
       })}} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "FAQPage",

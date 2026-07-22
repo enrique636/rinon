@@ -16,17 +16,17 @@ export default function CamaroteUnaPlazaPage() {
     <div className="py-12 px-4">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "Product",
+        "@type": "Service",
         name: "Camarote de 1 Plaza Metálico",
         description: "Camarote metálico de 1 plaza (90×190 cm). El modelo más solicitado para piezas, habitaciones de arriendo y uso institucional. Fabricante directo en Chile.",
-        brand: { "@type": "Brand", name: "Rinon.cl" },
-        material: "Acero pintado electrostáticamente al horno",
-        offers: {
-          "@type": "Offer",
-          availability: "https://schema.org/InStock",
-          priceCurrency: "CLP",
-          seller: { "@type": "Organization", name: "Rinon.cl" },
+        provider: {
+          "@type": "LocalBusiness",
+          name: "Camarotes Chile",
+          address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
         },
+        serviceType: "Fabricación de camarotes metálicos",
+        areaServed: { "@type": "Country", name: "Chile" },
+        brand: { "@type": "Brand", name: "Camarotes Chile" },
       })}} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "FAQPage",

@@ -32,21 +32,17 @@ const specs = [
 export default function Camarote2PlazasPage() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "Service",
     name: "Camarote Metálico 2 Plazas",
     description: "Camarote de acero con cama inferior de 2 plazas (130×190 cm) y cama superior de 1 plaza (90×190 cm). Pintura electrostática al horno.",
-    brand: { "@type": "Brand", name: SITE_CONFIG.nombre },
-    offers: {
-      "@type": "Offer",
-      priceCurrency: "CLP",
-      availability: "https://schema.org/InStock",
-      seller: { "@type": "Organization", name: SITE_CONFIG.nombre },
+    provider: {
+      "@type": "LocalBusiness",
+      name: "Camarotes Chile",
+      address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
     },
-    additionalProperty: [
-      { "@type": "PropertyValue", name: "Material", value: "Acero estructural" },
-      { "@type": "PropertyValue", name: "Cama inferior", value: "130x190 cm" },
-      { "@type": "PropertyValue", name: "Acabado", value: "Pintura electrostática al horno" },
-    ],
+    serviceType: "Fabricación de camarotes metálicos",
+    areaServed: { "@type": "Country", name: "Chile" },
+    brand: { "@type": "Brand", name: "Camarotes Chile" },
   };
 
   return (

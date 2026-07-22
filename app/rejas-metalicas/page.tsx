@@ -35,16 +35,17 @@ export default function RejasMetalicasPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Product",
+            "@type": "Service",
             name: "Rejas Metálicas",
             description: "Rejas metálicas tubulares fabricadas en Santiago. Para casas, obras, bodegas e industrias.",
-            brand: { "@type": "Brand", name: "Rinon.cl" },
-            manufacturer: {
-              "@type": "Organization",
-              name: "Rinon.cl",
+            provider: {
+              "@type": "LocalBusiness",
+              name: "Camarotes Chile",
               address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
             },
-            offers: { "@type": "Offer", availability: "https://schema.org/InStock", priceCurrency: "CLP" },
+            serviceType: "Fabricación e instalación de rejas metálicas",
+            areaServed: { "@type": "Country", name: "Chile" },
+            brand: { "@type": "Brand", name: "Camarotes Chile" },
           }),
         }}
       />

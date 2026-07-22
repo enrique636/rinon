@@ -36,22 +36,18 @@ export default function CamaroteDesmontablePage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Product",
+            "@type": "Service",
             name: "Camarote Desmontable",
             description:
               "Camarote metálico desmontable. Se arma y desarma sin herramienta especializada. Fabricado en Chile por Rinon.cl.",
-            brand: { "@type": "Brand", name: "Rinon.cl" },
-            manufacturer: {
-              "@type": "Organization",
-              name: "Rinon.cl",
+            provider: {
+              "@type": "LocalBusiness",
+              name: "Camarotes Chile",
               address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
             },
-            offers: {
-              "@type": "Offer",
-              availability: "https://schema.org/InStock",
-              priceCurrency: "CLP",
-              seller: { "@type": "Organization", name: "Rinon.cl" },
-            },
+            serviceType: "Fabricación de camarotes metálicos",
+            areaServed: { "@type": "Country", name: "Chile" },
+            brand: { "@type": "Brand", name: "Camarotes Chile" },
           }),
         }}
       />

@@ -28,22 +28,18 @@ export default function CamaConCajonPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Product",
+            "@type": "Service",
             name: "Cama de 2 Plazas con Cajón",
             description:
               "Cama de 2 plazas con cajón deslizante incorporado bajo el colchón. Fabricada en acero en Santiago por Rinon.cl.",
-            brand: { "@type": "Brand", name: "Rinon.cl" },
-            manufacturer: {
-              "@type": "Organization",
-              name: "Rinon.cl",
+            provider: {
+              "@type": "LocalBusiness",
+              name: "Camarotes Chile",
               address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
             },
-            offers: {
-              "@type": "Offer",
-              availability: "https://schema.org/InStock",
-              priceCurrency: "CLP",
-              seller: { "@type": "Organization", name: "Rinon.cl" },
-            },
+            serviceType: "Fabricación de camarotes metálicos",
+            areaServed: { "@type": "Country", name: "Chile" },
+            brand: { "@type": "Brand", name: "Camarotes Chile" },
           }),
         }}
       />

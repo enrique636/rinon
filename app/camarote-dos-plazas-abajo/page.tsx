@@ -49,31 +49,18 @@ export default function CamaroteDosPlazasAbajoPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Product",
+            "@type": "Service",
             name: "Camarote 2 Plazas Abajo + 1 Plaza Arriba",
             description:
               "Camarote con cama de 2 plazas en el nivel inferior y cama de 1 plaza en el nivel superior. Fabricado en tubo de acero 2\" en Santiago.",
-            brand: { "@type": "Brand", name: "Rinon.cl" },
-            manufacturer: {
-              "@type": "Organization",
-              name: "Rinon.cl",
-              address: {
-                "@type": "PostalAddress",
-                addressLocality: "Santiago",
-                addressCountry: "CL",
-              },
+            provider: {
+              "@type": "LocalBusiness",
+              name: "Camarotes Chile",
+              address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
             },
-            image: [
-              "https://rinon.cl/productos/camarote-dos-plazas/foto-1.jpg",
-              "https://rinon.cl/productos/camarote-dos-plazas/foto-2.jpg",
-              "https://rinon.cl/productos/camarote-dos-plazas/foto-3.jpg",
-            ],
-            offers: {
-              "@type": "Offer",
-              availability: "https://schema.org/InStock",
-              priceCurrency: "CLP",
-              seller: { "@type": "Organization", name: "Rinon.cl" },
-            },
+            serviceType: "Fabricación de camarotes metálicos",
+            areaServed: { "@type": "Country", name: "Chile" },
+            brand: { "@type": "Brand", name: "Camarotes Chile" },
           }),
         }}
       />

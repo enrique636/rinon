@@ -88,24 +88,23 @@ export default function CamaroteNidoPage() {
           }}
         />
 
-        {/* Product schema */}
+        {/* Service schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Product",
+              "@type": "Service",
               name: "Camarote Nido Metálico",
               description: "Camarote metálico con cama nido deslizante. 3 camas en el espacio de 1. Fabricación chilena.",
-              brand: { "@type": "Brand", name: "Camarotes Chile" },
-              material: "Acero",
-              offers: {
-                "@type": "Offer",
-                availability: "https://schema.org/InStock",
-                priceCurrency: "CLP",
-                seller: { "@type": "Organization", name: "Camarotes Chile" },
-                areaServed: "Santiago, Chile",
+              provider: {
+                "@type": "LocalBusiness",
+                name: "Camarotes Chile",
+                address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
               },
+              serviceType: "Fabricación de camarotes metálicos",
+              areaServed: { "@type": "Country", name: "Chile" },
+              brand: { "@type": "Brand", name: "Camarotes Chile" },
             }),
           }}
         />

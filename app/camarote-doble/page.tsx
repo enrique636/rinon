@@ -82,18 +82,17 @@ export default function CamaroteDoble() {
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "Product",
+          "@type": "Service",
           name: "Camarote Doble Metálico (2 Plazas Abajo)",
           description: "Camarote metálico con cama inferior de 2 plazas y cama superior de 1 plaza. Ideal para adultos que necesitan mayor comodidad en la cama de abajo.",
-          brand: { "@type": "Brand", name: "Camarotes Chile" },
-          material: "Acero",
-          offers: {
-            "@type": "Offer",
-            availability: "https://schema.org/InStock",
-            priceCurrency: "CLP",
-            seller: { "@type": "Organization", name: "Camarotes Chile" },
-            areaServed: "Santiago, Chile",
+          provider: {
+            "@type": "LocalBusiness",
+            name: "Camarotes Chile",
+            address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
           },
+          serviceType: "Fabricación de camarotes metálicos",
+          areaServed: { "@type": "Country", name: "Chile" },
+          brand: { "@type": "Brand", name: "Camarotes Chile" },
         })}} />
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
