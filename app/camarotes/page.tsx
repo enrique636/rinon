@@ -192,7 +192,7 @@ export default function CamarotesPage() {
           </div>
           <p className="text-xs text-gray-400 mt-4 text-center">
             ¿Tu comuna no aparece?{" "}
-            <a href="https://wa.me/56912345678?text=Hola,%20quiero%20saber%20si%20despachan%20a%20mi%20comuna." target="_blank" rel="noopener noreferrer" className="text-green-600 hover:underline">
+            <a href="https://wa.me/56975893742?text=Hola,%20quiero%20saber%20si%20despachan%20a%20mi%20comuna." target="_blank" rel="noopener noreferrer" className="text-green-600 hover:underline">
               Consúltanos por WhatsApp
             </a>
           </p>

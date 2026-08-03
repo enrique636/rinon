@@ -4,14 +4,13 @@ export const SITE_CONFIG = {
   descripcion:
     "Camarotes metálicos fabricados en Chile. Titanic, nido, triple, con escritorio y más. Pago contra entrega solo en Santiago y alrededores.",
 
-  // ← ACTUALIZAR CON DATOS REALES
   whatsapp: {
-    numero: "56912345678",
+    numero: "56975893742",
     mensaje: "Hola, me interesa un camarote. ¿Pueden darme información y cotización?",
   },
 
-  telefono: "+56 9 XXXX XXXX",
-  email: "contacto@rinon.cl",
+  telefono: "+56 9 7589 3742",
+  email: "ventas@dumar.cl",
 
   despacho: {
     precio: 20000,

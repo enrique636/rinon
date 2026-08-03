@@ -91,7 +91,7 @@ export default function PoliticaDeCookiesPage() {
 
           <section>
             <h2 className="text-xl font-bold text-gray-900 mb-3">Contacto</h2>
-            <p className="text-gray-600 leading-relaxed">Para cualquier consulta relacionada con esta política puedes escribirnos a <a href="mailto:contacto@rinon.cl" className="text-gray-900 underline">contacto@rinon.cl</a>.</p>
+            <p className="text-gray-600 leading-relaxed">Para cualquier consulta relacionada con esta política puedes escribirnos a <a href="mailto:ventas@dumar.cl" className="text-gray-900 underline">ventas@dumar.cl</a>.</p>
           </section>
 
         </div>

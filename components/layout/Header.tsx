@@ -11,7 +11,7 @@ const navLinks = [
   { href: "/cotizar", label: "Cotizar" },
 ];
 
-const WA = `https://wa.me/56912345678?text=${encodeURIComponent("Hola, me interesa cotizar. ¿Pueden ayudarme?")}`;
+const WA = `https://wa.me/56975893742?text=${encodeURIComponent("Hola, me interesa cotizar. ¿Pueden ayudarme?")}`;
 
 export function Header() {
   const [open, setOpen] = useState(false);
