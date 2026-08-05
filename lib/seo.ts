@@ -88,7 +88,7 @@ export const seoPages = {
       "camarote acero con escritorio",
       "camarote metálico juvenil",
     ],
-    canonical: "/camarote-con-escritorio-metalico",
+    canonical: "/camarote-con-escritorio",
   }),
 
   camaAlta: buildMetadata({
@@ -102,7 +102,7 @@ export const seoPages = {
       "cama loft Chile",
       "cama alta universitaria",
     ],
-    canonical: "/cama-alta-con-escritorio",
+    canonical: "/cama-alta",
   }),
 
   camaAlta2Plazas: buildMetadata({
@@ -114,7 +114,7 @@ export const seoPages = {
       "cama doble elevada con escritorio",
       "cama alta matrimonial escritorio",
     ],
-    canonical: "/cama-alta-2-plazas-con-escritorio",
+    canonical: "/camarote-dos-plazas-abajo",
   }),
 
   aMedida: buildMetadata({
@@ -127,7 +127,7 @@ export const seoPages = {
       "cama alta a medida Chile",
       "camarote medidas especiales",
     ],
-    canonical: "/camarote-con-escritorio-a-medida",
+    canonical: "/camarote-con-escritorio",
   }),
 
   premium: buildMetadata({
@@ -140,7 +140,7 @@ export const seoPages = {
       "camarote home office",
       "camarote moderno escritorio",
     ],
-    canonical: "/camarote-con-escritorio-premium",
+    canonical: "/camarote-con-escritorio-full",
   }),
 
   cotizar: buildMetadata({
