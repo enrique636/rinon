@@ -8,10 +8,10 @@ export function Footer() {
         {/* Columna 1: Marca */}
         <div>
           <p className="text-white font-bold text-lg mb-2">
-            Camarotes con Escritorio
+            {SITE_CONFIG.nombre}
           </p>
           <p className="text-sm leading-relaxed">
-            Fabricación chilena de camarotes con escritorio para dormitorios juveniles, universitarios, gamer y home office.
+            {SITE_CONFIG.descripcion}
           </p>
           <p className="text-sm mt-3">
             Santiago, Región Metropolitana, Chile
@@ -62,7 +62,7 @@ export function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-gray-800">
         <div className="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs">
-          <p>© {new Date().getFullYear()} Camarotes con Escritorio Chile. Todos los derechos reservados.</p>
+          <p>© {new Date().getFullYear()} {SITE_CONFIG.nombre}. Todos los derechos reservados.</p>
           <div className="flex gap-4">
             <Link href="/camarotes-con-escritorio" className="hover:text-white transition-colors">
               Camarotes con Escritorio

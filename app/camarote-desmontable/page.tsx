@@ -194,7 +194,7 @@ export default function CamaroteDesmontablePage() {
           <h3 className="font-semibold text-gray-900 text-sm mb-1">¿Lo necesitas en plaza y media (1.5 plazas)?</h3>
           <p className="text-gray-600 text-xs leading-relaxed">
             El modelo desmontable también está disponible en versión 1.5 plazas (~105 cm). Consúltanos al cotizar.{" "}
-            <a href="/camarote-1-5-plazas" className="text-amber-700 underline">Ver camarotes plaza y media →</a>
+            <Link href="/camarote-1-5-plazas" className="text-amber-700 underline">Ver camarotes plaza y media →</Link>
           </p>
         </div>
 

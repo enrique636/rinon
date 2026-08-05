@@ -55,9 +55,9 @@ export default function PoliticaDeCookiesPage() {
                   </tr>
                   <tr>
                     <td className="p-3 border border-gray-200">Preferencias</td>
-                    <td className="p-3 border border-gray-200">cookie_consent</td>
+                    <td className="p-3 border border-gray-200">rinon_cookie_consent</td>
                     <td className="p-3 border border-gray-200">Recuerda si aceptaste esta política</td>
-                    <td className="p-3 border border-gray-200">1 año</td>
+                    <td className="p-3 border border-gray-200">Hasta que elimines los datos del navegador</td>
                   </tr>
                 </tbody>
               </table>

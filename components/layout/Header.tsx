@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { getWhatsAppUrl } from "@/lib/config";
 
 const navLinks = [
   { href: "/camarotes", label: "Camarotes" },
@@ -11,7 +12,7 @@ const navLinks = [
   { href: "/cotizar", label: "Cotizar" },
 ];
 
-const WA = `https://wa.me/56975893742?text=${encodeURIComponent("Hola, me interesa cotizar. ¿Pueden ayudarme?")}`;
+const WA = getWhatsAppUrl("Hola, me interesa cotizar. ¿Pueden ayudarme?");
 
 export function Header() {
   const [open, setOpen] = useState(false);

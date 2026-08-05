@@ -1,12 +1,12 @@
 export const SITE_CONFIG = {
-  nombre: "Camarotes Chile",
-  tagline: "Camarotes metálicos de calidad — Entrega en Santiago",
+  nombre: "Rinon.cl",
+  tagline: "Fabricación metálica a medida en Chile",
   descripcion:
-    "Camarotes metálicos fabricados en Chile. Titanic, nido, triple, con escritorio y más. Pago contra entrega solo en Santiago y alrededores.",
+    "Fabricación de camarotes, cierres perimetrales, rejas, portones y estructuras metálicas a medida. Atención a particulares, empresas e instituciones.",
 
   whatsapp: {
     numero: "56975893742",
-    mensaje: "Hola, me interesa un camarote. ¿Pueden darme información y cotización?",
+    mensaje: "Hola, quisiera cotizar un proyecto metálico. ¿Pueden ayudarme?",
   },
 
   telefono: "+56 9 7589 3742",
@@ -26,7 +26,7 @@ export const SITE_CONFIG = {
   pago: "Pago contra entrega",
 
   seo: {
-    baseUrl: "https://rinon.cl", // ← ACTUALIZAR con dominio real
+    baseUrl: "https://rinon.cl",
   },
 } as const;
 

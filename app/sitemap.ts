@@ -32,6 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/cotizar`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/blog`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/contacto`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/politica-de-privacidad`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.2 },
     { url: `${BASE_URL}/preguntas-frecuentes`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/camarotes-providencia`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/camarotes-las-condes`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
@@ -48,7 +49,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/camarotes-baratos`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/camarotes-renca`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/camarotes-metalicos`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
-    { url: `${BASE_URL}/calculadora`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/literas`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     // B2B / Industrial
     { url: `${BASE_URL}/empresas`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.95 },
@@ -128,7 +128,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/camarote-con-escritorio-pieza-arrendada`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/camarote-con-escritorio-dos-hermanos`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.82 },
     // Servicios del taller
-    { url: `${BASE_URL}/pintura-electrostatica`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/estructuras-metalicas`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     // Cierres perimetrales — pilar + subpáginas
     { url: `${BASE_URL}/cierres-perimetrales`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.95 },
@@ -517,6 +516,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/fabricante-camarotes-con-escritorio`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.91 },
     { url: `${BASE_URL}/camarote-con-escritorio-medida-especial`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.88 },
     { url: `${BASE_URL}/camarotes-con-escritorio-empresas`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.89 },
+    { url: `${BASE_URL}/camarote-de-acero`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/literas-militares`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/politica-de-cookies`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.2 },
     ...productUrls,
     ...blogUrls,
   ];

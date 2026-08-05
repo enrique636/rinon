@@ -3,11 +3,12 @@ import Link from "next/link";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { SITE_CONFIG, formatPrice } from "@/lib/config";
 import { getLocalBusinessSchema } from "@/lib/structured-data";
+import { ContactForm } from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contacto — Camarotes Chile | Santiago y Alrededores",
+  title: "Contacto y Cotizaciones de Metalurgia | Rinon.cl",
   description:
-    "Contáctanos para cotizar un camarote metálico en Santiago. Atención por WhatsApp, despacho en la Región Metropolitana. Pago contra entrega.",
+    "Solicita una cotización para camarotes, rejas, cercos, portones, pintura electrostática y estructuras metálicas. Déjanos tu teléfono y consulta.",
   keywords: [
     "contacto camarotes Chile",
     "cotizar camarote Santiago",
@@ -105,6 +106,8 @@ export default function ContactoPage() {
             </div>
           </div>
         </div>
+
+        <div className="mb-14"><ContactForm /></div>
 
         {/* Comunas con cobertura */}
         <div className="mb-14">
