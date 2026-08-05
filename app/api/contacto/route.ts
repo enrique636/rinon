@@ -32,8 +32,8 @@ export async function POST(request: Request) {
   const contactoPreferido = clean(body.contacto_preferido, 30) || "WhatsApp";
   const paginaOrigen = clean(body.pagina_origen, 300) || "/contacto";
 
-  if (nombre.length < 2 || telefono.replace(/\D/g, "").length < 8 || !comuna || !servicio || mensaje.length < 5) {
-    return Response.json({ error: "Completa nombre, teléfono, comuna, servicio y consulta." }, { status: 400 });
+  if (nombre.length < 2 || telefono.replace(/\D/g, "").length < 8 || !comuna || !servicio) {
+    return Response.json({ error: "Completa nombre, WhatsApp, región y tipo de solicitud." }, { status: 400 });
   }
   if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return Response.json({ error: "El correo no es válido." }, { status: 400 });
   if (body.acepta_privacidad !== true) return Response.json({ error: "Debes aceptar el uso de tus datos." }, { status: 400 });

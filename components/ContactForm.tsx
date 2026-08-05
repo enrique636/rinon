@@ -5,8 +5,17 @@ import { FormEvent, useState } from "react";
 import { SITE_CONFIG } from "@/lib/config";
 
 const services = [
-  "Camarotes y camas metálicas", "Cierres y cercos perimetrales", "Rejas de seguridad",
-  "Portones metálicos", "Pintura electrostática", "Estructuras metálicas a medida", "Otro servicio",
+  "Comprar camarotes o camas metálicas",
+  "Servicio de pintura electrostática",
+  "Estructuras metálicas",
+  "Portones, rejas o cierres perimetrales",
+  "Otro",
+];
+
+const regions = [
+  "Arica y Parinacota", "Tarapacá", "Antofagasta", "Atacama", "Coquimbo",
+  "Valparaíso", "Metropolitana de Santiago", "O’Higgins", "Maule", "Ñuble",
+  "Biobío", "La Araucanía", "Los Ríos", "Los Lagos", "Aysén", "Magallanes",
 ];
 
 export function ContactForm() {
@@ -41,15 +50,18 @@ export function ContactForm() {
       <div>
         <p className="text-green-700 font-semibold text-sm mb-1">Cotización sin compromiso</p>
         <h2 className="text-2xl font-bold text-gray-900">Cuéntanos qué necesitas</h2>
-        <p className="text-gray-500 text-sm mt-2">Déjanos tus datos y la información principal del trabajo para responderte con mayor precisión.</p>
+        <p className="text-gray-500 text-sm mt-2">Déjanos tus datos y selecciona lo que necesitas. Te responderemos directamente por WhatsApp.</p>
       </div>
 
       <div className="hidden" aria-hidden="true"><label>Sitio web<input name="empresa_web" tabIndex={-1} autoComplete="off" /></label></div>
       <div className="grid sm:grid-cols-2 gap-4">
-        <label className="text-sm font-medium text-gray-700">Nombre y apellido *<input name="nombre" required minLength={2} autoComplete="name" className="mt-1.5 w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500" /></label>
-        <label className="text-sm font-medium text-gray-700">Teléfono / WhatsApp *<input name="telefono" required inputMode="tel" autoComplete="tel" placeholder="+56 9 1234 5678" className="mt-1.5 w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500" /></label>
-        <label className="text-sm font-medium text-gray-700">Correo electrónico<input name="email" type="email" autoComplete="email" className="mt-1.5 w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500" /></label>
-        <label className="text-sm font-medium text-gray-700">Comuna o ciudad *<input name="comuna" required autoComplete="address-level2" className="mt-1.5 w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500" /></label>
+        <label className="text-sm font-medium text-gray-700">Nombre *<input name="nombre" required minLength={2} autoComplete="name" className="mt-1.5 w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500" /></label>
+        <label className="text-sm font-medium text-gray-700">WhatsApp *<input name="telefono" required inputMode="tel" autoComplete="tel" placeholder="+56 9 1234 5678" className="mt-1.5 w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500" /></label>
+        <label className="text-sm font-medium text-gray-700 sm:col-span-2">Región *
+          <select name="comuna" required defaultValue="" autoComplete="address-level1" className="mt-1.5 w-full border border-gray-300 rounded-xl px-4 py-3 bg-white focus:outline-none focus:ring-2 focus:ring-green-500">
+            <option value="" disabled>Selecciona tu región</option>{regions.map((region) => <option key={region}>{region}</option>)}
+          </select>
+        </label>
       </div>
 
       <label className="text-sm font-medium text-gray-700 block">Servicio que necesitas *
@@ -57,10 +69,9 @@ export function ContactForm() {
           <option value="" disabled>Selecciona un servicio</option>{services.map((service) => <option key={service}>{service}</option>)}
         </select>
       </label>
-      <label className="text-sm font-medium text-gray-700 block">Tu consulta *
-        <textarea name="mensaje" required minLength={5} rows={5} placeholder="Describe medidas aproximadas, cantidad, ubicación, plazo y cualquier duda." className="mt-1.5 w-full border border-gray-300 rounded-xl px-4 py-3 resize-y focus:outline-none focus:ring-2 focus:ring-green-500" />
+      <label className="text-sm font-medium text-gray-700 block">Cuéntanos un poco más <span className="font-normal text-gray-400">(opcional)</span>
+        <textarea name="mensaje" rows={4} placeholder="Por ejemplo: medidas, cantidad, comuna o qué necesitas si seleccionaste Otro." className="mt-1.5 w-full border border-gray-300 rounded-xl px-4 py-3 resize-y focus:outline-none focus:ring-2 focus:ring-green-500" />
       </label>
-      <fieldset><legend className="text-sm font-medium text-gray-700 mb-2">¿Cómo prefieres que te contactemos?</legend><div className="flex flex-wrap gap-4 text-sm text-gray-600">{["WhatsApp", "Llamada", "Correo"].map((option) => <label key={option} className="flex items-center gap-2"><input type="radio" name="contacto_preferido" value={option} defaultChecked={option === "WhatsApp"} />{option}</label>)}</div></fieldset>
       <label className="flex items-start gap-3 text-xs text-gray-500"><input type="checkbox" name="acepta_privacidad" required className="mt-0.5" /><span>Acepto que Rinon.cl use estos datos únicamente para responder mi solicitud. Consulta nuestra <Link href="/politica-de-privacidad" className="underline text-gray-700">política de privacidad</Link>.</span></label>
       <button disabled={status === "sending"} className="w-full bg-gray-900 hover:bg-black disabled:bg-gray-400 text-white font-bold rounded-xl py-3.5 transition-colors">{status === "sending" ? "Enviando…" : "Enviar consulta"}</button>
       {message && <p role="status" className={`text-sm rounded-lg p-3 ${status === "success" ? "bg-green-50 text-green-800" : "bg-red-50 text-red-700"}`}>{message}</p>}
