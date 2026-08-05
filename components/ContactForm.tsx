@@ -70,7 +70,7 @@ export function ContactForm() {
         </select>
       </label>
       <label className="text-sm font-medium text-gray-700 block">Cuéntanos un poco más <span className="font-normal text-gray-400">(opcional)</span>
-        <textarea name="mensaje" rows={4} placeholder="Por ejemplo: medidas, cantidad, comuna o qué necesitas si seleccionaste Otro." className="mt-1.5 w-full border border-gray-300 rounded-xl px-4 py-3 resize-y focus:outline-none focus:ring-2 focus:ring-green-500" />
+        <textarea name="mensaje" rows={4} placeholder="Por ejemplo: qué necesitas, cantidades, medidas aproximadas, comuna y cualquier duda." className="mt-1.5 w-full border border-gray-300 rounded-xl px-4 py-3 resize-y focus:outline-none focus:ring-2 focus:ring-green-500" />
       </label>
       <label className="flex items-start gap-3 text-xs text-gray-500"><input type="checkbox" name="acepta_privacidad" required className="mt-0.5" /><span>Acepto que Rinon.cl use estos datos únicamente para responder mi solicitud. Consulta nuestra <Link href="/politica-de-privacidad" className="underline text-gray-700">política de privacidad</Link>.</span></label>
       <button disabled={status === "sending"} className="w-full bg-gray-900 hover:bg-black disabled:bg-gray-400 text-white font-bold rounded-xl py-3.5 transition-colors">{status === "sending" ? "Enviando…" : "Enviar consulta"}</button>

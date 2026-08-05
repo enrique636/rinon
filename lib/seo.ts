@@ -144,9 +144,9 @@ export const seoPages = {
   }),
 
   cotizar: buildMetadata({
-    title: "Cotizar Camarote con Escritorio | Respuesta en 24 Horas",
-    description: "Solicita tu cotización de camarote con escritorio. Respuesta en menos de 24 horas. También puedes escribirnos directamente por WhatsApp.",
-    keywords: ["cotizar camarote escritorio", "precio camarote con escritorio"],
+    title: "Cotizar Camarotes y Estructuras Metálicas | Rinon.cl",
+    description: "Solicita una cotización de camarotes, estructuras metálicas, portones, rejas, cierres o pintura electrostática. Atención directa por WhatsApp.",
+    keywords: ["cotizar estructuras metálicas", "cotizar camarotes", "cotizar portones", "cotizar pintura electrostática"],
     canonical: "/cotizar",
   }),
 } as const;

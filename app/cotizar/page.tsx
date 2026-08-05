@@ -1,24 +1,12 @@
 import type { Metadata } from "next";
 import { seoPages } from "@/lib/seo";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
-import { getWhatsAppUrl, SITE_CONFIG } from "@/lib/config";
+import { ContactForm } from "@/components/ContactForm";
+import { SITE_CONFIG } from "@/lib/config";
 
 export const metadata: Metadata = seoPages.cotizar;
 
-const productOptions = [
-  "Camarote con escritorio metálico estándar",
-  "Camarote con escritorio premium",
-  "Cama alta con escritorio",
-  "Cama alta 2 plazas con escritorio",
-  "Camarote con escritorio a medida",
-  "No estoy seguro, necesito orientación",
-];
-
 export default function CotizarPage() {
-  const waMsg = encodeURIComponent(
-    "Hola, quiero cotizar un camarote con escritorio. ¿Pueden ayudarme?"
-  );
-
   return (
     <div className="py-16 px-4">
       <div className="max-w-2xl mx-auto">
@@ -28,8 +16,8 @@ export default function CotizarPage() {
             Solicitar Cotización
           </h1>
           <p className="text-xl text-gray-600 leading-relaxed">
-            Escríbenos por WhatsApp y te respondemos en menos de una hora
-            con precios, disponibilidad y opciones.
+            Cotiza camarotes, estructuras metálicas, portones, rejas,
+            cierres, pintura electrostática u otro trabajo.
           </p>
         </div>
 
@@ -44,7 +32,11 @@ export default function CotizarPage() {
           <p className="text-gray-600 mb-6">
             Respuesta en menos de 1 hora en horario de lunes a sábado.
           </p>
-          <WhatsAppButton size="lg" className="mx-auto">
+          <WhatsAppButton
+            size="lg"
+            className="mx-auto"
+            message="Hola, quiero solicitar una cotización. Necesito [producto o servicio], cantidad [cantidad], en [comuna o ciudad]."
+          >
             Abrir WhatsApp y cotizar
           </WhatsAppButton>
         </div>
@@ -57,25 +49,29 @@ export default function CotizarPage() {
           <ul className="space-y-3 text-gray-700">
             <li className="flex items-start gap-3">
               <span className="text-green-500 font-bold mt-0.5">1.</span>
-              <span><strong>¿Qué modelo te interesa?</strong> (metálico, premium, cama alta, a medida)</span>
+              <span><strong>¿Qué necesitas?</strong> (camarotes, estructuras, portones, pintura electrostática u otro)</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-green-500 font-bold mt-0.5">2.</span>
-              <span><strong>Medidas disponibles en tu pieza</strong> (largo, ancho, alto del espacio)</span>
+              <span><strong>Cantidad requerida</strong> de productos, piezas o metros aproximados</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-green-500 font-bold mt-0.5">3.</span>
-              <span><strong>¿Para quién es?</strong> (niño, adolescente, adulto, universitario)</span>
+              <span><strong>Medidas aproximadas</strong> y cualquier requisito importante</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-green-500 font-bold mt-0.5">4.</span>
-              <span><strong>¿Necesitas entrega e instalación?</strong> y en qué comuna</span>
+              <span><strong>Comuna, ciudad y región</strong> donde necesitas el producto o servicio</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-green-500 font-bold mt-0.5">5.</span>
-              <span><strong>Color preferido</strong> (blanco, negro, gris u otro)</span>
+              <span><strong>Plazo o fecha estimada</strong> si tienes una necesidad urgente</span>
             </li>
           </ul>
+        </div>
+
+        <div className="mb-8">
+          <ContactForm />
         </div>
 
         {/* Datos de contacto alternativos */}
