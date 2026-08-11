@@ -66,7 +66,7 @@ export default function MetalurgicaRinonPage() {
         areaServed: { "@type": "Country", name: "Chile" },
         address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
         telephone: SITE_CONFIG.telefono,
-        makesOffer: lineas.map(l => ({ "@type": "Offer", itemOffered: { "@type": "Product", name: l.titulo, description: l.desc } })),
+        makesOffer: lineas.map(l => ({ "@type": "Offer", itemOffered: { "@type": "Service", name: l.titulo, description: l.desc } })),
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "FAQPage",

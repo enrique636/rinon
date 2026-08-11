@@ -72,7 +72,7 @@ export default function FabricantePortonesMetalicosChilePage() {
         areaServed: { "@type": "Country", name: "Chile" },
         address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
         telephone: SITE_CONFIG.telefono,
-        makesOffer: tipos.map(t => ({ "@type": "Offer", itemOffered: { "@type": "Product", name: t.titulo, description: t.desc } })),
+        makesOffer: tipos.map(t => ({ "@type": "Offer", itemOffered: { "@type": "Service", name: `Fabricación e instalación de ${t.titulo}`, description: t.desc } })),
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "FAQPage",

@@ -43,7 +43,7 @@ export default function FabricanteCaramarotesPage() {
         telephone: SITE_CONFIG.telefono,
         makesOffer: products.map(p => ({
           "@type": "Offer",
-          itemOffered: { "@type": "Product", name: p.nombre, description: p.descripcion },
+          itemOffered: { "@type": "Service", name: `Fabricación de ${p.nombre}`, description: p.descripcion },
         })),
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

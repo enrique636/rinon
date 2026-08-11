@@ -70,7 +70,7 @@ export default function CamarotesMetalicosFabricanteDirectoPage() {
         areaServed: { "@type": "Country", name: "Chile" },
         address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
         telephone: SITE_CONFIG.telefono,
-        makesOffer: modelos.map(m => ({ "@type": "Offer", itemOffered: { "@type": "Product", name: m.titulo, description: m.desc } })),
+        makesOffer: modelos.map(m => ({ "@type": "Offer", itemOffered: { "@type": "Service", name: `Fabricación de ${m.titulo}`, description: m.desc } })),
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "FAQPage",
