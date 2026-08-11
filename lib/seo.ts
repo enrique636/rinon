@@ -75,7 +75,7 @@ export const seoPages = {
       "camarote con escritorio full",
       "camarote con escritorio a medida",
     ],
-    canonical: "/camarotes-con-escritorio",
+    canonical: "/camarote-con-escritorio",
   }),
 
   metalico: buildMetadata({

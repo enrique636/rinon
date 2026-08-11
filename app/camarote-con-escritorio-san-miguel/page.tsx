@@ -47,7 +47,7 @@ export default function CamaroteEscritorioSanMiguelPage() {
         "@context": "https://schema.org", "@type": "BreadcrumbList",
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Inicio", item: "https://rinon.cl/" },
-          { "@type": "ListItem", position: 2, name: "Camarotes con Escritorio", item: "https://rinon.cl/camarotes-con-escritorio" },
+          { "@type": "ListItem", position: 2, name: "Camarotes con Escritorio", item: "https://rinon.cl/camarote-con-escritorio" },
           { "@type": "ListItem", position: 3, name: "San Miguel", item: "https://rinon.cl/camarote-con-escritorio-san-miguel" },
         ],
       })}} />
@@ -59,7 +59,7 @@ export default function CamaroteEscritorioSanMiguelPage() {
       <div className="max-w-4xl mx-auto">
         <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2 flex-wrap">
           <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
-          <Link href="/camarotes-con-escritorio" className="hover:text-gray-600">Camarotes con Escritorio</Link><span>/</span>
+          <Link href="/camarote-con-escritorio" className="hover:text-gray-600">Camarotes con Escritorio</Link><span>/</span>
           <span className="text-gray-700 font-medium">San Miguel</span>
         </nav>
 
@@ -89,7 +89,7 @@ export default function CamaroteEscritorioSanMiguelPage() {
             </Link>
           ))}
         </div>
-        <Link href="/camarotes-con-escritorio" className="text-sm text-green-700 font-medium hover:underline">Ver todos los modelos y comparativa →</Link>
+        <Link href="/camarote-con-escritorio" className="text-sm text-green-700 font-medium hover:underline">Ver todos los modelos y comparativa →</Link>
 
         {/* Comunas vecinas */}
         {VECINAS.length > 0 && (

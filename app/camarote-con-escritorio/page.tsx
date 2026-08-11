@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { formatPrice, SITE_CONFIG } from "@/lib/config";
+import { products } from "@/lib/products";
 
 export const metadata: Metadata = {
-  title: "Camarote con Escritorio | Cama Arriba, Escritorio Abajo",
+  title: "Camarote con Escritorio Metálico en Santiago | Rinon.cl",
   description:
-    "Camarote con escritorio metálico fabricado en Chile. Cama alta con escritorio integrado, ideal para estudiantes, gamers y home office. Pago contra entrega en Santiago. Consulta ahora.",
+    "Camarote con escritorio metálico de fabricación directa en Santiago. Compara modelos, usos y terminaciones. Despacho e instalación. Cotiza por WhatsApp.",
   keywords: [
     "camarote con escritorio",
     "cama alta con escritorio",
@@ -21,12 +23,19 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://rinon.cl/camarote-con-escritorio" },
   openGraph: {
-    title: "Camarote con Escritorio — Cama Alta con Escritorio en Chile",
-    description: "Camarote metálico con escritorio integrado debajo de la cama. Para estudiantes, gamers y home office. Pago contra entrega en Santiago.",
+    title: "Camarote con Escritorio Metálico en Santiago | Rinon.cl",
+    description: "Compara camarotes con escritorio económico, estándar y full. Fabricación directa, despacho e instalación en Santiago.",
     type: "website",
     locale: "es_CL",
+    url: "https://rinon.cl/camarote-con-escritorio",
+    images: [{ url: "/images/camarotes/camarote-escritorio-2-plazas-estructura.jpg", alt: "Camarote con escritorio metálico Rinon.cl" }],
   },
 };
+
+const modelIds = ["escritorio-economico", "escritorio", "escritorio-full"] as const;
+const modelos = modelIds
+  .map((id) => products.find((product) => product.id === id))
+  .filter((product): product is NonNullable<typeof product> => Boolean(product));
 
 const useCases = [
   { icon: "🎓", title: "Estudiantes universitarios", desc: "Escritorio amplio para laptop, libros y materiales. Cama cómoda justo encima." },
@@ -100,12 +109,13 @@ export default function CamaroteConEscritorioPage() {
           description: "Cama alta metálica con escritorio integrado debajo. Ideal para estudiantes, gamers y home office. Fabricación chilena.",
           provider: {
             "@type": "LocalBusiness",
-            name: "Camarotes Chile",
+            name: "Rinon.cl",
+            url: "https://rinon.cl",
             address: { "@type": "PostalAddress", addressLocality: "Santiago", addressCountry: "CL" },
           },
           serviceType: "Fabricación de camarotes metálicos",
           areaServed: { "@type": "Country", name: "Chile" },
-          brand: { "@type": "Brand", name: "Camarotes Chile" },
+          brand: { "@type": "Brand", name: "Rinon.cl" },
         })}} />
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
@@ -130,9 +140,17 @@ export default function CamaroteConEscritorioPage() {
         {/* Hero */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-14">
           <div className="grid grid-cols-2 gap-2">
-            {imgs.slice(0, 4).map((img) => (
+            {imgs.slice(0, 4).map((img, index) => (
               <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
-                <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
+                <Image
+                  src={img.src}
+                  alt={img.alt}
+                  width={640}
+                  height={640}
+                  sizes="(max-width: 768px) 50vw, 25vw"
+                  className="w-full h-full object-cover"
+                  priority={index === 0}
+                />
               </div>
             ))}
           </div>
@@ -142,7 +160,7 @@ export default function CamaroteConEscritorioPage() {
               Estudiante / Gamer / Home office
             </span>
             <h1 className="text-3xl font-bold text-gray-900 mb-2">
-              Camarote con Escritorio
+              Camarote con Escritorio Metálico
             </h1>
             <p className="text-green-600 font-medium mb-2">
               También: cama alta con escritorio · cama loft con escritorio · cama con escritorio abajo
@@ -190,6 +208,53 @@ export default function CamaroteConEscritorioPage() {
             </div>
           </div>
         </div>
+
+        {/* Modelos: concentra la intención comercial en esta página principal */}
+        <section className="mb-14" aria-labelledby="modelos-escritorio">
+          <div className="max-w-3xl mb-7">
+            <h2 id="modelos-escritorio" className="text-2xl font-bold text-gray-900 mb-2">
+              Modelos de camarote con escritorio
+            </h2>
+            <p className="text-gray-600 leading-relaxed">
+              Compara las versiones económica, estándar y full. Las medidas definitivas se confirman al cotizar,
+              según el espacio disponible y el uso que le darás al escritorio.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            {modelos.map((modelo) => (
+              <article key={modelo.id} className="border border-gray-200 rounded-2xl overflow-hidden bg-white flex flex-col">
+                <div className="aspect-[4/3] bg-gray-100 overflow-hidden">
+                  {modelo.imgSrc && (
+                    <Image
+                      src={modelo.imgSrc}
+                      alt={modelo.imgAlt ?? modelo.nombre}
+                      width={720}
+                      height={540}
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className="w-full h-full object-cover"
+                    />
+                  )}
+                </div>
+                <div className="p-5 flex flex-col flex-1">
+                  <p className="text-xs font-semibold text-green-700 mb-1">{modelo.badge}</p>
+                  <h3 className="font-bold text-gray-900 text-lg mb-2">{modelo.nombre}</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed mb-4">{modelo.descripcion}</p>
+                  <ul className="text-sm text-gray-600 space-y-2 mb-5">
+                    {modelo.caracteristicas.slice(0, 3).map((caracteristica) => (
+                      <li key={caracteristica} className="flex gap-2"><span className="text-green-600">✓</span>{caracteristica}</li>
+                    ))}
+                  </ul>
+                  <Link
+                    href={`/${modelo.slug}`}
+                    className="mt-auto text-center rounded-full bg-gray-900 text-white font-semibold py-3 px-4 hover:bg-gray-700 transition-colors"
+                  >
+                    Ver {modelo.nombre.toLowerCase()}
+                  </Link>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
 
         {/* Casos de uso */}
         <div className="mb-14">
@@ -333,7 +398,7 @@ export default function CamaroteConEscritorioPage() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-12">
           {imgs.slice(4).map((img) => (
             <div key={img.src} className="aspect-square rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
-              <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
+              <Image src={img.src} alt={img.alt} width={500} height={500} sizes="(max-width: 768px) 50vw, 25vw" className="w-full h-full object-cover" />
             </div>
           ))}
         </div>

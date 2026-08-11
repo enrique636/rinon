@@ -49,7 +49,7 @@ export default function CamaroteEscritorioCerrillosPage() {
         "@context": "https://schema.org", "@type": "BreadcrumbList",
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Inicio", item: "https://rinon.cl/" },
-          { "@type": "ListItem", position: 2, name: "Camarotes con Escritorio", item: "https://rinon.cl/camarotes-con-escritorio" },
+          { "@type": "ListItem", position: 2, name: "Camarotes con Escritorio", item: "https://rinon.cl/camarote-con-escritorio" },
           { "@type": "ListItem", position: 3, name: "Cerrillos", item: "https://rinon.cl/camarote-con-escritorio-cerrillos" },
         ],
       })}} />
@@ -61,7 +61,7 @@ export default function CamaroteEscritorioCerrillosPage() {
       <div className="max-w-4xl mx-auto">
         <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2 flex-wrap">
           <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
-          <Link href="/camarotes-con-escritorio" className="hover:text-gray-600">Camarotes con Escritorio</Link><span>/</span>
+          <Link href="/camarote-con-escritorio" className="hover:text-gray-600">Camarotes con Escritorio</Link><span>/</span>
           <span className="text-gray-700 font-medium">Cerrillos</span>
         </nav>
 
@@ -91,7 +91,7 @@ export default function CamaroteEscritorioCerrillosPage() {
             </Link>
           ))}
         </div>
-        <Link href="/camarotes-con-escritorio" className="text-sm text-green-700 font-medium hover:underline">Ver todos los modelos y comparativa →</Link>
+        <Link href="/camarote-con-escritorio" className="text-sm text-green-700 font-medium hover:underline">Ver todos los modelos y comparativa →</Link>
 
         {/* Comunas vecinas */}
         {VECINAS.length > 0 && (

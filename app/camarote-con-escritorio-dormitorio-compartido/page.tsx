@@ -62,7 +62,7 @@ export default function Page() {
             Inicio
           </Link>
           <span>/</span>
-          <Link href="/camarotes-con-escritorio" className="hover:text-gray-600">
+          <Link href="/camarote-con-escritorio" className="hover:text-gray-600">
             Camarotes con Escritorio
           </Link>
           <span>/</span>

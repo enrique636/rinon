@@ -62,7 +62,7 @@ export default function Page() {
             Inicio
           </Link>
           <span>/</span>
-          <Link href="/camarotes-con-escritorio" className="hover:text-gray-600">
+          <Link href="/camarote-con-escritorio" className="hover:text-gray-600">
             Camarotes con Escritorio
           </Link>
           <span>/</span>
@@ -161,7 +161,7 @@ export default function Page() {
               <span className="font-semibold text-gray-900 text-sm">Precio Mayorista</span>
             </Link>
             <Link
-              href="/camarotes-con-escritorio"
+              href="/camarote-con-escritorio"
               className="flex gap-3 items-center bg-white border border-gray-200 rounded-xl p-4 hover:border-green-300 transition-all"
             >
               <span className="text-2xl">📦</span>
