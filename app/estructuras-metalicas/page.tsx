@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
+import { MetalServicesLinks } from "@/components/ui/MetalServicesLinks";
 
 export const metadata: Metadata = {
   title: "Estructuras Metálicas a Medida | Fabricante Santiago",
@@ -233,6 +234,8 @@ export default function EstructurasMetalicasPage() {
             ))}
           </div>
         </div>
+
+        <MetalServicesLinks current="/estructuras-metalicas" />
 
         {/* CTA */}
         <div className="bg-gray-900 rounded-2xl p-8 text-center text-white">

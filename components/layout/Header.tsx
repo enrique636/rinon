@@ -9,6 +9,7 @@ const navLinks = [
   { href: "/cierres-perimetrales", label: "Cierres y Rejas" },
   { href: "/estructuras-metalicas", label: "Estructuras" },
   { href: "/pintura-electrostatica", label: "Pintura" },
+  { href: "/soldadura-metalica-santiago", label: "Soldadura" },
   { href: "/cotizar", label: "Cotizar" },
 ];
 

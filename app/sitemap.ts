@@ -129,6 +129,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/camarote-con-escritorio-dos-hermanos`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.82 },
     // Servicios del taller
     { url: `${BASE_URL}/estructuras-metalicas`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE_URL}/soldadura-metalica-santiago`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.92 },
     // Cierres perimetrales — pilar + subpáginas
     { url: `${BASE_URL}/cierres-perimetrales`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.95 },
     { url: `${BASE_URL}/cierres-para-constructoras`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.88 },

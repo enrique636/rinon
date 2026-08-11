@@ -254,7 +254,8 @@ export default function Home() {
               { href: "/camarotes-para-universidades", title: "Camarotes para universidades", text: "Soluciones para residencias estudiantiles e instituciones." },
               { href: "/portones-metalicos", title: "Portones metálicos", text: "Fabricación e instalación de portones a medida." },
               { href: "/cierres-metalicos-industriales", title: "Cierres metálicos industriales", text: "Protección para bodegas, plantas, obras y empresas." },
-              { href: "/pintura-electrostatica-macul", title: "Pintura electrostática en Macul", text: "Acabado al horno para piezas, rejas y estructuras." },
+              { href: "/pintura-electrostatica", title: "Pintura electrostática", text: "Acabado al horno para piezas, rejas, portones y estructuras." },
+              { href: "/soldadura-metalica-santiago", title: "Soldadura y fabricación metálica", text: "Corte, armado y soldadura de piezas y estructuras a medida." },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="rounded-2xl border border-gray-200 p-5 hover:border-gray-500 hover:shadow-sm transition-all">
                 <h3 className="font-bold text-gray-900 text-sm mb-2">{item.title}</h3>

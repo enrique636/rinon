@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
+import { MetalServicesLinks } from "@/components/ui/MetalServicesLinks";
 
 export const metadata: Metadata = {
   title: "Pintura Electrostática al Horno | Santiago Chile",
@@ -215,6 +216,8 @@ export default function PinturaElectrostaticaPage() {
             </Link>
           ))}
         </div>
+
+        <MetalServicesLinks current="/pintura-electrostatica" />
 
         <div className="bg-gray-900 rounded-2xl p-8 text-center text-white">
           <h2 className="text-2xl font-bold mb-2">Cotiza tu pintura electrostática</h2>

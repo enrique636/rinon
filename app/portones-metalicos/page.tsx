@@ -1,12 +1,20 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
+import { MetalServicesLinks } from "@/components/ui/MetalServicesLinks";
 
 export const metadata: Metadata = {
   title: "Portones Metálicos a Medida | Fabricante Santiago",
   description: "Portones metálicos fabricados a medida en Santiago. Corredizos y batientes para casas, empresas, bodegas y condominios. Pintura electrostática incluida. Cotiza sin compromiso.",
   keywords: ["portones metalicos", "portones metalicos santiago", "portón metálico a medida", "portones metalicos precio", "fabricante portones santiago", "portones corredizos metalicos", "portones para casas", "portones para empresas"],
   alternates: { canonical: "https://rinon.cl/portones-metalicos" },
+  openGraph: {
+    title: "Portones Metálicos a Medida en Santiago | Rinon.cl",
+    description: "Portones corredizos, batientes y de doble hoja. Fabricación, pintura electrostática e instalación en Santiago.",
+    type: "website",
+    locale: "es_CL",
+    url: "https://rinon.cl/portones-metalicos",
+  },
 };
 
 const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;
@@ -14,6 +22,14 @@ const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=$
 export default function PortonesMetalicosPage() {
   return (
     <div className="py-12 px-4">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "Service",
+        name: "Fabricación de portones metálicos a medida",
+        description: "Portones metálicos corredizos, batientes y de doble hoja fabricados a medida en Santiago.",
+        provider: { "@type": "LocalBusiness", name: "Rinon.cl", url: "https://rinon.cl", telephone: SITE_CONFIG.telefono },
+        areaServed: { "@type": "AdministrativeArea", name: "Región Metropolitana de Santiago" },
+        serviceType: "Fabricación e instalación de portones metálicos",
+      }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
           { "@type": "Question", name: "¿Cuánto cuesta un portón metálico?", acceptedAnswer: { "@type": "Answer", text: "El precio depende del ancho, el tipo (corredizo o batiente), el diseño y si incluye pintura electrostática. Cotizamos por WhatsApp con las medidas del vano — la apertura disponible donde va el portón." } },
@@ -89,6 +105,8 @@ export default function PortonesMetalicosPage() {
             </Link>
           ))}
         </div>
+
+        <MetalServicesLinks current="/portones-metalicos" />
 
         <div className="bg-gray-900 rounded-2xl p-8 text-center text-white">
           <h2 className="text-2xl font-bold mb-2">¿Cuánto mide el vano de tu portón?</h2>

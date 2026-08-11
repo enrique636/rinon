@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 import { CierresForm } from "@/components/ui/CierresForm";
+import { MetalServicesLinks } from "@/components/ui/MetalServicesLinks";
 
 export const metadata: Metadata = {
   title: "Cierres Perimetrales | Fabricante e Instalador — Santiago",
@@ -288,6 +289,8 @@ export default function CierresPerimetralesPage() {
 
         {/* Formulario B2B — client component */}
         <CierresForm />
+
+        <MetalServicesLinks current="/cierres-perimetrales" />
 
         {/* Servicios relacionados */}
         <div className="mb-10">

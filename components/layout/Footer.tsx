@@ -27,6 +27,9 @@ export function Footer() {
             <li><Link href="/portones-metalicos" className="hover:text-white transition-colors">Portones metálicos</Link></li>
             <li><Link href="/rejas-metalicas-puente-alto" className="hover:text-white transition-colors">Rejas metálicas</Link></li>
             <li><Link href="/pintura-electrostatica" className="hover:text-white transition-colors">Pintura electrostática</Link></li>
+            <li><Link href="/cierres-perimetrales" className="hover:text-white transition-colors">Cierres perimetrales</Link></li>
+            <li><Link href="/estructuras-metalicas" className="hover:text-white transition-colors">Estructuras metálicas</Link></li>
+            <li><Link href="/soldadura-metalica-santiago" className="hover:text-white transition-colors">Soldadura metálica</Link></li>
           </ul>
         </div>
 
