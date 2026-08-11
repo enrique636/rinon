@@ -237,15 +237,17 @@ export default function CierresPerimetralesPage() {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
             {[
               { region: "Región Metropolitana", detalle: "Instalación directa en toda la RM" },
-              { region: "Valparaíso", detalle: "Valparaíso, Viña del Mar, San Antonio" },
+              { region: "Valparaíso", detalle: "Valparaíso, Viña del Mar, San Antonio", href: "/cercos-perimetrales-vina-del-mar" },
               { region: "O'Higgins", detalle: "Rancagua, Machalí, San Fernando" },
-              { region: "Biobío", detalle: "Concepción, Chillán, Los Ángeles" },
+              { region: "Biobío", detalle: "Concepción, Chillán, Los Ángeles", href: "/cercos-perimetrales-concepcion" },
               { region: "Araucanía", detalle: "Temuco, Angol, Victoria" },
-              { region: "Norte minero", detalle: "Antofagasta, Calama, Copiapó" },
+              { region: "Aysén", detalle: "Coyhaique y proyectos de la Patagonia", href: "/cercos-perimetrales-coyhaique" },
+              { region: "Norte minero", detalle: "Antofagasta, Calama, Copiapó", href: "/cercos-perimetrales-antofagasta" },
             ].map(c => (
               <div key={c.region} className="bg-slate-50 border border-slate-100 rounded-xl p-4">
                 <p className="font-semibold text-gray-900 text-sm">{c.region}</p>
                 <p className="text-gray-400 text-xs mt-1">{c.detalle}</p>
+                {c.href && <Link href={c.href} className="inline-block text-xs font-semibold text-slate-600 mt-2 hover:underline">Ver cobertura →</Link>}
               </div>
             ))}
           </div>

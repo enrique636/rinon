@@ -18,15 +18,15 @@ export function Footer() {
           </p>
         </div>
 
-        {/* Columna 2: Links */}
+        {/* Columna 2: Servicios principales */}
         <div>
-          <p className="text-white font-semibold text-sm mb-3">Productos</p>
+          <p className="text-white font-semibold text-sm mb-3">Servicios principales</p>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/camarote-con-escritorio-metalico" className="hover:text-white transition-colors">Camarote Metálico</Link></li>
-            <li><Link href="/camarote-con-escritorio-premium" className="hover:text-white transition-colors">Camarote Premium</Link></li>
-            <li><Link href="/cama-alta-con-escritorio" className="hover:text-white transition-colors">Cama Alta con Escritorio</Link></li>
-            <li><Link href="/cama-alta-2-plazas-con-escritorio" className="hover:text-white transition-colors">Cama Alta 2 Plazas</Link></li>
-            <li><Link href="/camarote-con-escritorio-a-medida" className="hover:text-white transition-colors">A Medida</Link></li>
+            <li><Link href="/fabricante-camarotes-chile" className="hover:text-white transition-colors">Fabricante de camarotes</Link></li>
+            <li><Link href="/camarotes-mineria" className="hover:text-white transition-colors">Camarotes para minería</Link></li>
+            <li><Link href="/portones-metalicos" className="hover:text-white transition-colors">Portones metálicos</Link></li>
+            <li><Link href="/rejas-metalicas-puente-alto" className="hover:text-white transition-colors">Rejas metálicas</Link></li>
+            <li><Link href="/pintura-electrostatica" className="hover:text-white transition-colors">Pintura electrostática</Link></li>
           </ul>
         </div>
 
@@ -63,13 +63,10 @@ export function Footer() {
       <div className="border-t border-gray-800">
         <div className="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs">
           <p>© {new Date().getFullYear()} {SITE_CONFIG.nombre}. Todos los derechos reservados.</p>
-          <div className="flex gap-4">
-            <Link href="/camarotes-con-escritorio" className="hover:text-white transition-colors">
-              Camarotes con Escritorio
-            </Link>
-            <Link href="/cama-alta-con-escritorio" className="hover:text-white transition-colors">
-              Camas Altas
-            </Link>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link href="/camarote-con-escritorio" className="hover:text-white transition-colors">Camarotes con escritorio</Link>
+            <Link href="/camarotes-la-florida" className="hover:text-white transition-colors">Camarotes La Florida</Link>
+            <Link href="/contacto" className="hover:text-white transition-colors">Contacto</Link>
           </div>
         </div>
       </div>

@@ -6,6 +6,7 @@ import { Footer } from "@/components/layout/Footer";
 import { FloatingWhatsApp } from "@/components/layout/WhatsAppButton";
 import { LeadCapturePopup } from "@/components/LeadCapturePopup";
 import { CookieConsent } from "@/components/CookieConsent";
+import { ConversionTracking } from "@/components/ConversionTracking";
 import { seoPages } from "@/lib/seo";
 import { getLocalBusinessSchema, getOrganizationSchema, getWebSiteSchema } from "@/lib/structured-data";
 
@@ -39,6 +40,7 @@ export default function RootLayout({
         <FloatingWhatsApp />
         <LeadCapturePopup />
         <CookieConsent />
+        <ConversionTracking />
       </body>
     </html>
   );

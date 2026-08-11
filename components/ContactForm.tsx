@@ -38,6 +38,7 @@ export function ContactForm() {
       if (!response.ok) throw new Error(data.error || "No fue posible enviar la consulta.");
       setStatus("success");
       setMessage("Recibimos tu consulta. Te contactaremos lo antes posible.");
+      window.dispatchEvent(new CustomEvent("rinon-lead-submitted"));
       event.currentTarget.reset();
     } catch (error) {
       setStatus("error");

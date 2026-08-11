@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { seoPages } from "@/lib/seo";
 import { SITE_CONFIG } from "@/lib/config";
 
@@ -134,11 +135,13 @@ export default function Home() {
               >
                 {cat.img ? (
                   <div className="aspect-[16/7] overflow-hidden">
-                    <img
+                    <Image
                       src={cat.img}
                       alt={cat.titulo}
+                      width={900}
+                      height={394}
+                      sizes="(max-width: 640px) 100vw, 50vw"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      loading="lazy"
                     />
                   </div>
                 ) : (
@@ -211,11 +214,13 @@ export default function Home() {
                 className="group bg-white border border-gray-200 rounded-2xl overflow-hidden hover:border-gray-400 hover:shadow-sm transition-all"
               >
                 <div className="aspect-[4/3] overflow-hidden bg-gray-50">
-                  <img
+                  <Image
                     src={d.img}
                     alt={d.titulo}
+                    width={640}
+                    height={480}
+                    sizes="(max-width: 640px) 100vw, 33vw"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    loading="lazy"
                   />
                 </div>
                 <div className="p-5">
@@ -232,6 +237,31 @@ export default function Home() {
               className="inline-flex items-center gap-2 border border-gray-300 hover:border-gray-600 text-gray-700 font-semibold px-6 py-3 rounded-full text-sm transition-colors">
               Ver catálogo completo de camarotes →
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── SOLUCIONES DESTACADAS ───────────────────────────────────────────── */}
+      <section className="py-14 px-4 border-b border-gray-100">
+        <div className="max-w-6xl mx-auto">
+          <p className="text-xs uppercase tracking-widest text-gray-400 font-medium mb-2">Soluciones especializadas</p>
+          <h2 className="text-2xl font-bold text-gray-900 mb-3">Fabricación según proyecto y ubicación</h2>
+          <p className="text-sm text-gray-500 max-w-3xl mb-8">Accede directamente a nuestras soluciones con mayor demanda para hogares, empresas, universidades, obras y faenas.</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { href: "/fabricante-camarotes-chile", title: "Fabricante de camarotes en Chile", text: "Compra directa, proyectos a medida y producción por volumen." },
+              { href: "/camarotes-mineria", title: "Camarotes para minería", text: "Equipamiento resistente para campamentos y faenas." },
+              { href: "/camarotes-para-universidades", title: "Camarotes para universidades", text: "Soluciones para residencias estudiantiles e instituciones." },
+              { href: "/portones-metalicos", title: "Portones metálicos", text: "Fabricación e instalación de portones a medida." },
+              { href: "/cierres-metalicos-industriales", title: "Cierres metálicos industriales", text: "Protección para bodegas, plantas, obras y empresas." },
+              { href: "/pintura-electrostatica-macul", title: "Pintura electrostática en Macul", text: "Acabado al horno para piezas, rejas y estructuras." },
+            ].map((item) => (
+              <Link key={item.href} href={item.href} className="rounded-2xl border border-gray-200 p-5 hover:border-gray-500 hover:shadow-sm transition-all">
+                <h3 className="font-bold text-gray-900 text-sm mb-2">{item.title}</h3>
+                <p className="text-xs text-gray-500 leading-relaxed">{item.text}</p>
+                <span className="inline-block mt-4 text-xs font-semibold text-gray-700">Ver solución →</span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

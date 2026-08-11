@@ -18,7 +18,7 @@ export default function CamarotesLoBarnecheaPage() {
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "FAQPage",
         mainEntity: [
-          { "@type": "Question", name: "¿Hacen despacho de camarotes a en Lo Barnechea?", acceptedAnswer: { "@type": "Answer", text: "Sí. Despachamos camarotes metálicos a en Lo Barnechea. Para Santiago RM el despacho incluye instalación. Para regiones coordinamos transporte al cotizar — solo necesitamos la dirección." } },
+          { "@type": "Question", name: "¿Hacen despacho de camarotes en Lo Barnechea?", acceptedAnswer: { "@type": "Answer", text: "Sí. Despachamos e instalamos camarotes metálicos en Lo Barnechea y La Dehesa. Para cotizar solo necesitamos el modelo, la dirección y las condiciones de acceso." } },
           { "@type": "Question", name: "¿Cuánto tarda el despacho?", acceptedAnswer: { "@type": "Answer", text: "En Santiago RM la entrega e instalación se realiza en un día acordado, generalmente dentro de la semana de confirmado el pedido. Para regiones coordinamos transporte — el plazo depende de la distancia y disponibilidad de flete." } },
         ],
       })} } />

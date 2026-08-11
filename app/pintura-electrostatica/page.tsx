@@ -177,13 +177,14 @@ export default function PinturaElectrostaticaPage() {
               { label: "Pudahuel", href: "/pintura-electrostatica-pudahuel" },
               { label: "Quilicura", href: "/pintura-electrostatica-quilicura" },
               { label: "Cerrillos", href: "/pintura-electrostatica-cerrillos" },
-              { label: "Lo Espejo", href: null },
-              { label: "El Bosque", href: null },
-              { label: "La Pintana", href: null },
-              { label: "San Joaquín", href: null },
-              { label: "Estación Central", href: null },
-              { label: "Santiago Centro", href: null },
-              { label: "Macul", href: null },
+              { label: "Lo Espejo", href: "/pintura-electrostatica-lo-espejo" },
+              { label: "El Bosque", href: "/pintura-electrostatica-el-bosque" },
+              { label: "La Pintana", href: "/pintura-electrostatica-la-pintana" },
+              { label: "San Joaquín", href: "/pintura-electrostatica-san-joaquin" },
+              { label: "Estación Central", href: "/pintura-electrostatica-estacion-central" },
+              { label: "Santiago Centro", href: "/pintura-electrostatica-santiago-centro" },
+              { label: "Macul", href: "/pintura-electrostatica-macul" },
+              { label: "Calera de Tango", href: "/pintura-electrostatica-calera-de-tango" },
             ].map((c) =>
               c.href ? (
                 <Link key={c.label} href={c.href}

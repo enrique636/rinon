@@ -17,8 +17,8 @@ export default function CamaroteParaUniversidadesPage() {
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "FAQPage",
         mainEntity: [
-          { "@type": "Question", name: "¿Hacen despacho de camarotes a para Universidades?", acceptedAnswer: { "@type": "Answer", text: "Sí. Despachamos camarotes metálicos a para Universidades. Para Santiago RM el despacho incluye instalación. Para regiones coordinamos transporte al cotizar — solo necesitamos la dirección." } },
-          { "@type": "Question", name: "¿Cuánto tarda el despacho?", acceptedAnswer: { "@type": "Answer", text: "En Santiago RM la entrega e instalación se realiza en un día acordado, generalmente dentro de la semana de confirmado el pedido. Para regiones coordinamos transporte — el plazo depende de la distancia y disponibilidad de flete." } },
+          { "@type": "Question", name: "¿Fabrican camarotes para universidades y residencias estudiantiles?", acceptedAnswer: { "@type": "Answer", text: "Sí. Fabricamos camarotes metálicos para universidades, residencias estudiantiles, internados y hogares institucionales, con especificaciones y cantidades definidas para cada proyecto." } },
+          { "@type": "Question", name: "¿Realizan entregas institucionales en regiones?", acceptedAnswer: { "@type": "Answer", text: "Sí. Coordinamos producción y despacho a todo Chile. El plazo se define según cantidad, especificaciones, ciudad de destino y modalidad de instalación requerida." } },
         ],
       })} } />
 <div className="max-w-4xl mx-auto">

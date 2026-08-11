@@ -326,7 +326,7 @@ export default function CamaroteConEscritorioPage() {
           <p className="text-gray-600 text-sm mb-4">Lee nuestra guía completa antes de comprar.</p>
           <Link href="/blog/camarote-con-escritorio-guia-completa"
             className="inline-flex items-center gap-2 text-blue-700 font-semibold text-sm hover:underline">
-            → Guía completa: camarote con escritorio [2025]
+            → Guía completa: camarote con escritorio [2026]
           </Link>
         </div>
 

@@ -180,6 +180,7 @@ export default function CamarotesPage() {
               { href: "/camarotes-san-bernardo", nombre: "San Bernardo" },
               { href: "/camarotes-renca", nombre: "Renca" },
               { href: "/camarotes-estacion-central", nombre: "Estación Central" },
+              { href: "/camarotes-lo-barnechea", nombre: "Lo Barnechea" },
             ].map((c) => (
               <Link
                 key={c.href}
