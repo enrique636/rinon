@@ -1,9 +1,12 @@
 "use client";
 
 import Script from "next/script";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const CONSENT_KEY = "rinon_cookie_consent";
+const VISITOR_KEY = "rinon_analytics_visitor";
+const SESSION_KEY = "rinon_analytics_session";
 
 declare global {
   interface Window {
@@ -20,8 +23,39 @@ function hasAnalyticsConsent() {
   }
 }
 
+function getAnonymousId(storage: Storage, key: string) {
+  const saved = storage.getItem(key);
+  if (saved) return saved;
+  const value = crypto.randomUUID().replaceAll("-", "");
+  storage.setItem(key, value);
+  return value;
+}
+
+function sendAnalyticsEvent(eventName: "page_view" | "contact_whatsapp" | "contact_phone" | "generate_lead") {
+  const visitorId = getAnonymousId(localStorage, VISITOR_KEY);
+  const sessionId = getAnonymousId(sessionStorage, SESSION_KEY);
+  let referrerHost = "";
+  try { referrerHost = document.referrer ? new URL(document.referrer).hostname : ""; } catch { referrerHost = ""; }
+
+  const payload = JSON.stringify({
+    eventName,
+    pagePath: window.location.pathname,
+    pageTitle: document.title,
+    referrerHost,
+    visitorId,
+    sessionId,
+  });
+
+  if (navigator.sendBeacon) {
+    navigator.sendBeacon("/api/analytics", new Blob([payload], { type: "application/json" }));
+  } else {
+    void fetch("/api/analytics", { method: "POST", headers: { "Content-Type": "application/json" }, body: payload, keepalive: true });
+  }
+}
+
 export function ConversionTracking() {
   const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
+  const pathname = usePathname();
   const [enabled, setEnabled] = useState(false);
 
   useEffect(() => {
@@ -30,6 +64,11 @@ export function ConversionTracking() {
     window.addEventListener("rinon-cookie-consent", syncConsent);
     return () => window.removeEventListener("rinon-cookie-consent", syncConsent);
   }, []);
+
+  useEffect(() => {
+    if (!enabled) return;
+    sendAnalyticsEvent("page_view");
+  }, [enabled, pathname]);
 
   useEffect(() => {
     if (!enabled) return;
@@ -52,11 +91,13 @@ export function ConversionTracking() {
         page_path: window.location.pathname,
         link_text: link.textContent?.trim().slice(0, 80) || eventName,
       });
+      sendAnalyticsEvent(eventName);
     };
 
     const trackForm = () => {
       window.dataLayer = window.dataLayer ?? [];
       window.dataLayer.push({ event: "generate_lead", page_path: window.location.pathname });
+      sendAnalyticsEvent("generate_lead");
     };
 
     document.addEventListener("click", trackClick);
