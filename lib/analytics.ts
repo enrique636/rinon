@@ -15,6 +15,9 @@ type AnalyticsEvent = {
   referrer_host: string;
   visitor_id: string;
   session_id: string;
+  city: string;
+  region: string;
+  country: string;
 };
 
 function getSupabaseConfig() {
@@ -53,4 +56,18 @@ export async function getAnalyticsSummary(days: number, bucket: "hour" | "day" |
   });
   if (!response.ok) throw new Error(`No fue posible cargar las estadísticas (${response.status})`);
   return response.json() as Promise<AnalyticsSummary>;
+}
+
+export type WhatsAppRegionRow = { region: string; city: string; page_path: string; contacts: number };
+
+export async function getWhatsAppByRegion(days: number) {
+  const config = getSupabaseConfig();
+  const response = await fetch(`${config.url}/rest/v1/rpc/rinon_whatsapp_by_region`, {
+    method: "POST",
+    headers: getHeaders(config.key),
+    body: JSON.stringify({ p_days: days }),
+    cache: "no-store",
+  });
+  if (!response.ok) throw new Error(`No fue posible cargar el detalle por región (${response.status})`);
+  return response.json() as Promise<WhatsAppRegionRow[]>;
 }

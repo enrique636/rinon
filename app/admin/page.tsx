@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { cookies } from "next/headers";
 import { ADMIN_COOKIE, isValidAdminToken } from "@/lib/admin-auth";
-import { getAnalyticsSummary, isAnalyticsConfigured, type AnalyticsSummary } from "@/lib/analytics";
+import { getAnalyticsSummary, getWhatsAppByRegion, isAnalyticsConfigured, type AnalyticsSummary, type WhatsAppRegionRow } from "@/lib/analytics";
 import { isLeadsConfigured, listLeads } from "@/lib/leads";
 
 export const metadata: Metadata = { title: "Administración | Rinon.cl", robots: { index: false, follow: false } };
@@ -42,12 +42,14 @@ export default async function AdminPage({ searchParams }: { searchParams: Promis
   const period = periods[periodKey];
   let leads = [] as Awaited<ReturnType<typeof listLeads>>;
   let analytics = emptySummary();
+  let whatsappByRegion = [] as WhatsAppRegionRow[];
   let loadError = "";
 
   try {
-    [leads, analytics] = await Promise.all([
+    [leads, analytics, whatsappByRegion] = await Promise.all([
       isLeadsConfigured() ? listLeads() : Promise.resolve([]),
       isAnalyticsConfigured() ? getAnalyticsSummary(period.days, period.bucket) : Promise.resolve(emptySummary()),
+      isAnalyticsConfigured() ? getWhatsAppByRegion(period.days) : Promise.resolve([]),
     ]);
   } catch { loadError = "No fue posible cargar toda la información del panel."; }
 
@@ -62,6 +64,21 @@ export default async function AdminPage({ searchParams }: { searchParams: Promis
       <section className="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm"><h2 className="text-xl font-bold">Páginas y productos más vistos</h2><p className="mb-4 text-sm text-gray-500">Qué contenido despierta más interés.</p><div className="space-y-3">{analytics.topPages.map((page, index) => <div key={page.path} className="flex items-center gap-3"><span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-gray-100 text-xs font-bold">{index + 1}</span><div className="min-w-0 flex-1"><p className="truncate text-sm font-medium">{page.path === "/" ? "Página principal" : page.path.replaceAll("-", " ")}</p><div className="mt-1 h-1.5 rounded-full bg-gray-100"><div className="h-full rounded-full bg-emerald-500" style={{ width: `${Math.max(4, (page.views / Math.max(1, analytics.topPages[0]?.views ?? 1)) * 100)}%` }} /></div></div><span className="text-sm font-bold">{page.views}</span></div>)}{!analytics.topPages.length && <p className="py-8 text-center text-sm text-gray-400">Aún no hay páginas vistas registradas.</p>}</div></section>
       <section className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm"><div className="p-5"><h2 className="text-xl font-bold">Contactos recibidos</h2><p className="text-sm text-gray-500">{leads.length} consultas guardadas</p></div><div className="overflow-x-auto"><table className="w-full text-sm"><thead className="bg-gray-50 text-left"><tr>{["Fecha", "Cliente", "WhatsApp", "Región", "Solicitud", "Detalles"].map((h) => <th key={h} className="p-3 font-semibold">{h}</th>)}</tr></thead><tbody>{leads.map((lead) => <tr key={lead.id} className="border-t border-gray-100 align-top"><td className="p-3 whitespace-nowrap">{new Intl.DateTimeFormat("es-CL", { dateStyle: "short", timeStyle: "short", timeZone: "America/Santiago" }).format(new Date(lead.created_at))}</td><td className="p-3 font-medium">{lead.nombre}</td><td className="p-3"><a href={`https://wa.me/${lead.telefono.replace(/\D/g, "")}`} className="text-green-700 underline">{lead.telefono}</a></td><td className="p-3">{lead.comuna}</td><td className="p-3">{lead.servicio}</td><td className="min-w-72 p-3 whitespace-pre-wrap">{lead.mensaje || "—"}</td></tr>)}{leads.length === 0 && <tr><td colSpan={6} className="p-10 text-center text-gray-400">Aún no hay contactos para mostrar.</td></tr>}</tbody></table></div></section>
     </div>
+    <section className="mt-8 overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+      <div className="p-5">
+        <h2 className="text-xl font-bold">WhatsApp por región y producto</h2>
+        <p className="text-sm text-gray-500">De dónde viene la gente que escribe por WhatsApp y qué producto estaba viendo.</p>
+      </div>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm">
+          <thead className="bg-gray-50 text-left"><tr>{["Región", "Ciudad", "Producto / página", "Contactos"].map((h) => <th key={h} className="p-3 font-semibold">{h}</th>)}</tr></thead>
+          <tbody>
+            {whatsappByRegion.map((row, index) => <tr key={`${row.region}-${row.city}-${row.page_path}-${index}`} className="border-t border-gray-100"><td className="p-3">{row.region}</td><td className="p-3">{row.city}</td><td className="p-3">{row.page_path === "/" ? "Página principal" : row.page_path.replaceAll("-", " ")}</td><td className="p-3 font-bold">{row.contacts}</td></tr>)}
+            {whatsappByRegion.length === 0 && <tr><td colSpan={4} className="p-10 text-center text-gray-400">Aún no hay contactos de WhatsApp con región registrada en este periodo.</td></tr>}
+          </tbody>
+        </table>
+      </div>
+    </section>
     <p className="mt-6 text-xs text-gray-400">Las estadísticas se registran de forma anónima únicamente cuando el visitante acepta las cookies.</p>
   </main>;
 }
