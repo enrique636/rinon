@@ -30,6 +30,9 @@ export async function POST(request: Request) {
       referrer_host: cleanText(body.referrerHost, 200),
       visitor_id: visitorId,
       session_id: sessionId,
+      city: cleanText(request.headers.get("x-vercel-ip-city"), 100),
+      region: cleanText(request.headers.get("x-vercel-ip-country-region"), 100),
+      country: cleanText(request.headers.get("x-vercel-ip-country"), 5),
     });
 
     return new Response(null, { status: 204 });
