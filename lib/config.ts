@@ -5,11 +5,11 @@ export const SITE_CONFIG = {
     "Fabricación de camarotes, cierres perimetrales, rejas, portones y estructuras metálicas a medida. Atención a particulares, empresas e instituciones.",
 
   whatsapp: {
-    numero: "56975893742",
+    numero: "56975893743",
     mensaje: "Hola, quisiera cotizar un proyecto metálico. ¿Pueden ayudarme?",
   },
 
-  telefono: "+56 9 7589 3742",
+  telefono: "+56 9 7589 3743",
   email: "ventas@dumar.cl",
 
   despacho: {
