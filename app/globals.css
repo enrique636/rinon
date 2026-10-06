@@ -1,26 +1,15 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #111827;
-  --accent: #16a34a;
-  --accent-light: #dcfce7;
-  --font-inter: "Inter", system-ui, sans-serif;
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-inter);
-}
-
-/* Mejoras de rendimiento y legibilidad */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Scroll suave */
-html {
-  scroll-behavior: smooth;
-}
+@import "./styles/part-01.css";
+@import "./styles/part-02.css";
+@import "./styles/part-03.css";
+@import "./styles/part-04.css";
+@import "./styles/part-05.css";
+@import "./styles/part-06.css";
+@import "./styles/part-07.css";
+@import "./styles/part-08.css";
+@import "./styles/part-09.css";
+@import "./styles/part-10.css";
+@import "./styles/part-11.css";
+@import "./styles/part-12.css";
+@import "./styles/part-13.css";
+@import "./styles/part-14.css";
+@import "./styles/part-15.css";

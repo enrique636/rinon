@@ -1,120 +1,35 @@
-import type { Metadata } from "next";
 import Link from "next/link";
-import { SITE_CONFIG } from "@/lib/config";
-import { MetalServicesLinks } from "@/components/ui/MetalServicesLinks";
-
-export const metadata: Metadata = {
-  title: "Portones Metálicos a Medida | Fabricante Santiago",
-  description: "Portones metálicos fabricados a medida en Santiago. Corredizos y batientes para casas, empresas, bodegas y condominios. Pintura electrostática incluida. Cotiza sin compromiso.",
-  keywords: ["portones metalicos", "portones metalicos santiago", "portón metálico a medida", "portones metalicos precio", "fabricante portones santiago", "portones corredizos metalicos", "portones para casas", "portones para empresas"],
-  alternates: { canonical: "https://rinon.cl/portones-metalicos" },
-  openGraph: {
-    title: "Portones Metálicos a Medida en Santiago | Rinon.cl",
-    description: "Portones corredizos, batientes y de doble hoja. Fabricación, pintura electrostática e instalación en Santiago.",
-    type: "website",
-    locale: "es_CL",
-    url: "https://rinon.cl/portones-metalicos",
-  },
-};
-
-const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;
-
-export default function PortonesMetalicosPage() {
-  return (
-    <div className="py-12 px-4">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org", "@type": "Service",
-        name: "Fabricación de portones metálicos a medida",
-        description: "Portones metálicos corredizos, batientes y de doble hoja fabricados a medida en Santiago.",
-        provider: { "@type": "LocalBusiness", name: "Rinon.cl", url: "https://rinon.cl", telephone: SITE_CONFIG.telefono },
-        areaServed: { "@type": "AdministrativeArea", name: "Región Metropolitana de Santiago" },
-        serviceType: "Fabricación e instalación de portones metálicos",
-      }) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
-          { "@type": "Question", name: "¿Cuánto cuesta un portón metálico?", acceptedAnswer: { "@type": "Answer", text: "El precio depende del ancho, el tipo (corredizo o batiente), el diseño y si incluye pintura electrostática. Cotizamos por WhatsApp con las medidas del vano — la apertura disponible donde va el portón." } },
-          { "@type": "Question", name: "¿Cuánto demora fabricar un portón metálico?", acceptedAnswer: { "@type": "Answer", text: "Un portón estándar (sin diseño complejo) tarda entre 7-15 días hábiles desde aprobada la cotización. Portones con diseño especial o de mayor tamaño pueden tomar 3-4 semanas." } },
-          { "@type": "Question", name: "¿El portón viene con instalación?", acceptedAnswer: { "@type": "Answer", text: "Sí, en Santiago RM incluimos la instalación. Necesitamos que el vano esté listo (rieles en el suelo o muros para el batiente según el tipo). Para regiones, evaluamos según el volumen del proyecto." } },
-        ],
-      }) }} />
-      <div className="max-w-5xl mx-auto">
-        <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2 flex-wrap">
-          <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
-          <span className="text-gray-700 font-medium">Portones Metálicos</span>
-        </nav>
-        <div className="mb-12">
-          <div className="inline-flex items-center gap-2 bg-gray-900 text-white rounded-full px-4 py-1.5 text-sm font-medium mb-5">🚪 Corredizos y batientes · A medida · Santiago</div>
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Portones Metálicos a Medida en Santiago</h1>
-          <p className="text-gray-500 text-lg max-w-2xl mb-4">
-            Fabricamos portones metálicos a medida para casas, bodegas, empresas, condominios y
-            cualquier proyecto que necesite un acceso vehicular robusto. Corredizos, batientes
-            o de doble hoja — según el espacio disponible y el uso.
-          </p>
-          <p className="text-gray-500 text-base max-w-2xl mb-6">
-            Fabricamos en acero, aplicamos pintura electrostática en nuestro taller y los instalamos
-            en la Región Metropolitana. Para regiones, despachamos con instrucciones de montaje.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3">
-            <a href={wa("Hola, necesito cotizar un portón metálico. ¿Pueden ayudarme con las medidas y el tipo?")} target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-7 py-3.5 rounded-full text-sm transition-colors">Cotizar portón</a>
-            <Link href="/cierres-perimetrales" className="inline-flex items-center justify-center gap-2 border-2 border-gray-200 text-gray-700 font-semibold px-7 py-3.5 rounded-full text-sm hover:border-gray-400 transition-colors">Ver cierres completos</Link>
-          </div>
-        </div>
-
-        <div className="mb-10">
-          <h2 className="text-xl font-bold text-gray-900 mb-5">Tipos de portón que fabricamos</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[
-              { t: "Portón corredizo", d: "Desliza lateralmente sobre rieles. Ideal cuando no hay espacio para que el portón abra hacia afuera o hacia adentro. El más solicitado para bodegas y empresas.", ideal: "Bodegas, empresas, estacionamientos" },
-              { t: "Portón batiente", d: "Abre hacia un lado o ambos lados. Más económico que el corredizo. Requiere espacio libre en el lado de apertura. Muy usado en casas y accesos secundarios.", ideal: "Casas, accesos secundarios, parcelas" },
-              { t: "Portón doble hoja", d: "Dos hojas que abren hacia ambos lados desde el centro. Para vanos muy anchos (más de 4 metros) donde el corredizo requeriría demasiado espacio lateral.", ideal: "Accesos industriales anchos, galpones" },
-            ].map(t => (
-              <div key={t.t} className="bg-gray-50 border border-gray-100 rounded-xl p-5">
-                <h3 className="font-bold text-gray-900 mb-2 text-sm">{t.t}</h3>
-                <p className="text-gray-600 text-xs mb-3 leading-relaxed">{t.d}</p>
-                <p className="text-xs text-gray-400"><strong>Ideal para:</strong> {t.ideal}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="mb-10">
-          <h2 className="text-xl font-bold text-gray-900 mb-4">Medidas que necesitamos para cotizar</h2>
-          <div className="bg-gray-50 border border-gray-100 rounded-xl p-5">
-            <p className="text-gray-600 text-sm mb-3">Para cotizarte el portón necesitamos:</p>
-            <ul className="space-y-2 text-sm text-gray-500">
-              <li>• <strong className="text-gray-700">Ancho del vano</strong> — la apertura disponible donde va el portón</li>
-              <li>• <strong className="text-gray-700">Alto del portón</strong> — estándar 2,00 m, o la altura que necesites</li>
-              <li>• <strong className="text-gray-700">Tipo</strong> — corredizo, batiente o doble hoja</li>
-              <li>• <strong className="text-gray-700">Uso</strong> — casa, bodega, empresa, condominio</li>
-              <li>• <strong className="text-gray-700">Fotos del lugar</strong> (si es posible) — nos ayudan a entender el espacio</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
-          {[
-            { href: "/cierres-perimetrales", label: "Cierres Perimetrales", desc: "El cierre completo del predio — el portón es parte del sistema" },
-            { href: "/cierres-para-condominios", label: "Para Condominios", desc: "Portones con cierre completo para conjuntos habitacionales" },
-            { href: "/pintura-electrostatica", label: "Pintura Electrostática", desc: "El acabado que aplicamos a todos los portones" },
-            { href: "/estructuras-metalicas", label: "Estructuras Metálicas", desc: "Otros trabajos de metal a medida" },
-          ].map(l => (
-            <Link key={l.href} href={l.href} className="bg-white border border-gray-200 rounded-xl p-4 hover:border-gray-400 transition-all">
-              <h3 className="font-semibold text-gray-900 text-sm mb-1">{l.label}</h3>
-              <p className="text-gray-500 text-xs">{l.desc}</p>
-            </Link>
-          ))}
-        </div>
-
-        <MetalServicesLinks current="/portones-metalicos" />
-
-        <div className="bg-gray-900 rounded-2xl p-8 text-center text-white">
-          <h2 className="text-2xl font-bold mb-2">¿Cuánto mide el vano de tu portón?</h2>
-          <p className="text-gray-400 text-sm mb-5">Con el ancho, el alto y una foto si tienes, cotizamos en el día.</p>
-          <a href={wa("Hola, necesito cotizar un portón metálico. El vano mide [ANCHO] de ancho x [ALTO] de alto. Es para [USO].")} target="_blank" rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar por WhatsApp</a>
-        </div>
-      </div>
-    </div>
-  );
-}
+import { routeMetadata, solutionJsonLd } from "@/lib/seo";
+import { WhatsAppCTA } from "@/components/WhatsAppCTA";
+import { JsonLd } from "@/components/JsonLd";
+import { CommercialEvidencePanel } from "@/components/CommercialEvidencePanel";
+import { RequirementFlowSimple } from "@/components/RequirementFlow";
+import { SolutionFeatureBand } from "@/components/SolutionFeatureBand";
+import { SolutionCrossNav } from "@/components/SolutionCrossNav";
+import { ScopeFitBand } from "@/components/ScopeFitBand";
+import { SolutionLocalNav } from "@/components/SolutionLocalNav";
+import { SolutionStoryScene } from "@/components/SolutionStoryScene";
+export const metadata=routeMetadata("/portones-metalicos", "Portones metálicos a medida", "Portones metálicos fabricados según vano, tipo de apertura, uso y terminación.");
+const faqs=[
+  {q:"¿Qué medidas necesitan para cotizar un portón?",a:"Ancho y alto aproximados del vano, fotos del acceso y el espacio disponible para apertura permiten una primera evaluación."},
+  {q:"¿Fabrican portones corredizos y batientes?",a:"Ambas configuraciones pueden evaluarse según el espacio, apoyos y condiciones del acceso."},
+  {q:"¿Incluyen automatización?",a:"La automatización no se asume. Si la necesitas debe indicarse expresamente y solo se incorpora cuando ese alcance esté confirmado."},
+];
+const heroEvidence=[
+ {label:"VANO",body:"Ancho y alto aproximados son el punto de partida para dimensionar el acceso."},
+ {label:"RECORRIDO",body:"Un corredizo necesita espacio lateral; uno batiente necesita espacio de giro."},
+ {label:"APOYOS",body:"Fotos del piso, pilares, muros y encuentros ayudan a entender cómo podría resolverse el conjunto."},
+ {label:"USO",body:"Frecuencia, tipo de tránsito y necesidad peatonal cambian la configuración a evaluar."},
+] as const;
+export default function Page(){return <main className="v5-editorial-page theme-perimeter"><JsonLd data={solutionJsonLd({pathname:"/portones-metalicos",name:"Portones metálicos a medida",description:"Portones metálicos fabricados según vano, tipo de apertura, uso y terminación.",faqs})}/>
+<section id="resumen" className="rinon-commercial-hero"><div className="container rinon-commercial-hero-grid"><div><div className="v2-eyebrow">PORTONES METÁLICOS</div><h1>Portones metálicos a medida.</h1><p>El vano es solo el inicio. Recorrido, tipo de apertura, apoyos y uso diario definen si una solución funciona realmente en el acceso.</p><div className="v2-actions"><Link className="v2-btn orange" data-event="quote_start" data-cta-location="hero" href="/cotizar?category=cierres&detail=porton">Cotizar portón</Link><WhatsAppCTA category="cierres" location="hero" label="WhatsApp" className="v2-btn outline" /></div><div className="solution-meta-line"><span>Ancho y alto</span><span>Espacio de apertura</span><span>Uso del acceso</span></div></div><CommercialEvidencePanel title="EL ACCESO SE REVISA COMPLETO" items={heroEvidence} note="Tipo de apertura, perfiles, terminación, instalación y cualquier automatización se confirman expresamente en el alcance."/></div></section>
+<SolutionLocalNav quoteHref="/cotizar?category=cierres&detail=porton" />
+<SolutionCrossNav slug="/portones-metalicos" />
+<RequirementFlowSimple entry="Ancho y alto del vano · fotografías · uso esperado" review="Tipo de apertura · recorrido · apoyos · terminación" />
+<SolutionStoryScene slug="/portones-metalicos" />
+<SolutionFeatureBand slug="/portones-metalicos" />
+<ScopeFitBand slug="/portones-metalicos" />
+<section id="alcance" className="v2-solution-section soft"><div className="container"><div className="section-head"><div><div className="v2-eyebrow">TIPO DE APERTURA</div><h2>Corredizo o batiente depende del espacio disponible.</h2></div><p>La elección se revisa contra el vano, el recorrido disponible, los apoyos y la forma en que se utilizará el acceso.</p></div><div className="card-grid"><article><span>01</span><h3>Corredizo</h3><p>Requiere recorrido lateral suficiente y condiciones adecuadas para desplazar la hoja.</p></article><article><span>02</span><h3>Batiente</h3><p>Necesita espacio de giro y apoyos compatibles con el tamaño de las hojas.</p></article><article><span>03</span><h3>Peatonal</h3><p>Puede evaluarse un acceso peatonal integrado o relacionado con el cierre.</p></article><article><span>04</span><h3>Terminación</h3><p>Se define según material, entorno y alcance confirmado.</p></article></div></div></section>
+<section id="faq" className="v2-solution-section"><div className="container"><div className="v2-eyebrow">PREGUNTAS FRECUENTES</div><h2>Lo que conviene definir antes de fabricar.</h2><div className="faq-grid">{faqs.map(item=><details key={item.q}><summary>{item.q}</summary><p>{item.a}</p></details>)}</div></div></section>
+<section id="cotizar" className="v2-final-cta"><div className="container"><div><div className="v2-eyebrow">ALCANCE</div><h2>Automatización solo si forma parte del requerimiento confirmado.</h2><p>No asumimos un sistema automático por el solo hecho de fabricar el portón. Comparte vano, recorrido y fotografías para evaluar el acceso completo.</p></div><div className="v2-actions"><Link className="v2-btn orange" data-event="quote_start" data-cta-location="portones_footer" href="/cotizar?category=cierres&detail=porton">Enviar medidas y fotos</Link><WhatsAppCTA category="cierres" location="portones_footer" label="Enviar fotos por WhatsApp" className="v2-btn outline" /></div></div></section>
+</main>}

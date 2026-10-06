@@ -1,27 +1,57 @@
 "use client";
-
 import Link from "next/link";
 import { useEffect, useState } from "react";
-
 const KEY = "rinon_cookie_consent";
+
+type Choice = "necessary" | "all";
+const OPTIONAL_LOCAL_KEYS = ["rinon_analytics_visitor"];
+const OPTIONAL_SESSION_KEYS = ["rinon_analytics_session", "rinon_attribution_v1"];
+const OPTIONAL_COOKIE_PREFIXES = ["_ga", "_gid", "_gat", "_gcl", "_clck", "_clsk"];
+
+function clearOptionalMeasurementStorage() {
+  try { OPTIONAL_LOCAL_KEYS.forEach((key) => localStorage.removeItem(key)); } catch {}
+  try { OPTIONAL_SESSION_KEYS.forEach((key) => sessionStorage.removeItem(key)); } catch {}
+  try {
+    const names = document.cookie.split(";").map((item) => item.split("=")[0]?.trim()).filter(Boolean) as string[];
+    const domains: Array<string | null> = [null, location.hostname, ".rinon.cl"];
+    for (const name of names) {
+      if (!OPTIONAL_COOKIE_PREFIXES.some((prefix) => name.startsWith(prefix))) continue;
+      for (const domain of domains) {
+        const domainPart = domain ? `; Domain=${domain}` : "";
+        document.cookie = `${name}=; Max-Age=0; Path=/${domainPart}; SameSite=Lax`;
+      }
+    }
+  } catch {}
+}
+
+function savedChoice(): Choice | null {
+  try { const saved=JSON.parse(localStorage.getItem(KEY)??"null"); return saved?.value==="all"||saved?.value==="necessary"?saved.value:null; } catch { return null; }
+}
 
 export function CookieConsent() {
   const [visible, setVisible] = useState(false);
+  const [choice,setChoice]=useState<Choice|null>(null);
   useEffect(() => {
-    const timer = window.setTimeout(() => setVisible(!localStorage.getItem(KEY)), 0);
-    return () => window.clearTimeout(timer);
+    const timer = window.setTimeout(() => { const saved=savedChoice(); setChoice(saved); setVisible(!saved); }, 0);
+    const open=()=>setVisible(true);
+    window.addEventListener("rinon-open-cookie-preferences",open);
+    return () => { window.clearTimeout(timer); window.removeEventListener("rinon-open-cookie-preferences",open); };
   }, []);
-  if (!visible) return null;
 
-  function choose(value: "necessary" | "all") {
+  function choose(value: Choice) {
+    const previous=savedChoice();
     localStorage.setItem(KEY, JSON.stringify({ value, date: new Date().toISOString() }));
-    setVisible(false);
+    setChoice(value); setVisible(false);
+    if(value==="necessary") clearOptionalMeasurementStorage();
     window.dispatchEvent(new CustomEvent("rinon-cookie-consent", { detail: value }));
+    if(previous==="all"&&value==="necessary")window.location.reload();
   }
 
-  return <aside aria-label="Preferencias de cookies" className="fixed z-[60] bottom-4 left-4 right-4 md:left-6 md:right-auto md:max-w-lg bg-white border border-gray-200 shadow-2xl rounded-2xl p-5">
-    <h2 className="font-bold text-gray-900">Tu privacidad importa</h2>
-    <p className="text-sm text-gray-600 mt-2">Usamos almacenamiento necesario para recordar tus preferencias. Las cookies de medición solo se activarán si las aceptas.</p>
-    <div className="flex flex-col sm:flex-row gap-2 mt-4"><button onClick={() => choose("all")} className="bg-gray-900 text-white rounded-lg px-4 py-2 text-sm font-semibold">Aceptar todas</button><button onClick={() => choose("necessary")} className="border border-gray-300 rounded-lg px-4 py-2 text-sm font-semibold text-gray-700">Solo necesarias</button><Link href="/politica-de-cookies" className="px-2 py-2 text-sm underline text-gray-500 text-center">Ver política</Link></div>
+  if (!visible) return <button className="cookie-reopen" type="button" onClick={()=>setVisible(true)} aria-label="Abrir preferencias de cookies">Cookies{choice?` · ${choice==="all"?"medición aceptada":"solo necesarias"}`:""}</button>;
+
+  return <aside aria-label="Preferencias de cookies" className="cookie-consent">
+    <h2>Tu privacidad importa</h2>
+    <p>Usamos almacenamiento necesario para recordar tus preferencias. La medición opcional se activa solo si la aceptas.</p>
+    <div className="cookie-actions"><button onClick={() => choose("all")} className="button primary">Aceptar medición</button><button onClick={() => choose("necessary")} className="button secondary">Solo necesarias</button><Link href="/politica-de-cookies">Ver política</Link></div>
   </aside>;
 }

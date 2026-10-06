@@ -1,110 +1,43 @@
-import type { Metadata } from "next";
 import Link from "next/link";
-import { SITE_CONFIG } from "@/lib/config";
+import { routeMetadata } from "@/lib/seo";
+import { CommercialEvidencePanel } from "@/components/CommercialEvidencePanel";
+import { WhatsAppCTA } from "@/components/WhatsAppCTA";
+import {buildCommercialServiceJsonLd,type CommercialFaq} from "@/lib/commercial-jsonld";
 
-export const metadata: Metadata = {
-  title: "Mallas 3D — Cerco Perimetral con Panel Soldado | Fabricante Chile",
-  description: "Mallas 3D o paneles soldados para cercos perimetrales. Mayor rigidez que la malla eslabonada, mejor acabado, resistente al pandeo. Fabricante y distribuidor en Chile.",
-  keywords: ["mallas 3d chile","panel soldado cerco","malla 3d perimetral","cerco panel soldado","malla soldada 3d","panel rigido cerco perimetral","malla 3d precio chile","cerco malla 3d santiago","panel 3d cerco industrial","fabricante mallas 3d chile"],
-  alternates: { canonical: "https://rinon.cl/mallas-3d" },
-};
+const description="Paneles de malla electrosoldada para evaluar dentro de cierres perimetrales. Configuración, altura, postes, terminación e instalación se confirman al cotizar.";
+export const metadata=routeMetadata(
+  "/mallas-3d",
+  "Malla 3D y panel electrosoldado para cierres perimetrales",
+  description,
+);
 
-const wa = (msg: string) => `https://wa.me/${SITE_CONFIG.whatsapp.numero}?text=${encodeURIComponent(msg)}`;
+const heroEvidence=[
+ {label:"METRAJE",body:"Largo aproximado y forma del perímetro permiten dimensionar el sistema completo."},
+ {label:"ALTURA",body:"La altura objetivo debe revisarse junto con la configuración disponible y el uso."},
+ {label:"TERRENO",body:"Pendientes, muros, radieres y cambios de nivel afectan postes, fijaciones y encuentros."},
+ {label:"ACCESOS",body:"Puertas y portones se integran al recorrido cuando forman parte del cierre."},
+] as const;
 
-const faq = [
-  { q: "¿Qué es una malla 3D o panel soldado?", a: "Es un panel de alambre de acero soldado electrónicamente en cada intersección, formando una grilla rígida. A diferencia de la malla eslabonada que puede deformarse, el panel soldado mantiene su forma bajo impacto y presión lateral." },
-  { q: "¿En qué se diferencia de la malla eslabonada?", a: "La malla eslabonada (tipo diamante) es flexible y puede pandear o deformarse con el tiempo. El panel 3D es rígido, más difícil de escalar y tiene mejor aspecto visual. Tiene mayor costo inicial pero menor mantenimiento." },
-  { q: "¿Para qué usos es más recomendable la malla 3D?", a: "Es ideal para perímetros industriales, bodegas, conjuntos habitacionales y colegios donde se requiere mayor disuasión visual y resistencia al intento de escalada o pandeo por impactos." },
-  { q: "¿Se puede galvanizar la malla 3D?", a: "Sí. Ofrecemos paneles galvanizados en frío o pintados con pintura epoxi para ambientes con mayor humedad o exposición a la intemperie agresiva." },
+const faqs:readonly CommercialFaq[]=[
+ {q:"¿Qué necesito enviar para cotizar malla 3D?",a:"Metros lineales aproximados, altura objetivo, ubicación y fotografías del terreno son un buen punto de partida. Si existen accesos, conviene indicar también su cantidad y ancho aproximado."},
+ {q:"¿La cotización considera solo el panel?",a:"No necesariamente. La evaluación puede incluir postes, fijaciones, encuentros, puertas o portones cuando forman parte del alcance. Lo incluido se confirma en la cotización vigente."},
+ {q:"¿Pueden integrar puertas o portones al cierre?",a:"Sí, pueden evaluarse como parte del sistema cuando el proyecto los requiere. La configuración y el alcance de fabricación o instalación se confirman antes de comprometer el trabajo."},
 ];
+const jsonLd=buildCommercialServiceJsonLd({path:"/mallas-3d",name:"Malla 3D y panel electrosoldado para cierres perimetrales",description,faqs});
 
-export default function Mallas3DPage() {
-  return (
-    <div className="py-12 px-4">
-      <div className="max-w-4xl mx-auto">
-        <nav className="text-sm text-gray-400 mb-8 flex items-center gap-2 flex-wrap">
-          <Link href="/" className="hover:text-gray-600">Inicio</Link><span>/</span>
-          <Link href="/cercos-perimetrales-santiago" className="hover:text-gray-600">Cercos Perimetrales</Link><span>/</span>
-          <span className="text-gray-700 font-medium">Mallas 3D</span>
-        </nav>
+export default function Page(){return <main className="v5-editorial-page theme-product" data-sgeo-owner="mallas-3d">
+  <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(jsonLd)}}/>
+  <section className="rinon-commercial-hero"><div className="container rinon-commercial-hero-grid"><div><div className="v2-eyebrow">MALLA 3D · PANEL ELECTROSOLDADO</div><h1>Un panel metálico modular para el perímetro.</h1><p>La malla 3D corresponde a la familia de paneles electrosoldados utilizados en cierres perimetrales. Antes de cotizar se confirman dimensiones, altura, postes, terminación, accesos y condiciones del terreno.</p><div className="v2-actions"><Link className="v2-btn orange" data-event="quote_start" data-cta-location="malla3d_hero" href="/cotizar?category=cierres&detail=malla_3d">Cotizar malla 3D</Link><WhatsAppCTA category="cierres" location="malla3d_hero" label="Hablar por WhatsApp" className="v2-btn outline"/><Link className="v2-btn outline" href="/cierres-perimetrales">Comparar cierres</Link></div><div className="v2-kickers"><span>Panel electrosoldado</span><span>Postes</span><span>Altura</span><span>Metros lineales</span></div></div><CommercialEvidencePanel title="EL PANEL ES PARTE DE UN SISTEMA" items={heroEvidence} note="Dimensiones de panel, postes, fijaciones, terminación e instalación se confirman en la cotización vigente para el proyecto."/></div></section>
 
-        <div className="mb-10">
-          <p className="text-xs uppercase tracking-widest text-gray-400 font-medium mb-3">Fabricante · Panel soldado rígido · Industrial y residencial</p>
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Mallas 3D — Cerco con Panel Soldado Rígido</h1>
-          <p className="text-gray-500 text-lg max-w-2xl mb-6 leading-relaxed">La malla 3D (también llamada panel soldado o malla electrosoldada) es el sistema de cerco perimetral que combina mayor rigidez, mejor aspecto y más dificulad de escalada que la malla eslabonada tradicional. Ideal para industrias, bodegas, colegios y conjuntos habitacionales.</p>
-          <a href={wa("Hola, necesito cotizar malla 3D / panel soldado para cerco perimetral. Metros lineales: [METROS]. Altura del panel: [ALTURA]. Uso: [INDUSTRIAL / RESIDENCIAL / OTRO]. Con portón: [SÍ / NO].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar malla 3D</a>
-        </div>
+  <section className="v2-solution-section"><div className="container"><div className="section-head"><div><div className="v2-eyebrow">QUÉ SE DEFINE</div><h2>El panel es solo una parte del cierre.</h2></div><p>Para comparar correctamente una solución de malla electrosoldada hay que considerar también postes, fijaciones, encuentros, puertas o portones y la condición donde se instalará.</p></div><div className="card-grid"><article><span>01</span><h3>Panel</h3><p>La geometría, terminación y configuración vigente se expresan en la cotización aplicable al proyecto.</p></article><article><span>02</span><h3>Postes y fijación</h3><p>Se revisan según el recorrido, soporte disponible y alcance de instalación.</p></article><article><span>03</span><h3>Encuentros</h3><p>Esquinas, cambios de nivel y uniones con muros o accesos deben aparecer en el requerimiento.</p></article><article><span>04</span><h3>Accesos</h3><p>Puertas y portones se coordinan como parte del sistema cuando corresponda.</p></article></div></div></section>
 
-        <div className="mb-10">
-          <h2 className="text-xl font-bold text-gray-900 mb-4">Malla 3D vs Malla Eslabonada — Comparativa</h2>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm border-collapse">
-              <thead>
-                <tr className="bg-gray-50">
-                  <th className="text-left p-3 border border-gray-100 font-semibold text-gray-700">Característica</th>
-                  <th className="text-left p-3 border border-gray-100 font-semibold text-gray-700">Malla 3D (panel soldado)</th>
-                  <th className="text-left p-3 border border-gray-100 font-semibold text-gray-700">Malla eslabonada</th>
-                </tr>
-              </thead>
-              <tbody className="text-gray-600">
-                {[
-                  ["Rigidez", "Alta — no pandea", "Baja — se deforma"],
-                  ["Dificultad de escalada", "Alta", "Media"],
-                  ["Aspecto visual", "Prolijo, industrial", "Funcional, menos estético"],
-                  ["Resistencia al impacto", "Alta", "Media"],
-                  ["Costo inicial", "Mayor", "Menor"],
-                  ["Mantenimiento", "Bajo", "Medio"],
-                  ["Ideal para", "Industria, bodegas, colegios", "Parcelas, terrenos grandes"],
-                ].map(([c, a, b]) => (
-                  <tr key={c} className="even:bg-gray-50">
-                    <td className="p-3 border border-gray-100 font-medium text-gray-700">{c}</td>
-                    <td className="p-3 border border-gray-100 text-green-700">{a}</td>
-                    <td className="p-3 border border-gray-100">{b}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
+  <section className="v2-solution-section soft"><div className="container"><div className="section-head"><div><div className="v2-eyebrow">PARA COTIZAR</div><h2>Parte por el perímetro, no por una ficha genérica.</h2></div><p>Metros, altura, terreno y accesos permiten saber si esta familia de paneles tiene sentido para el proyecto antes de cerrar una especificación.</p></div><div className="v2-step-grid"><article><span>01 · METROS</span><h3>Largo del cierre</h3><p>Metros lineales aproximados y forma del perímetro.</p></article><article><span>02 · ALTURA</span><h3>Altura requerida</h3><p>Indica la altura objetivo o la restricción existente.</p></article><article><span>03 · TERRENO</span><h3>Condición de instalación</h3><p>Fotos, pendientes, muros, radieres u otros apoyos existentes.</p></article><article><span>04 · ACCESOS</span><h3>Puertas y portones</h3><p>Cantidad, ancho aproximado y tipo de tránsito que deben permitir.</p></article></div></div></section>
 
-        <div className="mb-10">
-          <h2 className="text-xl font-bold text-gray-900 mb-5">Preguntas frecuentes</h2>
-          <div className="space-y-4">
-            {faq.map((f) => (
-              <div key={f.q} className="border border-gray-100 rounded-xl p-5">
-                <h3 className="font-semibold text-gray-900 mb-2 text-sm">{f.q}</h3>
-                <p className="text-gray-500 text-sm leading-relaxed">{f.a}</p>
-              </div>
-            ))}
-          </div>
-        </div>
+  <section className="v2-capabilities"><div className="container v2-capabilities-grid"><div><div className="v2-eyebrow">SIN SOBREESPECIFICAR</div><h2>La cotización manda sobre la referencia web.</h2><p>No publicamos una única medida, calibre, resistencia o terminación como si aplicara a todos los proyectos. La configuración vigente y el alcance concreto quedan expresados antes de fabricar o suministrar.</p></div><div className="v2-capability-list"><div><span>01</span><strong>Metraje</strong><em>ESCALA</em></div><div><span>02</span><strong>Altura</strong><em>GEOMETRÍA</em></div><div><span>03</span><strong>Postes</strong><em>SISTEMA</em></div><div><span>04</span><strong>Accesos</strong><em>INTEGRACIÓN</em></div><div><span>05</span><strong>Terminación</strong><em>ALCANCE</em></div></div></div></section>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
-          {[
-            { href: "/cercos-para-empresas", label: "Cercos para Empresas", desc: "Industrial y comercial" },
-            { href: "/mallas-separadoras-industriales", label: "Mallas Separadoras", desc: "División interna de espacios" },
-            { href: "/cercos-perimetrales-santiago", label: "Cercos RM", desc: "Todas las comunas" },
-            { href: "/cercos-perimetrales-precio", label: "Precio de cercos", desc: "Cuánto cuesta por metro lineal" },
-          ].map((l) => (
-            <Link key={l.href} href={l.href} className="bg-white border border-gray-200 rounded-xl p-4 hover:border-gray-400 transition-all">
-              <h3 className="font-semibold text-gray-900 text-sm mb-1">{l.label} →</h3>
-              <p className="text-gray-500 text-xs">{l.desc}</p>
-            </Link>
-          ))}
-        </div>
+  <section className="v2-solution-section"><div className="container"><div className="section-head"><div><div className="v2-eyebrow">ALTERNATIVAS</div><h2>Compara por función y contexto.</h2></div><p>Si todavía no decidiste el tipo de cierre, revisa la familia completa antes de fijar material o geometría.</p></div><div className="v2-resource-grid"><Link href="/cierres-perimetrales"><span>GUÍA DE FAMILIA</span><h3>Cierres perimetrales</h3><p>Compara sistemas según uso, visibilidad, terreno y accesos.</p><b>Ver cierres →</b></Link><Link href="/rejas-metalicas"><span>REJA</span><h3>Rejas metálicas</h3><p>Alternativa fabricada según vanos, tramos y configuración del proyecto.</p><b>Ver rejas →</b></Link><Link href="/recursos/tipos-de-cierres-perimetrales"><span>RECURSO</span><h3>Tipos de cierres perimetrales</h3><p>Qué variables conviene comparar antes de pedir precio.</p><b>Leer guía →</b></Link></div></div></section>
 
-        <div className="bg-gray-900 rounded-2xl p-8 text-center text-white">
-          <h2 className="text-2xl font-bold mb-2">Cotiza tu cerco de malla 3D</h2>
-          <p className="text-gray-400 text-sm mb-5">Metros lineales, altura y uso. Respondemos el mismo día.</p>
-          <a href={wa("Hola, necesito malla 3D / panel soldado para cerco. Metros: [METROS]. Altura: [ALTURA]. Uso: [INDUSTRIAL / RESIDENCIAL].")} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold px-8 py-4 rounded-full text-base transition-colors">Cotizar por WhatsApp</a>
-        </div>
+  <section id="faq" className="v2-solution-section soft"><div className="container"><div className="section-head"><div><div className="v2-eyebrow">PREGUNTAS FRECUENTES</div><h2>Lo necesario para evaluar el sistema.</h2></div><p>Estas respuestas describen el proceso de cotización. Las dimensiones y elementos definitivos se confirman para cada requerimiento.</p></div><div className="faq-grid">{faqs.map(faq=><details key={faq.q}><summary>{faq.q}</summary><p>{faq.a}</p></details>)}</div></div></section>
 
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          mainEntity: faq.map(f => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } }))
-        })}} />
-      </div>
-    </div>
-  );
-}
+  <section className="v2-final-cta"><div className="container"><div><div className="v2-eyebrow">TU PERÍMETRO</div><h2>¿Quieres evaluar panel electrosoldado?</h2><p>Envía metros lineales, altura, ubicación y fotografías del terreno.</p></div><div className="v2-actions"><Link className="v2-btn orange" data-event="quote_start" data-cta-location="malla3d_footer" href="/cotizar?category=cierres&detail=malla_3d">Cotizar malla 3D</Link><WhatsAppCTA category="cierres" location="malla3d_footer" label="Hablar por WhatsApp" className="v2-btn outline"/></div></div></section>
+</main>}

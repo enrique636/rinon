@@ -1,0 +1,109 @@
+old_url,decision,new_url,family,evidence_state,cutover_rule
+/,KEEP 200,/,core,durable,keep
+/camarotes,KEEP 200,/camarotes,camarotes,durable,keep
+/camarote-nido,KEEP 200,/camarote-nido,product,durable,keep
+/camarote-triple,KEEP 200,/camarote-triple,product,durable,keep
+/camarote-doble,KEEP 200,/camarote-doble,product,durable,keep
+/cama-alta,KEEP 200,/cama-alta,product,durable,keep
+/camarote-titanic,KEEP 200,/camarote-titanic,product,durable,keep
+/camarote-1-5-plazas,KEEP 200,/camarote-1-5-plazas,product,durable,keep
+/camarote-desmontable,KEEP 200,/camarote-desmontable,product,durable,keep
+/cama-dos-plazas-con-cajon,KEEP 200,/cama-dos-plazas-con-cajon,product,durable,keep
+/camarote-2-plazas,KEEP 200,/camarote-2-plazas,product,durable,keep
+/cama-institucional-metalica,KEEP 200,/cama-institucional-metalica,product,durable,keep
+/cama-loft-metalica,KEEP 200,/cama-loft-metalica,product,durable,keep
+/cama-loft-con-escritorio,KEEP 200,/cama-loft-con-escritorio,product,durable,keep
+/mobiliario-institucional,KEEP 200,/mobiliario-institucional,institutional,durable,keep
+/camarote-con-escritorio,KEEP 200,/camarote-con-escritorio,product,durable,keep
+/cierres-perimetrales,KEEP 200,/cierres-perimetrales,cierres,durable,keep
+/mallas-3d,KEEP 200,/mallas-3d,mallas,durable,keep
+/rejas-metalicas,KEEP 200,/rejas-metalicas,rejas,durable,keep
+/portones-metalicos,KEEP 200,/portones-metalicos,portones,durable,keep
+/estructuras-metalicas,KEEP 200,/estructuras-metalicas,estructuras,durable,keep
+/fabricacion-metalica,KEEP 200,/fabricacion-metalica,fabricacion,durable,keep
+/pintura-electrostatica,KEEP 200,/pintura-electrostatica,services,durable,keep
+/camas-metalicas,REBUILD,/camas-metalicas,camas,new owner,keep
+/camas-balinesas,REBUILD,/camas-balinesas,camas,new owner,keep
+/mesas-metalicas,REBUILD,/mesas-metalicas,equipment,new owner,keep
+/escritorios-metalicos,REBUILD,/escritorios-metalicos,equipment,new owner,keep
+/mallas-separadoras,REBUILD,/mallas-separadoras,mallas,new owner,keep
+/soldadura-mig,REBUILD,/soldadura-mig,services,new owner,keep
+/corte-metalico,REBUILD,/corte-metalico,services,new owner,keep
+/instalacion,REBUILD,/instalacion,services,new owner,keep
+/reparaciones-metalicas,REBUILD,/reparaciones-metalicas,services,new owner,keep
+/literas,REVIEW,/camarotes,camarotes,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-baratos,REVIEW,/camarotes,camarotes price,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-precio,REVIEW,/camarotes,camarotes price,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-faenas,REVIEW,/camarotes,camarotes B2B,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-salmoneras,REVIEW,/camarotes,camarotes sector,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-mineria,REVIEW,/camarotes,camarotes sector,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-metalicos,REVIEW,/camarotes,camarotes generic,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/fabricante-camarotes-chile,REVIEW,/camarotes,camarotes manufacturer,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-al-por-mayor,REVIEW,/camarotes,camarotes volume,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-para-internados,REVIEW,/camarotes,camarotes institutional,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-para-hospitales,REVIEW,/camarotes,camarotes institutional,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-militares,REVIEW,/camarotes,camarotes institutional,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-providencia,REVIEW,/camarotes,camarotes geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-las-condes,REVIEW,/camarotes,camarotes geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-maipu,REVIEW,/camarotes,camarotes geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-nunoa,REVIEW,/camarotes,camarotes geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-la-florida,REVIEW,/camarotes,camarotes geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-pudahuel,REVIEW,/camarotes,camarotes geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-santiago-centro,REVIEW,/camarotes,camarotes geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-penalolen,REVIEW,/camarotes,camarotes geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-quilicura,REVIEW,/camarotes,camarotes geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-puente-alto,REVIEW,/camarotes,camarotes geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-san-bernardo,REVIEW,/camarotes,camarotes geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-renca,REVIEW,/camarotes,camarotes geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-estacion-central,REVIEW,/camarotes,camarotes geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarotes-lo-barnechea,REVIEW,/camarotes,camarotes geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarote-con-escritorio-economico,REVIEW,/camarote-con-escritorio,camarote escritorio model,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarote-con-escritorio-full,REVIEW,/camarote-con-escritorio,camarote escritorio model,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/camarote-con-escritorio-full-2-plazas,REVIEW,/camarote-con-escritorio,camarote escritorio model,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/reja-metalica-santiago,REVIEW,/rejas-metalicas,rejas geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/rejas-metalicas-pudahuel,REVIEW,/rejas-metalicas,rejas geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/rejas-metalicas-maipu,REVIEW,/rejas-metalicas,rejas geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/rejas-metalicas-cerrillos,REVIEW,/rejas-metalicas,rejas geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/rejas-metalicas-precio,REVIEW,/rejas-metalicas,rejas price,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/rejas-metalicas-para-casas,REVIEW,/rejas-metalicas,rejas residential,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/rejas-decorativas,REVIEW,/rejas-metalicas,rejas use,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/rejas-para-exteriores,REVIEW,/rejas-metalicas,rejas use,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/rejas-para-terraza,REVIEW,/rejas-metalicas,rejas use,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/rejas-para-balcon,REVIEW,/rejas-metalicas,rejas use,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/portones-industriales,REVIEW,/portones-metalicos,portones sector,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/cercos-para-empresas,REVIEW,/cierres-perimetrales,cierres B2B,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/cercos-para-parcelas,REVIEW,/cierres-perimetrales,cierres use,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/cercos-perimetrales-concepcion,REVIEW,/cierres-perimetrales,cierres geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/cercos-perimetrales-antofagasta,REVIEW,/cierres-perimetrales,cierres geo/mining,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/mallas-separadoras-industriales,REVIEW,/mallas-separadoras,mallas sector,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/soldadura-metalica-santiago,REVIEW,/soldadura-mig,soldadura,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/pintura-electrostatica-zona-sur-santiago,REVIEW,/pintura-electrostatica,pintura geo hub,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/pintura-electrostatica-colina,REVIEW,/pintura-electrostatica,pintura geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/pintura-electrostatica-las-condes,REVIEW,/pintura-electrostatica,pintura geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/pintura-electrostatica-providencia,REVIEW,/pintura-electrostatica,pintura geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/pintura-electrostatica-santiago-centro,REVIEW,/pintura-electrostatica,pintura geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/pintura-electrostatica-maipu,REVIEW,/pintura-electrostatica,pintura geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/pintura-electrostatica-talagante,REVIEW,/pintura-electrostatica,pintura geo,LIVE-OBSERVED GSC-PENDING,no redirect until resolved
+/litera-metalica,301 candidate,/camarotes,camarotes synonym,inventory only,enable only after GSC reconciliation
+/camarote-de-acero,301 candidate,/camarotes,camarotes synonym,inventory only,enable only after GSC reconciliation
+/literas-militares,301 candidate,/camarotes,camarotes sector,inventory only,enable only after GSC reconciliation
+/venta-mayor-camarotes-metalicos,301 candidate,/camarotes,camarotes volume,inventory only,enable only after GSC reconciliation
+/cierre-perimetral-industrial,301 candidate,/cierres-perimetrales,cierres,inventory only,enable only after GSC reconciliation
+/cercos-perimetrales-empresas,301 candidate,/cierres-perimetrales,cierres B2B,inventory only,enable only after GSC reconciliation
+/cercos-metalicos-santiago,301 candidate,/cierres-perimetrales,cierres geo,inventory only,enable only after GSC reconciliation
+/cercos-metalicos-valparaiso,301 candidate,/cierres-perimetrales,cierres geo,inventory only,enable only after GSC reconciliation
+/cercos-metalicos-ohiggins,301 candidate,/cierres-perimetrales,cierres geo,inventory only,enable only after GSC reconciliation
+/cercos-metalicos-maule,301 candidate,/cierres-perimetrales,cierres geo,inventory only,enable only after GSC reconciliation
+/mallas-separadoras-bodegas,301 candidate,/mallas-separadoras,mallas,inventory only,enable only after GSC reconciliation
+/mallas-separadoras-plantas,301 candidate,/mallas-separadoras,mallas,inventory only,enable only after GSC reconciliation
+/pintura-electrostatica-santiago,301 candidate,/pintura-electrostatica,pintura geo,inventory only,enable only after GSC reconciliation
+/estructuras-metalicas-a-pedido,301 candidate,/estructuras-metalicas,estructuras,inventory only,enable only after GSC reconciliation
+/fabricante-estructuras-metalicas-chile,301 candidate,/estructuras-metalicas,estructuras,inventory only,enable only after GSC reconciliation
+/metalurgica-rinon,301 candidate,/fabricacion-metalica,fabricacion,inventory only,enable only after GSC reconciliation
+/barreras-peatonales,REVIEW,/cierres-perimetrales,protecciones,offer+GSC pending,no redirect until resolved
+/blog/como-cotizar-rejas-metalicas,301,/recursos/como-cotizar-rejas-metalicas,editorial,allowlisted,flag gated
+/blog/tipos-de-cierres-perimetrales,301,/recursos/tipos-de-cierres-perimetrales,editorial,allowlisted,flag gated
+/blog/porton-corredizo-vs-batiente,301,/recursos/porton-corredizo-vs-batiente,editorial,allowlisted,flag gated
+/blog/mezzanine-metalico-bodega-guia,301,/recursos/mezzanine-metalico-bodega-guia,editorial,allowlisted,flag gated
+/blog/proveedor-camarotes-empresas,301,/recursos/proveedor-camarotes-empresas,editorial,allowlisted,flag gated
+/blog/como-elegir-reja-metalica-frontis,301,/recursos/como-elegir-reja-metalica-frontis,editorial,allowlisted,flag gated

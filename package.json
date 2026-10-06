@@ -1,12 +1,27 @@
 {
-  "name": "camarotes-escritorio-chile",
-  "version": "0.1.0",
+  "name": "rinon-v2-staging",
+  "version": "1.0.0-rc.7",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "prebuild": "node scripts/reconstruct-visual-assets.mjs",
+    "preflight:production": "node scripts/preflight-production.mjs",
+    "build": "npm run qa:migration && npm run qa:seo-cro && npm run qa:visual-provenance && npm run qa:attachments && npm run qa:crm && npm run qa:analytics && npm run qa:legal && npm run preflight:production && next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit --pretty false",
+    "qa:migration": "node scripts/check-migration-contract.mjs",
+    "qa:seo-cro": "node scripts/check-seo-cro-contract.mjs",
+    "qa:visual-provenance": "node scripts/check-visual-provenance.mjs",
+    "qa:attachments": "node scripts/check-quote-attachments.mjs",
+    "qa:crm": "node scripts/check-lead-structure.mjs",
+    "qa:analytics": "node scripts/check-analytics-contract.mjs",
+    "qa:legal": "node scripts/check-legal-contract.mjs",
+    "qa:static": "npm run typecheck && npm run qa:migration && npm run qa:seo-cro && npm run qa:visual-provenance && npm run qa:attachments && npm run qa:crm && npm run qa:analytics && npm run qa:legal && npm run preflight:production",
+    "qa:served": "node scripts/check-served-build.mjs",
+    "qa:remote": "node scripts/check-served-build.mjs",
+    "qa:browser": "playwright test",
+    "check:release": "npm run qa:static && npm run build && npm run qa:served && npm run qa:browser"
   },
   "dependencies": {
     "next": "16.2.9",
@@ -14,6 +29,7 @@
     "react-dom": "19.2.4"
   },
   "devDependencies": {
+    "@playwright/test": "^1.55.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
@@ -22,5 +38,8 @@
     "eslint-config-next": "16.2.9",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": "24.x"
   }
 }

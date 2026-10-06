@@ -1,4 +1,8 @@
-export type Lead = {
+import "server-only";
+import { isPublicIntakeConfigured, sendPublicIntake } from "@/lib/public-intake";
+import type { StructuredLeadFields } from "@/lib/quote";
+
+export type LegacyLead = {
   id: string;
   created_at: string;
   nombre: string;
@@ -10,7 +14,35 @@ export type Lead = {
   contacto_preferido: string;
   pagina_origen: string;
   estado: string;
+  archivo_ids?: string[] | null;
+  landing_path?: string | null;
+  referrer_host?: string | null;
+  utm_source?: string | null;
+  utm_medium?: string | null;
+  utm_campaign?: string | null;
+  utm_term?: string | null;
+  utm_content?: string | null;
+  gclid?: string | null;
+  gbraid?: string | null;
+  wbraid?: string | null;
+  fbclid?: string | null;
+  categoria?: string | null;
+  subcategoria?: string | null;
+  cantidad_aprox?: string | null;
+  ubicacion_proyecto?: string | null;
+  fecha_objetivo?: string | null;
+  requiere_instalacion?: boolean | null;
+  tiene_plano?: boolean | null;
+  uso_proyecto?: string | null;
+  estado_superficie?: string | null;
+  tipo_cliente?: string | null;
+  empresa?: string | null;
 };
+
+export type CreateLeadInput = Omit<LegacyLead,
+  "id" | "created_at" | "estado" | "archivo_ids" |
+  keyof StructuredLeadFields
+> & StructuredLeadFields;
 
 function getSupabaseConfig() {
   const url = process.env.SUPABASE_URL;
@@ -23,27 +55,65 @@ function getHeaders(key: string) {
   return { apikey: key, Authorization: `Bearer ${key}`, "Content-Type": "application/json" };
 }
 
-export async function createLead(data: Omit<Lead, "id" | "created_at" | "estado">) {
-  const config = getSupabaseConfig();
-  const response = await fetch(`${config.url}/rest/v1/leads`, {
-    method: "POST",
-    headers: { ...getHeaders(config.key), Prefer: "return=minimal" },
-    body: JSON.stringify({ ...data, estado: "nuevo" }),
-    cache: "no-store",
-  });
-  if (!response.ok) throw new Error(`No fue posible guardar el contacto (${response.status})`);
+export async function createLegacyLead(data: CreateLeadInput, clientIp = "unknown") {
+  const result = await sendPublicIntake("lead", { ...data, estado: "nuevo" }, clientIp);
+  const id = typeof result.id === "string" ? result.id : "";
+  if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(id)) {
+    throw new Error("El intake no devolvió un identificador de lead válido");
+  }
+  return id;
 }
 
-export async function listLeads(): Promise<Lead[]> {
+export function isLeadWriteConfigured() {
+  const writeEnabled = process.env.RINON_LEAD_WRITE_ENABLED === "true";
+  const productionRelease = process.env.RINON_INDEXABLE === "true";
+  const controlledPreviewWrite = process.env.RINON_ALLOW_PREVIEW_WRITES === "true";
+  return writeEnabled && (productionRelease || controlledPreviewWrite) && isPublicIntakeConfigured();
+}
+
+export async function listLeads(): Promise<LegacyLead[]> {
   const config = getSupabaseConfig();
   const response = await fetch(`${config.url}/rest/v1/leads?select=*&order=created_at.desc&limit=500`, {
     headers: getHeaders(config.key),
     cache: "no-store",
   });
   if (!response.ok) throw new Error(`No fue posible cargar los contactos (${response.status})`);
-  return response.json() as Promise<Lead[]>;
+  return response.json() as Promise<LegacyLead[]>;
 }
 
 export function isLeadsConfigured() {
   return Boolean(process.env.SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_KEY);
+}
+
+export const LEAD_STATUSES = [
+  "nuevo",
+  "contactado",
+  "calificado",
+  "requerimiento_completo",
+  "cotizando",
+  "cotizado",
+  "seguimiento",
+  "negociacion",
+  "ganado",
+  "perdido",
+  "produccion",
+  "entregado",
+] as const;
+
+export type LeadStatus = (typeof LEAD_STATUSES)[number];
+
+export function isLeadStatus(value: string): value is LeadStatus {
+  return (LEAD_STATUSES as readonly string[]).includes(value);
+}
+
+export async function updateLeadStatus(id: string, estado: LeadStatus) {
+  if (!/^[a-zA-Z0-9_-]{8,100}$/.test(id)) throw new Error("ID de lead inválido");
+  const config = getSupabaseConfig();
+  const response = await fetch(`${config.url}/rest/v1/leads?id=eq.${encodeURIComponent(id)}`, {
+    method: "PATCH",
+    headers: { ...getHeaders(config.key), Prefer: "return=minimal" },
+    body: JSON.stringify({ estado }),
+    cache: "no-store",
+  });
+  if (!response.ok) throw new Error(`No fue posible actualizar el contacto (${response.status})`);
 }

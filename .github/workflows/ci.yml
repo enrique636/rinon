@@ -1,0 +1,72 @@
+name: RINON deployment gate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      RINON_INDEXABLE: "false"
+      RINON_ENABLE_MIGRATION_REDIRECTS: "false"
+      RINON_ENABLE_BLOG_REDIRECTS: "false"
+      RINON_LEAD_WRITE_ENABLED: "false"
+      RINON_PRODUCTION_TRACKING_ENABLED: "false"
+      RINON_ANALYTICS_ALLOW_PREVIEW: "false"
+      RINON_ALLOW_LEGACY_REFERENCE_IMAGES: "false"
+      RINON_POWDER_COATING_LAUNCH_ENABLED: "false"
+      RINON_GRANALLADO_LAUNCH_ENABLED: "false"
+      RINON_LEGAL_APPROVED: "false"
+      RINON_ADMIN_ENABLED: "false"
+      RINON_PRIVACY_WRITE_ENABLED: "false"
+      RINON_REVENUE_OPS_ENABLED: "false"
+    steps:
+      - name: Checkout exact commit
+        uses: actions/checkout@v4
+
+      - name: Use Node 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Static type and migration contract
+        run: npm run qa:static
+
+      - name: Build real Next.js application
+        run: npm run build
+
+      - name: HTTP served-build gate
+        run: npm run qa:served
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Browser render gate
+        run: npm run qa:browser
+
+      - name: Preserve browser diagnostics on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rinon-browser-qa
+          path: |
+            playwright-report
+            test-results
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - name: Deployment contract summary
+        if: success()
+        run: |
+          echo "RINON deployment gate passed."
+          echo "Validated: types, migration allowlists, real Next.js server, critical routes, CSS, JS, images, fonts, UTF-8, robots, 404 behavior and Chromium-rendered layout."

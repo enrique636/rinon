@@ -1,92 +1,49 @@
-import type { Metadata } from "next";
-import { seoPages } from "@/lib/seo";
-import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
-import { ContactForm } from "@/components/ContactForm";
-import { SITE_CONFIG } from "@/lib/config";
+import { Suspense } from "react";
+import { QuoteForm } from "@/components/QuoteForm";
+import { routeMetadata } from "@/lib/seo";
+import { isLeadWriteConfigured } from "@/lib/leads";
+import { isCapabilityLaunchEnabled } from "@/lib/capabilities";
 
-export const metadata: Metadata = seoPages.cotizar;
+export const metadata=routeMetadata("/cotizar", "Cotizar proyecto", "Envía una foto, plano, medidas o una descripción para que RINON pueda evaluar tu requerimiento.", { indexable: false });
 
-export default function CotizarPage() {
-  return (
-    <div className="py-16 px-4">
-      <div className="max-w-2xl mx-auto">
-        {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Solicitar Cotización
-          </h1>
-          <p className="text-xl text-gray-600 leading-relaxed">
-            Cotiza camarotes, estructuras metálicas, portones, rejas,
-            cierres, pintura electrostática u otro trabajo.
-          </p>
-        </div>
+const ways=[
+ ["01","FOTO O REFERENCIA","Muéstranos algo parecido a lo que necesitas."],
+ ["02","PLANO O CROQUIS","Puede ser técnico o simplemente una idea dibujada."],
+ ["03","MEDIDAS","Aproximadas sirven para una primera revisión."],
+ ["04","PROBLEMA","Explícanos qué necesitas resolver y para qué se usará."],
+] as const;
 
-        {/* Opción 1: WhatsApp (principal) */}
-        <div className="bg-green-50 border border-green-200 rounded-2xl p-8 mb-6 text-center">
-          <p className="text-green-700 font-semibold text-sm uppercase tracking-wider mb-2">
-            Recomendado — más rápido
-          </p>
-          <h2 className="text-2xl font-bold text-gray-900 mb-3">
-            Cotizar por WhatsApp
-          </h2>
-          <p className="text-gray-600 mb-6">
-            Respuesta en menos de 1 hora en horario de lunes a sábado.
-          </p>
-          <WhatsAppButton
-            size="lg"
-            className="mx-auto"
-            message="Hola, quiero solicitar una cotización. Necesito [producto o servicio], cantidad [cantidad], en [comuna o ciudad]."
-          >
-            Abrir WhatsApp y cotizar
-          </WhatsAppButton>
-        </div>
-
-        {/* Opción 2: Info para incluir en el mensaje */}
-        <div className="bg-gray-50 rounded-2xl p-8 mb-6">
-          <h2 className="text-xl font-bold text-gray-900 mb-4">
-            Para cotizar más rápido, incluye esta información:
-          </h2>
-          <ul className="space-y-3 text-gray-700">
-            <li className="flex items-start gap-3">
-              <span className="text-green-500 font-bold mt-0.5">1.</span>
-              <span><strong>¿Qué necesitas?</strong> (camarotes, estructuras, portones, pintura electrostática u otro)</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-green-500 font-bold mt-0.5">2.</span>
-              <span><strong>Cantidad requerida</strong> de productos, piezas o metros aproximados</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-green-500 font-bold mt-0.5">3.</span>
-              <span><strong>Medidas aproximadas</strong> y cualquier requisito importante</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-green-500 font-bold mt-0.5">4.</span>
-              <span><strong>Comuna, ciudad y región</strong> donde necesitas el producto o servicio</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-green-500 font-bold mt-0.5">5.</span>
-              <span><strong>Plazo o fecha estimada</strong> si tienes una necesidad urgente</span>
-            </li>
-          </ul>
-        </div>
-
-        <div className="mb-8">
-          <ContactForm />
-        </div>
-
-        {/* Datos de contacto alternativos */}
-        <div className="text-center text-gray-500 text-sm">
-          <p>También puedes escribirnos al</p>
-          <a
-            href={`https://wa.me/${SITE_CONFIG.whatsapp.numero}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-green-600 font-semibold hover:underline"
-          >
-            {SITE_CONFIG.telefono}
-          </a>
-        </div>
-      </div>
+export default function Page(){
+ const leadWriteEnabled=isLeadWriteConfigured();
+ const powderCoatingEnabled=isCapabilityLaunchEnabled("powder_coating");
+ return <main className="v5-editorial-page rinon-quote-page">
+  <section className="rinon-quote-hero">
+   <div className="container rinon-quote-hero-grid">
+    <div>
+     <div className="v2-eyebrow">COTIZAR CON RINON</div>
+     <h1>Cuéntanos qué necesitas fabricar.</h1>
+     <p>No necesitas llegar con todo resuelto. Envíanos lo que ya tengas y te indicaremos qué falta para poder cotizar.</p>
+     <div className="v2-kickers"><span>3 pasos</span><span>Sin tecnicismos innecesarios</span><span>Particular o empresa</span></div>
     </div>
-  );
+    <aside className="rinon-proof-panel rinon-quote-proof" aria-label="Formas de iniciar una cotización">
+     <span>PUEDES PARTIR CON</span>
+     {ways.map(([n,title,body])=><div key={n}><b>{n}</b><strong>{title}</strong><p>{body}</p></div>)}
+     <small>No prometemos plazo, precio ni factibilidad antes de revisar el caso.</small>
+    </aside>
+   </div>
+  </section>
+
+  <section className="v2-quote-section rinon-quote-section">
+   <div className="container v2-quote-shell rinon-quote-shell">
+    <aside className="rinon-quote-guide">
+     <div className="v2-eyebrow">ANTES DE EMPEZAR</div>
+     <h2>Con poco podemos empezar bien.</h2>
+     <p>El formulario cambia según lo que selecciones. No te pediremos datos de cierres si estás cotizando una cama, ni datos de cama si necesitas una estructura.</p>
+     <ul><li>Elige qué necesitas.</li><li>Agrega contexto útil.</li><li>Déjanos un canal de contacto.</li></ul>
+     <small>En staging validamos el flujo sin guardar ni enviar tus datos.</small>
+    </aside>
+    <div className="rinon-quote-form-shell"><Suspense fallback={<p>Cargando formulario…</p>}><QuoteForm leadWriteEnabled={leadWriteEnabled} powderCoatingEnabled={powderCoatingEnabled}/></Suspense></div>
+   </div>
+  </section>
+ </main>;
 }

@@ -1,14 +1,32 @@
-import type { Metadata } from "next";
+import { legalIdentity, isLegalPublicationReady } from "@/lib/legal";
+import { routeMetadata } from "@/lib/seo";
 import Link from "next/link";
 
-export const metadata: Metadata = { title: "Política de Privacidad | Rinon.cl", description: "Cómo Rinon.cl recopila, utiliza y protege los datos enviados mediante sus formularios.", alternates: { canonical: "https://rinon.cl/politica-de-privacidad" } };
+const ready=isLegalPublicationReady();
+export const metadata=routeMetadata(
+  "/politica-de-privacidad",
+  "Política de privacidad | RINON",
+  "Cómo RINON trata los datos personales recibidos a través de su sitio, cotizaciones y canales comerciales.",
+  {indexable:ready},
+);
 
-export default function PrivacyPage() {
-  return <main className="max-w-3xl mx-auto px-4 py-12"><Link href="/" className="text-sm text-gray-500">← Volver al inicio</Link><h1 className="text-3xl font-bold mt-6 mb-8">Política de privacidad</h1><div className="space-y-7 text-gray-600 leading-relaxed">
-    <section><h2 className="text-xl font-bold text-gray-900 mb-2">Datos que recopilamos</h2><p>Cuando envías una consulta podemos recopilar tu nombre, teléfono, correo, comuna, servicio solicitado, mensaje, canal preferido y página desde donde escribiste.</p></section>
-    <section><h2 className="text-xl font-bold text-gray-900 mb-2">Para qué los usamos</h2><p>Los utilizamos para responder tu solicitud, preparar una cotización, coordinar una visita o entrega y mantener el seguimiento comercial relacionado con tu consulta. No vendemos tus datos.</p></section>
-    <section><h2 className="text-xl font-bold text-gray-900 mb-2">Conservación y seguridad</h2><p>Conservamos la información durante el tiempo necesario para atender la solicitud y cumplir obligaciones legales. Aplicamos controles de acceso para que solo personal autorizado pueda revisar los contactos.</p></section>
-    <section><h2 className="text-xl font-bold text-gray-900 mb-2">Tus derechos</h2><p>Puedes solicitar acceso, rectificación o eliminación de tus datos escribiendo a ventas@dumar.cl.</p></section>
-    <section><h2 className="text-xl font-bold text-gray-900 mb-2">Cookies</h2><p>Consulta la <Link href="/politica-de-cookies" className="underline text-gray-900">política de cookies</Link> para conocer las preferencias disponibles.</p></section>
-  </div></main>;
+function Identity(){
+  if(ready)return <dl className="legal-identity"><div><dt>Responsable</dt><dd>{legalIdentity.entityName}</dd></div><div><dt>RUT</dt><dd>{legalIdentity.taxId}</dd></div><div><dt>Representante legal</dt><dd>{legalIdentity.legalRepresentative}</dd></div><div><dt>Dirección pública de contacto</dt><dd>{legalIdentity.operationalAddress}</dd></div><div><dt>Privacidad</dt><dd><Link href={legalIdentity.privacyRequestPath}>Enviar solicitud sobre datos personales</Link>{legalIdentity.privacyEmail?<><br/><a href={`mailto:${legalIdentity.privacyEmail}`}>{legalIdentity.privacyEmail}</a></>:null}</dd></div></dl>;
+  return <div className="legal-draft-warning"><b>Versión legal todavía pendiente de aprobación final.</b><p>La razón social, RUT, dirección pública, canal de solicitudes y arquitectura técnica están configurados. Falta acreditar el representante legal y aprobar jurídicamente la versión definitiva antes de indexarla.</p></div>;
 }
+
+export default function Page(){return <main><article className="section"><div className="container article-narrow">
+  <div className="eyebrow">PRIVACIDAD</div><h1>Política de privacidad</h1>
+  <p className="lead">Esta política explica cómo RINON recibe, utiliza y protege los datos personales asociados a consultas, cotizaciones, comunicaciones y uso del sitio.</p>
+  <Identity/>
+  <h2>1. Qué datos podemos recibir</h2><p>Según el canal utilizado, podemos recibir nombre, empresa, teléfono, correo, ubicación del proyecto, categoría de trabajo, cantidades, dimensiones, fechas objetivo, mensajes y antecedentes técnicos que el usuario decida adjuntar o enviar. El formulario comercial no está diseñado para pedir datos sensibles ni documentos de identidad como requisito inicial.</p>
+  <h2>2. Para qué se usan</h2><ul><li>Responder consultas y evaluar o preparar una cotización.</li><li>Gestionar comunicaciones comerciales vinculadas al requerimiento.</li><li>Coordinar fabricación, despacho, instalación o postventa cuando exista una relación comercial.</li><li>Proteger el sitio, prevenir abuso y mantener registros técnicos necesarios.</li><li>Medir el uso del sitio o campañas únicamente cuando la configuración de consentimiento lo habilite.</li></ul>
+  <h2>3. Infraestructura y proveedores técnicos</h2><p>La implementación actual utiliza infraestructura de hosting/despliegue y servicios de base de datos, funciones y almacenamiento privado para operar el sitio, recibir solicitudes y custodiar adjuntos. Los documentos técnicos cargados mediante el cotizador se almacenan en un contenedor privado y se entregan al equipo autorizado mediante rutas autenticadas; no se publican como URLs abiertas. Herramientas externas de analítica o comportamiento solo se habilitan cuando existe configuración activa y consentimiento aplicable. La lista definitiva de proveedores debe revisarse nuevamente antes de la aprobación legal y cada vez que cambie la arquitectura productiva.</p>
+  <h2>4. Conservación</h2><p>Los datos deben conservarse solo durante el tiempo necesario para atender el requerimiento, administrar la relación comercial, resolver obligaciones posteriores o cumplir deberes legales aplicables. Los plazos específicos de conservación se definen según la finalidad y las obligaciones aplicables. Una solicitud de eliminación puede estar sujeta a excepciones cuando exista una obligación legítima de conservación.</p>
+  <h2>5. Archivos técnicos</h2><p>El cotizador puede recibir hasta tres archivos técnicos en formatos admitidos como imágenes o PDF. Planos, fotografías, croquis y otros antecedentes pueden contener información confidencial del proyecto. La implementación valida cantidad, tipo y tamaño, utiliza nombres internos no predecibles, almacena los objetos de forma privada y exige autenticación administrativa para recuperarlos. Un archivo solo se asocia al lead cuando el lote de carga termina correctamente.</p>
+  <h2>6. Derechos y solicitudes</h2><p>Las personas pueden ejercer los derechos que reconozca la normativa chilena vigente respecto de sus datos. La reforma introducida por la Ley N° 21.719 entra en vigencia el 1 de diciembre de 2026 y establece un marco reforzado de protección de datos personales. RINON debe mantener un canal operativo para recibir, autenticar, registrar y responder solicitudes conforme al régimen aplicable en la fecha de la solicitud. Puedes utilizar el <a href="/solicitud-de-datos">formulario de solicitudes sobre datos personales</a>.</p>
+  <h2>7. Analítica, atribución y cookies</h2><p>El sitio separa el almacenamiento necesario de la medición opcional. Las etiquetas externas de analítica o comportamiento no se cargan antes de la preferencia correspondiente. Con consentimiento de analítica, el sistema puede conservar identificadores anónimos de visitante/sesión, ruta de entrada, dominio referidor y parámetros de atribución de campaña como UTM o identificadores publicitarios presentes en la URL. Los eventos analíticos no deben transportar nombre, correo, teléfono, texto libre del mensaje ni nombres de archivos. Los detalles se explican en la <a href="/politica-de-cookies">política de cookies</a>.</p>
+  <h2>8. Seguridad y acceso</h2><p>Los componentes administrativos y los adjuntos privados están separados de las páginas públicas. Los accesos administrativos deben autenticarse y los archivos se sirven con controles que evitan indexación y almacenamiento público accidental. Ninguna medida técnica elimina por completo el riesgo, por lo que la configuración, permisos y proveedores deben revisarse periódicamente.</p>
+  <h2>9. Actualizaciones</h2><p>Esta política debe revisarse cuando cambien los formularios, proveedores, finalidades, mecanismos de archivo, analítica o normativa aplicable. Fecha de actualización técnica del borrador: 22 de agosto de 2026.</p>
+  <p className="legal-source-note">Marco de referencia: Ley N° 19.628 y reforma de la Ley N° 21.719. La publicación definitiva requiere revisión contra la operación productiva real y aprobación legal.</p>
+</div></article></main>}
